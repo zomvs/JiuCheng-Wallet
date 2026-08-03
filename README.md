@@ -117,14 +117,14 @@ yarn workspace rabby-mobile doctor
 ### 1. 克隆仓库
 
 ```bash
-git clone git@github.com:zomvs/XiaoHua-Wallet.git JiuCheng-Wallet
+git clone git@github.com:zomvs/JiuCheng-Wallet.git JiuCheng-Wallet
 cd JiuCheng-Wallet
 ```
 
 也可以使用 HTTPS：
 
 ```bash
-git clone https://github.com/zomvs/XiaoHua-Wallet.git JiuCheng-Wallet
+git clone https://github.com/zomvs/JiuCheng-Wallet.git JiuCheng-Wallet
 cd JiuCheng-Wallet
 ```
 
@@ -316,7 +316,7 @@ yarn workspace rabby-mobile test --runInBand
 
 ## 贡献指南
 
-欢迎通过 [Issues](https://github.com/zomvs/XiaoHua-Wallet/issues) 报告可复现的问题，或通过 Pull Request 提交改进。
+欢迎通过 [Issues](https://github.com/zomvs/JiuCheng-Wallet/issues) 报告可复现的问题，或通过 Pull Request 提交改进。
 
 建议流程：
 

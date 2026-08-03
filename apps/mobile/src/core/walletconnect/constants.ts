@@ -1,9 +1,9 @@
 export const WALLETCONNECT_METADATA = {
   name: 'JiuCheng Wallet',
   description: 'JiuCheng Wallet for WalletConnect.',
-  url: 'https://github.com/zomvs/XiaoHua-Wallet',
+  url: 'https://github.com/zomvs/JiuCheng-Wallet',
   icons: [
-    'https://raw.githubusercontent.com/zomvs/XiaoHua-Wallet/main/apps/mobile/src/assets/brand/jiucheng-app-icon.svg',
+    'https://raw.githubusercontent.com/zomvs/JiuCheng-Wallet/main/apps/mobile/src/assets/brand/jiucheng-app-icon.svg',
   ],
   redirect: {
     native: 'rabby://walletconnect',
