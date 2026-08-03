@@ -7,8 +7,9 @@
     "url": "https://github.com/RabbyHub/rabby-mobile.git"
   },
   "scripts": {
-    "android": "react-native run-android",
+    "android": "sh ./scripts/run-production.sh android",
     "android:buildversion": "react-native-version --never-amend --target android --increment-build",
+    "android:debug": "cross-env RABBY_MOBILE_BUILD_ENV=debug RABBY_MOBILE_BUILD_CHANNEL=selfhost-reg buildchannel=selfhost-reg react-native run-android",
     "build-inpage": "sh ./scripts/postinstall.sh",
     "build:deps": "yarn ../../ build",
     "build:devtools-panel": "yarn workspace @rabby-wallet/rozenite-resource-flow-plugin build",
@@ -21,8 +22,9 @@
     "doctor": "react-native doctor",
     "ensure-git-hooks": "yarn ../../ install-husky",
     "postinstall": "sh ./scripts/run-postinstall.sh",
-    "ios": "react-native run-ios",
+    "ios": "sh ./scripts/run-production.sh ios",
     "ios:clean:podlock": "rimraf ./ios/Pods ./ios/Podfile.lock",
+    "ios:debug": "cross-env RABBY_MOBILE_BUILD_ENV=debug RABBY_MOBILE_BUILD_CHANNEL=selfhost-reg buildchannel=selfhost-reg react-native run-ios",
     "ios:installpod": "cd ios && bundle install && bundle exec pod install && cd ..",
     "ios:podlock": "yarn && yarn ios:clean:podlock && yarn ios:installpod",
     "link-assets": "react-native-asset && sh ./scripts/fns.sh reset_builtin_assets && sh ./scripts/fns.sh build_worker_if_not_exist",

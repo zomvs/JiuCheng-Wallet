@@ -155,23 +155,25 @@ yarn workspace rabby-mobile ios:installpod
 export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
 ```
 
-### 4. 启动 Metro
+### 4. 配置生产环境
 
-在第一个终端窗口中运行：
+默认的 iOS 和 Android 运行命令使用 `Release` 构建、`production` 环境和 `appstore` 渠道。首次运行前，复制生产环境模板：
 
 ```bash
-yarn start
+cp apps/mobile/.env.production.example apps/mobile/.env.production
 ```
 
-首次启动会构建工作区依赖、开发工具面板、注入脚本和钱包内置页面，因此耗时通常长于普通 React Native 项目。
+编辑 `apps/mobile/.env.production`，替换所有 `REPLACE_WITH_...` 占位值。`RABBY_MOBILE_KR_PWD` 和 `RABBY_MOBILE_CODE` 必须使用稳定的生产值；应用发布后随意更改可能影响既有用户的数据兼容和解锁流程。
 
-### 5. 运行 iOS
+生产环境文件和签名凭据不会提交到 Git，应通过本机安全存储或 CI Secret 注入。
 
-在第二个终端窗口中运行：
+### 5. 运行 iOS 正式模式
 
 ```bash
 yarn workspace rabby-mobile ios
 ```
+
+该命令使用 Xcode `Release` 配置并直接打包 JavaScript Bundle，不启动 Metro。真机安装或归档还需要 XiaoHua Wallet 自有的 Apple Developer Team、证书和 Provisioning Profile。
 
 指定模拟器：
 
@@ -179,15 +181,9 @@ yarn workspace rabby-mobile ios
 yarn workspace rabby-mobile ios --simulator "iPhone 17 Pro"
 ```
 
-如果 Metro 已经运行，可以追加 `--no-packager`：
+也可以打开 [`apps/mobile/ios/RabbyMobile.xcworkspace`](apps/mobile/ios/RabbyMobile.xcworkspace)，选择 `RabbyMobile` Scheme，并将运行配置设为 `Release`。
 
-```bash
-yarn workspace rabby-mobile ios --simulator "iPhone 17 Pro" --no-packager
-```
-
-也可以打开 [`apps/mobile/ios/RabbyMobile.xcworkspace`](apps/mobile/ios/RabbyMobile.xcworkspace)，从 Xcode 选择 Scheme 和目标设备运行。
-
-### 6. 运行 Android
+### 6. 运行 Android 正式模式
 
 先启动 Android Emulator，或连接已启用 USB 调试的设备，然后运行：
 
@@ -195,15 +191,35 @@ yarn workspace rabby-mobile ios --simulator "iPhone 17 Pro" --no-packager
 yarn workspace rabby-mobile android
 ```
 
+该命令使用 Gradle `release` 变体且不启动 Metro。正式签名需要通过 `gradle.properties` 或 `RABBY_MOBILE_ANDROID_*` 环境变量配置 XiaoHua Wallet 自有 Keystore。
+
 可以通过以下命令确认设备连接状态：
 
 ```bash
 adb devices
 ```
 
+### 7. 使用 Debug 模式开发
+
+需要热更新、React Native Dev Menu 或调试工具时，在第一个终端窗口启动 Metro：
+
+```bash
+yarn start
+```
+
+然后在第二个终端窗口显式运行 Debug 命令：
+
+```bash
+yarn workspace rabby-mobile ios:debug
+# 或
+yarn workspace rabby-mobile android:debug
+```
+
+Debug 模式仅用于开发和测试，不得作为 App Store、Google Play 或其他公开分发渠道的交付包。
+
 ## 环境变量
 
-本地环境变量建议放在 `apps/mobile/.env.local`。该文件已被 Git 忽略，不应提交到仓库。
+Debug 环境变量建议放在 `apps/mobile/.env.local`，生产环境变量放在 `apps/mobile/.env.production`。这两个文件均已被 Git 忽略，不应提交到仓库。生产配置可以从 [`apps/mobile/.env.production.example`](apps/mobile/.env.production.example) 创建。
 
 ```dotenv
 RABBY_MOBILE_BUILD_ENV=regression
@@ -234,8 +250,10 @@ RABBY_MOBILE_FE_SERVICE_URL=<optional-service-url>
 | ------------------------------------------------ | -------------------------------------- |
 | `yarn start`                                     | 启动 Metro 与移动端开发依赖            |
 | `yarn workspace rabby-mobile restart`            | 清理 Metro 缓存并重新启动              |
-| `yarn workspace rabby-mobile ios`                | 构建并运行 iOS                         |
-| `yarn workspace rabby-mobile android`            | 构建并运行 Android                     |
+| `yarn workspace rabby-mobile ios`                | 使用生产环境构建并运行 iOS Release     |
+| `yarn workspace rabby-mobile android`            | 使用生产环境构建并运行 Android Release |
+| `yarn workspace rabby-mobile ios:debug`          | 使用 Metro 构建并运行 iOS Debug        |
+| `yarn workspace rabby-mobile android:debug`      | 使用 Metro 构建并运行 Android Debug    |
 | `yarn workspace rabby-mobile doctor`             | 检查 React Native 开发环境             |
 | `yarn build`                                     | 构建 Monorepo TypeScript 依赖          |
 | `yarn workspace rabby-mobile typecheck`          | 执行移动端 TypeScript 检查             |
