@@ -2,7 +2,7 @@ import React from 'react';
 import type { StyleProp, TextStyle, ViewStyle } from 'react-native';
 import { View } from 'react-native';
 
-import XiaoHuaMark from '@/assets/icons/brand/xiaohua-mark.svg';
+import JiuChengMark from '@/assets/icons/brand/jiucheng-mark.svg';
 import { Text } from '@/components/Typography';
 
 type BrandWordmarkProps = {
@@ -32,7 +32,7 @@ export function BrandWordmark({
         },
         style,
       ]}>
-      <XiaoHuaMark width={iconSize} height={iconSize} />
+      <JiuChengMark width={iconSize} height={iconSize} />
       <Text
         style={[
           {
@@ -44,7 +44,7 @@ export function BrandWordmark({
           },
           textStyle,
         ]}>
-        XiaoHua Wallet
+        JiuCheng Wallet
       </Text>
     </View>
   );

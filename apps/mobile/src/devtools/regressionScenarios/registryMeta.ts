@@ -251,7 +251,7 @@ export const REGRESSION_SCENARIO_METADATA = Object.freeze<
     kind: 'focused',
     screens: ['Points'],
     requiresFixture: false,
-    description: 'Open the XiaoHua Wallet Points screen.',
+    description: 'Open the JiuCheng Wallet Points screen.',
   },
   'convert-dust-entry': {
     id: 'convert-dust-entry',

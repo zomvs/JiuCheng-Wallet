@@ -42,7 +42,7 @@
   },
   "native": {
     "authentication": {
-      "auth_prompt_desc": "請驗證身分以使用 XiaoHua Wallet",
+      "auth_prompt_desc": "請驗證身分以使用 JiuCheng Wallet",
       "auth_prompt_title": "需要身份驗證",
       "auth_prompt_cancel": "取消"
     },
@@ -64,7 +64,7 @@
     "assets": "資產",
     "copied": "已複製",
     "pin": "置頂",
-    "appName": "XiaoHua Wallet",
+    "appName": "JiuCheng Wallet",
     "cancel": "取消",
     "refresh": "重新整理",
     "Cancel": "取消",
@@ -190,10 +190,10 @@
   },
   "bluetooth": {
     "permissions_alert": {
-      "title": "\"XiaoHua Wallet\" 想要使用藍牙",
+      "title": "\"JiuCheng Wallet\" 想要使用藍牙",
       "open_settings": "OK",
       "cancel": "不允許",
-      "message": "XiaoHua Wallet 使用藍牙連接 Ledger"
+      "message": "JiuCheng Wallet 使用藍牙連接 Ledger"
     },
     "powered_off_alert": {
       "open_settings": "OK",
@@ -222,11 +222,11 @@
     },
     "getStart": {
       "goToHome": "前往首頁",
-      "sync": "掃描 QR 碼，同步 XiaoHua Wallet 瀏覽器擴充功能中的錢包",
+      "sync": "掃描 QR 碼，同步 JiuCheng Wallet 瀏覽器擴充功能中的錢包",
       "alreadyHaveAddress": "我已經擁有一個錢包",
       "createNewAddress": "建立新錢包",
-      "alreadyUseRabby": "我已經在使用 XiaoHua Wallet",
-      "welcomeTitle": "歡迎來到\nXiaoHua Wallet"
+      "alreadyUseRabby": "我已經在使用 JiuCheng Wallet",
+      "welcomeTitle": "歡迎來到\nJiuCheng Wallet"
     },
     "transactions": {
       "explain": {
@@ -484,7 +484,7 @@
         },
         "empty": {
           "title": "暫無交易記錄",
-          "desc": "所有透過 XiaoHua Wallet 簽名的交易都會列在這裡。",
+          "desc": "所有透過 JiuCheng Wallet 簽名的交易都會列在這裡。",
           "titleLastThreeMonths": "90 天內無交易紀錄",
           "testnetNoHistory": "自訂代幣交易記錄不可用。"
         },
@@ -548,7 +548,7 @@
       },
       "gasLimitTitle": "Gas 上限",
       "markAsBlock": "標記為已封鎖",
-      "sigCantDecode": "此簽名無法被 XiaoHua Wallet 解碼",
+      "sigCantDecode": "此簽名無法被 JiuCheng Wallet 解碼",
       "gasLimitEmptyAlert": "請輸入 Gas limit",
       "addressTypeTitle": "地址類型",
       "viewRaw": "檢視原始內容",
@@ -612,7 +612,7 @@
       "customRPCErrorModal": {
         "title": "自訂 RPC 錯誤",
         "button": "停用自訂 RPC",
-        "content": "您自訂的 RPC 目前不可用。您可以停用它並繼續使用 XiaoHua Wallet 的官方 RPC 進行簽名。"
+        "content": "您自訂的 RPC 目前不可用。您可以停用它並繼續使用 JiuCheng Wallet 的官方 RPC 進行簽名。"
       },
       "nativeTokenForGas": "在 {{chainName}} 上使用 {{tokenName}} 代幣支付 Gas 費用",
       "nftApprove": {
@@ -727,13 +727,13 @@
         "myBalance": "我的餘額",
         "approveTo": "授權至",
         "amountPopupTitle": "授權數量",
-        "flagByRabby": "由 XiaoHua Wallet 標記",
+        "flagByRabby": "由 JiuCheng Wallet 標記",
         "deployTimeLessThan": "< {{value}} 天",
         "eoaAddress": "EOA",
         "approveToken": "授權代幣",
         "contractTrustValueTip": "信任值是指該合約已花費的總資產價值。信任值低可能代表存在風險，或合約已 180 天未活躍。"
       },
-      "eip1559Desc2": "在 XiaoHua Wallet 中，Priority Fee（小費）= Max Fee - Base Fee。設定 Max Priority Fee 後，Base Fee 會先從中扣除，剩餘部分會作為小費支付給礦工。",
+      "eip1559Desc2": "在 JiuCheng Wallet 中，Priority Fee（小費）= Max Fee - Base Fee。設定 Max Priority Fee 後，Base Fee 會先從中扣除，剩餘部分會作為小費支付給礦工。",
       "l2GasEstimateTooltip": "對於 L2 鏈的 Gas 估算不包括 L1 的 Gas 費用。實際費用將高於目前估算。",
       "contract": "智慧合約",
       "typedDataMessage": "簽署類型化資料",
@@ -773,8 +773,8 @@
       "safeTx": {
         "selfHostConfirm": {
           "button": "OK",
-          "title": "切換到 XiaoHua Wallet 的 Safe 服務",
-          "content": "Safe API 無法使用。切換到由 XiaoHua Wallet 部署的 Safe 服務以保持您的 Safe 功能正常。<1></1><2>所有 Safe 簽署者必須使用 XiaoHua Wallet 授權交易。</2>"
+          "title": "切換到 JiuCheng Wallet 的 Safe 服務",
+          "content": "Safe API 無法使用。切換到由 JiuCheng Wallet 部署的 Safe 服務以保持您的 Safe 功能正常。<1></1><2>所有 Safe 簽署者必須使用 JiuCheng Wallet 授權交易。</2>"
         }
       },
       "errorRetry": {
@@ -959,7 +959,7 @@
       "quickAddressTitle_one": "{{count}} 地址",
       "quickAddressTitle_other": "{{count}} 個地址",
       "add-address": "新增錢包",
-      "delete-checklist-1": "我了解，如果我刪除這個錢包，對應的私鑰和助記詞將被刪除，XiaoHua Wallet 將無法恢復它們。",
+      "delete-checklist-1": "我了解，如果我刪除這個錢包，對應的私鑰和助記詞將被刪除，JiuCheng Wallet 將無法恢復它們。",
       "delete-private-key-title": "刪除錢包和私鑰",
       "delete-seed-phrase-title": "刪除錢包和助記詞",
       "delete-title": "刪除錢包"
@@ -1026,7 +1026,7 @@
         "disableWhitelist": "停用白名單",
         "enableWhitelist": "啟用白名單",
         "disableWhitelistTip": "一旦停用，您可以將資產發送到任何地址。",
-        "enableWhitelistTip": "一旦啟用，你只能使用 XiaoHua Wallet 將資產發送到白名單中的地址。"
+        "enableWhitelistTip": "一旦啟用，你只能使用 JiuCheng Wallet 將資產發送到白名單中的地址。"
       },
       "assets": {
         "AddMainnetToken": {
@@ -1053,9 +1053,9 @@
         "noTransactions": "暫無交易",
         "send": "發送",
         "notSupported": "不支援該鏈上的代幣",
-        "selectedCustom": "此代幣未被 XiaoHua Wallet 收錄。你已手動將其加入代幣清單。",
+        "selectedCustom": "此代幣未被 JiuCheng Wallet 收錄。你已手動將其加入代幣清單。",
         "blockedTip": "被封鎖的代幣不會顯示在代幣清單中",
-        "notSelectedCustom": "此代幣未被 XiaoHua Wallet 收錄。開啟後會將其加入代幣清單。"
+        "notSelectedCustom": "此代幣未被 JiuCheng Wallet 收錄。開啟後會將其加入代幣清單。"
       },
       "offlineChain": {
         "chain": "即將停止支援 {{chain}}。",
@@ -1192,7 +1192,7 @@
       "got": "我明白了"
     },
     "switchChain": {
-      "requestRabbyToSupport": "請求 XiaoHua Wallet 支援",
+      "requestRabbyToSupport": "請求 JiuCheng Wallet 支援",
       "requestsReceived": "收到 1 個請求",
       "requestsReceivedPlural": "收到 {{count}} 個請求"
     },
@@ -1237,7 +1237,7 @@
         "title": "該代幣的信用值較低",
         "desc": "較低的信用值通常表示高風險，例如蜜罐代幣或流動性非常低。"
       },
-      "no-fees-for-wrap": "封裝代幣不收取 XiaoHua Wallet 費用",
+      "no-fees-for-wrap": "封裝代幣不收取 JiuCheng Wallet 費用",
       "pendingTip": "交易已提交。如果長時間處於待處理狀態，可以嘗試在設定中清除待處理交易。",
       "estimate": "估算：",
       "directlySwap": "透過智慧合約直接封裝 {{symbol}} 代幣",
@@ -1248,9 +1248,9 @@
         "rate": "費率",
         "button": "明白了",
         "wallet": "錢包",
-        "title": "XiaoHua Wallet 費用",
-        "bridgeDesc": "XiaoHua Wallet 始終會從主流聚合器中尋找最佳匯率，並驗證報價的可靠性。XiaoHua Wallet 收取 <1>0.25%</1> 的費用，該費用已自動計入報價。",
-        "swapDesc": "XiaoHua Wallet 始終會從主流聚合器中尋找最佳匯率，並驗證報價的可靠性。XiaoHua Wallet 收取 <1>0.25%</1> 的費用（封裝代幣為 0%），該費用已自動計入報價。"
+        "title": "JiuCheng Wallet 費用",
+        "bridgeDesc": "JiuCheng Wallet 始終會從主流聚合器中尋找最佳匯率，並驗證報價的可靠性。JiuCheng Wallet 收取 <1>0.25%</1> 的費用，該費用已自動計入報價。",
+        "swapDesc": "JiuCheng Wallet 始終會從主流聚合器中尋找最佳匯率，並驗證報價的可靠性。JiuCheng Wallet 收取 <1>0.25%</1> 的費用（封裝代幣為 0%），該費用已自動計入報價。"
       },
       "Completed": "完成",
       "historyTitle": "兌換記錄",
@@ -1287,7 +1287,7 @@
           "no": "取消",
           "title": "啟用 {{ bioType }}",
           "yes": "是",
-          "content": "您是否想啟用 {{ bioType }} 解鎖 XiaoHua Wallet？"
+          "content": "您是否想啟用 {{ bioType }} 解鎖 JiuCheng Wallet？"
         }
       },
       "unlocking": "解鎖"
@@ -1348,12 +1348,12 @@
       },
       "addAddress": {
         "hardwareWallet": "硬體錢包",
-        "syncRabbyExtension": "同步 XiaoHua Wallet 擴充功能",
+        "syncRabbyExtension": "同步 JiuCheng Wallet 擴充功能",
         "createAddress": "建立錢包",
         "importAddress": "匯入錢包",
         "selectAddMethod": "選擇新增方式",
         "seedPhraseOrPrivateKey": "助記詞或私鑰",
-        "restoreRabbyWallet": "恢復 XiaoHua Wallet",
+        "restoreRabbyWallet": "恢復 JiuCheng Wallet",
         "moreOptions": "更多匯入方式"
       },
       "importAddress": {
@@ -1361,10 +1361,10 @@
         "privateKey": "匯入私鑰",
         "hardWare": "連接硬體錢包",
         "tips": {
-          "entry": "匯入到 XiaoHua Wallet 是否安全",
-          "title": "匯入到 XiaoHua Wallet 安全嗎？",
+          "entry": "匯入到 JiuCheng Wallet 是否安全",
+          "title": "匯入到 JiuCheng Wallet 安全嗎？",
           "gotIt": "我知道了。",
-          "description": "你的資料會安全加密並儲存在裝置本機。XiaoHua Wallet 無法存取你的私人資訊，也不會與第三方共享。"
+          "description": "你的資料會安全加密並儲存在裝置本機。JiuCheng Wallet 無法存取你的私人資訊，也不會與第三方共享。"
         },
         "watchOnlyTitle": "匯入只讀錢包",
         "importTitle": "匯入錢包",
@@ -1377,15 +1377,15 @@
         "moreSafeTitle": "匯入 Safe 錢包"
       },
       "rateModalTriggerOnHome": {
-        "description": "您如何評價 XiaoHua Wallet？"
+        "description": "您如何評價 JiuCheng Wallet？"
       },
       "rateModal": {
         "feedbackSubmit": "提交",
         "feedbackSuccess": "感謝您的回饋",
         "confirmButtonTitleIOS": "在 App Store 上評價",
         "feedbackTitle": "有回饋嗎？我們在聆聽。",
-        "descriptionIOS": "如果你喜歡 XiaoHua Wallet，在 App Store 上快速評分將對我們非常重要。",
-        "descriptionAndroid": "如果你喜歡 XiaoHua Wallet，在 Google Play 上的快速評分將非常重要。",
+        "descriptionIOS": "如果你喜歡 JiuCheng Wallet，在 App Store 上快速評分將對我們非常重要。",
+        "descriptionAndroid": "如果你喜歡 JiuCheng Wallet，在 Google Play 上的快速評分將非常重要。",
         "confirmButtonTitleAndroid": "在 Google Play 上評分"
       },
       "homeCenterTipScreenshot": {
@@ -1413,7 +1413,7 @@
       }
     },
     "ethSign": {
-      "alert": "使用 'eth_sign' 進行簽名可能導致資產損失。為了您的安全，XiaoHua Wallet 不支援此方法。"
+      "alert": "使用 'eth_sign' 進行簽名可能導致資產損失。為了您的安全，JiuCheng Wallet 不支援此方法。"
     },
     "createPassword": {
       "confirmRequired": "請確認密碼",
@@ -1434,7 +1434,7 @@
       "passwordPlaceholder": "密碼長度必須至少為 8 個字元",
       "agree": "我已閱讀並同意<1/> <2>使用條款</2>",
       "title": "設定密碼",
-      "confirmModalDesc": "請妥善儲存你的密碼。一旦遺失，XiaoHua Wallet 無法更改或找回。",
+      "confirmModalDesc": "請妥善儲存你的密碼。一旦遺失，JiuCheng Wallet 無法更改或找回。",
       "setWallet": "設定錢包",
       "passwordRequired": "請輸入密碼",
       "setUpSuccess": "密碼設定成功",
@@ -1472,14 +1472,14 @@
     },
     "connect": {
       "popularLevelHigh": "高",
-      "flagByRabby": "由 XiaoHua Wallet 標記",
+      "flagByRabby": "由 JiuCheng Wallet 標記",
       "popularLevelVeryLow": "非常低",
       "flagByMM": "已被 MetaMask 標記",
       "markAsTrustToast": "標記為「受信任」",
       "sitePopularity": "站點熱度",
       "myMark": "我的標記",
       "noMark": "無標記",
-      "verifiedByRabby": "由 XiaoHua Wallet 驗證",
+      "verifiedByRabby": "由 JiuCheng Wallet 驗證",
       "blocked": "已封鎖",
       "SignTestnetPermission": {
         "title": "簽名權限"
@@ -1502,11 +1502,11 @@
       "connectWallet": "連接錢包"
     },
     "addToken": {
-      "title": "向 XiaoHua Wallet 新增自訂代幣",
+      "title": "向 JiuCheng Wallet 新增自訂代幣",
       "noTokenFound": "找不到代幣",
       "tokenNotFound": "在該合約地址中找不到代幣",
       "hasAdded": "此代幣已被新增。",
-      "tokenSupported": "XiaoHua Wallet 已支援該代幣",
+      "tokenSupported": "JiuCheng Wallet 已支援該代幣",
       "tokenCustomized": "目前代幣已新增到自訂清單"
     },
     "backupPrivateKey": {
@@ -1532,7 +1532,7 @@
       },
       "privateKey": {
         "isItSafeToImportItInRabby": {
-          "question": "匯入到 XiaoHua Wallet 安全嗎？",
+          "question": "匯入到 JiuCheng Wallet 安全嗎？",
           "answer": "安全。它會儲存在你的手機本機，只有你可以存取。"
         },
         "whatIsAPrivateKey": {
@@ -1582,7 +1582,7 @@
         "title": "什麼是「助記詞」",
         "description3": "切勿分享你的助記詞，任何取得它的人都可以控制你的資金。",
         "description2": "如果遺失助記詞，你將無法恢復錢包。",
-        "description4": "你的助記詞會儲存在裝置本機，並使用密碼加密。只有你可以存取。XiaoHua Wallet 無法找回或存取你的助記詞。",
+        "description4": "你的助記詞會儲存在裝置本機，並使用密碼加密。只有你可以存取。JiuCheng Wallet 無法找回或存取你的助記詞。",
         "description1": "助記詞是一組用於存取和控制錢包的詞。你可以用它在任何裝置上恢復錢包。"
       },
       "onekey": {
@@ -1630,7 +1630,7 @@
         "backupErrorCloudNotAvailable": "iCloud 暫不可用",
         "backupRestoreButton": "匯入助記詞",
         "isItSafeToImportItInRabby": {
-          "question": "匯入到 XiaoHua Wallet 安全嗎？",
+          "question": "匯入到 JiuCheng Wallet 安全嗎？",
           "answer": "安全。它會儲存在你的手機本機，只有你可以存取。"
         },
         "chooseBackupMethodTitle": "選擇備份方式",
@@ -1639,7 +1639,7 @@
         "importQuestion1": "如果我遺失助記詞或分享給他人，我的資產將永久丟失。",
         "backupRestoreTitle": "發現 {{count}} 個助記詞",
         "pastedAndClear": "已貼上並清除剪貼簿",
-        "importQuestion2": "助記詞僅儲存在我的手機上，XiaoHua Wallet 無法存取。",
+        "importQuestion2": "助記詞僅儲存在我的手機上，JiuCheng Wallet 無法存取。",
         "backupUnlockButton": "繼續",
         "riskTips": "在開始之前，請閱讀並牢記以下安全提示。",
         "backupRestoreUnlockTitle": "輸入備份密碼",
@@ -1652,8 +1652,8 @@
           "answer": "用於控制你資產的 12、18 或 24 個詞。"
         },
         "backupTips": "確保在備份助記詞時沒有其他人看到您的螢幕。",
-        "backupUnlockDesc": "請妥善保管您的密碼以便恢復備份。XiaoHua Wallet 不會儲存也無法恢復您的密碼。",
-        "importQuestion3": "如果我沒有備份助記詞，當 App 被意外刪除、裝置遺失或需要重新安裝時，XiaoHua Wallet 無法幫我找回。",
+        "backupUnlockDesc": "請妥善保管您的密碼以便恢復備份。JiuCheng Wallet 不會儲存也無法恢復您的密碼。",
+        "importQuestion3": "如果我沒有備份助記詞，當 App 被意外刪除、裝置遺失或需要重新安裝時，JiuCheng Wallet 無法幫我找回。",
         "backupRestoreUnlockDesc": "請輸入加密備份時設定的相同密碼。",
         "createdSuccess": "你的助記詞已建立",
         "backupUnlockPlaceholder": "輸入密碼進行確認",
@@ -1724,7 +1724,7 @@
         "description3": "切勿分享你的私鑰，任何取得它的人都可以控制你的資金。",
         "title2": "備份",
         "description2": "如果遺失私鑰，你將無法恢復錢包。",
-        "description4": "你的私鑰會儲存在裝置本機，並使用密碼加密。只有你可以存取。XiaoHua Wallet 無法找回或存取你的私鑰。",
+        "description4": "你的私鑰會儲存在裝置本機，並使用密碼加密。只有你可以存取。JiuCheng Wallet 無法找回或存取你的私鑰。",
         "description1": "私鑰是一串字母和數字，用於存取和控制你的錢包。你可以用它在任何裝置上恢復錢包。"
       },
       "importing": "匯入中...",
@@ -1775,7 +1775,7 @@
     },
     "rabbyPoints": {
       "earn-points": "賺取積分",
-      "title": "XiaoHua Wallet Points",
+      "title": "JiuCheng Wallet Points",
       "claimItem": {
         "claim": "領取"
       },
@@ -1783,15 +1783,15 @@
       "code-set-successfully": "推薦碼設定成功",
       "top-100": "前 100 名",
       "out-of-x-current-total-points": "總計已分發 {{total}} 積分",
-      "firstRoundEnded": "🎉 第一輪 XiaoHua Wallet Points 已結束",
+      "firstRoundEnded": "🎉 第一輪 JiuCheng Wallet Points 已結束",
       "claimModal": {
         "referral-code": "推薦碼",
-        "rabbyValuedUserBadge": "XiaoHua Wallet 高價值使用者徽章",
+        "rabbyValuedUserBadge": "JiuCheng Wallet 高價值使用者徽章",
         "claim": "領取",
         "title": "領取初始積分",
         "invalid-code": "無效代碼",
-        "rabbyDesktopGenesisNft": "XiaoHua Wallet Desktop Genesis NFT",
-        "rabbyUser": "XiaoHua Wallet 活躍使用者",
+        "rabbyDesktopGenesisNft": "JiuCheng Wallet Desktop Genesis NFT",
+        "rabbyUser": "JiuCheng Wallet 活躍使用者",
         "MetaMaskSwap": "MetaMask Swap",
         "snapshotTime": "快照時間：{{time}}",
         "placeholder": "輸入推薦碼以取得額外積分（可選）",
@@ -1868,7 +1868,7 @@
         "title": "修改 RPC URL"
       },
       "empty": "無自訂 RPC URL",
-      "desc": "一旦修改，自訂 RPC 將替換 XiaoHua Wallet 的節點。要繼續使用 XiaoHua Wallet 的節點，請刪除自訂 RPC。",
+      "desc": "一旦修改，自訂 RPC 將替換 JiuCheng Wallet 的節點。要繼續使用 JiuCheng Wallet 的節點，請刪除自訂 RPC。",
       "EditCustomTestnetModal": {
         "title": "新增自訂網路",
         "quickAdd": "從 Chainlist 快速新增"
@@ -1904,7 +1904,7 @@
       },
       "depositPopup": {
         "title": "入金 GasAccount",
-        "desc": "將資金存入 XiaoHua Wallet 的 DeBank L2 Account，無需額外費用，且可隨時提領。",
+        "desc": "將資金存入 JiuCheng Wallet 的 DeBank L2 Account，無需額外費用，且可隨時提領。",
         "zeroInvalidAmount": "數量不能為零",
         "invalidAmount": "必須少於 500",
         "amount": "金額",
@@ -1994,7 +1994,7 @@
       "withdrawDisabledIAP": "提領功能已停用，因為你的餘額包含無法提領的法幣資金。請聯絡客服以提領代幣餘額。",
       "benefitCard": {
         "desc2": "在 80+ 個網路上自動支付 Gas",
-        "item1": "無 XiaoHua Wallet 費用",
+        "item1": "無 JiuCheng Wallet 費用",
         "desc3": "兌換、跨鏈、發送、DApp 等更多功能",
         "desc1": "支付 Gas 無額外費用",
         "item2": "支援所有網路",
@@ -2168,13 +2168,13 @@
         "search": "搜尋自訂網路名稱或 ID",
         "tips": {
           "added": "你已新增此鏈",
-          "supported": "XiaoHua Wallet 已支援該鏈"
+          "supported": "JiuCheng Wallet 已支援該鏈"
         },
         "title": "快速從 Chainlist 新增"
       },
-      "desc": "XiaoHua Wallet 無法驗證自訂網路的安全性。請僅新增可信網路。",
+      "desc": "JiuCheng Wallet 無法驗證自訂網路的安全性。請僅新增可信網路。",
       "ConfirmModifyRpcModal": {
-        "desc": "該鏈已經被 XiaoHua Wallet 整合。您是否需要修改其 RPC URL？"
+        "desc": "該鏈已經被 JiuCheng Wallet 整合。您是否需要修改其 RPC URL？"
       },
       "addToken": {
         "title": "新增自訂網路代幣",
@@ -2204,8 +2204,8 @@
       "fixedModeTag": "固定模式"
     },
     "addChain": {
-      "title": "新增自訂網路到 XiaoHua Wallet",
-      "desc": "XiaoHua Wallet 無法驗證自訂網路的安全性。請僅新增可信網路。"
+      "title": "新增自訂網路到 JiuCheng Wallet",
+      "desc": "JiuCheng Wallet 無法驗證自訂網路的安全性。請僅新增可信網路。"
     },
     "addressDetail": {
       "assets": "資產",
@@ -2266,7 +2266,7 @@
       "verify-face-id-before-backup": "在備份之前驗證您的 Face ID",
       "verify-fingerprint-before-backup": "在備份之前驗證您的指紋",
       "verify-fingerprint": "驗證指紋",
-      "verify-password-before-backup": "在備份之前驗證您的 XiaoHua Wallet 密碼"
+      "verify-password-before-backup": "在備份之前驗證您的 JiuCheng Wallet 密碼"
     },
     "setting": {
       "followUs": "關注我們",
@@ -2290,7 +2290,7 @@
       "modifyRPCURL": "修改 RPC URL",
       "enableWhitelist": "啟用白名單以發送資產",
       "clearPendingDesc2": "這不會改變你帳戶中的餘額，也不需要重新輸入助記詞。你的所有資產和帳戶資訊都會保持安全。",
-      "clearPendingDesc1": "這將清除您所有的待處理交易。這樣可以幫助您解決在某些情況下 XiaoHua Wallet 中的交易狀態與鏈上狀態不匹配的問題。",
+      "clearPendingDesc1": "這將清除您所有的待處理交易。這樣可以幫助您解決在某些情況下 JiuCheng Wallet 中的交易狀態與鏈上狀態不匹配的問題。",
       "currentLanguage": "目前語言",
       "appCache": "清除應用程式快取",
       "clearPendingResetDesc": "同時重設本機 Nonce 資料和簽名記錄",
@@ -2441,15 +2441,15 @@
     "syncExtension": {
       "scanTips2": "掃描 QR 碼以開始同步",
       "syncingTips": "保持鏡頭穩定直到掃描完成",
-      "verifyWithPassword": "使用你的 XiaoHua Wallet 擴充功能密碼驗證",
+      "verifyWithPassword": "使用你的 JiuCheng Wallet 擴充功能密碼驗證",
       "syncingProgress": "掃描中 ({{ percent }})",
       "importedSuccessfully": "匯入成功！",
-      "newUserVerify": "它也將作為您 XiaoHua Wallet 的預設密碼。",
-      "imported": "XiaoHua Wallet 中已存在的地址將不會再次匯入。地址備註和白名單將自動同步。",
+      "newUserVerify": "它也將作為您 JiuCheng Wallet 的預設密碼。",
+      "imported": "JiuCheng Wallet 中已存在的地址將不會再次匯入。地址備註和白名單將自動同步。",
       "noNewAddr": "未找到可匯入的新地址",
       "importedTips": "如果 App 中已存在重複地址，則不會匯入。地址備註和白名單也將同步。",
-      "scanTips1": "在 XiaoHua Wallet 瀏覽器擴充功能中點選「Mobile Sync」",
-      "verifyTips": "你的資料已離線加密。請輸入你的 XiaoHua Wallet 擴充功能密碼以解密並驗證。"
+      "scanTips1": "在 JiuCheng Wallet 瀏覽器擴充功能中點選「Mobile Sync」",
+      "verifyTips": "你的資料已離線加密。請輸入你的 JiuCheng Wallet 擴充功能密碼以解密並驗證。"
     },
     "safeMessageQueue": {
       "noData": "沒有訊息",
@@ -2509,9 +2509,9 @@
       "HyperliquidInvitePopup": {
         "btn": "立即加入",
         "title": "Hyperliquid 介紹計劃",
-        "desc": "現在使用 XiaoHua Wallet 的邀請碼加入，即可享受 Hyperliquid 費用 <1>4%</1> 折扣。",
+        "desc": "現在使用 JiuCheng Wallet 的邀請碼加入，即可享受 Hyperliquid 費用 <1>4%</1> 折扣。",
         "asterTitle": "Aster 推介計劃",
-        "asterDesc": "現在使用 XiaoHua Wallet 的邀請碼，即可享受 Aster 費用 <1>4%</1> 折扣。"
+        "asterDesc": "現在使用 JiuCheng Wallet 的邀請碼，即可享受 Aster 費用 <1>4%</1> 折扣。"
       },
       "WebviewError": {
         "error": "錯誤：",
@@ -2765,7 +2765,7 @@
         "provider": "服務商",
         "gotItBtn": "我知道了",
         "sizeTips": "交易的總價值或數量，由保證金和槓桿決定。",
-        "feeRabby": "XiaoHua Wallet",
+        "feeRabby": "JiuCheng Wallet",
         "feeRabbyDiscount": "限時交易手續費折扣",
         "feeHyperliquid": "Hyperliquid",
         "feeDesc": "交易時會產生<1>交易手續費</1>和<2>建構者費用</2>。",
@@ -2893,7 +2893,7 @@
         "activateFailed": "啟用失敗",
         "hyperliquidFee": "Hyperliquid 交易費用。",
         "title": "節省 Hyperliquid 手續費",
-        "description": "使用 XiaoHua Wallet 邀請碼啟用",
+        "description": "使用 JiuCheng Wallet 邀請碼啟用",
         "activatedFailed": "啟用失敗",
         "activatedSuccess": "已啟用 4% Hyperliquid 手續費減免",
         "activateNow": "立即啟用"
@@ -3008,14 +3008,14 @@
         "providerFeeTips": "Hyperliquid 手續費：{{fee}}",
         "positionSize": "倉位規模",
         "pnl": "盈虧",
-        "rabbyFeeTips": "XiaoHua Wallet 手續費：0.04%",
+        "rabbyFeeTips": "JiuCheng Wallet 手續費：0.04%",
         "amount": "數量",
         "confirm": "確認",
         "receive": "收到",
         "closedPnl": "平倉盈虧",
         "minimumWarning": "最低比例為 {{percent}}%",
         "total": "總計",
-        "rabbyFeeTipsV2": "XiaoHua Wallet 手續費：0.02%"
+        "rabbyFeeTipsV2": "JiuCheng Wallet 手續費：0.02%"
       },
       "PerpsOpenPositionPopup": {
         "title": "開啟 {{coin}} 持倉",
@@ -3072,12 +3072,12 @@
         "fee": "費用",
         "margin": "保證金（逐倉）",
         "providerFeeTips": "Hyperliquid 手續費：{{fee}}",
-        "rabbyFeeTips": "XiaoHua Wallet 手續費：0%",
+        "rabbyFeeTips": "JiuCheng Wallet 手續費：0%",
         "sizeTips": "交易的總價值或數量，由保證金和槓桿決定。",
         "liquidationPriceTips": "當保證金低於維持保證金要求時，交易所會以該價格自動平倉，以防止進一步虧損。",
         "free": "免費",
         "providerFee": "Hyperliquid 手續費",
-        "rabbyFee": "XiaoHua Wallet 手續費",
+        "rabbyFee": "JiuCheng Wallet 手續費",
         "marginCross": "保證金（全倉）"
       },
       "action": {
@@ -3491,9 +3491,9 @@
     },
     "newUserOnboarding": {
       "restoreWallet": {
-        "title": "恢復你的 XiaoHua Wallet",
+        "title": "恢復你的 JiuCheng Wallet",
         "subtitle": "歡迎回來！🎉  \n選擇一種方法來快速恢復您的錢包。",
-        "subtitleInApp": "從下方選擇一種方式，快速從 XiaoHua Wallet 瀏覽器擴充功能或 iCloud 匯入你的錢包"
+        "subtitleInApp": "從下方選擇一種方式，快速從 JiuCheng Wallet 瀏覽器擴充功能或 iCloud 匯入你的錢包"
       },
       "common": {
         "orYouCanCreateNewWallet": "或者，你也可以<clickable>建立新錢包</clickable>"
@@ -3566,7 +3566,7 @@
     },
     "walletConnect": {
       "screenTitle": "連接錢包",
-      "connectingToRabby": "正在連接到 XiaoHua Wallet",
+      "connectingToRabby": "正在連接到 JiuCheng Wallet",
       "pairingFailed": "WalletConnect 配對失敗。",
       "connected": "連接成功，請返回 DApp。",
       "proposalExpired": "WalletConnect 連接請求已過期。",
@@ -3645,10 +3645,10 @@
         "notEnabled": "生物識別未啟用"
       },
       "biometrics": {
-        "enableTip": "啟用 {{ bioType }} 解鎖 XiaoHua Wallet",
+        "enableTip": "啟用 {{ bioType }} 解鎖 JiuCheng Wallet",
         "enable": "輸入密碼\n以啟用 {{ bioType }}",
         "disable": "確認停用 {{ bioType }}？",
-        "disableTip": "停用 {{ bioType }} 以解鎖 XiaoHua Wallet"
+        "disableTip": "停用 {{ bioType }} 以解鎖 JiuCheng Wallet"
       }
     },
     "NoLongerSupports": {
@@ -3690,7 +3690,7 @@
       "depositPopup": {
         "amount": "金額",
         "token": "代幣",
-        "desc": "將資金存入 XiaoHua Wallet 的 DeBank L2 Account，無需額外費用，且可隨時提領。",
+        "desc": "將資金存入 JiuCheng Wallet 的 DeBank L2 Account，無需額外費用，且可隨時提領。",
         "title": "入金",
         "selectToken": "選擇要入金的代幣"
       },
@@ -3732,8 +3732,8 @@
         "title2": "如何使用 GasAccount",
         "title3": "GasAccount 是否有額外費用",
         "title4": "GasAccount 安全嗎",
-        "desc3": "XiaoHua Wallet 不收取額外費用。你只需支付交易本身的 Gas，以及從 GasAccount 向你的地址發送 Gas 所需的少量 Gas。",
-        "desc4": "GasAccount 不需要合約授權或權限。你只需將資金存入 XiaoHua Wallet 的 GasAccount 地址，需要時 XiaoHua Wallet 會向你的地址發送 Gas，設計上更安全。",
+        "desc3": "JiuCheng Wallet 不收取額外費用。你只需支付交易本身的 Gas，以及從 GasAccount 向你的地址發送 Gas 所需的少量 Gas。",
+        "desc4": "GasAccount 不需要合約授權或權限。你只需將資金存入 JiuCheng Wallet 的 GasAccount 地址，需要時 JiuCheng Wallet 會向你的地址發送 Gas，設計上更安全。",
         "desc1": "GasAccount 是一種新的 Gas 費用支付方式。無需在每條鏈上都準備原生代幣，只需一個帳戶，就能為所有鏈上的所有地址支付 Gas。簡單、可選，也更不容易因為缺 Gas 卡住。",
         "desc2": "向 GasAccount 入金後即可用於任意交易。簽名時可以選擇用原生代幣或 GasAccount 支付 Gas，隨時切換。"
       }
@@ -3805,14 +3805,14 @@
       "switchArea": {
         "skipText": "1 天內不再顯示此彈窗"
       },
-      "alertText": "第三方 DApp：如遇使用問題，請聯絡 DApp 支援。XiaoHua Wallet 僅提供瀏覽功能。",
+      "alertText": "第三方 DApp：如遇使用問題，請聯絡 DApp 支援。JiuCheng Wallet 僅提供瀏覽功能。",
       "title": "截圖回報問題"
     },
     "feedbackModal": {
-      "repliedTitle": "XiaoHua Wallet Support 已回覆：",
+      "repliedTitle": "JiuCheng Wallet Support 已回覆：",
       "issueDescriptionLabel": "說明：",
-      "pendingTitle": "XiaoHua Wallet Support 尚未回覆。",
-      "title": "來自 XiaoHua Wallet 支援的回覆",
+      "pendingTitle": "JiuCheng Wallet Support 尚未回覆。",
+      "title": "來自 JiuCheng Wallet 支援的回覆",
       "issueDescription": "這是您報告的問題："
     },
     "submitFeedbackSuccessModal": {

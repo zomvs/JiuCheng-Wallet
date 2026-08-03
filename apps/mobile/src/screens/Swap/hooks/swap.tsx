@@ -291,7 +291,7 @@ export const dexSwap = async (
               app_version: APP_VERSIONS.fromNative || '0',
             });
             matomoRequestEvent({
-              category: 'XiaoHua Wallet Market',
+              category: 'JiuCheng Wallet Market',
               action: createSwapTxAction,
             });
           }
@@ -429,7 +429,7 @@ export const dexSwap = async (
               app_version: APP_VERSIONS.fromNative || '0',
             });
             matomoRequestEvent({
-              category: 'XiaoHua Wallet Market',
+              category: 'JiuCheng Wallet Market',
               action: createSwapTxAction,
             });
           }

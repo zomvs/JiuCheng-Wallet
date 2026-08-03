@@ -14,12 +14,12 @@ import BootSplash, {
 } from '@rabby-wallet/react-native-bootsplash';
 import { releaseAppAppearanceHandoff } from '@/core/utils/appAppearanceHandoff';
 
-const LIGHT_RABBIT = require('@/assets/images/bootsplash/rabbit-light.gif');
-const DARK_RABBIT = require('@/assets/images/bootsplash/rabbit-dark.gif');
+const LIGHT_JIUCHENG_LOGO = require('@/assets/images/bootsplash/jiucheng-light.gif');
+const DARK_JIUCHENG_LOGO = require('@/assets/images/bootsplash/jiucheng-dark.gif');
 
 const NATIVE_HANDOFF_FALLBACK_MS = 2000;
 const SPLASH_EXIT_FALLBACK_MS = 8000;
-const RABBIT_ANIMATION_CYCLE_MS = 480;
+const LOGO_ANIMATION_CYCLE_MS = 480;
 const SPLASH_FADE_MS = 180;
 
 const logoLayout = Platform.select({
@@ -58,7 +58,7 @@ function AnimatedBootSplashImpl() {
 
     const remainingCycleMs = Math.max(
       0,
-      RABBIT_ANIMATION_CYCLE_MS - (Date.now() - nativeHandoffAt),
+      LOGO_ANIMATION_CYCLE_MS - (Date.now() - nativeHandoffAt),
     );
 
     exitScheduledRef.current = true;
@@ -92,8 +92,8 @@ function AnimatedBootSplashImpl() {
 
   const { container, logo } = useHideAnimation({
     manifest,
-    logo: LIGHT_RABBIT,
-    darkLogo: DARK_RABBIT,
+    logo: LIGHT_JIUCHENG_LOGO,
+    darkLogo: DARK_JIUCHENG_LOGO,
     statusBarTranslucent: true,
     navigationBarTranslucent: true,
     animate: markNativeHandoffComplete,

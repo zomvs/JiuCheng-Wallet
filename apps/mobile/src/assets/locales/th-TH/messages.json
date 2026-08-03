@@ -129,8 +129,8 @@
     "AuthenticationModals": {
       "biometrics": {
         "enable": "ป้อนรหัสผ่าน\nเพื่อเปิดใช้งาน {{ bioType }}",
-        "enableTip": "เปิดใช้งาน {{ bioType }} เพื่อปลดล็อก XiaoHua Wallet",
-        "disableTip": "ปิดใช้งาน {{ bioType }} เพื่อปลดล็อก XiaoHua Wallet",
+        "enableTip": "เปิดใช้งาน {{ bioType }} เพื่อปลดล็อก JiuCheng Wallet",
+        "disableTip": "ปิดใช้งาน {{ bioType }} เพื่อปลดล็อก JiuCheng Wallet",
         "disable": "ยืนยันว่าต้องการปิดใช้งาน {{ bioType }} หรือไม่?"
       },
       "processBiometrics": {
@@ -173,7 +173,7 @@
         "amount": "จำนวน",
         "token": "Token",
         "selectToken": "เลือกโทเค็นเพื่อฝาก",
-        "desc": "ฝากเงินเข้าบัญชี DeBank L2 ของ XiaoHua Wallet โดยไม่มีค่าธรรมเนียมเพิ่มเติม และถอนได้ทุกเมื่อ"
+        "desc": "ฝากเงินเข้าบัญชี DeBank L2 ของ JiuCheng Wallet โดยไม่มีค่าธรรมเนียมเพิ่มเติม และถอนได้ทุกเมื่อ"
       },
       "withdrawPopup": {
         "title": "ถอนเงิน",
@@ -197,8 +197,8 @@
         "title2": "วิธีการใช้ Gas Account",
         "title4": "GasAccount ปลอดภัยไหม",
         "desc2": "เติมเงินเข้า GasAccount แล้วใช้ชำระค่าธรรมเนียมสำหรับธุรกรรมใดก็ได้ ขณะลงนาม คุณสามารถเลือกจ่าย Gas ด้วยโทเค็นเนทีฟหรือ GasAccount และสลับได้ทุกเมื่อ",
-        "desc3": "XiaoHua Wallet ไม่คิดค่าธรรมเนียมเพิ่มเติม คุณต้องจ่ายเพียงค่าก๊าซสำหรับการทำธุรกรรมของคุณและค่าก๊าซเล็กน้อยสำหรับการส่งก๊าซนั้นจาก GasAccount ไปยังที่อยู่ของคุณ",
-        "desc4": "GasAccount ไม่ต้องการการอนุมัติหรือสิทธิ์จากสัญญา คุณฝากเงินไปยังที่อยู่ GasAccount ของ XiaoHua Wallet และ XiaoHua Wallet จะส่งก๊าซไปยังที่อยู่ของคุณเมื่อจำเป็น ออกแบบมาให้ปลอดภัยอย่างสมบูรณ์",
+        "desc3": "JiuCheng Wallet ไม่คิดค่าธรรมเนียมเพิ่มเติม คุณต้องจ่ายเพียงค่าก๊าซสำหรับการทำธุรกรรมของคุณและค่าก๊าซเล็กน้อยสำหรับการส่งก๊าซนั้นจาก GasAccount ไปยังที่อยู่ของคุณ",
+        "desc4": "GasAccount ไม่ต้องการการอนุมัติหรือสิทธิ์จากสัญญา คุณฝากเงินไปยังที่อยู่ GasAccount ของ JiuCheng Wallet และ JiuCheng Wallet จะส่งก๊าซไปยังที่อยู่ของคุณเมื่อจำเป็น ออกแบบมาให้ปลอดภัยอย่างสมบูรณ์",
         "desc1": "GasAccount เป็นวิธีใหม่ในการจ่ายค่าธรรมเนียม Gas แทนการใช้โทเค็นเนทีฟของแต่ละเชน คุณสามารถใช้บัญชีเดียวจ่าย Gas ให้ทุกที่อยู่บนทุกเชนได้ ใช้งานง่าย เลือกใช้ได้ และไม่ต้องกังวลว่า Gas จะหมด"
       }
     },
@@ -248,14 +248,14 @@
       "switchArea": {
         "skipText": "ข้ามป๊อปอัปนี้ไป 1 วัน"
       },
-      "alertText": "DApp บุคคลที่สาม: หากมีปัญหาการใช้งาน โปรดติดต่อฝ่ายสนับสนุนของ DApp XiaoHua Wallet ให้สิทธิ์เข้าดูเท่านั้น.",
+      "alertText": "DApp บุคคลที่สาม: หากมีปัญหาการใช้งาน โปรดติดต่อฝ่ายสนับสนุนของ DApp JiuCheng Wallet ให้สิทธิ์เข้าดูเท่านั้น.",
       "title": "จับภาพหน้าจอเพื่อนำเสนอข้อบกพร่อง"
     },
     "feedbackModal": {
-      "pendingTitle": "XiaoHua Wallet Support ยังไม่ได้ตอบกลับ.",
+      "pendingTitle": "JiuCheng Wallet Support ยังไม่ได้ตอบกลับ.",
       "issueDescriptionLabel": "คำอธิบาย:",
-      "title": "การตอบกลับจาก XiaoHua Wallet Support",
-      "repliedTitle": "ฝ่ายสนับสนุน XiaoHua Wallet ตอบกลับแล้ว:",
+      "title": "การตอบกลับจาก JiuCheng Wallet Support",
+      "repliedTitle": "ฝ่ายสนับสนุน JiuCheng Wallet ตอบกลับแล้ว:",
       "issueDescription": "นี่คือปัญหาที่คุณรายงาน:"
     },
     "submitFeedbackSuccessModal": {
@@ -300,10 +300,10 @@
     "getStart": {
       "goToHome": "ไปที่หน้าแรก",
       "alreadyHaveAddress": "ฉันมีกระเป๋าเงินแล้ว",
-      "sync": "สแกนเพื่อซิงค์กระเป๋าสตางค์ XiaoHua Wallet Extension",
+      "sync": "สแกนเพื่อซิงค์กระเป๋าสตางค์ JiuCheng Wallet Extension",
       "createNewAddress": "สร้างกระเป๋าเงินใหม่",
-      "welcomeTitle": "ยินดีต้อนรับสู่\nXiaoHua Wallet",
-      "alreadyUseRabby": "ฉันใช้ XiaoHua Wallet อยู่แล้ว"
+      "welcomeTitle": "ยินดีต้อนรับสู่\nJiuCheng Wallet",
+      "alreadyUseRabby": "ฉันใช้ JiuCheng Wallet อยู่แล้ว"
     },
     "transactions": {
       "explain": {
@@ -728,7 +728,7 @@
         "maxPay": "การจ่ายสูงสุด",
         "title": "แลกเปลี่ยน Token จำกัดการชำระเงิน"
       },
-      "sigCantDecode": "ลายเซ็นนี้ไม่สามารถถอดรหัสโดย XiaoHua Wallet ได้",
+      "sigCantDecode": "ลายเซ็นนี้ไม่สามารถถอดรหัสโดย JiuCheng Wallet ได้",
       "moreSafeSigNeeded": "ต้องการการยืนยันอีก {{0}} ครั้ง",
       "nonceLowerThanExpect": "Nonce ต่ำเกินไป ค่าต่ำสุดควรเป็น {{0}}",
       "collectionTitle": "คอลเลกชัน",
@@ -794,7 +794,7 @@
       "customRPCErrorModal": {
         "title": "ข้อผิดพลาด RPC ที่กำหนดเอง",
         "button": "ปิดใช้งาน Custom RPC",
-        "content": "ขณะนี้ RPC ที่คุณกำหนดเองไม่สามารถใช้งานได้ คุณสามารถปิดการใช้งานและทำการลงนามโดยใช้ RPC อย่างเป็นทางการของ XiaoHua Wallet ต่อไป"
+        "content": "ขณะนี้ RPC ที่คุณกำหนดเองไม่สามารถใช้งานได้ คุณสามารถปิดการใช้งานและทำการลงนามโดยใช้ RPC อย่างเป็นทางการของ JiuCheng Wallet ต่อไป"
       },
       "gasAccount": {
         "estimatedGas": "ประมาณการ Gas:",
@@ -839,7 +839,7 @@
       },
       "address": "ที่อยู่",
       "hasInteraction": "เคยโต้ตอบก่อนหน้านี้",
-      "eip1559Desc2": "ที่นี่ใน XiaoHua Wallet, Priority Fee (Tip) = Max Fee - Base Fee เมื่อคุณตั้งค่า Max Priority Fee แล้ว ค่า Base Fee จะถูกหักออกไปและส่วนที่เหลือจะเป็นทิปให้กับนักขุด",
+      "eip1559Desc2": "ที่นี่ใน JiuCheng Wallet, Priority Fee (Tip) = Max Fee - Base Fee เมื่อคุณตั้งค่า Max Priority Fee แล้ว ค่า Base Fee จะถูกหักออกไปและส่วนที่เหลือจะเป็นทิปให้กับนักขุด",
       "no": "ไม่",
       "protocol": "โปรโตคอล",
       "yes": "ใช่",
@@ -876,7 +876,7 @@
       "importedDelegatedAddress": "นำเข้าที่อยู่ที่ได้รับมอบหมาย",
       "tokenApprove": {
         "eoaAddress": "EOA",
-        "flagByRabby": "ทำเครื่องหมายโดย XiaoHua Wallet",
+        "flagByRabby": "ทำเครื่องหมายโดย JiuCheng Wallet",
         "amountPopupTitle": "อนุมัติจำนวน",
         "approveToken": "อนุมัติโทเคน",
         "deployTimeLessThan": "< {{value}} วัน",
@@ -929,8 +929,8 @@
       "safeTx": {
         "selfHostConfirm": {
           "button": "OK",
-          "title": "เปลี่ยนเป็นบริการ Safe ของ XiaoHua Wallet",
-          "content": "Safe API ไม่พร้อมใช้งาน สลับไปยังการใช้งาน Safe ที่ให้บริการโดย XiaoHua Wallet เพื่อให้ Safe ของคุณทำงานได้ <1></1><2>ผู้ลงนาม Safe ทุกคนจะต้องใช้ XiaoHua Wallet เพื่ออนุมัติธุรกรรม</2>"
+          "title": "เปลี่ยนเป็นบริการ Safe ของ JiuCheng Wallet",
+          "content": "Safe API ไม่พร้อมใช้งาน สลับไปยังการใช้งาน Safe ที่ให้บริการโดย JiuCheng Wallet เพื่อให้ Safe ของคุณทำงานได้ <1></1><2>ผู้ลงนาม Safe ทุกคนจะต้องใช้ JiuCheng Wallet เพื่ออนุมัติธุรกรรม</2>"
         }
       },
       "errorRetry": {
@@ -1094,7 +1094,7 @@
           "unknownProtocol": "ไม่ทราบโปรโตคอล"
         },
         "empty": {
-          "desc": "ธุรกรรมทั้งหมดที่ลงนามผ่าน XiaoHua Wallet จะถูกแสดงที่นี่",
+          "desc": "ธุรกรรมทั้งหมดที่ลงนามผ่าน JiuCheng Wallet จะถูกแสดงที่นี่",
           "title": "ยังไม่มีการทำธุรกรรมที่เซ็นชื่อ",
           "titleLastThreeMonths": "ไม่มีประวัติการทำธุรกรรมใน 90 วัน",
           "testnetNoHistory": "ไม่มีประวัติธุรกรรมของโทเค็นแบบกำหนดเอง"
@@ -1241,17 +1241,17 @@
         "swap": "สวอป",
         "receive": "รับ",
         "noTransactions": "ไม่มีธุรกรรม",
-        "notSelectedCustom": "Token ไม่ได้อยู่ในรายการของ XiaoHua Wallet จะถูกเพิ่มไปยังรายการ token ถ้าคุณเปิดการใช้งาน",
+        "notSelectedCustom": "Token ไม่ได้อยู่ในรายการของ JiuCheng Wallet จะถูกเพิ่มไปยังรายการ token ถ้าคุณเปิดการใช้งาน",
         "blockedTip": "โทเค็นที่ถูกบล็อกจะไม่แสดงในรายการโทเค็น",
         "notSupported": "ไม่รองรับโทเค็นบนเชนนี้",
-        "selectedCustom": "โทเค็นไม่ได้รับการลิสต์โดย XiaoHua Wallet คุณได้เพิ่มมันลงในรายการโทเค็นด้วยตนเอง"
+        "selectedCustom": "โทเค็นไม่ได้รับการลิสต์โดย JiuCheng Wallet คุณได้เพิ่มมันลงในรายการโทเค็นด้วยตนเอง"
       },
       "settings": {
         "enableWhitelist": "เปิดใช้งานรายการที่อนุญาต",
         "cancel": "ยกเลิก",
         "disableWhitelist": "ปิดใช้งานรายการที่อนุญาต",
         "disableWhitelistTip": "คุณสามารถส่งสินทรัพย์ไปยังที่อยู่ใดก็ได้เมื่อปิดการใช้งาน",
-        "enableWhitelistTip": "เมื่อเปิดใช้งานแล้ว คุณจะสามารถส่งสินทรัพย์ไปยังที่อยู่ในรายการที่อนุญาตโดยใช้ XiaoHua Wallet เท่านั้น"
+        "enableWhitelistTip": "เมื่อเปิดใช้งานแล้ว คุณจะสามารถส่งสินทรัพย์ไปยังที่อยู่ในรายการที่อนุญาตโดยใช้ JiuCheng Wallet เท่านั้น"
       },
       "offlineChain": {
         "tips": "เชน {{chain}} จะไม่รองรับตั้งแต่ {{date}} สินทรัพย์จะไม่ได้รับผลกระทบ แต่จะไม่รวมอยู่ในยอดคงเหลือทั้งหมด หากต้องการเข้าถึง ให้เพิ่มเป็นเครือข่ายที่กำหนดเองใน “การตั้งค่า”",
@@ -1271,7 +1271,7 @@
       "quickAddressTitle_one": "{{count}} ที่อยู่",
       "quickAddressTitle_other": "{{count}} ที่อยู่",
       "add-address": "เพิ่มกระเป๋าเงิน",
-      "delete-checklist-1": "ฉันเข้าใจว่าหากลบกระเป๋าเงินนี้ Private Key และ Seed Phrase ที่เกี่ยวข้องจะถูกลบ และ XiaoHua Wallet จะไม่สามารถกู้คืนได้",
+      "delete-checklist-1": "ฉันเข้าใจว่าหากลบกระเป๋าเงินนี้ Private Key และ Seed Phrase ที่เกี่ยวข้องจะถูกลบ และ JiuCheng Wallet จะไม่สามารถกู้คืนได้",
       "delete-private-key-title": "ลบกระเป๋าเงินและคีย์ส่วนตัว",
       "delete-seed-phrase-title": "ลบกระเป๋าเงินและวลีเมล็ดกำเนิด",
       "delete-title": "ลบกระเป๋าเงิน"
@@ -1306,7 +1306,7 @@
       "actual": "จริง:",
       "hidden-no-quote-rates_one": "อัตรา {{count}} ไม่สามารถใช้งานได้",
       "unable-to-fetch-the-price": "ไม่สามารถดึงราคามาได้",
-      "no-fees-for-wrap": "ไม่มีค่าธรรมเนียม XiaoHua Wallet สำหรับ Wrap",
+      "no-fees-for-wrap": "ไม่มีค่าธรรมเนียม JiuCheng Wallet สำหรับ Wrap",
       "from": "จาก",
       "directlySwap": "ห่อโทเค็น {{symbol}} โดยตรงผ่านสัญญาอัจฉริยะ",
       "hidden-no-quote-rates_other": "{{count}} อัตราไม่พร้อมใช้งาน",
@@ -1324,12 +1324,12 @@
       "completedTip": "ธุรกรรมบนเชน ถอดรหัสข้อมูลเพื่อสร้างบันทึก",
       "slippage-tolerance": "ค่าความคลาดเคลื่อนของราคา",
       "rabbyFee": {
-        "title": "ค่าธรรมเนียม XiaoHua Wallet",
+        "title": "ค่าธรรมเนียม JiuCheng Wallet",
         "button": "เข้าใจแล้ว",
         "rate": "อัตราค่าธรรมเนียม",
         "wallet": "กระเป๋าเงิน",
-        "swapDesc": "XiaoHua Wallet จะค้นหาอัตราที่ดีที่สุดจากผู้รวบรวมชั้นนำและตรวจสอบความน่าเชื่อถือของข้อเสนอเหล่านั้นเสมอ XiaoHua Wallet คิดค่าธรรมเนียม <1>0.25%</1> (0% สำหรับการห่อ) ซึ่งรวมอยู่ในใบเสนอราคาโดยอัตโนมัติ",
-        "bridgeDesc": "XiaoHua Wallet จะค้นหาอัตราที่ดีที่สุดจากผู้รวมอันดับต้น ๆ และยืนยันความเชื่อถือได้ของข้อเสนอ XiaoHua Wallet จะคิดค่าธรรมเนียม <1>0.25%</1> ซึ่งรวมอยู่ในราคาที่เสนอโดยอัตโนมัติ"
+        "swapDesc": "JiuCheng Wallet จะค้นหาอัตราที่ดีที่สุดจากผู้รวบรวมชั้นนำและตรวจสอบความน่าเชื่อถือของข้อเสนอเหล่านั้นเสมอ JiuCheng Wallet คิดค่าธรรมเนียม <1>0.25%</1> (0% สำหรับการห่อ) ซึ่งรวมอยู่ในใบเสนอราคาโดยอัตโนมัติ",
+        "bridgeDesc": "JiuCheng Wallet จะค้นหาอัตราที่ดีที่สุดจากผู้รวมอันดับต้น ๆ และยืนยันความเชื่อถือได้ของข้อเสนอ JiuCheng Wallet จะคิดค่าธรรมเนียม <1>0.25%</1> ซึ่งรวมอยู่ในราคาที่เสนอโดยอัตโนมัติ"
       },
       "recommend-slippage": "เพื่อป้องกันการซื้อขายล่วงหน้า เราขอแนะนำให้ตั้งค่า slippage ที่ <2>{{ slippage }}</2>%",
       "need-to-approve-token-before-swap": "จำเป็นต้องอนุมัติโทเค็นก่อนการ swap",
@@ -1343,12 +1343,12 @@
     "nextComponent": {
       "addAddress": {
         "hardwareWallet": "ฮาร์ดแวร์วอลเล็ต",
-        "syncRabbyExtension": "ซิงค์ XiaoHua Wallet Extension",
+        "syncRabbyExtension": "ซิงค์ JiuCheng Wallet Extension",
         "createAddress": "สร้างกระเป๋าเงิน",
         "importAddress": "นำเข้ากระเป๋าเงิน",
         "selectAddMethod": "เลือกวิธีการเพิ่ม",
         "seedPhraseOrPrivateKey": "Seed Phrase หรือ Private Key",
-        "restoreRabbyWallet": "กู้คืน XiaoHua Wallet",
+        "restoreRabbyWallet": "กู้คืน JiuCheng Wallet",
         "moreOptions": "ตัวเลือกเพิ่มเติม"
       },
       "multiAddressHome": {
@@ -1372,9 +1372,9 @@
         "hardWare": "เชื่อมต่อกระเป๋าฮาร์ดแวร์",
         "tips": {
           "gotIt": "ฉันเข้าใจแล้ว",
-          "entry": "นำเข้าไปยัง XiaoHua Wallet ปลอดภัยหรือไม่",
-          "title": "ปลอดภัยหรือไม่ที่จะนำเข้าไปยัง XiaoHua Wallet?",
-          "description": "ข้อมูลของคุณจะถูกเข้ารหัสอย่างปลอดภัยและเก็บไว้ในอุปกรณ์ของคุณ XiaoHua Wallet ไม่สามารถเข้าถึงข้อมูลส่วนตัวของคุณ และจะไม่มีการแชร์ให้กับบุคคลที่สาม"
+          "entry": "นำเข้าไปยัง JiuCheng Wallet ปลอดภัยหรือไม่",
+          "title": "ปลอดภัยหรือไม่ที่จะนำเข้าไปยัง JiuCheng Wallet?",
+          "description": "ข้อมูลของคุณจะถูกเข้ารหัสอย่างปลอดภัยและเก็บไว้ในอุปกรณ์ของคุณ JiuCheng Wallet ไม่สามารถเข้าถึงข้อมูลส่วนตัวของคุณ และจะไม่มีการแชร์ให้กับบุคคลที่สาม"
         },
         "safeTitle": "นำเข้ากระเป๋าเงิน Safe",
         "importTitle": "นำเข้ากระเป๋าเงิน",
@@ -1413,15 +1413,15 @@
         "WriteSeedPhrase": "นี่คือ Seed Phrase ของคุณ จดไว้และเก็บอย่างปลอดภัย หากทำหายหรือแชร์ให้ผู้อื่น สินทรัพย์อาจสูญหายถาวร ในขั้นตอนถัดไป คุณจะต้องป้อน Seed Phrase นี้อีกครั้งตามลำดับ"
       },
       "rateModalTriggerOnHome": {
-        "description": "คุณให้คะแนน XiaoHua Wallet เท่าไหร่"
+        "description": "คุณให้คะแนน JiuCheng Wallet เท่าไหร่"
       },
       "rateModal": {
         "feedbackSubmit": "ส่ง",
         "confirmButtonTitleIOS": "ให้คะแนนบน App Store",
         "confirmButtonTitleAndroid": "ให้คะแนนบน Google Play",
-        "descriptionAndroid": "หากคุณชอบ XiaoHua Wallet การให้คะแนนสั้น ๆ บน Google Play จะเป็นกำลังใจให้เรามาก",
+        "descriptionAndroid": "หากคุณชอบ JiuCheng Wallet การให้คะแนนสั้น ๆ บน Google Play จะเป็นกำลังใจให้เรามาก",
         "feedbackSuccess": "ขอขอบคุณสำหรับข้อเสนอแนะของคุณ",
-        "descriptionIOS": "หากคุณชอบ XiaoHua Wallet การให้คะแนนสั้น ๆ บน App Store จะเป็นกำลังใจให้เรามาก",
+        "descriptionIOS": "หากคุณชอบ JiuCheng Wallet การให้คะแนนสั้น ๆ บน App Store จะเป็นกำลังใจให้เรามาก",
         "feedbackTitle": "มีข้อเสนอแนะไหม? เรายินดีรับฟัง"
       },
       "homeCenterTipScreenshot": {
@@ -1449,7 +1449,7 @@
       }
     },
     "switchChain": {
-      "requestRabbyToSupport": "ขอความช่วยเหลือจาก XiaoHua Wallet",
+      "requestRabbyToSupport": "ขอความช่วยเหลือจาก JiuCheng Wallet",
       "requestsReceivedPlural": "ได้รับคำขอ {{count}} รายการ",
       "requestsReceived": "ได้รับคำขอ 1 รายการ"
     },
@@ -1458,8 +1458,8 @@
       "tokenNotFound": "ไม่พบโทเค็นจากที่อยู่สัญญานี้",
       "hasAdded": "คุณได้เพิ่มโทเค็นนี้แล้ว",
       "tokenCustomized": "โทเค็นนี้ถูกเพิ่มเป็นโทเค็นที่กำหนดเองแล้ว",
-      "title": "เพิ่มโทเค็นที่กำหนดเองไปยัง XiaoHua Wallet",
-      "tokenSupported": "XiaoHua Wallet รองรับโทเค็นนี้แล้ว"
+      "title": "เพิ่มโทเค็นที่กำหนดเองไปยัง JiuCheng Wallet",
+      "tokenSupported": "JiuCheng Wallet รองรับโทเค็นนี้แล้ว"
     },
     "signText": {
       "title": "ลงชื่อในข้อความ",
@@ -1533,7 +1533,7 @@
       "backup": "สำรองข้อมูล",
       "other": "อื่น ๆ",
       "basicInfo": "ข้อมูลพื้นฐาน",
-      "verify-password-before-backup": "ตรวจสอบรหัสผ่าน XiaoHua Wallet ของคุณก่อนสำรองข้อมูล",
+      "verify-password-before-backup": "ตรวจสอบรหัสผ่าน JiuCheng Wallet ของคุณก่อนสำรองข้อมูล",
       "verify-fingerprint": "ตรวจสอบลายนิ้วมือ",
       "verify-and-backup": "ตรวจสอบ & สำรองข้อมูล",
       "verify-password": "ตรวจสอบรหัสผ่าน",
@@ -1557,7 +1557,7 @@
       "popularLevelVeryLow": "ต่ำมาก",
       "sitePopularity": "ความนิยมของเว็บไซต์",
       "flagByScamSniffer": "ติดธงโดย ScamSniffer",
-      "flagByRabby": "ถูกตั้งค่าสถานะโดย XiaoHua Wallet",
+      "flagByRabby": "ถูกตั้งค่าสถานะโดย JiuCheng Wallet",
       "flagByMM": "ถูกตั้งค่าสถานะโดย MetaMask",
       "popularLevelHigh": "สูง",
       "blocked": "ถูกบล็อก",
@@ -1571,7 +1571,7 @@
       "markAsBlockToast": "ทำเครื่องหมายว่า \"บล็อกแล้ว\"",
       "noWebsite": "ไม่มี",
       "markRemovedToast": "ลบเครื่องหมายแล้ว",
-      "verifiedByRabby": "ยืนยันโดย XiaoHua Wallet",
+      "verifiedByRabby": "ยืนยันโดย JiuCheng Wallet",
       "onYourWhitelist": "ในรายการอนุญาตของคุณ",
       "popularLevelLow": "ต่ำ",
       "noMark": "ไม่มีการทำเครื่องหมาย",
@@ -1584,7 +1584,7 @@
       "connectWallet": "เชื่อมต่อกระเป๋าเงิน"
     },
     "ethSign": {
-      "alert": "การเซ็นชื่อด้วย 'eth_sign' อาจทำให้สูญเสียสินทรัพย์ เพื่อความปลอดภัยของคุณ XiaoHua Wallet ไม่รองรับวิธีนี้"
+      "alert": "การเซ็นชื่อด้วย 'eth_sign' อาจทำให้สูญเสียสินทรัพย์ เพื่อความปลอดภัยของคุณ JiuCheng Wallet ไม่รองรับวิธีนี้"
     },
     "unlock": {
       "btn": {
@@ -1605,7 +1605,7 @@
           "yes": "ใช่",
           "title": "เปิดใช้งาน {{ bioType }}",
           "no": "ยกเลิก",
-          "content": "คุณต้องการเปิดใช้งาน {{ bioType }} เพื่อปลดล็อก XiaoHua Wallet หรือไม่?"
+          "content": "คุณต้องการเปิดใช้งาน {{ bioType }} เพื่อปลดล็อก JiuCheng Wallet หรือไม่?"
         }
       },
       "unlocking": "กำลังปลดล็อก"
@@ -1624,7 +1624,7 @@
         "title3": "ความปลอดภัย",
         "description2": "หากคุณสูญเสีย seed phrase คุณจะไม่สามารถกู้คืนกระเป๋าเงินของคุณได้",
         "description3": "ห้ามแชร์ Seed Phrase ของคุณเด็ดขาด เพราะผู้ที่เข้าถึงได้สามารถควบคุมเงินทุนของคุณ",
-        "description4": "Seed Phrase ของคุณจะถูกจัดเก็บไว้ในอุปกรณ์และเข้ารหัสด้วยรหัสผ่าน มีเพียงคุณเท่านั้นที่เข้าถึงได้ XiaoHua Wallet ไม่สามารถเรียกคืนหรือเข้าถึง Seed Phrase ของคุณได้",
+        "description4": "Seed Phrase ของคุณจะถูกจัดเก็บไว้ในอุปกรณ์และเข้ารหัสด้วยรหัสผ่าน มีเพียงคุณเท่านั้นที่เข้าถึงได้ JiuCheng Wallet ไม่สามารถเรียกคืนหรือเข้าถึง Seed Phrase ของคุณได้",
         "description1": "Seed Phrase คือชุดคำที่ใช้เข้าถึงและควบคุมกระเป๋าเงินของคุณ และใช้กู้คืนกระเป๋าเงินบนอุปกรณ์ใดก็ได้"
       },
       "ledger": {
@@ -1667,7 +1667,7 @@
         },
         "isItSafeToImportItInRabby": {
           "answer": "ใช่ จะถูกเก็บไว้ในโทรศัพท์ของคุณและสามารถเข้าถึงได้เฉพาะคุณเท่านั้น",
-          "question": "นำเข้าคีย์ส่วนตัวใน XiaoHua Wallet ปลอดภัยหรือไม่?"
+          "question": "นำเข้าคีย์ส่วนตัวใน JiuCheng Wallet ปลอดภัยหรือไม่?"
         },
         "repeatImportTips": "กระเป๋าเงินนี้ได้ถูกนำเข้าแล้ว"
       },
@@ -1718,11 +1718,11 @@
         },
         "isItSafeToImportItInRabby": {
           "answer": "ใช่ มันจะถูกเก็บไว้ในโทรศัพท์ของคุณและสามารถเข้าถึงได้เฉพาะคุณเท่านั้น",
-          "question": "นำเข้าสู่ XiaoHua Wallet ปลอดภัยหรือไม่?"
+          "question": "นำเข้าสู่ JiuCheng Wallet ปลอดภัยหรือไม่?"
         },
-        "importQuestion3": "หากฉันไม่ได้สำรองข้อมูล seed phrase และแอปถูกลบโดยไม่ตั้งใจ อุปกรณ์สูญหาย หรือจำเป็นต้องติดตั้งใหม่ XiaoHua Wallet จะไม่สามารถกู้คืนให้ฉันได้",
+        "importQuestion3": "หากฉันไม่ได้สำรองข้อมูล seed phrase และแอปถูกลบโดยไม่ตั้งใจ อุปกรณ์สูญหาย หรือจำเป็นต้องติดตั้งใหม่ JiuCheng Wallet จะไม่สามารถกู้คืนให้ฉันได้",
         "riskTips": "ก่อนที่คุณจะเริ่ม กรุณาอ่านและจดจำเคล็ดลับความปลอดภัยต่อไปนี้ไว้ในใจ",
-        "importQuestion2": "Seed Phrase จะถูกจัดเก็บไว้ในโทรศัพท์ของฉันเท่านั้น และ XiaoHua Wallet ไม่สามารถเข้าถึงได้",
+        "importQuestion2": "Seed Phrase จะถูกจัดเก็บไว้ในโทรศัพท์ของฉันเท่านั้น และ JiuCheng Wallet ไม่สามารถเข้าถึงได้",
         "passwordMinTip": "ต้องมีอย่างน้อย 8 อักขระ",
         "backupFailedButton": "ลองใหม่",
         "backupUnlockButton": "ดำเนินการต่อ",
@@ -1750,7 +1750,7 @@
         "chooseBackupMethodDesc": "ข้อมูลสำรองช่วยให้คุณกู้คืนกระเป๋าเงินได้หากลบแอปหรือทำอุปกรณ์สูญหาย",
         "backupFailedTitle": "การสำรองข้อมูลล้มเหลว",
         "backupUploadToGDrive": "กำลังสำรองข้อมูลไปยัง Google Drive...",
-        "backupUnlockDesc": "เก็บรหัสผ่านของคุณให้ปลอดภัยเพื่อใช้กู้คืนข้อมูลสำรอง XiaoHua Wallet จะไม่จัดเก็บและไม่สามารถกู้คืนรหัสผ่านนี้ให้ได้",
+        "backupUnlockDesc": "เก็บรหัสผ่านของคุณให้ปลอดภัยเพื่อใช้กู้คืนข้อมูลสำรอง JiuCheng Wallet จะไม่จัดเก็บและไม่สามารถกู้คืนรหัสผ่านนี้ให้ได้",
         "backupRestoreUnlockDesc": "ใช้รหัสผ่านเดียวกันที่คุณตั้งไว้เพื่อเข้ารหัสการสำรองข้อมูลของคุณ",
         "backupErrorCloudNotAvailable": "iCloud ใช้งานไม่ได้",
         "addMoreWalletTitle": "เพิ่มกระเป๋าเงินเพิ่มเติม\nจากวลีนี้"
@@ -1819,7 +1819,7 @@
         "title": "กุญแจส่วนตัวคืออะไร",
         "description3": "ห้ามแชร์คีย์ส่วนตัวของคุณเด็ดขาด เพราะผู้ที่เข้าถึงได้สามารถควบคุมเงินทุนของคุณ",
         "description1": "คีย์ส่วนตัวคือชุดของตัวอักษรและตัวเลขที่ใช้ในการเข้าถึงและควบคุมกระเป๋าเงินของคุณ คุณสามารถใช้มันในการกู้คืนกระเป๋าเงินของคุณบนอุปกรณ์ใดก็ได้",
-        "description4": "คีย์ส่วนตัวของคุณจะถูกจัดเก็บไว้ในอุปกรณ์และเข้ารหัสด้วยรหัสผ่าน มีเพียงคุณเท่านั้นที่เข้าถึงได้ XiaoHua Wallet ไม่สามารถเรียกคืนหรือเข้าถึงคีย์ส่วนตัวของคุณได้",
+        "description4": "คีย์ส่วนตัวของคุณจะถูกจัดเก็บไว้ในอุปกรณ์และเข้ารหัสด้วยรหัสผ่าน มีเพียงคุณเท่านั้นที่เข้าถึงได้ JiuCheng Wallet ไม่สามารถเรียกคืนหรือเข้าถึงคีย์ส่วนตัวของคุณได้",
         "description2": "หากคุณทำคีย์ส่วนตัวสูญหาย คุณจะไม่สามารถกู้คืนกระเป๋าเงินได้",
         "ButtonGotIt": "ฉันเข้าใจแล้ว."
       },
@@ -1873,7 +1873,7 @@
         "quickAdd": "เพิ่มอย่างรวดเร็วจาก Chainlist",
         "title": "เพิ่มเครือข่ายที่กำหนดเอง"
       },
-      "desc": "เมื่อตั้งค่าใหม่แล้ว RPC ที่กำหนดเองจะแทนที่โหนดของ XiaoHua Wallet หากต้องการใช้โหนดของ XiaoHua Wallet ต่อไป ให้ลบ RPC ที่กำหนดเองออก"
+      "desc": "เมื่อตั้งค่าใหม่แล้ว RPC ที่กำหนดเองจะแทนที่โหนดของ JiuCheng Wallet หากต้องการใช้โหนดของ JiuCheng Wallet ต่อไป ให้ลบ RPC ที่กำหนดเองออก"
     },
     "backupPrivateKey": {
       "clickToShowQr": "คลิกเพื่อแสดงรหัส QR ของคีย์ส่วนตัว",
@@ -1895,7 +1895,7 @@
       "confirmTitle": "ยืนยันรหัสผ่าน",
       "passwordPlaceholder": "รหัสผ่านต้องมีความยาวอย่างน้อย 8 ตัวอักษร",
       "settingUp": "การตั้งรหัสผ่าน",
-      "confirmModalDesc": "โปรดเก็บรักษารหัสผ่านของคุณให้ดี หากสูญหาย ไม่สามารถเปลี่ยนหรือกู้คืนได้โดย XiaoHua Wallet",
+      "confirmModalDesc": "โปรดเก็บรักษารหัสผ่านของคุณให้ดี หากสูญหาย ไม่สามารถเปลี่ยนหรือกู้คืนได้โดย JiuCheng Wallet",
       "setWallet": "ตั้งค่ากระเป๋าเงิน",
       "passwordMinTip": "ต้องมีอย่างน้อย 8 ตัวอักษร",
       "passwordMin": "รหัสผ่านต้องมีความยาวอย่างน้อย 8 ตัวอักษร",
@@ -1920,7 +1920,7 @@
     },
     "rabbyPoints": {
       "earn-points": "รับคะแนน",
-      "title": "XiaoHua Wallet Points",
+      "title": "JiuCheng Wallet Points",
       "claimItem": {
         "claim": "รับ"
       },
@@ -1929,19 +1929,19 @@
         "invalid-code": "โค้ดไม่ถูกต้อง",
         "claim": "รับ",
         "MetaMaskSwap": "MetaMask Swap",
-        "rabbyDesktopGenesisNft": "XiaoHua Wallet Desktop Genesis NFT",
+        "rabbyDesktopGenesisNft": "JiuCheng Wallet Desktop Genesis NFT",
         "addressBalance": "ยอดคงเหลือกระเป๋าสตางค์",
-        "rabbyValuedUserBadge": "ตราผู้ใช้ทรงคุณค่าของ XiaoHua Wallet",
+        "rabbyValuedUserBadge": "ตราผู้ใช้ทรงคุณค่าของ JiuCheng Wallet",
         "placeholder": "ป้อนรหัสแนะนำเพื่อรับคะแนนพิเศษ (เลือกใส่)",
         "snapshotTime": "เวลาสแนปช็อต: {{time}}",
-        "rabbyUser": "ผู้ใช้ XiaoHua Wallet ที่ใช้งานอยู่",
+        "rabbyUser": "ผู้ใช้ JiuCheng Wallet ที่ใช้งานอยู่",
         "title": "รับคะแนนเริ่มต้น",
         "referral-code": "รหัสแนะนำ"
       },
       "initialPointsClaimEnded": "สิ้นสุดการรับคะแนนเริ่มต้นแล้ว",
       "top-100": "100 อันดับแรก",
       "code-set-successfully": "ตั้งรหัสแนะนำเรียบร้อยแล้ว",
-      "firstRoundEnded": "🎉 รอบแรกของ XiaoHua Wallet Points ได้สิ้นสุดลง",
+      "firstRoundEnded": "🎉 รอบแรกของ JiuCheng Wallet Points ได้สิ้นสุดลง",
       "referralCode": {
         "my-referral-code": "รหัสแนะนำของฉัน",
         "refer-a-new-user-to-get-50-points": "แนะนำผู้ใช้ใหม่เพื่อรับ 50 คะแนน",
@@ -2078,7 +2078,7 @@
         "token": "โทเค็น",
         "invalidAmount": "ต้องต่ำกว่า 500",
         "zeroInvalidAmount": "จำนวนเงินต้องไม่เป็นศูนย์",
-        "desc": "ฝากเงินเข้าบัญชี DeBank L2 ของ XiaoHua Wallet โดยไม่มีค่าธรรมเนียมเพิ่มเติม และถอนได้ทุกเมื่อ",
+        "desc": "ฝากเงินเข้าบัญชี DeBank L2 ของ JiuCheng Wallet โดยไม่มีค่าธรรมเนียมเพิ่มเติม และถอนได้ทุกเมื่อ",
         "followingTokenInSufficient": "ยอดคงเหลือโทเค็นต่อไปนี้ไม่เพียงพอ",
         "googlePayDesc": "รวมค่าธรรมเนียม Google Pay ${{ amount }} ไม่สามารถถอนเงินได้",
         "applePayDesc": "รวมค่าธรรมเนียม Apple Pay ${{amount}} และไม่สามารถถอนเงินได้",
@@ -2166,7 +2166,7 @@
       "loginSuccess": "ล็อกอินสำเร็จ",
       "withdrawDisabledIAP": "การถอนถูกปิดใช้งานเพราะยอดเงินของคุณมีเงินคำสั่งซึ่งไม่สามารถถอนได้ ติดต่อฝ่ายสนับสนุนเพื่อถอนยอดโทเค็นของคุณ",
       "benefitCard": {
-        "item1": "ไม่มีค่าธรรมเนียม XiaoHua Wallet",
+        "item1": "ไม่มีค่าธรรมเนียม JiuCheng Wallet",
         "desc1": "ไม่ต้องจ่ายค่าธรรมเนียมเพิ่มเติมสำหรับการจ่าย gas",
         "item2": "รองรับทุกเครือข่าย",
         "desc2": "การชำระค่า Gas อัตโนมัติบน 80+ เครือข่าย",
@@ -2184,8 +2184,8 @@
       "depositWith": "ฝากผ่าน"
     },
     "addChain": {
-      "title": "เพิ่มเครือข่ายที่กำหนดเองไปยัง XiaoHua Wallet",
-      "desc": "XiaoHua Wallet ไม่สามารถตรวจสอบความปลอดภัยของเครือข่ายที่กำหนดเองได้ กรุณาเพิ่มเฉพาะเครือข่ายที่เชื่อถือได้เท่านั้น"
+      "title": "เพิ่มเครือข่ายที่กำหนดเองไปยัง JiuCheng Wallet",
+      "desc": "JiuCheng Wallet ไม่สามารถตรวจสอบความปลอดภัยของเครือข่ายที่กำหนดเองได้ กรุณาเพิ่มเฉพาะเครือข่ายที่เชื่อถือได้เท่านั้น"
     },
     "customTestnet": {
       "currency": "สกุลเงิน",
@@ -2203,7 +2203,7 @@
         "rpcUrlRequired": "กรุณาใส่ URL RPC"
       },
       "add": "เพิ่มเครือข่ายที่กำหนดเอง",
-      "desc": "XiaoHua Wallet ไม่สามารถยืนยันความปลอดภัยของเครือข่ายที่กำหนดเองได้ กรุณาเพิ่มเครือข่ายที่เชื่อถือได้เท่านั้น",
+      "desc": "JiuCheng Wallet ไม่สามารถยืนยันความปลอดภัยของเครือข่ายที่กำหนดเองได้ กรุณาเพิ่มเครือข่ายที่เชื่อถือได้เท่านั้น",
       "signTx": {
         "title": "ข้อมูลธุรกรรม"
       },
@@ -2213,11 +2213,11 @@
         "title": "เพิ่มอย่างรวดเร็วจาก Chainlist",
         "tips": {
           "added": "คุณได้เพิ่ม chain นี้แล้ว",
-          "supported": "XiaoHua Wallet รองรับเชนนี้แล้ว"
+          "supported": "JiuCheng Wallet รองรับเชนนี้แล้ว"
         }
       },
       "ConfirmModifyRpcModal": {
-        "desc": "XiaoHua Wallet ได้รวมเชนนี้แล้ว คุณต้องการแก้ไข URL RPC หรือไม่?"
+        "desc": "JiuCheng Wallet ได้รวมเชนนี้แล้ว คุณต้องการแก้ไข URL RPC หรือไม่?"
       },
       "addToken": {
         "title": "เพิ่มโทเค็นเครือข่ายที่กำหนดเอง",
@@ -2384,7 +2384,7 @@
       "clearPending": "ล้างธุรกรรมที่รอดำเนินการในเครื่อง",
       "addCustomNetwork": "เพิ่มเครือข่ายที่กำหนดเอง",
       "enableWhitelist": "เปิดใช้งานรายชื่อที่อนุญาตสำหรับการส่งสินทรัพย์",
-      "clearPendingDesc1": "วิธีนี้จะล้างธุรกรรมที่ยังค้างอยู่ทั้งหมดของคุณ สิ่งนี้สามารถช่วยคุณแก้ปัญหาที่ในบางกรณีสถานะของธุรกรรมใน XiaoHua Wallet ไม่ตรงกับสถานะบนเชน",
+      "clearPendingDesc1": "วิธีนี้จะล้างธุรกรรมที่ยังค้างอยู่ทั้งหมดของคุณ สิ่งนี้สามารถช่วยคุณแก้ปัญหาที่ในบางกรณีสถานะของธุรกรรมใน JiuCheng Wallet ไม่ตรงกับสถานะบนเชน",
       "clearPendingDesc2": "การดำเนินการนี้จะไม่เปลี่ยนยอดคงเหลือในบัญชีหรือกำหนดให้คุณต้องป้อน Seed Phrase ใหม่ ข้อมูลสินทรัพย์และบัญชีทั้งหมดของคุณจะยังคงปลอดภัย",
       "followUs": "ติดตามเรา",
       "currentLanguage": "ภาษาปัจจุบัน",
@@ -2526,14 +2526,14 @@
     "syncExtension": {
       "syncingTips": "ถือกล้องให้นิ่งจนกว่าการสแกนจะเสร็จสิ้น",
       "importedSuccessfully": "นำเข้าเรียบร้อยแล้ว!",
-      "newUserVerify": "มันยังใช้เป็นรหัสผ่านเริ่มต้นสำหรับ XiaoHua Wallet ของคุณ",
+      "newUserVerify": "มันยังใช้เป็นรหัสผ่านเริ่มต้นสำหรับ JiuCheng Wallet ของคุณ",
       "syncingProgress": "กำลังสแกน ({{ percent }})",
-      "scanTips1": "คลิก “Mobile Sync” บน XiaoHua Wallet Extension",
-      "verifyWithPassword": "ยืนยันด้วยรหัสผ่าน XiaoHua Wallet Extension ของคุณ",
+      "scanTips1": "คลิก “Mobile Sync” บน JiuCheng Wallet Extension",
+      "verifyWithPassword": "ยืนยันด้วยรหัสผ่าน JiuCheng Wallet Extension ของคุณ",
       "noNewAddr": "ไม่พบที่อยู่ใหม่สำหรับนำเข้า",
       "scanTips2": "สแกนโค้ดและเริ่มการซิงค์",
-      "verifyTips": "ข้อมูลของคุณถูกเข้ารหัสแบบออฟไลน์ กรุณากรอกรหัสผ่าน XiaoHua Wallet Extension ของคุณเพื่อถอดรหัสและตรวจสอบ",
-      "imported": "ที่อยู่ใน XiaoHua Wallet อยู่แล้วจะไม่ถูกนำเข้าอีกครั้ง หมายเหตุที่อยู่และรายการที่อนุญาตจะซิงค์โดยอัตโนมัติ",
+      "verifyTips": "ข้อมูลของคุณถูกเข้ารหัสแบบออฟไลน์ กรุณากรอกรหัสผ่าน JiuCheng Wallet Extension ของคุณเพื่อถอดรหัสและตรวจสอบ",
+      "imported": "ที่อยู่ใน JiuCheng Wallet อยู่แล้วจะไม่ถูกนำเข้าอีกครั้ง หมายเหตุที่อยู่และรายการที่อนุญาตจะซิงค์โดยอัตโนมัติ",
       "importedTips": "หากแอปมีที่อยู่ซ้ำอยู่แล้ว จะไม่ถูกนำเข้า หมายเหตุที่อยู่และรายชื่อที่อนุญาตจะซิงค์ด้วย"
     },
     "safeMessageQueue": {
@@ -2594,9 +2594,9 @@
       "HyperliquidInvitePopup": {
         "btn": "เข้าร่วมตอนนี้",
         "title": "โปรแกรมแนะนำ Hyperliquid",
-        "desc": "เข้าร่วมตอนนี้โดยใช้รหัสของ XiaoHua Wallet เพื่อรับส่วนลด <1>4%</1> สำหรับค่าธรรมเนียม Hyperliquid ของคุณ",
+        "desc": "เข้าร่วมตอนนี้โดยใช้รหัสของ JiuCheng Wallet เพื่อรับส่วนลด <1>4%</1> สำหรับค่าธรรมเนียม Hyperliquid ของคุณ",
         "asterTitle": "โปรแกรมแนะนำของ Aster",
-        "asterDesc": "เข้าร่วมตอนนี้โดยใช้รหัสของ XiaoHua Wallet เพื่อรับส่วนลด <1>4%</1> สำหรับค่าธรรมเนียม Aster ของคุณ"
+        "asterDesc": "เข้าร่วมตอนนี้โดยใช้รหัสของ JiuCheng Wallet เพื่อรับส่วนลด <1>4%</1> สำหรับค่าธรรมเนียม Aster ของคุณ"
       },
       "WebviewError": {
         "failedToLoad": "ไม่สามารถโหลดหน้าเว็บได้",
@@ -2851,7 +2851,7 @@
         "gotItBtn": "เข้าใจแล้ว",
         "sizeTips": "มูลค่าหรือปริมาณรวมของการเทรดของคุณ ซึ่งกำหนดโดยมาร์จิ้นและเลเวอเรจ.",
         "feeTitle": "ค่าธรรมเนียม",
-        "feeRabby": "XiaoHua Wallet",
+        "feeRabby": "JiuCheng Wallet",
         "feeRabbyDiscount": "ส่วนลดค่าธรรมเนียมการเทรดแบบจำกัดเวลา",
         "feeHyperliquid": "Hyperliquid",
         "feeDesc": "เมื่อผู้ใช้ทำการซื้อขาย จะมีทั้ง <1>ค่าธรรมเนียมการซื้อขาย</1> และ <2>ค่าธรรมเนียม Builder</2>",
@@ -2976,7 +2976,7 @@
       },
       "invitePopup": {
         "activateFailed": "ล้มเหลว",
-        "description": "ใช้รหัสของ XiaoHua Wallet เพื่อเปิดใช้งาน",
+        "description": "ใช้รหัสของ JiuCheng Wallet เพื่อเปิดใช้งาน",
         "title": "ประหยัดค่าธรรมเนียม Hyperliquid",
         "hyperliquidFee": "ค่าธรรมเนียมการซื้อขาย Hyperliquid",
         "activatedFailed": "การเปิดใช้งานล้มเหลว",
@@ -3091,7 +3091,7 @@
         "closeBtn": "ปิด {{direction}}",
         "providerFeeTips": "ค่าธรรมเนียม Hyperliquid: {{fee}}",
         "fee": "ค่าธรรมเนียม",
-        "rabbyFeeTips": "ค่าธรรมเนียม XiaoHua Wallet: 0.04%",
+        "rabbyFeeTips": "ค่าธรรมเนียม JiuCheng Wallet: 0.04%",
         "positionSize": "ขนาดตำแหน่ง",
         "pnl": "PNL",
         "total": "ทั้งหมด",
@@ -3100,7 +3100,7 @@
         "minimumWarning": "จำนวนขั้นต่ำคือ {{percent}}%",
         "receive": "รับ",
         "closedPnl": "PNL จากการปิดโพซิชัน",
-        "rabbyFeeTipsV2": "ค่าธรรมเนียม XiaoHua Wallet: 0.02%"
+        "rabbyFeeTipsV2": "ค่าธรรมเนียม JiuCheng Wallet: 0.02%"
       },
       "PerpsOpenPositionPopup": {
         "title": "เปิดโพซิชัน {{coin}}",
@@ -3156,12 +3156,12 @@
         "price": "ราคา",
         "sizeTips": "มูลค่าหรือปริมาณรวมของการเทรด ซึ่งกำหนดจากมาร์จิ้นและเลเวอเรจ",
         "liquidationPriceTips": "ราคาที่เอ็กซ์เชนจ์ปิดโพซิชันของคุณโดยอัตโนมัติเพื่อป้องกันการขาดทุนเพิ่มเติม เมื่อมาร์จิ้นต่ำกว่าระดับมาร์จิ้นรักษาสภาพ",
-        "rabbyFeeTips": "ค่าธรรมเนียม XiaoHua Wallet: 0%",
+        "rabbyFeeTips": "ค่าธรรมเนียม JiuCheng Wallet: 0%",
         "margin": "มาร์จิ้น (แยก)",
         "providerFeeTips": "ค่าธรรมเนียม Hyperliquid: {{fee}}",
         "perps": "Perps",
         "free": "ฟรี",
-        "rabbyFee": "ค่าธรรมเนียม XiaoHua Wallet",
+        "rabbyFee": "ค่าธรรมเนียม JiuCheng Wallet",
         "providerFee": "ค่าธรรมเนียม Hyperliquid",
         "marginCross": "มาร์จิ้น (Cross)"
       },
@@ -3576,9 +3576,9 @@
     },
     "newUserOnboarding": {
       "restoreWallet": {
-        "title": "กู้คืนกระเป๋าเงิน XiaoHua Wallet ของคุณ",
+        "title": "กู้คืนกระเป๋าเงิน JiuCheng Wallet ของคุณ",
         "subtitle": "ยินดีต้อนรับกลับมา! 🎉  \nเลือกวิธีการเพื่อกู้คืนกระเป๋าเงินของคุณอย่างรวดเร็ว",
-        "subtitleInApp": "เลือกตัวเลือกด้านล่างเพื่อนำเข้ากระเป๋าเงินของคุณอย่างรวดเร็วจากส่วนขยาย XiaoHua Wallet หรือ iCloud"
+        "subtitleInApp": "เลือกตัวเลือกด้านล่างเพื่อนำเข้ากระเป๋าเงินของคุณอย่างรวดเร็วจากส่วนขยาย JiuCheng Wallet หรือ iCloud"
       },
       "common": {
         "orYouCanCreateNewWallet": "หรือคุณสามารถ <clickable>สร้างกระเป๋าเงินใหม่</clickable> ได้"
@@ -3651,7 +3651,7 @@
     },
     "walletConnect": {
       "screenTitle": "เชื่อมต่อวอลเล็ต",
-      "connectingToRabby": "กำลังเชื่อมต่อกับ XiaoHua Wallet",
+      "connectingToRabby": "กำลังเชื่อมต่อกับ JiuCheng Wallet",
       "pairingFailed": "การจับคู่ WalletConnect ล้มเหลว",
       "connected": "เชื่อมต่อสำเร็จ โปรดกลับไปที่ DApp",
       "proposalExpired": "ข้อเสนอ WalletConnect หมดอายุแล้ว",
@@ -3684,7 +3684,7 @@
     },
     "authentication": {
       "auth_prompt_cancel": "ยกเลิก",
-      "auth_prompt_desc": "โปรดรับรองตัวตนเพื่อใช้งาน XiaoHua Wallet",
+      "auth_prompt_desc": "โปรดรับรองตัวตนเพื่อใช้งาน JiuCheng Wallet",
       "auth_prompt_title": "ต้องการการพิสูจน์ตัวตน"
     }
   },
@@ -3710,7 +3710,7 @@
       "hour": "{{t}} ชั่วโมง"
     },
     "Cancel": "ยกเลิก",
-    "appName": "XiaoHua Wallet",
+    "appName": "JiuCheng Wallet",
     "cancel": "ยกเลิก",
     "next": "ถัดไป",
     "proceedButton": "ดำเนินการ",
@@ -3844,10 +3844,10 @@
       "message": "ดูวิธีการอัปเดตเฟิร์มแวร์ Ledger จากการสนับสนุนของ Ledger"
     },
     "permissions_alert": {
-      "title": "\"XiaoHua Wallet\" ต้องการใช้บลูทูธ",
+      "title": "\"JiuCheng Wallet\" ต้องการใช้บลูทูธ",
       "open_settings": "OK",
       "cancel": "ไม่อนุญาต",
-      "message": "XiaoHua Wallet ใช้การเข้าถึงบลูทูธเพื่อเชื่อมต่อ Ledger"
+      "message": "JiuCheng Wallet ใช้การเข้าถึงบลูทูธเพื่อเชื่อมต่อ Ledger"
     }
   },
   "common": {

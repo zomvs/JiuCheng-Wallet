@@ -1,8 +1,8 @@
 <svg width="128" height="100" viewBox="0 0 128 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="88" cy="24" r="17" fill="#DDF8F1"/>
-  <circle cx="27" cy="78" r="14" fill="#E8EAFF"/>
-  <rect x="34" y="15" width="66" height="66" rx="21" transform="rotate(10 34 15)" fill="#B9C1FF"/>
-  <rect x="27" y="12" width="66" height="66" rx="21" fill="url(#paint0)"/>
-  <path d="M41 29L58 61M58 29L41 61M66 29V61M81 29V61M66 45H81" stroke="white" stroke-width="5.5" stroke-linecap="round"/>
-  <defs><linearGradient id="paint0" x1="31" y1="17" x2="89" y2="74" gradientUnits="userSpaceOnUse"><stop stop-color="#5367FF"/><stop offset="0.55" stop-color="#7357F6"/><stop offset="1" stop-color="#16C7A3"/></linearGradient></defs>
+  <circle cx="93" cy="25" r="16" fill="#DDF1EB"/>
+  <circle cx="24" cy="79" r="13" fill="#E9EFED"/>
+  <rect x="37" y="17" width="66" height="66" rx="21" transform="rotate(9 37 17)" fill="#C7DED7"/>
+  <rect x="29" y="12" width="66" height="66" rx="21" fill="#1D2D50"/>
+  <path d="M57 29V50C57 58 53 62 47 62C42 62 39 59 37 55" stroke="#F7F5EF" stroke-width="5.5" stroke-linecap="round"/>
+  <path d="M88 35C84 31 80 29 75 29C66 29 60 36 60 45C60 54 66 61 75 61C80 61 84 59 88 55" stroke="#8BCBB7" stroke-width="5.5" stroke-linecap="round"/>
 </svg>

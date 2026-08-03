@@ -138,10 +138,10 @@
     "getStart": {
       "goToHome": "홈으로 이동",
       "alreadyHaveAddress": "저는 이미 지갑이 있습니다.",
-      "sync": "XiaoHua Wallet 확장 지갑 동기화를 위해 스캔하세요",
+      "sync": "JiuCheng Wallet 확장 지갑 동기화를 위해 스캔하세요",
       "createNewAddress": "새 지갑 만들기",
-      "welcomeTitle": "XiaoHua Wallet에 오신 것을 환영합니다",
-      "alreadyUseRabby": "이미 XiaoHua Wallet를 사용 중입니다"
+      "welcomeTitle": "JiuCheng Wallet에 오신 것을 환영합니다",
+      "alreadyUseRabby": "이미 JiuCheng Wallet를 사용 중입니다"
     },
     "importSeedPhrase": {
       "enterYourSeedPhrase": "시드 구문을 입력하고 각 단어를 공백으로 구분하세요"
@@ -407,7 +407,7 @@
         "title": "토큰 스왑 및 크로스 체인"
       },
       "safeAdminSigned": "서명됨",
-      "eip1559Desc2": "XiaoHua Wallet에서는 우선 수수료(Priority Fee, Tip) = 최대 수수료(Max Fee) - 기본 수수료(Base Fee)입니다. 최대 우선 수수료(Max Priority Fee)를 설정한 후 기본 수수료(Base Fee)가 차감되고 나머지는 채굴자들에게 팁으로 전달됩니다.",
+      "eip1559Desc2": "JiuCheng Wallet에서는 우선 수수료(Priority Fee, Tip) = 최대 수수료(Max Fee) - 기본 수수료(Base Fee)입니다. 최대 우선 수수료(Max Priority Fee)를 설정한 후 기본 수수료(Base Fee)가 차감되고 나머지는 채굴자들에게 팁으로 전달됩니다.",
       "gasAccountForGas": "GasAccount에서 USD를 사용하여 가스비를 지불합니다.",
       "eip1559Desc1": "EIP-1559를 지원하는 체인에서 우선 수수료는 거래를 처리하는 채굴자에게 주는 팁입니다. 우선 수수료를 낮추면 최종 가스 비용을 절약할 수 있지만, 거래 처리 시간이 더 오래 걸릴 수 있습니다.",
       "balanceChange": {
@@ -420,7 +420,7 @@
       "gasLimitNotEnough": "Gas 한도가 21000보다 낮습니다. 거래를 제출할 수 없습니다.",
       "customRPCErrorModal": {
         "button": "사용자 정의 RPC 비활성화",
-        "content": "귀하의 사용자 지정 RPC는 현재 사용할 수 없습니다. 이를 비활성화하고 XiaoHua Wallet의 공식 RPC를 사용하여 서명을 계속할 수 있습니다.",
+        "content": "귀하의 사용자 지정 RPC는 현재 사용할 수 없습니다. 이를 비활성화하고 JiuCheng Wallet의 공식 RPC를 사용하여 서명을 계속할 수 있습니다.",
         "title": "사용자 지정 RPC 오류"
       },
       "markRemoved": "표시가 삭제되었습니다",
@@ -442,7 +442,7 @@
       "trustValueTitle": "신뢰도",
       "label": "레이블",
       "nftCollection": "NFT 컬렉션",
-      "sigCantDecode": "이 서명은 XiaoHua Wallet에서 디코딩할 수 없습니다.",
+      "sigCantDecode": "이 서명은 JiuCheng Wallet에서 디코딩할 수 없습니다.",
       "swap": {
         "receiver": "수신자",
         "failLoadReceiveToken": "로드 실패",
@@ -612,7 +612,7 @@
         "eoaAddress": "EOA",
         "title": "토큰 승인",
         "approveTo": "에 승인",
-        "flagByRabby": "XiaoHua Wallet에 의해 플래그됨",
+        "flagByRabby": "JiuCheng Wallet에 의해 플래그됨",
         "deployTimeLessThan": "< {{value}}일",
         "approveToken": "토큰 승인",
         "myBalance": "내 잔액",
@@ -642,9 +642,9 @@
       "blocked": "차단됨",
       "safeTx": {
         "selfHostConfirm": {
-          "title": "XiaoHua Wallet의 안전 서비스로 전환하십시오.",
+          "title": "JiuCheng Wallet의 안전 서비스로 전환하십시오.",
           "button": "OK",
-          "content": "Safe API를 사용할 수 없습니다. Safe 기능을 유지하려면 XiaoHua Wallet가 배포한 Safe 서비스를 사용하세요. <1></1><2>모든 Safe 서명자는 거래를 승인하기 위해 XiaoHua Wallet을 사용해야 합니다.</2>"
+          "content": "Safe API를 사용할 수 없습니다. Safe 기능을 유지하려면 JiuCheng Wallet가 배포한 Safe 서비스를 사용하세요. <1></1><2>모든 Safe 서명자는 거래를 승인하기 위해 JiuCheng Wallet을 사용해야 합니다.</2>"
         }
       },
       "errorRetry": {
@@ -701,7 +701,7 @@
       "pendingTip": "트랜잭션이 제출되었습니다. 트랜잭션이 오랜 시간 동안 대기 중인 경우 설정에서 대기 중을 삭제해보세요.",
       "Auto": "자동",
       "to": "에게",
-      "no-fees-for-wrap": "XiaoHua Wallet의 Wrap 수수료 없음",
+      "no-fees-for-wrap": "JiuCheng Wallet의 Wrap 수수료 없음",
       "wrap-contract": "래핑 계약",
       "by-transaction-simulation-the-quote-is-valid": "거래 시뮬레이션에 의해, 견적이 유효합니다.",
       "security-verification-failed": "보안 인증 실패",
@@ -722,9 +722,9 @@
         "rate": "수수료율",
         "wallet": "지갑",
         "button": "이해했습니다",
-        "title": "XiaoHua Wallet 수수료",
-        "bridgeDesc": "XiaoHua Wallet은 항상 최고의 애그리게이터에서 최상의 요율을 찾아 제공의 신뢰성을 검증합니다. XiaoHua Wallet는 <1>0.25%</1>의 수수료를 부과하며, 이는 견적에 자동으로 포함됩니다.",
-        "swapDesc": "XiaoHua Wallet은 항상 최고의 애그리게이터에서 가능한 최상의 비율을 찾고 그들의 제안의 신뢰성을 검증합니다. XiaoHua Wallet는 <1>0.25%</1>의 수수료(래핑의 경우 0%)를 부과하며, 이는 견적에 자동으로 포함됩니다."
+        "title": "JiuCheng Wallet 수수료",
+        "bridgeDesc": "JiuCheng Wallet은 항상 최고의 애그리게이터에서 최상의 요율을 찾아 제공의 신뢰성을 검증합니다. JiuCheng Wallet는 <1>0.25%</1>의 수수료를 부과하며, 이는 견적에 자동으로 포함됩니다.",
+        "swapDesc": "JiuCheng Wallet은 항상 최고의 애그리게이터에서 가능한 최상의 비율을 찾고 그들의 제안의 신뢰성을 검증합니다. JiuCheng Wallet는 <1>0.25%</1>의 수수료(래핑의 경우 0%)를 부과하며, 이는 견적에 자동으로 포함됩니다."
       },
       "swapped": "스왑 완료",
       "historyTitle": "스왑 기록",
@@ -750,7 +750,7 @@
         },
         "empty": {
           "title": "아직 서명된 거래 없음",
-          "desc": "XiaoHua Wallet를 통해 서명된 모든 거래가 여기에 나열됩니다.",
+          "desc": "JiuCheng Wallet를 통해 서명된 모든 거래가 여기에 나열됩니다.",
           "titleLastThreeMonths": "90일 이내 거래 내역 없음",
           "testnetNoHistory": "사용자 정의 토큰 거래 내역을 사용할 수 없습니다."
         },
@@ -922,7 +922,7 @@
       "quickAddressTitle_one": "{{count}} 주소",
       "quickAddressTitle_other": "{{count}} 주소",
       "add-address": "지갑 추가",
-      "delete-checklist-1": "저는 이 지갑을 삭제하면 해당 개인 키와 시드 구문이 삭제되며, XiaoHua Wallet가 이를 복구할 수 없다는 것을 이해합니다.",
+      "delete-checklist-1": "저는 이 지갑을 삭제하면 해당 개인 키와 시드 구문이 삭제되며, JiuCheng Wallet가 이를 복구할 수 없다는 것을 이해합니다.",
       "delete-private-key-title": "지갑 및 개인 키 삭제",
       "delete-seed-phrase-title": "지갑 및 시드 문구 삭제",
       "delete-title": "지갑 삭제"
@@ -938,8 +938,8 @@
         "swap": "스왑",
         "customized": "맞춤형",
         "noTransactions": "거래 없음",
-        "selectedCustom": "토큰이 XiaoHua Wallet에 의해 나열되지 않았습니다. 사용자가 직접 토큰 목록에 추가했습니다.",
-        "notSelectedCustom": "XiaoHua Wallet에 의해 토큰이 나열되지 않았습니다. 켜면 토큰 목록에 추가됩니다.",
+        "selectedCustom": "토큰이 JiuCheng Wallet에 의해 나열되지 않았습니다. 사용자가 직접 토큰 목록에 추가했습니다.",
+        "notSelectedCustom": "JiuCheng Wallet에 의해 토큰이 나열되지 않았습니다. 켜면 토큰 목록에 추가됩니다.",
         "send": "전송",
         "blockedTip": "차단된 토큰은 토큰 목록에 표시되지 않습니다."
       },
@@ -948,7 +948,7 @@
         "disableWhitelist": "허용 목록 비활성화",
         "cancel": "취소",
         "disableWhitelistTip": "비활성화되면 자산을 임의의 주소로 보낼 수 있습니다.",
-        "enableWhitelistTip": "활성화하면 XiaoHua Wallet에서 허용 목록에 있는 주소로만 자산을 보낼 수 있습니다."
+        "enableWhitelistTip": "활성화하면 JiuCheng Wallet에서 허용 목록에 있는 주소로만 자산을 보낼 수 있습니다."
       },
       "assets": {
         "comingSoon": "곧 출시 예정...",
@@ -1078,12 +1078,12 @@
     "nextComponent": {
       "addAddress": {
         "hardwareWallet": "하드웨어 월렛",
-        "syncRabbyExtension": "XiaoHua Wallet Extension 동기화",
+        "syncRabbyExtension": "JiuCheng Wallet Extension 동기화",
         "importAddress": "지갑 가져오기",
         "createAddress": "지갑 생성",
         "selectAddMethod": "추가 방법 선택",
         "seedPhraseOrPrivateKey": "시드 구문 또는 개인 키",
-        "restoreRabbyWallet": "XiaoHua Wallet 지갑 복원",
+        "restoreRabbyWallet": "JiuCheng Wallet 지갑 복원",
         "moreOptions": "더 많은 옵션"
       },
       "multiAddressHome": {
@@ -1133,9 +1133,9 @@
         "privateKey": "개인 키 가져오기",
         "tips": {
           "gotIt": "알겠습니다.",
-          "entry": "XiaoHua Wallet로 가져오는 것이 안전한가요?",
-          "title": "XiaoHua Wallet에 가져오기가 안전한가요?",
-          "description": "귀하의 데이터는 안전하게 암호화되어 기기 내에 로컬로 저장됩니다. XiaoHua Wallet는 귀하의 개인 정보에 접근할 수 없으며, 제삼자와 공유되지 않습니다."
+          "entry": "JiuCheng Wallet로 가져오는 것이 안전한가요?",
+          "title": "JiuCheng Wallet에 가져오기가 안전한가요?",
+          "description": "귀하의 데이터는 안전하게 암호화되어 기기 내에 로컬로 저장됩니다. JiuCheng Wallet는 귀하의 개인 정보에 접근할 수 없으며, 제삼자와 공유되지 않습니다."
         },
         "safeTitle": "Safe 지갑 가져오기",
         "importTitle": "지갑 가져오기",
@@ -1148,7 +1148,7 @@
         "moreSafeTitle": "Safe 주소 가져오기"
       },
       "rateModalTriggerOnHome": {
-        "description": "XiaoHua Wallet을 어떻게 평가하시나요?"
+        "description": "JiuCheng Wallet을 어떻게 평가하시나요?"
       },
       "rateModal": {
         "confirmButtonTitleAndroid": "Google Play에서 평가하기",
@@ -1156,8 +1156,8 @@
         "feedbackSubmit": "제출",
         "feedbackSuccess": "피드백 주셔서 감사합니다.",
         "feedbackTitle": "의견이 있으신가요? 귀 기울여 듣겠습니다.",
-        "descriptionAndroid": "XiaoHua Wallet가 마음에 드시면 구글 플레이에서 빠른 평가를 남기는 것이 많은 도움이 됩니다.",
-        "descriptionIOS": "XiaoHua Wallet가 마음에 드신다면, App Store에서 간단한 평가를 남겨주시면 큰 도움이 됩니다."
+        "descriptionAndroid": "JiuCheng Wallet가 마음에 드시면 구글 플레이에서 빠른 평가를 남기는 것이 많은 도움이 됩니다.",
+        "descriptionIOS": "JiuCheng Wallet가 마음에 드신다면, App Store에서 간단한 평가를 남겨주시면 큰 도움이 됩니다."
       },
       "homeCenterTipScreenshot": {
         "description": "언제든지 스크린샷을 찍어 버그를 빠르게 신고하세요.",
@@ -1184,7 +1184,7 @@
       }
     },
     "switchChain": {
-      "requestRabbyToSupport": "XiaoHua Wallet에 지원 요청",
+      "requestRabbyToSupport": "JiuCheng Wallet에 지원 요청",
       "requestsReceived": "요청 1개 수신됨",
       "requestsReceivedPlural": "{{count}}개의 요청 수신됨"
     },
@@ -1201,7 +1201,7 @@
           "yes": "예",
           "no": "취소",
           "title": "{{ bioType }} 활성화",
-          "content": "{{ bioType }}로 XiaoHua Wallet의 잠금을 해제하도록 설정하시겠습니까?"
+          "content": "{{ bioType }}로 JiuCheng Wallet의 잠금을 해제하도록 설정하시겠습니까?"
         }
       },
       "btn": {
@@ -1221,12 +1221,12 @@
       "sameSafeMessageAlert": "같은 메시지가 확인되었습니다. 추가 서명이 필요하지 않습니다."
     },
     "addToken": {
-      "title": "XiaoHua Wallet에 사용자 정의 토큰 추가",
+      "title": "JiuCheng Wallet에 사용자 정의 토큰 추가",
       "noTokenFound": "토큰을 찾을 수 없음",
       "hasAdded": "이 토큰이 추가되었습니다.",
       "tokenCustomized": "이 토큰은 이미 사용자 지정 토큰으로 추가되었습니다.",
       "tokenNotFound": "이 계약 주소에서 토큰을 찾을 수 없습니다.",
-      "tokenSupported": "이 토큰은 XiaoHua Wallet에서 지원됩니다."
+      "tokenSupported": "이 토큰은 JiuCheng Wallet에서 지원됩니다."
     },
     "connect": {
       "ignoreAll": "모두 무시",
@@ -1235,9 +1235,9 @@
       "markRemovedToast": "표시가 삭제되었습니다",
       "markAsTrustToast": "\"신뢰함\"으로 표시",
       "popularLevelMedium": "보통",
-      "verifiedByRabby": "XiaoHua Wallet에서 검증됨",
+      "verifiedByRabby": "JiuCheng Wallet에서 검증됨",
       "connectBtn": "연결",
-      "flagByRabby": "XiaoHua Wallet에 의해 플래그 지정됨",
+      "flagByRabby": "JiuCheng Wallet에 의해 플래그 지정됨",
       "myMark": "내 평가",
       "SignTestnetPermission": {
         "title": "서명 권한"
@@ -1326,7 +1326,7 @@
       "verify-face-id": "Face ID 확인",
       "verify-password": "비밀번호 확인",
       "verify-fingerprint": "지문 확인",
-      "verify-password-before-backup": "백업 전에 XiaoHua Wallet 비밀번호를 확인하세요.",
+      "verify-password-before-backup": "백업 전에 JiuCheng Wallet 비밀번호를 확인하세요.",
       "verify-face-id-before-backup": "백업 전에 Face ID를 확인하세요.",
       "verify-and-backup": "검증 및 백업",
       "verify-fingerprint-before-backup": "백업 전에 지문을 확인하세요."
@@ -1334,7 +1334,7 @@
     "customRpc": {
       "opened": "활성화됨",
       "closed": "비활성화됨",
-      "desc": "수정 후 사용자 정의 RPC가 XiaoHua Wallet의 노드를 대체합니다. XiaoHua Wallet의 노드를 계속 사용하려면 사용자 정의 RPC를 삭제하세요.",
+      "desc": "수정 후 사용자 정의 RPC가 JiuCheng Wallet의 노드를 대체합니다. JiuCheng Wallet의 노드를 계속 사용하려면 사용자 정의 RPC를 삭제하세요.",
       "add": "RPC URL 수정",
       "empty": "사용자 정의 RPC URL 없음",
       "EditRPCModal": {
@@ -1350,7 +1350,7 @@
       }
     },
     "ethSign": {
-      "alert": "'eth_sign'으로 서명하는 것은 자산 손실로 이어질 수 있습니다. 귀하의 안전을 위해, XiaoHua Wallet는 이 방법을 지원하지 않습니다."
+      "alert": "'eth_sign'으로 서명하는 것은 자산 손실로 이어질 수 있습니다. 귀하의 안전을 위해, JiuCheng Wallet는 이 방법을 지원하지 않습니다."
     },
     "importSafe": {
       "error": {
@@ -1368,10 +1368,10 @@
         "claim": "받기"
       },
       "initialPointsClaimEnded": "초기 포인트 수령 종료",
-      "firstRoundEnded": "🎉 첫 번째 라운드 XiaoHua Wallet Points가 종료되었습니다.",
+      "firstRoundEnded": "🎉 첫 번째 라운드 JiuCheng Wallet Points가 종료되었습니다.",
       "code-set-successfully": "추천 코드가 성공적으로 설정되었습니다.",
       "top-100": "상위 100",
-      "title": "XiaoHua Wallet Points",
+      "title": "JiuCheng Wallet Points",
       "out-of-x-current-total-points": "총 배포된 포인트 {{total}} 중",
       "earn-points": "포인트 적립하기",
       "referralCode": {
@@ -1394,12 +1394,12 @@
         "referral-code-cannot-be-empty": "추천 코드는 비워둘 수 없습니다."
       },
       "claimModal": {
-        "rabbyUser": "XiaoHua Wallet 활성 사용자",
-        "rabbyValuedUserBadge": "XiaoHua Wallet 우수 사용자 배지",
+        "rabbyUser": "JiuCheng Wallet 활성 사용자",
+        "rabbyValuedUserBadge": "JiuCheng Wallet 우수 사용자 배지",
         "MetaMaskSwap": "MetaMask Swap",
         "title": "초기 포인트 받기",
         "referral-code": "추천 코드",
-        "rabbyDesktopGenesisNft": "XiaoHua Wallet Desktop Genesis NFT",
+        "rabbyDesktopGenesisNft": "JiuCheng Wallet Desktop Genesis NFT",
         "claim": "받기",
         "invalid-code": "유효하지 않은 코드",
         "placeholder": "추천 코드 입력하여 추가 포인트 받기 (선택 사항)",
@@ -1464,7 +1464,7 @@
       "passwordRequired": "비밀번호를 입력하세요.",
       "agree": "저는 <1/> <2>이용약관</2>을 읽고 동의합니다.",
       "passwordPlaceholder": "비밀번호는 최소 8자 이상이어야 합니다.",
-      "confirmModalDesc": "귀하의 비밀번호를 적절히 보관하십시오. 한 번 잃어버리면 XiaoHua Wallet에서는 변경하거나 복구할 수 없습니다.",
+      "confirmModalDesc": "귀하의 비밀번호를 적절히 보관하십시오. 한 번 잃어버리면 JiuCheng Wallet에서는 변경하거나 복구할 수 없습니다.",
       "setWallet": "지갑 설정"
     },
     "backupSeedPhrase": {
@@ -1491,8 +1491,8 @@
       "fixedModeTag": "고정 모드"
     },
     "addChain": {
-      "desc": "XiaoHua Wallet는 사용자 정의 네트워크의 보안을 확인할 수 없습니다. 신뢰할 수 있는 네트워크만 추가하십시오.",
-      "title": "XiaoHua Wallet에 사용자 지정 네트워크 추가"
+      "desc": "JiuCheng Wallet는 사용자 정의 네트워크의 보안을 확인할 수 없습니다. 신뢰할 수 있는 네트워크만 추가하십시오.",
+      "title": "JiuCheng Wallet에 사용자 지정 네트워크 추가"
     },
     "backupPrivateKey": {
       "clickToShow": "클릭하여 개인 키 보기",
@@ -1530,7 +1530,7 @@
         "invalidAmount": "500 미만이어야 합니다.",
         "zeroInvalidAmount": "금액은 0이 될 수 없습니다.",
         "followingTokenInSufficient": "다음 토큰 잔액이 부족합니다",
-        "desc": "XiaoHua Wallet의 DeBank L2 계정에 추가 수수료 없이 입금하세요 - 언제든 출금 가능합니다.",
+        "desc": "JiuCheng Wallet의 DeBank L2 계정에 추가 수수료 없이 입금하세요 - 언제든 출금 가능합니다.",
         "amount": "금액",
         "applePayDesc": "${{amount}} Apple Pay 수수료가 포함됩니다. 출금 불가",
         "googlePayDesc": "Google Pay 수수료 ${{ amount }}가 포함됩니다. 출금 불가",
@@ -1622,7 +1622,7 @@
         "desc1": "가스에 추가 수수료가 없습니다.",
         "item2": "모든 네트워크를 지원합니다.",
         "item3": "모든 거래를 지원합니다.",
-        "item1": "XiaoHua Wallet 수수료 없음",
+        "item1": "JiuCheng Wallet 수수료 없음",
         "desc3": "스왑, 브리지, 보내기, DApp, 및 기타",
         "title": "모든 체인에서 가스비 결제",
         "subtitle": "가스가 떨어졌을 때"
@@ -1727,12 +1727,12 @@
         },
         "isItSafeToImportItInRabby": {
           "answer": "네, 그것은 귀하의 휴대폰에 로컬로 저장되며 귀하만 접근할 수 있습니다.",
-          "question": "XiaoHua Wallet에 가져오는 것이 안전한가요?"
+          "question": "JiuCheng Wallet에 가져오는 것이 안전한가요?"
         },
         "repeatImportTips": "이미 가져온 지갑입니다"
       },
       "whatIsSeedPhrase": {
-        "description4": "귀하의 시드 구문은 기기에 로컬로 저장되고 비밀번호로 암호화됩니다. 귀하만 접근할 수 있습니다. XiaoHua Wallet는 귀하의 시드 구문을 검색하거나 접근할 수 없습니다.",
+        "description4": "귀하의 시드 구문은 기기에 로컬로 저장되고 비밀번호로 암호화됩니다. 귀하만 접근할 수 있습니다. JiuCheng Wallet는 귀하의 시드 구문을 검색하거나 접근할 수 없습니다.",
         "GotIt": "알겠습니다.",
         "title3": "안전성",
         "title": "'시드 구문'이란 무엇인가요?",
@@ -1855,7 +1855,7 @@
         "backupSuccessGDrive": "Google Drive에 백업 완료",
         "backupTips": "시드 구문을 백업할 때 다른 사람이 화면을 보고 있지 않은지 확인하세요.",
         "manuallyBackup": "수동 백업",
-        "importQuestion2": "시드 구문은 제 전화기에만 저장되며, XiaoHua Wallet는 이에 접근할 수 없습니다.",
+        "importQuestion2": "시드 구문은 제 전화기에만 저장되며, JiuCheng Wallet는 이에 접근할 수 없습니다.",
         "backupUploadToICloud": "iCloud에 백업 중...",
         "chooseBackupMethodTitle": "백업 방법 선택",
         "importQuestion1": "시드 구문을 잃어버리거나 다른 사람과 공유하면 자산이 영원히 사라집니다.",
@@ -1863,11 +1863,11 @@
         "backupRestoreDownloadTitle": "시드 구문 가져오는 중...",
         "chooseBackupMethodDesc": "백업을 통해 앱을 삭제하거나 기기를 분실했을 때 지갑을 복원할 수 있습니다.",
         "isItSafeToImportItInRabby": {
-          "question": "XiaoHua Wallet에 가져오는 것이 안전한가요?",
+          "question": "JiuCheng Wallet에 가져오는 것이 안전한가요?",
           "answer": "네, 휴대폰에 로컬로 저장되며 본인만 접근할 수 있습니다."
         },
-        "importQuestion3": "시드 구문을 백업하지 않으면, 앱이 의도치 않게 삭제되거나, 기기를 분실하거나, 재설치가 필요한 경우 XiaoHua Wallet는 이를 복구할 수 없습니다.",
-        "backupUnlockDesc": "백업을 복구하려면 비밀번호를 안전하게 보관하세요. XiaoHua Wallet은 이를 저장하지 않으며 복구할 수 없습니다.",
+        "importQuestion3": "시드 구문을 백업하지 않으면, 앱이 의도치 않게 삭제되거나, 기기를 분실하거나, 재설치가 필요한 경우 JiuCheng Wallet는 이를 복구할 수 없습니다.",
+        "backupUnlockDesc": "백업을 복구하려면 비밀번호를 안전하게 보관하세요. JiuCheng Wallet은 이를 저장하지 않으며 복구할 수 없습니다.",
         "backupRestoreUnlockDesc": "백업을 암호화할 때 설정했던 동일한 비밀번호를 사용하세요.",
         "backupUnlockPlaceholder": "비밀번호를 입력하여 확인하세요",
         "addMoreWalletTitle": "이 구문에서\n지갑 더 추가"
@@ -1915,7 +1915,7 @@
         "description3": "절대 개인 키를 공유하지 마세요. 접근할 수 있는 누구나 귀하의 자금을 제어할 수 있습니다.",
         "description1": "개인 키는 지갑에 접근하고 제어하는 데 사용되는 문자와 숫자의 문자열입니다. 이를 사용하여 모든 장치에서 지갑을 복구할 수 있습니다.",
         "title": "프라이빗 키란 무엇인가요?",
-        "description4": "당신의 개인 키는 장치에 로컬로 저장되며 비밀번호로 암호화됩니다. 오직 당신만이 접근할 수 있습니다. XiaoHua Wallet는 당신의 개인 키를 검색하거나 접근할 수 없습니다."
+        "description4": "당신의 개인 키는 장치에 로컬로 저장되며 비밀번호로 암호화됩니다. 오직 당신만이 접근할 수 있습니다. JiuCheng Wallet는 당신의 개인 키를 검색하거나 접근할 수 없습니다."
       },
       "importing": "가져오는 중...",
       "Done": "완료",
@@ -1937,12 +1937,12 @@
         "blockExplorerUrl": "블록 탐색기 URL (선택 사항)",
         "nativeTokenSymbolRequired": "통화 기호를 입력하십시오"
       },
-      "desc": "XiaoHua Wallet는 커스텀 네트워크의 보안을 확인할 수 없습니다. 신뢰할 수 있는 네트워크만 추가해 주세요.",
+      "desc": "JiuCheng Wallet는 커스텀 네트워크의 보안을 확인할 수 없습니다. 신뢰할 수 있는 네트워크만 추가해 주세요.",
       "signTx": {
         "title": "트랜잭션 데이터"
       },
       "ConfirmModifyRpcModal": {
-        "desc": "체인은 이미 XiaoHua Wallet에 통합되어 있습니다. RPC URL을 수정하시겠습니까?"
+        "desc": "체인은 이미 JiuCheng Wallet에 통합되어 있습니다. RPC URL을 수정하시겠습니까?"
       },
       "add": "사용자 정의 네트워크 추가",
       "AddFromChainList": {
@@ -1951,7 +1951,7 @@
         "empty": "체인이 발견되지 않았습니다",
         "tips": {
           "added": "이미 이 체인을 추가했습니다.",
-          "supported": "체인은 이미 XiaoHua Wallet에 통합되었습니다."
+          "supported": "체인은 이미 JiuCheng Wallet에 통합되었습니다."
         }
       },
       "addToken": {
@@ -2116,7 +2116,7 @@
       "feedback": "피드백",
       "addCustomNetwork": "사용자 지정 네트워크 추가",
       "clearPending": "로컬 대기 거래 지우기",
-      "clearPendingDesc1": "이 작업은 모든 대기 중인 거래를 삭제합니다. 이것은 일부 경우 XiaoHua Wallet에서 거래 상태가 온체인 상태와 일치하지 않는 문제를 해결하는 데 도움이 될 수 있습니다.",
+      "clearPendingDesc1": "이 작업은 모든 대기 중인 거래를 삭제합니다. 이것은 일부 경우 JiuCheng Wallet에서 거래 상태가 온체인 상태와 일치하지 않는 문제를 해결하는 데 도움이 될 수 있습니다.",
       "currentVersion": "현재 버전",
       "aboutUs": "회사 소개",
       "tou": "이용 약관",
@@ -2261,15 +2261,15 @@
     "syncExtension": {
       "scanTips2": "코드를 스캔하고 동기화를 시작하세요",
       "syncingProgress": "스캔 중 ({{ percent }})",
-      "verifyWithPassword": "XiaoHua Wallet Extension 비밀번호로\n확인하세요",
+      "verifyWithPassword": "JiuCheng Wallet Extension 비밀번호로\n확인하세요",
       "syncingTips": "카메라가 스캔 완료될 때까지 안정적으로 유지하세요.",
       "noNewAddr": "새로 가져올 주소가 없습니다.",
-      "scanTips1": "XiaoHua Wallet Extension에서 \"Mobile Sync\"를 클릭하세요.",
+      "scanTips1": "JiuCheng Wallet Extension에서 \"Mobile Sync\"를 클릭하세요.",
       "importedSuccessfully": "불러오기에 성공했습니다!",
-      "newUserVerify": "그것은 또한 귀하의 XiaoHua Wallet의 기본 비밀번호로 사용됩니다.",
-      "verifyTips": "귀하의 데이터는 오프라인에서 암호화됩니다. 복호화 및 확인을 위해 XiaoHua Wallet Extension 비밀번호를 입력하세요.",
+      "newUserVerify": "그것은 또한 귀하의 JiuCheng Wallet의 기본 비밀번호로 사용됩니다.",
+      "verifyTips": "귀하의 데이터는 오프라인에서 암호화됩니다. 복호화 및 확인을 위해 JiuCheng Wallet Extension 비밀번호를 입력하세요.",
       "importedTips": "앱에 중복 주소가 이미 있는 경우, 가져오지 않습니다. 주소 노트 및 허용 목록도 동기화됩니다.",
-      "imported": "XiaoHua Wallet에 이미 있는 주소는 다시 가져오지 않습니다. 주소 노트와 화이트리스트는 자동으로 동기화됩니다."
+      "imported": "JiuCheng Wallet에 이미 있는 주소는 다시 가져오지 않습니다. 주소 노트와 화이트리스트는 자동으로 동기화됩니다."
     },
     "safeMessageQueue": {
       "noData": "메시지가 없습니다",
@@ -2329,9 +2329,9 @@
       "HyperliquidInvitePopup": {
         "btn": "지금 가입하세요",
         "title": "하이퍼리퀴드 추천 프로그램",
-        "desc": "지금 XiaoHua Wallet의 코드를 사용하여 Hyperliquid 수수료에서 <1>4% 할인</1>을 받으세요.",
+        "desc": "지금 JiuCheng Wallet의 코드를 사용하여 Hyperliquid 수수료에서 <1>4% 할인</1>을 받으세요.",
         "asterTitle": "Aster 추천 프로그램",
-        "asterDesc": "지금 XiaoHua Wallet의 코드를 사용하여 Aster 수수료에서 <1>4% 할인</1>을 받으세요."
+        "asterDesc": "지금 JiuCheng Wallet의 코드를 사용하여 Aster 수수료에서 <1>4% 할인</1>을 받으세요."
       },
       "WebviewError": {
         "error": "오류:",
@@ -2586,7 +2586,7 @@
         "perps": "무기한 선물",
         "sizeTips": "거래의 총 가치 또는 수량으로, 마진과 레버리지에 의해 설정됩니다.",
         "feeTitle": "수수료",
-        "feeRabby": "래비 월렛",
+        "feeRabby": "JiuCheng Wallet",
         "feeRabbyDiscount": "기간 한정 거래 수수료 할인",
         "feeHyperliquid": "하이퍼리퀴드",
         "feeDesc": "사용자가 거래를 할 때, <1>거래 수수료</1>와 <2>빌더 수수료</2>가 모두 적용됩니다.",
@@ -2712,7 +2712,7 @@
       "invitePopup": {
         "activateFailed": "실패했습니다",
         "title": "Hyperliquid 수수료 절약하기",
-        "description": "XiaoHua Wallet의 코드를 사용하여 활성화하십시오.",
+        "description": "JiuCheng Wallet의 코드를 사용하여 활성화하십시오.",
         "activatedSuccess": "4% 하이퍼리퀴드 수수료 절약이 활성화되었습니다",
         "hyperliquidFee": "하이퍼리퀴드 거래 수수료.",
         "activatedFailed": "활성화 실패",
@@ -2827,7 +2827,7 @@
         "closeBtn": "닫기 {{direction}}",
         "pnl": "PNL",
         "fee": "수수료",
-        "rabbyFeeTips": "XiaoHua Wallet 수수료: 0.04%",
+        "rabbyFeeTips": "JiuCheng Wallet 수수료: 0.04%",
         "providerFeeTips": "하이퍼리퀴드 수수료: {{fee}}",
         "receive": "수령액",
         "closedPnl": "실현 PNL",
@@ -2835,7 +2835,7 @@
         "confirm": "확인",
         "minimumWarning": "최소 금액은 {{percent}}%입니다.",
         "total": "총계",
-        "rabbyFeeTipsV2": "XiaoHua Wallet 수수료: 0.02%"
+        "rabbyFeeTipsV2": "JiuCheng Wallet 수수료: 0.02%"
       },
       "PerpsOpenPositionPopup": {
         "title": "{{coin}} 포지션 열기",
@@ -2890,13 +2890,13 @@
         "tpPrice": "이익 실현 가격",
         "price": "가격",
         "btn": "{{direction}} 포지션 열기",
-        "rabbyFeeTips": "XiaoHua Wallet 수수료: 0%",
+        "rabbyFeeTips": "JiuCheng Wallet 수수료: 0%",
         "margin": "마진(격리)",
         "providerFeeTips": "하이퍼리퀴드 수수료: {{fee}}",
         "sizeTips": "거래의 총 가치 또는 수량으로, 마진 및 레버리지에 의해 설정됩니다.",
         "liquidationPriceTips": "증거금이 유지 증거금 수준 아래로 떨어질 때 추가 손실을 막기 위해 거래소가 포지션을 자동 청산하는 가격입니다.",
         "free": "무료",
-        "rabbyFee": "XiaoHua Wallet 수수료",
+        "rabbyFee": "JiuCheng Wallet 수수료",
         "providerFee": "하이퍼리퀴드 수수료",
         "marginCross": "마진(크로스)"
       },
@@ -3312,8 +3312,8 @@
     "newUserOnboarding": {
       "restoreWallet": {
         "subtitle": "다시 오신 것을 환영합니다! 🎉\n지갑을 빠르게 복원할 방법을 선택하세요.",
-        "title": "XiaoHua Wallet 지갑 복원하기",
-        "subtitleInApp": "아래에서 옵션을 선택하여 XiaoHua Wallet 확장 프로그램 또는 iCloud에서 지갑을 빠르게 가져오세요."
+        "title": "JiuCheng Wallet 지갑 복원하기",
+        "subtitleInApp": "아래에서 옵션을 선택하여 JiuCheng Wallet 확장 프로그램 또는 iCloud에서 지갑을 빠르게 가져오세요."
       },
       "common": {
         "orYouCanCreateNewWallet": "또는 <clickable>새 지갑을 생성하세요</clickable>"
@@ -3386,7 +3386,7 @@
     },
     "walletConnect": {
       "screenTitle": "지갑 연결",
-      "connectingToRabby": "XiaoHua Wallet에 연결 중",
+      "connectingToRabby": "JiuCheng Wallet에 연결 중",
       "pairingFailed": "WalletConnect 페어링에 실패했습니다.",
       "connected": "성공적으로 연결되었습니다. DApp으로 돌아가세요.",
       "proposalExpired": "WalletConnect 제안이 만료되었습니다.",
@@ -3413,7 +3413,7 @@
     "Cancel": "취소",
     "backButton": "뒤로",
     "proceedButton": "진행하기",
-    "appName": "XiaoHua Wallet",
+    "appName": "JiuCheng Wallet",
     "Balance": "잔액",
     "assets": "자산",
     "next": "다음",
@@ -3524,7 +3524,7 @@
     },
     "authentication": {
       "auth_prompt_title": "인증 필요",
-      "auth_prompt_desc": "XiaoHua Wallet를 사용하려면 인증하십시오",
+      "auth_prompt_desc": "JiuCheng Wallet를 사용하려면 인증하십시오",
       "auth_prompt_cancel": "취소"
     }
   },
@@ -3608,9 +3608,9 @@
       },
       "biometrics": {
         "enable": "비밀번호를 입력하여\n{{ bioType }} 활성화",
-        "disableTip": "XiaoHua Wallet 잠금 해제에 {{ bioType }}을(를) 사용하지 않습니다",
+        "disableTip": "JiuCheng Wallet 잠금 해제에 {{ bioType }}을(를) 사용하지 않습니다",
         "disable": "{{ bioType }}을(를) 비활성화하시겠습니까?",
-        "enableTip": "{{ bioType }}을(를) 활성화하여 XiaoHua Wallet를 잠금 해제합니다."
+        "enableTip": "{{ bioType }}을(를) 활성화하여 JiuCheng Wallet를 잠금 해제합니다."
       }
     },
     "Contact": {
@@ -3656,7 +3656,7 @@
       "depositPopup": {
         "selectToken": "입금할 토큰 선택",
         "token": "토큰",
-        "desc": "추가 수수료 없이 XiaoHua Wallet의 DeBank L2 계정에 입금하고 언제든지 출금하세요.",
+        "desc": "추가 수수료 없이 JiuCheng Wallet의 DeBank L2 계정에 입금하고 언제든지 출금하세요.",
         "amount": "금액",
         "title": "입금"
       },
@@ -3685,10 +3685,10 @@
         "title1": "GasAccount란 무엇인가요?",
         "title3": "GasAccount에 추가 수수료가 있나요?",
         "desc2": "GasAccount에 자금을 추가하고 모든 거래에 사용하세요. 서명할 때 네이티브 토큰 또는 GasAccount로 가스를 지불할지 선택할 수 있으며, 언제든지 전환이 가능합니다.",
-        "desc3": "XiaoHua Wallet은 추가 요금을 부과하지 않습니다. 거래에 대한 가스 요금과 GasAccount에서 귀하의 주소로 가스를 전송하는 데 필요한 소량의 가스 요금만 지불하면 됩니다.",
+        "desc3": "JiuCheng Wallet은 추가 요금을 부과하지 않습니다. 거래에 대한 가스 요금과 GasAccount에서 귀하의 주소로 가스를 전송하는 데 필요한 소량의 가스 요금만 지불하면 됩니다.",
         "desc1": "GasAccount는 가스 요금을 지불하는 새로운 방법입니다. 각 체인에서 기본 토큰을 사용하는 대신, 모든 체인의 모든 주소에 대한 가스를 충당하기 위해 하나의 계정을 사용할 수 있습니다. 간단하고 선택적이며, 결코 가스 부족이 없습니다.",
         "title4": "GasAccount는 안전한가요?",
-        "desc4": "GasAccount는 계약 승인이나 권한이 필요하지 않습니다. XiaoHua Wallet의 GasAccount 주소로 입금하면 필요할 때 XiaoHua Wallet가 사용자의 주소로 Gas를 전송합니다. 설계 단계부터 안전하게 만들어졌습니다."
+        "desc4": "GasAccount는 계약 승인이나 권한이 필요하지 않습니다. JiuCheng Wallet의 GasAccount 주소로 입금하면 필요할 때 JiuCheng Wallet가 사용자의 주소로 Gas를 전송합니다. 설계 단계부터 안전하게 만들어졌습니다."
       }
     },
     "NoLongerSupports": {
@@ -3745,15 +3745,15 @@
       "switchArea": {
         "skipText": "이 팝업을 1일 동안 건너뛰기"
       },
-      "alertText": "타사 DApp: 사용 문제는 DApp 지원팀에 문의하세요. XiaoHua Wallet는 보기 전용 접근만 제공합니다.",
+      "alertText": "타사 DApp: 사용 문제는 DApp 지원팀에 문의하세요. JiuCheng Wallet는 보기 전용 접근만 제공합니다.",
       "title": "스크린샷으로 버그 신고"
     },
     "feedbackModal": {
       "issueDescriptionLabel": "설명:",
       "issueDescription": "신고한 문제:",
-      "repliedTitle": "XiaoHua Wallet 지원팀이 답변했습니다:",
-      "title": "XiaoHua Wallet 지원팀의 응답",
-      "pendingTitle": "XiaoHua Wallet Support가 회신하지 않았습니다."
+      "repliedTitle": "JiuCheng Wallet 지원팀이 답변했습니다:",
+      "title": "JiuCheng Wallet 지원팀의 응답",
+      "pendingTitle": "JiuCheng Wallet Support가 회신하지 않았습니다."
     },
     "submitFeedbackSuccessModal": {
       "desc": "성공적으로 제출되었습니다!"
@@ -3838,8 +3838,8 @@
       "message": "Ledger 지원에서 Ledger 펌웨어 업데이트 방법 확인"
     },
     "permissions_alert": {
-      "title": "\"XiaoHua Wallet\"이(가) 블루투스를 사용하려고 합니다",
-      "message": "XiaoHua Wallet은 블루투스 액세스를 사용하여 Ledger에 연결합니다.",
+      "title": "\"JiuCheng Wallet\"이(가) 블루투스를 사용하려고 합니다",
+      "message": "JiuCheng Wallet은 블루투스 액세스를 사용하여 Ledger에 연결합니다.",
       "open_settings": "OK",
       "cancel": "허용 안 함"
     },

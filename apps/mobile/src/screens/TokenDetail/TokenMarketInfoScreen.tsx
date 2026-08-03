@@ -294,7 +294,7 @@ export const TokenMarketInfoScreen = () => {
 
       if (marketAction) {
         matomoRequestEvent({
-          category: 'XiaoHua Wallet Market',
+          category: 'JiuCheng Wallet Market',
           action: marketAction,
         });
       }

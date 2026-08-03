@@ -202,7 +202,7 @@ android {
     //     dimension "buildchannel"
     //     applicationIdSuffix ".regression"
     //     versionNameSuffix "-regression"
-    //     // resValue "string", "app_name", "Reg Rabby Wallet"
+    //     // resValue "string", "app_name", "Reg JiuCheng Wallet"
     //   }
     // }
     buildTypes {

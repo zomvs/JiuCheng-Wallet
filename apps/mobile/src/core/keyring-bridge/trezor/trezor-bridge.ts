@@ -13,9 +13,9 @@ export default class TrezorBridge implements TrezorBridgeInterface {
       TrezorConnect.init({
         debug: appIsDev,
         manifest: {
-          email: 'support@rabby.io',
-          appName: 'XiaoHua Wallet',
-          appUrl: 'https://rabby.io/',
+          email: 'zomvs@users.noreply.github.com',
+          appName: 'JiuCheng Wallet',
+          appUrl: 'https://github.com/zomvs',
         },
         // for local development purposes. for production, leave it undefined to use the default value.
         // connectSrc: appIsDev

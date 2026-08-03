@@ -110,11 +110,11 @@ function StyledButton({
 }
 
 const TEST_DAPP_INFO = {
-  description: 'XiaoHua Wallet provider test',
+  description: 'JiuCheng Wallet provider test',
   id: 'https://tester.rabby.io',
   logo_url:
     'https://static.debank.com/image/project/logo_url/galxe/90baa6ae2cb97b4791f02fe66abec4b2.png',
-  name: 'XiaoHua Wallet Tester',
+  name: 'JiuCheng Wallet Tester',
   tags: [],
   user_range: 'User >10k',
   chain_ids: [CHAINS_ENUM.ETH],

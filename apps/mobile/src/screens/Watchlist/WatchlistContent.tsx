@@ -157,7 +157,7 @@ export function WatchlistContent({
 
       if (clickAction) {
         matomoRequestEvent({
-          category: 'XiaoHua Wallet Market',
+          category: 'JiuCheng Wallet Market',
           action: clickAction,
         });
       }

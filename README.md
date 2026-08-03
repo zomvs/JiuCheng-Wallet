@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="apps/mobile/src/assets/brand/xiaohua-app-icon.svg" width="128" height="128" alt="XiaoHua Wallet App Icon" />
+  <img src="apps/mobile/src/assets/brand/jiucheng-app-icon.svg" width="128" height="128" alt="JiuCheng Wallet App Icon" />
 </p>
 
-<h1 align="center">XiaoHua Wallet</h1>
+<h1 align="center">JiuCheng Wallet</h1>
 
 <p align="center">
   面向 iOS 与 Android 的自托管 Web3 钱包客户端
@@ -13,13 +13,13 @@
 </p>
 
 > [!IMPORTANT]
-> XiaoHua Wallet 当前处于持续开发阶段。本仓库可以用于本地开发、功能验证和二次开发，但在正式发布到 App Store、Google Play 或向真实用户提供服务前，必须完成本文中的生产环境检查清单、安全审查和法务审核。
+> JiuCheng Wallet 当前处于持续开发阶段。本仓库可以用于本地开发、功能验证和二次开发，但在正式发布到 App Store、Google Play 或向真实用户提供服务前，必须完成本文中的生产环境检查清单、安全审查和法务审核。
 
 ## 项目简介
 
-XiaoHua Wallet 是一个基于 React Native 构建的跨平台自托管钱包项目，支持 iOS 与 Android。项目以移动端钱包体验为核心，提供账户管理、资产展示、DApp 连接、交易签名、硬件钱包接入和多语言界面等能力。
+JiuCheng Wallet 是一个基于 React Native 构建的跨平台自托管钱包项目，支持 iOS 与 Android。项目以移动端钱包体验为核心，提供账户管理、资产展示、DApp 连接、交易签名、硬件钱包接入和多语言界面等能力。
 
-本仓库基于开源项目 [Rabby Mobile](https://github.com/RabbyHub/rabby-mobile) 演进，并完成了 XiaoHua Wallet 的品牌名称、应用图标、启动资源、主要界面、本地化文案和系统权限提示改造。为了保持上游依赖、历史数据和协议兼容性，部分内部包名、存储键、构建变量、Bundle Identifier 与深链标识仍沿用历史命名；这些内部标识不代表面向用户的产品品牌。
+本仓库基于开源项目 [Rabby Mobile](https://github.com/RabbyHub/rabby-mobile) 演进，并完成了 JiuCheng Wallet 的品牌名称、应用图标、启动资源、主要界面、本地化文案和系统权限提示改造。为了保持上游依赖、历史数据和协议兼容性，部分内部包名、存储键、构建变量、Bundle Identifier 与深链标识仍沿用历史命名；这些内部标识不代表面向用户的产品品牌。
 
 ### 产品原则
 
@@ -60,7 +60,7 @@ XiaoHua Wallet 是一个基于 React Native 构建的跨平台自托管钱包项
 ```text
 .
 ├── apps/
-│   ├── mobile/                 # XiaoHua Wallet React Native 主应用
+│   ├── mobile/                 # JiuCheng Wallet React Native 主应用
 │   ├── mobile-local-pages/     # 钱包内置本地页面
 │   ├── dev-console-cra/        # 开发辅助控制台
 │   └── go.rabby.io/            # 上游兼容页面与跳转应用
@@ -117,15 +117,15 @@ yarn workspace rabby-mobile doctor
 ### 1. 克隆仓库
 
 ```bash
-git clone git@github.com:zomvs/XiaoHua-Wallet.git
-cd XiaoHua-Wallet
+git clone git@github.com:zomvs/XiaoHua-Wallet.git JiuCheng-Wallet
+cd JiuCheng-Wallet
 ```
 
 也可以使用 HTTPS：
 
 ```bash
-git clone https://github.com/zomvs/XiaoHua-Wallet.git
-cd XiaoHua-Wallet
+git clone https://github.com/zomvs/XiaoHua-Wallet.git JiuCheng-Wallet
+cd JiuCheng-Wallet
 ```
 
 ### 2. 启用 Yarn 并安装依赖
@@ -173,7 +173,7 @@ cp apps/mobile/.env.production.example apps/mobile/.env.production
 yarn workspace rabby-mobile ios
 ```
 
-该命令使用 Xcode `Release` 配置并直接打包 JavaScript Bundle，不启动 Metro。真机安装或归档还需要 XiaoHua Wallet 自有的 Apple Developer Team、证书和 Provisioning Profile。
+该命令使用 Xcode `Release` 配置并直接打包 JavaScript Bundle，不启动 Metro。真机安装或归档还需要 JiuCheng Wallet 自有的 Apple Developer Team、证书和 Provisioning Profile。
 
 指定模拟器：
 
@@ -191,7 +191,7 @@ yarn workspace rabby-mobile ios --simulator "iPhone 17 Pro"
 yarn workspace rabby-mobile android
 ```
 
-该命令使用 Gradle `release` 变体且不启动 Metro。正式签名需要通过 `gradle.properties` 或 `RABBY_MOBILE_ANDROID_*` 环境变量配置 XiaoHua Wallet 自有 Keystore。
+该命令使用 Gradle `release` 变体且不启动 Metro。正式签名需要通过 `gradle.properties` 或 `RABBY_MOBILE_ANDROID_*` 环境变量配置 JiuCheng Wallet 自有 Keystore。
 
 可以通过以下命令确认设备连接状态：
 
@@ -283,11 +283,11 @@ yarn workspace rabby-mobile test --runInBand
 
 ## 生产发布检查清单
 
-当前仓库的品牌界面已更新为 XiaoHua Wallet，但正式发布前仍需要逐项确认以下内容：
+当前仓库的品牌界面已更新为 JiuCheng Wallet，但正式发布前仍需要逐项确认以下内容：
 
 - [ ] 替换或确认 OpenAPI、测试网 API、静态资源和下载服务地址。
 - [ ] 配置独立的 WalletConnect/Reown Project ID 和客户端 Metadata。
-- [ ] 配置 XiaoHua Wallet 自有域名、Universal Links、App Links 和深链协议。
+- [ ] 配置 JiuCheng Wallet 自有域名、Universal Links、App Links 和深链协议。
 - [ ] 确认 iOS Bundle Identifier、Android Application ID 与商店记录一致。
 - [ ] 配置 Apple Developer Team、Android Keystore 和 CI 签名凭据。
 - [ ] 替换 Firebase、推送通知、Sentry、统计分析和反馈服务配置。
@@ -301,7 +301,7 @@ yarn workspace rabby-mobile test --runInBand
 
 ## 安全说明
 
-- XiaoHua Wallet 是自托管钱包，项目维护者无法替用户恢复遗失的助记词、私钥或密码。
+- JiuCheng Wallet 是自托管钱包，项目维护者无法替用户恢复遗失的助记词、私钥或密码。
 - 永远不要向任何人提供助记词、私钥、验证码或远程控制权限。
 - 不要将真实资产用于开发、回归测试或未经审计的构建。
 - 新增依赖前应检查维护状态、许可证、安装脚本和供应链风险。
@@ -310,7 +310,7 @@ yarn workspace rabby-mobile test --runInBand
 
 ## 隐私说明
 
-应用内当前包含 XiaoHua Wallet 品牌化的本地隐私政策与服务条款文本，但这些内容仅用于开发阶段占位，不构成正式法律意见。上线前必须由适用司法辖区的专业法务人员审核，并补充真实运营主体、联系方式、数据处理目的、第三方服务、保留期限、用户权利和跨境传输说明。
+应用内当前包含 JiuCheng Wallet 品牌化的本地隐私政策与服务条款文本，但这些内容仅用于开发阶段占位，不构成正式法律意见。上线前必须由适用司法辖区的专业法务人员审核，并补充真实运营主体、联系方式、数据处理目的、第三方服务、保留期限、用户权利和跨境传输说明。
 
 第三方 DApp、RPC、WalletConnect、行情、交易、Bridge、借贷、永续合约、推送和分析服务可能适用各自的隐私政策与服务条款。
 
@@ -390,11 +390,11 @@ yarn workspace rabby-mobile restart
 
 ## 许可证与品牌
 
-本仓库包含上游开源代码、第三方依赖和 XiaoHua Wallet 品牌资源。各部分的使用、修改和分发应遵守对应的开源许可证、第三方条款及适用法律。
+本仓库包含上游开源代码、第三方依赖和 JiuCheng Wallet 品牌资源。各部分的使用、修改和分发应遵守对应的开源许可证、第三方条款及适用法律。
 
 本仓库当前未在根目录提供独立的 `LICENSE` 文件。对外发布或商业分发前，应完成上游许可证核查、第三方 Notice 汇总，并添加适用于本项目的正式许可证文件。README 不能替代法律许可文件。
 
-XiaoHua Wallet 的名称、图标和其他品牌素材不因源代码可见而自动授予商标或品牌使用权。
+JiuCheng Wallet 的名称、图标和其他品牌素材不因源代码可见而自动授予商标或品牌使用权。
 
 ---
 

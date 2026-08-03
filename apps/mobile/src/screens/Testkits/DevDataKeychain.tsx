@@ -84,7 +84,7 @@ const KEYCHAIN_VERSION_OPTIONS = [
     label: '9.2.3',
     sourceLabel: apisKeychainV9_0_0.KEYCHAIN_SOURCE_LABEL,
     description:
-      'XiaoHua Wallet-local 9.2.3 wrapper with the Android prompt patch.',
+      'JiuCheng Wallet-local 9.2.3 wrapper with the Android prompt patch.',
   },
   {
     key: '10.0.0',
@@ -581,7 +581,7 @@ function getKeychainDebugShareDir() {
     RNFS.TemporaryDirectoryPath ||
     RNFS.CachesDirectoryPath ||
     RNFS.DocumentDirectoryPath
-  }/xiaohua-keychain-debug`;
+  }/jiucheng-keychain-debug`;
 }
 
 async function ensureKeychainDebugShareDir() {
@@ -2847,7 +2847,7 @@ export default function DevDataKeychain(): JSX.Element {
       setIsLoading(true);
 
       const shareDir = await ensureKeychainDebugShareDir();
-      const fileName = `xiaohua-keychain-debug-${dayjs().format(
+      const fileName = `jiucheng-keychain-debug-${dayjs().format(
         'YYYYMMDD-HHmmss',
       )}.json`;
       const filePath = `${shareDir}/${fileName}`;
@@ -2859,7 +2859,7 @@ export default function DevDataKeychain(): JSX.Element {
         mimeType: 'application/json',
         title: 'Share keychain debug info',
         subject: fileName,
-        message: 'XiaoHua Wallet keychain debug info',
+        message: 'JiuCheng Wallet keychain debug info',
       });
 
       if (result.dismissed) {

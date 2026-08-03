@@ -1,8 +1,0 @@
-<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <clipPath id="roundClip"><circle cx="512" cy="512" r="512"/></clipPath>
-  </defs>
-  <g clip-path="url(#roundClip)">
-    <image href="xiaohua-app-icon.svg" width="1024" height="1024"/>
-  </g>
-</svg>

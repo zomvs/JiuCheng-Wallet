@@ -78,26 +78,26 @@
 		</dict>
 	</dict>
 	<key>NSBluetoothAlwaysUsageDescription</key>
-	<string>This allows XiaoHua Wallet to find and pair a Ledger Nano X</string>
+	<string>This allows JiuCheng Wallet to find and pair a Ledger Nano X</string>
 	<key>NSBluetoothPeripheralUsageDescription</key>
-	<string>This allows XiaoHua Wallet to find and pair a Ledger Nano X</string>
+	<string>This allows JiuCheng Wallet to find and pair a Ledger Nano X</string>
 	<key>NSCameraUsageDescription</key>
 	<string>$(PRODUCT_NAME) needs camera access to scan QR codes.</string>
 	<key>NSFaceIDUsageDescription</key>
 	<string>$(PRODUCT_NAME) needs to authenticate</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>XiaoHua Wallet requires location access to enable secure Bluetooth communication with hardware wallets.</string>
+	<string>JiuCheng Wallet requires location access to enable secure Bluetooth communication with hardware wallets.</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>XiaoHua Wallet needs microphone access to record audio</string>
+	<string>JiuCheng Wallet needs microphone access to record audio</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>XiaoHua Wallet needs photo access so you can review and choose images shared with the app.</string>
+	<string>JiuCheng Wallet needs photo access so you can review and choose images shared with the app.</string>
 	<key>NSUserActivityTypes</key>
 	<array>
 		<string>INStartCallIntent</string>
 		<string>INSendMessageIntent</string>
 	</array>
 	<key>NSUserNotificationsUsageDescription</key>
-	<string>XiaoHua Wallet requires notification access to send you important messages.</string>
+	<string>JiuCheng Wallet requires notification access to send you important messages.</string>
 	<key>PHPhotoLibraryPreventAutomaticLimitedAccessAlert</key>
 	<true />
 	<key>RCTNewArchEnabled</key>

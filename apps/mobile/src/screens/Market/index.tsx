@@ -115,7 +115,7 @@ export default function MarketScreen() {
 
     const timer = setTimeout(() => {
       matomoRequestEvent({
-        category: 'XiaoHua Wallet Market',
+        category: 'JiuCheng Wallet Market',
         action,
       });
     }, 150);

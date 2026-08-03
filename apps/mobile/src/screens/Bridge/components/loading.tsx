@@ -190,7 +190,7 @@ export const BestQuoteLoading = () => {
       </View>
       <View style={styles.footer}>
         <Image
-          source={require('@/assets/images/rabby-chain-logo.png')}
+          source={require('@/assets/images/jiucheng-chain-logo.png')}
           style={styles.walletImage}
         />
         <Text style={styles.footerText}>Fetching the Best quote</Text>

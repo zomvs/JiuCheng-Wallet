@@ -1229,7 +1229,7 @@ function DevSettingsBlocks({
               },
             },
             {
-              label: 'View XiaoHua Wallet Genesis NFT Detail',
+              label: 'View JiuCheng Wallet Genesis NFT Detail',
               icon: RcInfo,
               onPress: () => {
                 navigation.push(RootNames.StackTransaction, {

@@ -4,14 +4,8 @@
   <g filter="url(#shadow)">
     <rect x="154" y="264" width="694" height="496" rx="164" fill="#F7F5EF"/>
     <rect x="176" y="286" width="650" height="452" rx="142" stroke="#1D2D50" stroke-opacity="0.08" stroke-width="5"/>
-    <g transform="translate(-60 0) rotate(45 512 512)">
-      <path d="M512 502C455 478 430 413 454 357C477 302 547 302 570 357C594 413 569 478 512 502Z" fill="#1D2D50"/>
-      <path d="M512 502C455 478 430 413 454 357C477 302 547 302 570 357C594 413 569 478 512 502Z" fill="#1D2D50" transform="rotate(90 512 512)"/>
-      <path d="M512 502C455 478 430 413 454 357C477 302 547 302 570 357C594 413 569 478 512 502Z" fill="#1D2D50" transform="rotate(180 512 512)"/>
-      <path d="M512 502C455 478 430 413 454 357C477 302 547 302 570 357C594 413 569 478 512 502Z" fill="#1D2D50" transform="rotate(270 512 512)"/>
-      <circle cx="512" cy="512" r="57" fill="#8BCBB7"/>
-      <circle cx="512" cy="512" r="18" fill="#1D2D50"/>
-    </g>
+    <path d="M440 382V548C440 602 410 632 365 632C330 632 307 614 296 586" stroke="#1D2D50" stroke-width="48" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M666 428C642 398 611 383 576 383C510 383 468 436 468 512C468 588 510 641 576 641C611 641 642 626 666 596" stroke="#8BCBB7" stroke-width="48" stroke-linecap="round" stroke-linejoin="round"/>
     <rect x="754" y="426" width="144" height="180" rx="72" fill="#F7F5EF"/>
     <rect x="772" y="444" width="108" height="144" rx="54" stroke="#1D2D50" stroke-opacity="0.12" stroke-width="5"/>
     <circle cx="826" cy="516" r="38" fill="#8BCBB7"/>

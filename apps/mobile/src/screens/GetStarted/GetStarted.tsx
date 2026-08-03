@@ -40,7 +40,7 @@ import ChevronRightSmallCC from '@/assets/icons/common/chevron-right-small-cc.sv
 import { E2E_ID } from '@/constant/e2e';
 import { makeTestIDProps } from '@/utils/makeTestIDProps';
 import { ensureWalletUnlockedForAction } from '@/utils/walletUnlock';
-import XiaoHuaMark from '@/assets/icons/brand/xiaohua-mark.svg';
+import JiuChengMark from '@/assets/icons/brand/jiucheng-mark.svg';
 import { BrandWordmark } from '@/components2024/Brand/BrandWordmark';
 
 const { width: SCREEN_WIDTH } = Dimensions.get('window');
@@ -58,7 +58,7 @@ const HeroIllustration = () => {
       <View style={styles.heroCardBack} />
       <View style={styles.heroCard}>
         <View style={styles.heroMarkHalo}>
-          <XiaoHuaMark width={88} height={88} />
+          <JiuChengMark width={88} height={88} />
         </View>
         <View style={styles.heroChainRow}>
           {['ETH', 'BTC', 'SOL'].map((chain, index) => (

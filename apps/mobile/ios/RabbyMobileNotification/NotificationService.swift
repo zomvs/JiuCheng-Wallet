@@ -58,11 +58,11 @@ class NotificationService: UNNotificationServiceExtension {
             notifeeOptions["ios"] = [
               "communicationInfo": [
                 "sender": [
-                  "displayName": "Rabby",
+                  "displayName": "JiuCheng Wallet",
                   "avatar": avatarUrl,
                   "title": userInfo["title"] ?? "",
                   "body": userInfo["body"] ?? "",
-                  "un_groupName": "Rabby Wallet",
+                  "un_groupName": "JiuCheng Wallet",
                   "un_groupAvatar": avatarUrl
                 ] as [NSString : Any]
               ] as [NSString : Any]

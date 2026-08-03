@@ -932,7 +932,7 @@ resolve_google_play_bundle_version_code() {
 build_google_play_default_release_name() {
   local version_name="$1"
   local version_code="$2"
-  printf '%s\n' "Rabby Wallet($version_name.$version_code)"
+  printf '%s\n' "JiuCheng Wallet($version_name.$version_code)"
 }
 
 normalize_google_play_release_notes_text() {

@@ -83,7 +83,7 @@ const config = {
       process: 'process/browser',
     }),
     new webpack.DefinePlugin({
-      'process.env.RABBY_BUILD_NAME': JSON.stringify('Rabby Wallet'),
+      'process.env.RABBY_BUILD_NAME': JSON.stringify('JiuCheng Wallet'),
       'process.env.RABBY_BUILD_ICON': JSON.stringify(getBuildIcon()),
       'process.env.RABBY_BUILD_APP_ID': JSON.stringify(
         'com.debank.rabbymobile',

@@ -172,7 +172,7 @@ platform :ios do
       })
 
     # # shell executeb on ./fastlane directory, add `sh "pwd"` below to check it
-    # sh "/usr/libexec/PlistBuddy -c \"Set:items:0:metadata:title Rabby Wallet\" ../ios/Package/adhoc/manifest.plist"
+    # sh "/usr/libexec/PlistBuddy -c \"Set:items:0:metadata:title JiuCheng Wallet\" ../ios/Package/adhoc/manifest.plist"
   end
 
   desc "Valid ios adhoc"
