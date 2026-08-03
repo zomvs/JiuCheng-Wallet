@@ -156,7 +156,7 @@ export async function resolveWalletConnectAccount(
   } catch (error) {
     addWalletConnectLog(
       'sessions',
-      'failed to resolve approved Rabby account',
+      'failed to resolve approved wallet account',
       error,
       'warn',
     );

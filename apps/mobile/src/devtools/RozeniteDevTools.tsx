@@ -14,7 +14,7 @@ import { useResourceFlowDevTools } from './useResourceFlowDevTools';
 const rozeniteStorageAdapters = [
   createMMKVStorageAdapter({
     adapterId: 'rabby-mmkv',
-    adapterName: 'Rabby MMKV',
+    adapterName: 'XiaoHua Wallet MMKV',
     storages: ALL_KNOWN_MMKV_INSTANCES,
     blacklist: {
       [MMKV_FILE_NAMES.DEFAULT]: new RegExp(

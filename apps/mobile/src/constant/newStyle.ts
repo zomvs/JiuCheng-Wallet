@@ -8,7 +8,7 @@ export enum MultiHomeFeatTitle {
   GasAccount = 'GasAccount',
   Dapps = 'Dapps',
   Ecosystem = 'Ecosystem',
-  Points = 'Rabby Points',
+  Points = 'XiaoHua Wallet Points',
   Buy = 'Buy',
   Search = 'Search',
   Market = 'Market',

@@ -123,7 +123,7 @@ export const PerpsInvitePopup: React.FC<Props> = ({
                 />
                 <View style={styles.bannerItem}>
                   <RcIconRabby style={styles.bannerIcon} />
-                  <Text style={styles.bannerText}>Rabby Wallet</Text>
+                  <Text style={styles.bannerText}>XiaoHua Wallet</Text>
                 </View>
               </View>
               <View>

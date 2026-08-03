@@ -42,7 +42,7 @@
     },
     "authentication": {
       "auth_prompt_cancel": "Hủy",
-      "auth_prompt_desc": "Vui lòng xác thực để sử dụng Rabby",
+      "auth_prompt_desc": "Vui lòng xác thực để sử dụng XiaoHua Wallet",
       "auth_prompt_title": "Yêu cầu xác thực"
     }
   },
@@ -52,7 +52,7 @@
     "next": "Tiếp theo",
     "backButton": "Quay lại",
     "cancelButton": "Hủy",
-    "appName": "Rabby Wallet",
+    "appName": "XiaoHua Wallet",
     "refresh": "Làm mới",
     "confirm": "Xác nhận",
     "unknownNFT": "NFT không xác định",
@@ -259,9 +259,9 @@
       "goToHome": "Đi đến Trang chủ",
       "alreadyHaveAddress": "Tôi đã có một ví",
       "createNewAddress": "Tạo Ví Mới",
-      "sync": "Quét để đồng bộ ví Rabby Extension",
-      "alreadyUseRabby": "Tôi đang dùng Rabby",
-      "welcomeTitle": "Chào mừng đến với\nRabby Wallet"
+      "sync": "Quét để đồng bộ ví XiaoHua Wallet Extension",
+      "alreadyUseRabby": "Tôi đang dùng XiaoHua Wallet",
+      "welcomeTitle": "Chào mừng đến với\nXiaoHua Wallet"
     },
     "importSeedPhrase": {
       "enterYourSeedPhrase": "Nhập cụm từ khôi phục, phân cách từng từ bằng dấu cách"
@@ -416,7 +416,7 @@
         },
         "empty": {
           "title": "Chưa có lịch sử giao dịch",
-          "desc": "Tất cả giao dịch được ký qua Rabby sẽ được liệt kê ở đây.",
+          "desc": "Tất cả giao dịch được ký qua XiaoHua Wallet sẽ được liệt kê ở đây.",
           "titleLastThreeMonths": "Không có lịch sử giao dịch trong 90 ngày",
           "testnetNoHistory": "Lịch sử giao dịch token tùy chỉnh không khả dụng."
         },
@@ -519,12 +519,12 @@
         "minReceive": "Số nhận tối thiểu",
         "notPaymentAddress": "Không phải ví thanh toán"
       },
-      "eip1559Desc2": "Tại Rabby, Phí Ưu Tiên (Tip) = Phí Tối Đa - Phí Cơ Bản. Sau khi bạn thiết lập Phí Ưu Tiên Tối Đa, Phí Cơ Bản sẽ được trừ ra và phần còn lại sẽ được tip cho thợ đào.",
+      "eip1559Desc2": "Tại XiaoHua Wallet, Phí Ưu Tiên (Tip) = Phí Tối Đa - Phí Cơ Bản. Sau khi bạn thiết lập Phí Ưu Tiên Tối Đa, Phí Cơ Bản sẽ được trừ ra và phần còn lại sẽ được tip cho thợ đào.",
       "gasNotRequireForSafeTransaction": "Phí Gas không cần thiết cho các giao dịch Safe",
       "customRPCErrorModal": {
         "title": "Lỗi RPC tùy chỉnh",
         "button": "Tắt Custom RPC",
-        "content": "RPC tùy chỉnh của bạn hiện không khả dụng. Bạn có thể tắt nó và tiếp tục ký bằng RPC chính thức của Rabby."
+        "content": "RPC tùy chỉnh của bạn hiện không khả dụng. Bạn có thể tắt nó và tiếp tục ký bằng RPC chính thức của XiaoHua Wallet."
       },
       "gasPriceTitle": "Giá gas (Gwei)",
       "unknownAction": "Không rõ loại chữ ký",
@@ -589,7 +589,7 @@
       },
       "trustValueTitle": "Giá trị tin cậy",
       "markRemoved": "Đã xóa đánh dấu",
-      "sigCantDecode": "Chữ ký này không thể được giải mã bởi Rabby Wallet",
+      "sigCantDecode": "Chữ ký này không thể được giải mã bởi XiaoHua Wallet",
       "myMarkWithContract": "Đánh dấu của tôi trên hợp đồng {{chainName}}",
       "assetOrder": {
         "title": "Lệnh giao dịch tài sản",
@@ -635,7 +635,7 @@
         "title": "Phê duyệt Token",
         "eoaAddress": "EOA",
         "deployTimeLessThan": "< {{value}} ngày",
-        "flagByRabby": "Được Rabby đánh dấu",
+        "flagByRabby": "Được XiaoHua Wallet đánh dấu",
         "myBalance": "Số dư của tôi",
         "contractTrustValueTip": "Giá trị tin cậy là tổng giá trị tài sản đã được chi tiêu qua hợp đồng này. Giá trị thấp cho thấy rủi ro hoặc hợp đồng không hoạt động trong 180 ngày."
       },
@@ -726,9 +726,9 @@
       },
       "safeTx": {
         "selfHostConfirm": {
-          "content": "Safe API không khả dụng. Chuyển sang dịch vụ Safe được triển khai bởi Rabby để giữ cho Safe của bạn hoạt động. <1></1><2>Tất cả người ký Safe phải sử dụng Rabby Wallet để ủy quyền giao dịch.</2>",
+          "content": "Safe API không khả dụng. Chuyển sang dịch vụ Safe được triển khai bởi XiaoHua Wallet để giữ cho Safe của bạn hoạt động. <1></1><2>Tất cả người ký Safe phải sử dụng XiaoHua Wallet để ủy quyền giao dịch.</2>",
           "button": "OK",
-          "title": "Chuyển sang dịch vụ Safe của Rabby"
+          "title": "Chuyển sang dịch vụ Safe của XiaoHua Wallet"
         }
       },
       "errorRetry": {
@@ -978,7 +978,7 @@
       "transaction-might-be-frontrun-because-of-high-slippage-tolerance": "Giao dịch có thể bị frontrun do độ dung sai trượt giá cao",
       "slippage_tolerance": "Độ trượt giá:",
       "insufficient-balance": "Số dư không đủ",
-      "no-fees-for-wrap": "Không có phí Rabby khi bọc token",
+      "no-fees-for-wrap": "Không có phí XiaoHua Wallet khi bọc token",
       "completedTip": "Giao dịch trên chuỗi, giải mã dữ liệu để tạo bản ghi",
       "usd-after-fees": "≈ {{usd}}",
       "estimate": "Ước tính:",
@@ -997,11 +997,11 @@
       "Pending": "Đang chờ",
       "rabbyFee": {
         "rate": "Tỷ lệ phí",
-        "title": "Phí Rabby",
+        "title": "Phí XiaoHua Wallet",
         "wallet": "Ví",
         "button": "Đã hiểu",
-        "swapDesc": "Rabby Wallet luôn tìm tỷ giá tốt nhất từ các trình tổng hợp hàng đầu và xác minh độ tin cậy của báo giá. Rabby thu phí <1>0.25%</1> (0% khi bọc token), được tự động tính vào báo giá.",
-        "bridgeDesc": "Rabby Wallet luôn tìm tỷ giá tốt nhất từ các trình tổng hợp hàng đầu và xác minh độ tin cậy của báo giá. Rabby thu phí <1>0.25%</1>, được tự động tính vào báo giá."
+        "swapDesc": "XiaoHua Wallet luôn tìm tỷ giá tốt nhất từ các trình tổng hợp hàng đầu và xác minh độ tin cậy của báo giá. XiaoHua Wallet thu phí <1>0.25%</1> (0% khi bọc token), được tự động tính vào báo giá.",
+        "bridgeDesc": "XiaoHua Wallet luôn tìm tỷ giá tốt nhất từ các trình tổng hợp hàng đầu và xác minh độ tin cậy của báo giá. XiaoHua Wallet thu phí <1>0.25%</1>, được tự động tính vào báo giá."
       },
       "hidden-no-quote-rates_one": "{{count}} tỷ giá không khả dụng",
       "search-by-name-address": "Tìm kiếm theo tên / địa chỉ",
@@ -1092,7 +1092,7 @@
       "quickAddressTitle_other": "{{count}} địa chỉ",
       "quickAddressTitle_one": "{{count}} địa chỉ",
       "add-address": "Thêm ví",
-      "delete-checklist-1": "Tôi hiểu rằng nếu xóa ví này, khóa riêng tư và cụm từ khôi phục tương ứng sẽ bị xóa, và Rabby sẽ KHÔNG thể khôi phục chúng.",
+      "delete-checklist-1": "Tôi hiểu rằng nếu xóa ví này, khóa riêng tư và cụm từ khôi phục tương ứng sẽ bị xóa, và XiaoHua Wallet sẽ KHÔNG thể khôi phục chúng.",
       "delete-private-key-title": "Xóa ví và khóa riêng tư",
       "delete-seed-phrase-title": "Xóa ví và cụm từ khôi phục",
       "delete-title": "Xóa ví"
@@ -1110,7 +1110,7 @@
       "settings": {
         "enableWhitelist": "Bật danh sách cho phép",
         "cancel": "Hủy",
-        "enableWhitelistTip": "Sau khi bật, bạn chỉ có thể dùng Rabby để gửi tài sản đến địa chỉ trong danh sách cho phép.",
+        "enableWhitelistTip": "Sau khi bật, bạn chỉ có thể dùng XiaoHua Wallet để gửi tài sản đến địa chỉ trong danh sách cho phép.",
         "disableWhitelist": "Tắt danh sách cho phép",
         "disableWhitelistTip": "Sau khi tắt, bạn có thể gửi tài sản đến bất kỳ địa chỉ nào"
       },
@@ -1134,14 +1134,14 @@
       "tokenDetail": {
         "send": "Gửi",
         "notSupported": "Token trên chuỗi này không được hỗ trợ",
-        "selectedCustom": "Token không được Rabby niêm yết. Bạn đã thêm token này vào danh sách theo cách thủ công.",
+        "selectedCustom": "Token không được XiaoHua Wallet niêm yết. Bạn đã thêm token này vào danh sách theo cách thủ công.",
         "blockedTip": "Token bị chặn sẽ không được hiển thị trong danh sách token",
         "blocked": "Bị chặn",
         "customized": "Tùy chỉnh",
         "receive": "Nhận",
         "noTransactions": "Không có giao dịch",
         "swap": "Swap",
-        "notSelectedCustom": "Token chưa được Rabby niêm yết. Nó sẽ được thêm vào danh sách token nếu bạn bật lên."
+        "notSelectedCustom": "Token chưa được XiaoHua Wallet niêm yết. Nó sẽ được thêm vào danh sách token nếu bạn bật lên."
       },
       "offlineChain": {
         "chain": "{{chain}} sẽ sớm không được tích hợp.",
@@ -1166,12 +1166,12 @@
       },
       "addAddress": {
         "hardwareWallet": "Ví phần cứng",
-        "syncRabbyExtension": "Đồng bộ tiện ích mở rộng Rabby",
+        "syncRabbyExtension": "Đồng bộ tiện ích mở rộng XiaoHua Wallet",
         "createAddress": "Tạo ví",
         "importAddress": "Nhập ví",
         "selectAddMethod": "Chọn phương thức thêm",
         "seedPhraseOrPrivateKey": "Cụm từ khôi phục hoặc khóa riêng tư",
-        "restoreRabbyWallet": "Khôi phục Rabby Wallet",
+        "restoreRabbyWallet": "Khôi phục XiaoHua Wallet",
         "moreOptions": "Thêm tùy chọn"
       },
       "importAddress": {
@@ -1179,10 +1179,10 @@
         "privateKey": "Nhập khóa riêng tư",
         "seedPhrase": "Nhập cụm từ khôi phục",
         "tips": {
-          "entry": "Có an toàn khi nhập vào Rabby không?",
+          "entry": "Có an toàn khi nhập vào XiaoHua Wallet không?",
           "gotIt": "Tôi đã hiểu.",
-          "title": "Có an toàn để nhập vào Rabby không?",
-          "description": "Dữ liệu của bạn được mã hóa an toàn và lưu trữ cục bộ trên thiết bị của bạn. Rabby không có quyền truy cập vào thông tin cá nhân của bạn và thông tin đó không bao giờ được chia sẻ với bên thứ ba."
+          "title": "Có an toàn để nhập vào XiaoHua Wallet không?",
+          "description": "Dữ liệu của bạn được mã hóa an toàn và lưu trữ cục bộ trên thiết bị của bạn. XiaoHua Wallet không có quyền truy cập vào thông tin cá nhân của bạn và thông tin đó không bao giờ được chia sẻ với bên thứ ba."
         },
         "watch": "Ví chỉ xem",
         "safeTitle": "Nhập ví Safe",
@@ -1221,16 +1221,16 @@
         "WriteSeedPhrase": "Đây là cụm từ khôi phục của bạn. Hãy ghi lại và cất giữ an toàn. Nếu làm mất hoặc chia sẻ cụm từ này, bạn có thể mất tài sản vĩnh viễn. Ở bước tiếp theo, bạn sẽ nhập lại cụm từ theo đúng thứ tự."
       },
       "rateModalTriggerOnHome": {
-        "description": "Bạn đánh giá thế nào về Rabby Wallet?"
+        "description": "Bạn đánh giá thế nào về XiaoHua Wallet?"
       },
       "rateModal": {
         "feedbackSubmit": "Gửi",
         "confirmButtonTitleIOS": "Đánh giá trên App Store",
         "confirmButtonTitleAndroid": "Đánh giá trên Google Play",
         "feedbackSuccess": "Cảm ơn bạn đã phản hồi.",
-        "descriptionAndroid": "Nếu bạn thích Rabby, một đánh giá nhanh trên Google Play sẽ là nguồn động viên lớn đối với chúng tôi.",
+        "descriptionAndroid": "Nếu bạn thích XiaoHua Wallet, một đánh giá nhanh trên Google Play sẽ là nguồn động viên lớn đối với chúng tôi.",
         "feedbackTitle": "Bạn có phản hồi? Chúng tôi đang lắng nghe.",
-        "descriptionIOS": "Nếu bạn thích Rabby, một đánh giá nhanh trên App Store sẽ là nguồn động viên lớn đối với chúng tôi."
+        "descriptionIOS": "Nếu bạn thích XiaoHua Wallet, một đánh giá nhanh trên App Store sẽ là nguồn động viên lớn đối với chúng tôi."
       },
       "homeCenterTipScreenshot": {
         "description": "Chụp màn hình bất cứ lúc nào để nhanh chóng báo cáo lỗi",
@@ -1266,7 +1266,7 @@
     },
     "switchChain": {
       "requestsReceived": "Đã nhận 1 yêu cầu",
-      "requestRabbyToSupport": "Yêu cầu Rabby hỗ trợ",
+      "requestRabbyToSupport": "Yêu cầu XiaoHua Wallet hỗ trợ",
       "requestsReceivedPlural": "Đã nhận {{count}} yêu cầu"
     },
     "unlock": {
@@ -1277,7 +1277,7 @@
           "yes": "Có",
           "title": "Bật {{ bioType }}",
           "no": "Hủy",
-          "content": "Bạn có muốn bật {{ bioType }} để mở khóa Rabby Wallet không?"
+          "content": "Bạn có muốn bật {{ bioType }} để mở khóa XiaoHua Wallet không?"
         }
       },
       "password": {
@@ -1294,9 +1294,9 @@
       "unlocking": "Đang mở khóa"
     },
     "addToken": {
-      "tokenSupported": "Token đã được hỗ trợ trên Rabby",
+      "tokenSupported": "Token đã được hỗ trợ trên XiaoHua Wallet",
       "hasAdded": "Bạn đã thêm token này.",
-      "title": "Thêm token tùy chỉnh vào Rabby",
+      "title": "Thêm token tùy chỉnh vào XiaoHua Wallet",
       "tokenNotFound": "Không tìm thấy token từ địa chỉ hợp đồng này",
       "noTokenFound": "Không tìm thấy token",
       "tokenCustomized": "Token này đã được thêm vào danh sách tùy chỉnh"
@@ -1361,12 +1361,12 @@
     },
     "connect": {
       "connectBtn": "Kết nối",
-      "verifiedByRabby": "Đã được Rabby xác minh",
+      "verifiedByRabby": "Đã được XiaoHua Wallet xác minh",
       "popularLevelVeryLow": "Rất thấp",
       "popularLevelHigh": "Cao",
       "noWebsite": "Không có",
       "listedBy": "Được liệt kê bởi",
-      "flagByRabby": "Được gắn cờ bởi Rabby",
+      "flagByRabby": "Được gắn cờ bởi XiaoHua Wallet",
       "markRemovedToast": "Đã xóa đánh dấu",
       "popularLevelMedium": "Trung bình",
       "ignoreAll": "Bỏ qua tất cả",
@@ -1395,7 +1395,7 @@
       "createNewSeedPhrase": "Tạo cụm từ khôi phục mới",
       "privateKey": {
         "isItSafeToImportItInRabby": {
-          "question": "Nhập khóa riêng vào Rabby có an toàn không?",
+          "question": "Nhập khóa riêng vào XiaoHua Wallet có an toàn không?",
           "answer": "Có, nó sẽ được lưu trữ cục bộ trên điện thoại của bạn và chỉ bạn mới có thể truy cập."
         },
         "whatIsAPrivateKey": {
@@ -1458,7 +1458,7 @@
         "description2": "Nếu bạn mất cụm từ khôi phục, bạn sẽ không thể khôi phục lại ví của mình.",
         "title3": "An toàn",
         "description3": "Tuyệt đối không chia sẻ cụm từ khôi phục—bất kỳ ai có cụm từ này đều có thể kiểm soát tài sản của bạn.",
-        "description4": "Cụm từ khôi phục được lưu trữ cục bộ trên thiết bị và mã hóa bằng mật khẩu của bạn. Chỉ bạn mới có thể truy cập. Rabby không thể truy xuất hoặc truy cập cụm từ khôi phục của bạn.",
+        "description4": "Cụm từ khôi phục được lưu trữ cục bộ trên thiết bị và mã hóa bằng mật khẩu của bạn. Chỉ bạn mới có thể truy cập. XiaoHua Wallet không thể truy xuất hoặc truy cập cụm từ khôi phục của bạn.",
         "description1": "Cụm từ khôi phục là một chuỗi từ dùng để truy cập và kiểm soát ví. Bạn có thể dùng cụm từ này để khôi phục ví trên bất kỳ thiết bị nào."
       },
       "hd": {
@@ -1538,8 +1538,8 @@
         "backupRestoreLoadingText": "Đang tìm cụm từ khôi phục đã sao lưu...",
         "backupFailedTitle": "Sao lưu thất bại",
         "importQuestion1": "Nếu tôi làm mất cụm từ khôi phục hoặc chia sẻ nó với người khác, tài sản của tôi sẽ bị mất vĩnh viễn.",
-        "importQuestion3": "Nếu tôi không sao lưu cụm từ khôi phục và ứng dụng vô tình bị xóa, thiết bị bị mất hoặc cần cài đặt lại, Rabby không thể khôi phục cụm từ đó cho tôi.",
-        "importQuestion2": "Cụm từ khôi phục chỉ được lưu trữ trên điện thoại của tôi và Rabby không có quyền truy cập vào nó.",
+        "importQuestion3": "Nếu tôi không sao lưu cụm từ khôi phục và ứng dụng vô tình bị xóa, thiết bị bị mất hoặc cần cài đặt lại, XiaoHua Wallet không thể khôi phục cụm từ đó cho tôi.",
+        "importQuestion2": "Cụm từ khôi phục chỉ được lưu trữ trên điện thoại của tôi và XiaoHua Wallet không có quyền truy cập vào nó.",
         "maxAccountCount": "Tối đa 50 địa chỉ mỗi lần",
         "backupRestoreUnlockDesc": "Sử dụng cùng một mật khẩu mà bạn đã đặt để mã hóa các bản sao lưu của mình.",
         "backupUnlockPlaceholder": "Nhập mật khẩu để xác nhận",
@@ -1547,7 +1547,7 @@
         "backupUnlockButton": "Tiếp tục",
         "riskTips": "Trước khi bắt đầu, vui lòng đọc và ghi nhớ các mẹo bảo mật sau.",
         "isItSafeToImportItInRabby": {
-          "question": "Nhập cụm từ khôi phục vào Rabby có an toàn không?",
+          "question": "Nhập cụm từ khôi phục vào XiaoHua Wallet có an toàn không?",
           "answer": "Vâng, nó sẽ được lưu trữ cục bộ trên điện thoại của bạn và chỉ bạn mới có quyền truy cập."
         },
         "backupRestoreTitle": "Đã tìm thấy {{count}} cụm từ khôi phục",
@@ -1558,7 +1558,7 @@
         "backupUnlockTitle": "Mã hóa bằng mật khẩu ứng dụng",
         "passwordMinTip": "Phải có ít nhất 8 ký tự",
         "backupUploadToGDrive": "Đang sao lưu lên Google Drive...",
-        "backupUnlockDesc": "Hãy giữ an toàn mật khẩu dùng để khôi phục bản sao lưu. Rabby Wallet không lưu trữ và không thể khôi phục mật khẩu này.",
+        "backupUnlockDesc": "Hãy giữ an toàn mật khẩu dùng để khôi phục bản sao lưu. XiaoHua Wallet không lưu trữ và không thể khôi phục mật khẩu này.",
         "chooseBackupMethodDesc": "Sao lưu cho phép bạn khôi phục ví của mình nếu bạn xóa ứng dụng hoặc mất thiết bị của mình.",
         "chooseBackupMethodTitle": "Chọn một phương pháp sao lưu",
         "addMoreWalletTitle": "Thêm ví khác\ntừ cụm từ này"
@@ -1601,7 +1601,7 @@
         "ButtonGotIt": "Tôi đã hiểu.",
         "description3": "Không bao giờ chia sẻ khóa riêng của bạn - bất kỳ ai có quyền truy cập vào nó đều có thể kiểm soát tài sản của bạn.",
         "description1": "Một khóa riêng là một chuỗi các chữ cái và số được sử dụng để truy cập và kiểm soát ví của bạn. Bạn có thể sử dụng nó để phục hồi ví của mình trên bất kỳ thiết bị nào.",
-        "description4": "Khoá riêng của bạn được lưu trữ cục bộ trên thiết bị của bạn và được mã hoá bằng mật khẩu của bạn. Chỉ có bạn mới có thể truy cập nó. Rabby không thể lấy lại hoặc truy cập khoá riêng của bạn."
+        "description4": "Khoá riêng của bạn được lưu trữ cục bộ trên thiết bị của bạn và được mã hoá bằng mật khẩu của bạn. Chỉ có bạn mới có thể truy cập nó. XiaoHua Wallet không thể lấy lại hoặc truy cập khoá riêng của bạn."
       },
       "importing": "Đang nhập...",
       "Done": "Xong",
@@ -1665,7 +1665,7 @@
       "verify-face-id": "Xác minh Face ID",
       "verify-fingerprint": "Xác minh vân tay",
       "verify-and-backup": "Xác minh & sao lưu",
-      "verify-password-before-backup": "Xác minh mật khẩu Rabby trước khi sao lưu",
+      "verify-password-before-backup": "Xác minh mật khẩu XiaoHua Wallet trước khi sao lưu",
       "verify-fingerprint-before-backup": "Xác minh dấu vân tay của bạn trước khi sao lưu.",
       "verify-face-id-before-backup": "Xác minh Face ID của bạn trước khi sao lưu"
     },
@@ -1673,7 +1673,7 @@
       "closed": "Đã tắt",
       "opened": "Đã bật",
       "empty": "Không có URL RPC tùy chỉnh",
-      "desc": "Sau khi được sửa đổi, RPC tùy chỉnh sẽ thay thế node của Rabby. Để tiếp tục sử dụng node của Rabby, hãy xóa RPC tùy chỉnh.",
+      "desc": "Sau khi được sửa đổi, RPC tùy chỉnh sẽ thay thế node của XiaoHua Wallet. Để tiếp tục sử dụng node của XiaoHua Wallet, hãy xóa RPC tùy chỉnh.",
       "add": "Sửa đổi URL RPC",
       "EditCustomTestnetModal": {
         "quickAdd": "Thêm nhanh từ Chainlist",
@@ -1771,8 +1771,8 @@
       "transactionSpeed": "Tốc độ giao dịch"
     },
     "addChain": {
-      "title": "Thêm mạng tùy chỉnh vào Rabby",
-      "desc": "Rabby không thể xác minh tính bảo mật của các mạng tùy chỉnh. Vui lòng chỉ thêm các mạng đáng tin cậy."
+      "title": "Thêm mạng tùy chỉnh vào XiaoHua Wallet",
+      "desc": "XiaoHua Wallet không thể xác minh tính bảo mật của các mạng tùy chỉnh. Vui lòng chỉ thêm các mạng đáng tin cậy."
     },
     "gasAccount": {
       "logout": "Đăng xuất GasAccount hiện tại",
@@ -1805,7 +1805,7 @@
         "amount": "Số tiền",
         "token": "Token",
         "followingTokenInSufficient": "Số dư token sau đây không đủ",
-        "desc": "Gửi tiền vào Tài khoản DeBank L2 của Rabby mà không mất phí—rút bất kỳ lúc nào.",
+        "desc": "Gửi tiền vào Tài khoản DeBank L2 của XiaoHua Wallet mà không mất phí—rút bất kỳ lúc nào.",
         "title": "Nạp tiền",
         "applePayDesc": "Bao gồm phí Apple Pay ${{amount}}. Không thể rút tiền",
         "googlePayDesc": "Bao gồm phí Google Pay ${{ amount }}. Không thể rút tiền",
@@ -1897,7 +1897,7 @@
         "item3": "Hỗ trợ tất cả các giao dịch",
         "desc2": "Thanh toán Gas tự động trên 80+ mạng lưới",
         "desc1": "Không có phí bổ sung để thanh toán gas",
-        "item1": "Không có phí Rabby",
+        "item1": "Không có phí XiaoHua Wallet",
         "desc3": "Swap, Bridge, gửi, DApp và nhiều tính năng khác",
         "title": "Thanh toán phí Gas trên tất cả các chain",
         "subtitle": "khi bạn hết gas"
@@ -1932,7 +1932,7 @@
       "modifyRPCURL": "Chỉnh sửa URL RPC",
       "addCustomNetwork": "Thêm mạng tùy chỉnh",
       "clearPendingDesc2": "Điều này sẽ không thay đổi số dư trong các tài khoản của bạn hoặc yêu cầu bạn nhập lại cụm từ khôi phục. Tất cả tài sản và thông tin tài khoản của bạn sẽ được bảo mật.",
-      "clearPendingDesc1": "Điều này sẽ xóa tất cả các giao dịch đang chờ xử lý của bạn. Điều này có thể giúp bạn giải quyết vấn đề trong một số trường hợp trạng thái giao dịch trong Rabby không khớp với trạng thái trên chuỗi.",
+      "clearPendingDesc1": "Điều này sẽ xóa tất cả các giao dịch đang chờ xử lý của bạn. Điều này có thể giúp bạn giải quyết vấn đề trong một số trường hợp trạng thái giao dịch trong XiaoHua Wallet không khớp với trạng thái trên chuỗi.",
       "currentLanguage": "Ngôn ngữ hiện tại",
       "appCache": "Xóa bộ nhớ cache của ứng dụng",
       "clearPendingToast": "Giao dịch chờ trên thiết bị đã được xóa",
@@ -2081,7 +2081,7 @@
       "alert": "Khóa riêng này là thông tin xác thực để truy cập tài sản của bạn. KHÔNG được làm mất hay tiết lộ cho người khác, nếu không bạn có thể mất tài sản vĩnh viễn. Vui lòng xem trong môi trường an toàn và giữ gìn cẩn thận."
     },
     "ethSign": {
-      "alert": "Ký bằng 'eth_sign' có thể dẫn đến mất tài sản. Để đảm bảo an toàn cho bạn, Rabby không hỗ trợ phương pháp này."
+      "alert": "Ký bằng 'eth_sign' có thể dẫn đến mất tài sản. Để đảm bảo an toàn cho bạn, XiaoHua Wallet không hỗ trợ phương pháp này."
     },
     "importSafe": {
       "error": {
@@ -2135,7 +2135,7 @@
       "and": "và",
       "passwordPlaceholder": "Mật khẩu phải có độ dài tối thiểu 8 ký tự",
       "settingUp": "Thiết lập mật khẩu",
-      "confirmModalDesc": "Vui lòng lưu trữ mật khẩu của bạn đúng cách. Khi đã mất, Rabby không thể thay đổi hoặc khôi phục lại được.",
+      "confirmModalDesc": "Vui lòng lưu trữ mật khẩu của bạn đúng cách. Khi đã mất, XiaoHua Wallet không thể thay đổi hoặc khôi phục lại được.",
       "setWallet": "Thiết lập ví",
       "confirmError": "Mật khẩu không khớp",
       "setUpSuccess": "Thiết lập mật khẩu thành công",
@@ -2154,18 +2154,18 @@
       "id": "ID",
       "add": "Thêm mạng tùy chỉnh",
       "ConfirmModifyRpcModal": {
-        "desc": "Rabby đã tích hợp chain này. Bạn có muốn thay đổi URL RPC của chain không?"
+        "desc": "XiaoHua Wallet đã tích hợp chain này. Bạn có muốn thay đổi URL RPC của chain không?"
       },
       "signTx": {
         "title": "Dữ liệu giao dịch"
       },
-      "desc": "Rabby không thể xác minh tính bảo mật của mạng tùy chỉnh. Vui lòng chỉ thêm các mạng đáng tin cậy.",
+      "desc": "XiaoHua Wallet không thể xác minh tính bảo mật của mạng tùy chỉnh. Vui lòng chỉ thêm các mạng đáng tin cậy.",
       "AddFromChainList": {
         "title": "Thêm nhanh từ Chainlist",
         "search": "Tìm kiếm tên mạng tùy chỉnh hoặc ID",
         "empty": "Không tìm thấy chuỗi nào",
         "tips": {
-          "supported": "Chuỗi này đã được Rabby Wallet tích hợp",
+          "supported": "Chuỗi này đã được XiaoHua Wallet tích hợp",
           "added": "Bạn đã thêm chuỗi này rồi"
         }
       },
@@ -2198,7 +2198,7 @@
       }
     },
     "rabbyPoints": {
-      "title": "Rabby Points",
+      "title": "XiaoHua Wallet Points",
       "top-100": "Top 100",
       "earn-points": "Kiếm điểm",
       "out-of-x-current-total-points": "Trong tổng số {{total}} điểm đã phân phối",
@@ -2206,18 +2206,18 @@
         "claim": "Nhận"
       },
       "code-set-successfully": "Mã giới thiệu đã được thiết lập thành công",
-      "firstRoundEnded": "🎉 Vòng đầu tiên của Rabby Points đã kết thúc",
+      "firstRoundEnded": "🎉 Vòng đầu tiên của XiaoHua Wallet Points đã kết thúc",
       "claimModal": {
         "title": "Nhận điểm ban đầu",
-        "rabbyValuedUserBadge": "Huy hiệu người dùng thân thiết Rabby",
+        "rabbyValuedUserBadge": "Huy hiệu người dùng thân thiết XiaoHua Wallet",
         "referral-code": "Mã giới thiệu",
-        "rabbyDesktopGenesisNft": "Rabby Desktop Genesis NFT",
+        "rabbyDesktopGenesisNft": "XiaoHua Wallet Desktop Genesis NFT",
         "MetaMaskSwap": "MetaMask Swap",
         "claim": "Nhận",
         "addressBalance": "Số dư ví",
         "snapshotTime": "Thời gian chụp nhanh: {{time}}",
         "invalid-code": "Mã không hợp lệ",
-        "rabbyUser": "Người dùng Rabby tích cực",
+        "rabbyUser": "Người dùng XiaoHua Wallet tích cực",
         "placeholder": "Nhập mã giới thiệu để nhận thêm điểm (không bắt buộc)"
       },
       "initialPointsClaimEnded": "Đợt nhận điểm ban đầu đã kết thúc",
@@ -2382,12 +2382,12 @@
       "importedSuccessfully": "Đã nhập thành công!",
       "syncingProgress": "Đang quét ({{ percent }})",
       "noNewAddr": "Không tìm thấy địa chỉ mới để nhập",
-      "verifyTips": "Dữ liệu của bạn được mã hóa ngoại tuyến. Nhập mật khẩu Rabby Extension của bạn để giải mã và xác minh.",
-      "verifyWithPassword": "Xác minh bằng mật khẩu Rabby Extension",
-      "newUserVerify": "Nó cũng sẽ là mật khẩu mặc định cho Rabby Mobile của bạn",
-      "imported": "Các địa chỉ đã có trong Rabby Mobile sẽ không được nhập lại. Ghi chú địa chỉ và danh sách trắng sẽ được đồng bộ hóa tự động.",
+      "verifyTips": "Dữ liệu của bạn được mã hóa ngoại tuyến. Nhập mật khẩu XiaoHua Wallet Extension của bạn để giải mã và xác minh.",
+      "verifyWithPassword": "Xác minh bằng mật khẩu XiaoHua Wallet Extension",
+      "newUserVerify": "Nó cũng sẽ là mật khẩu mặc định cho XiaoHua Wallet của bạn",
+      "imported": "Các địa chỉ đã có trong XiaoHua Wallet sẽ không được nhập lại. Ghi chú địa chỉ và danh sách trắng sẽ được đồng bộ hóa tự động.",
       "scanTips2": "Quét mã và bắt đầu đồng bộ hóa",
-      "scanTips1": "Nhấp vào \"Mobile Sync\" trên Rabby Extension",
+      "scanTips1": "Nhấp vào \"Mobile Sync\" trên XiaoHua Wallet Extension",
       "syncingTips": "Giữ máy ảnh ổn định cho đến khi quét xong",
       "importedTips": "Nếu trong ứng dụng đã có địa chỉ trùng lặp, nó sẽ không được nhập. Ghi chú địa chỉ và danh sách trắng cũng sẽ được đồng bộ hóa."
     },
@@ -2449,9 +2449,9 @@
       "HyperliquidInvitePopup": {
         "btn": "Tham gia ngay",
         "title": "Chương trình Giới thiệu Hyperliquid",
-        "desc": "Tham gia ngay bằng mã của Rabby để nhận <1>giảm giá 4%</1> trên khoản phí Hyperliquid của bạn.",
+        "desc": "Tham gia ngay bằng mã của XiaoHua Wallet để nhận <1>giảm giá 4%</1> trên khoản phí Hyperliquid của bạn.",
         "asterTitle": "Chương trình giới thiệu Aster",
-        "asterDesc": "Tham gia ngay bằng mã của Rabby để nhận <1>giảm giá 4%</1> trên phí Aster của bạn."
+        "asterDesc": "Tham gia ngay bằng mã của XiaoHua Wallet để nhận <1>giảm giá 4%</1> trên phí Aster của bạn."
       },
       "WebviewError": {
         "error": "Lỗi:",
@@ -2706,7 +2706,7 @@
         "perps": "Perps",
         "sizeTips": "Giá trị hoặc số lượng tổng thể của giao dịch của bạn, được xác định bởi ký quỹ và đòn bẩy.",
         "feeHyperliquid": "Hyperliquid",
-        "feeRabby": "Rabby Wallet",
+        "feeRabby": "XiaoHua Wallet",
         "feeRabbyDiscount": "Giảm phí giao dịch trong thời gian có hạn",
         "feeTitle": "Phí",
         "feeDesc": "Khi người dùng giao dịch, cả <1>phí giao dịch</1> và <2>phí builder</2> đều được áp dụng.",
@@ -2833,7 +2833,7 @@
         "activateNow": "Kích hoạt ngay",
         "activateFailed": "Thất bại",
         "activatedFailed": "Kích hoạt không thành công",
-        "description": "Sử dụng mã của Rabby để kích hoạt",
+        "description": "Sử dụng mã của XiaoHua Wallet để kích hoạt",
         "title": "Tiết kiệm phí trên Hyperliquid",
         "hyperliquidFee": "Phí giao dịch Hyperliquid.",
         "activatedSuccess": "Đã kích hoạt ưu đãi giảm 4% phí Hyperliquid"
@@ -2948,14 +2948,14 @@
         "pnl": "PNL",
         "providerFeeTips": "Phí Hyperliquid: {{fee}}",
         "positionSize": "Kích thước vị thế",
-        "rabbyFeeTips": "Phí Rabby: 0.04%",
+        "rabbyFeeTips": "Phí XiaoHua Wallet: 0.04%",
         "receive": "Nhận",
         "total": "Tổng số",
         "closedPnl": "PNL đã chốt",
         "amount": "Số lượng",
         "confirm": "Xác nhận",
         "minimumWarning": "Số tiền tối thiểu là {{percent}}%",
-        "rabbyFeeTipsV2": "Phí Rabby: 0.02%"
+        "rabbyFeeTipsV2": "Phí XiaoHua Wallet: 0.02%"
       },
       "PerpsOpenPositionPopup": {
         "title": "Mở Vị Thế {{coin}}",
@@ -3009,14 +3009,14 @@
         "perps": "Perps",
         "slPrice": "Giá cắt lỗ",
         "initialMargin": "Ký quỹ ban đầu",
-        "rabbyFeeTips": "Phí Rabby: 0%",
+        "rabbyFeeTips": "Phí XiaoHua Wallet: 0%",
         "providerFeeTips": "Phí Hyperliquid: {{fee}}",
         "margin": "Ký quỹ (Cô lập)",
         "estLqPrice": "Giá thanh lý ước tính",
         "sizeTips": "Giá trị hoặc số lượng tổng cộng của giao dịch của bạn, được thiết lập bởi ký quỹ và đòn bẩy.",
         "liquidationPriceTips": "Giá mà vị thế của bạn bị sàn giao dịch tự động đóng để ngăn chặn tổn thất thêm khi ký quỹ của bạn giảm xuống dưới mức ký quỹ duy trì.",
         "free": "Miễn phí",
-        "rabbyFee": "Phí Rabby",
+        "rabbyFee": "Phí XiaoHua Wallet",
         "providerFee": "Phí Hyperliquid",
         "marginCross": "Ký quỹ (Chéo)"
       },
@@ -3431,9 +3431,9 @@
     },
     "newUserOnboarding": {
       "restoreWallet": {
-        "title": "Khôi phục ví Rabby của bạn",
+        "title": "Khôi phục ví XiaoHua Wallet của bạn",
         "subtitle": "Chào mừng bạn trở lại! 🎉  \nChọn một phương pháp để khôi phục ví của bạn nhanh chóng.",
-        "subtitleInApp": "Chọn một tùy chọn bên dưới để nhanh chóng nhập ví của bạn từ tiện ích Rabby hoặc iCloud."
+        "subtitleInApp": "Chọn một tùy chọn bên dưới để nhanh chóng nhập ví của bạn từ tiện ích XiaoHua Wallet hoặc iCloud."
       },
       "common": {
         "orYouCanCreateNewWallet": "Hoặc bạn có thể <clickable>tạo một ví mới</clickable>"
@@ -3506,7 +3506,7 @@
     },
     "walletConnect": {
       "screenTitle": "Kết nối ví",
-      "connectingToRabby": "Đang kết nối với Rabby",
+      "connectingToRabby": "Đang kết nối với XiaoHua Wallet",
       "pairingFailed": "Ghép nối WalletConnect thất bại.",
       "connected": "Đã kết nối thành công. Vui lòng quay lại DApp.",
       "proposalExpired": "Yêu cầu kết nối WalletConnect đã hết hạn.",
@@ -3590,8 +3590,8 @@
       "biometrics": {
         "disable": "Xác nhận tắt {{ bioType }}?",
         "enable": "Nhập mật khẩu\nđể bật {{ bioType }}",
-        "enableTip": "Kích hoạt {{ bioType }} để mở khóa Rabby",
-        "disableTip": "Tắt {{ bioType }} để mở khóa Rabby"
+        "enableTip": "Kích hoạt {{ bioType }} để mở khóa XiaoHua Wallet",
+        "disableTip": "Tắt {{ bioType }} để mở khóa XiaoHua Wallet"
       },
       "processBiometrics": {
         "title": "Xác thực Sinh trắc học",
@@ -3662,7 +3662,7 @@
         "selectToken": "Chọn Token để Nạp",
         "token": "Token",
         "amount": "Số lượng",
-        "desc": "Gửi tiền vào tài khoản DeBank L2 của Rabby mà không mất phí — rút tiền bất cứ lúc nào."
+        "desc": "Gửi tiền vào tài khoản DeBank L2 của XiaoHua Wallet mà không mất phí — rút tiền bất cứ lúc nào."
       },
       "loginConfirmModal": {
         "desc": "Khi đăng nhập, bạn chỉ có thể gửi tiền vào địa chỉ này.",
@@ -3689,8 +3689,8 @@
         "title4": "GasAccount có an toàn không",
         "title3": "GasAccount có phí bổ sung không",
         "title2": "Cách sử dụng Gas Account",
-        "desc4": "GasAccount không yêu cầu phê duyệt hoặc quyền hợp đồng. Bạn gửi vào địa chỉ GasAccount của Rabby, và Rabby sẽ gửi gas đến địa chỉ của bạn khi cần. Hoàn toàn an toàn theo thiết kế.",
-        "desc3": "Rabby Wallet không tính phí bổ sung. Bạn chỉ phải trả phí gas cho giao dịch của mình và một khoản phí gas nhỏ để chuyển gas đó từ GasAccount đến địa chỉ của bạn.",
+        "desc4": "GasAccount không yêu cầu phê duyệt hoặc quyền hợp đồng. Bạn gửi vào địa chỉ GasAccount của XiaoHua Wallet, và XiaoHua Wallet sẽ gửi gas đến địa chỉ của bạn khi cần. Hoàn toàn an toàn theo thiết kế.",
+        "desc3": "XiaoHua Wallet không tính phí bổ sung. Bạn chỉ phải trả phí gas cho giao dịch của mình và một khoản phí gas nhỏ để chuyển gas đó từ GasAccount đến địa chỉ của bạn.",
         "desc2": "Nạp tiền vào GasAccount và dùng cho mọi giao dịch. Khi ký, bạn có thể chọn trả phí gas bằng token gốc hoặc GasAccount và chuyển đổi bất cứ lúc nào.",
         "desc1": "GasAccount là cách mới để thanh toán phí gas. Thay vì dùng token gốc trên từng chuỗi, bạn có thể dùng một tài khoản để trả gas cho mọi địa chỉ trên mọi chuỗi. Đơn giản, hoàn toàn tự nguyện và không lo hết gas."
       }
@@ -3745,14 +3745,14 @@
       "switchArea": {
         "skipText": "Bỏ qua thông báo này trong 1 ngày"
       },
-      "alertText": "DApp bên thứ ba: nếu gặp vấn đề sử dụng, vui lòng liên hệ bộ phận hỗ trợ DApp. Rabby chỉ cung cấp quyền truy cập xem.",
+      "alertText": "DApp bên thứ ba: nếu gặp vấn đề sử dụng, vui lòng liên hệ bộ phận hỗ trợ DApp. XiaoHua Wallet chỉ cung cấp quyền truy cập xem.",
       "title": "Chụp màn hình để Báo cáo Lỗi"
     },
     "feedbackModal": {
       "issueDescriptionLabel": "Mô tả:",
-      "title": "Phản hồi từ Rabby Support",
-      "pendingTitle": "Hỗ trợ Rabby chưa phản hồi.",
-      "repliedTitle": "Hỗ trợ Rabby đã phản hồi:",
+      "title": "Phản hồi từ XiaoHua Wallet Support",
+      "pendingTitle": "Hỗ trợ XiaoHua Wallet chưa phản hồi.",
+      "repliedTitle": "Hỗ trợ XiaoHua Wallet đã phản hồi:",
       "issueDescription": "Đây là vấn đề bạn đã báo cáo:"
     },
     "submitFeedbackSuccessModal": {
@@ -3810,10 +3810,10 @@
       "message": "Vui lòng bật Bluetooth để sử dụng tính năng này"
     },
     "permissions_alert": {
-      "title": "\"Rabby Wallet\" muốn sử dụng Bluetooth",
+      "title": "\"XiaoHua Wallet\" muốn sử dụng Bluetooth",
       "cancel": "Không Cho Phép",
       "open_settings": "OK",
-      "message": "Rabby Wallet sử dụng kết nối bluetooth để kết nối Ledger"
+      "message": "XiaoHua Wallet sử dụng kết nối bluetooth để kết nối Ledger"
     },
     "update_firmware_alert": {
       "update": "Cập nhật",

@@ -35,10 +35,10 @@
     "getStart": {
       "goToHome": "Ana Sayfaya Git",
       "createNewAddress": "Yeni Cüzdan Oluştur",
-      "sync": "Rabby Uzantı Cüzdanını Senkronize Etmek İçin Tara",
+      "sync": "XiaoHua Wallet Uzantı Cüzdanını Senkronize Etmek İçin Tara",
       "alreadyHaveAddress": "Zaten bir cüzdanım var",
-      "alreadyUseRabby": "Zaten Rabby kullanıyorum.",
-      "welcomeTitle": "Rabby Wallet'a\nhoş geldiniz"
+      "alreadyUseRabby": "Zaten XiaoHua Wallet kullanıyorum.",
+      "welcomeTitle": "XiaoHua Wallet'a\nhoş geldiniz"
     },
     "transactions": {
       "itemTitle": {
@@ -161,7 +161,7 @@
       "customRPCErrorModal": {
         "title": "Özel RPC Hatası",
         "button": "Özel RPC'yi Devre Dışı Bırak",
-        "content": "Özel RPC'niz şu anda kullanılamıyor. Bunu devre dışı bırakabilir ve Rabby'nin resmi RPC'sini kullanarak imzalamaya devam edebilirsiniz."
+        "content": "Özel RPC'niz şu anda kullanılamıyor. Bunu devre dışı bırakabilir ve XiaoHua Wallet'nin resmi RPC'sini kullanarak imzalamaya devam edebilirsiniz."
       },
       "swap": {
         "slippageTolerance": "Kayma toleransı",
@@ -181,8 +181,8 @@
       "safeTx": {
         "selfHostConfirm": {
           "button": "Tamam",
-          "title": "Rabby'nin Safe Hizmetine Geç",
-          "content": "Safe API mevcut değil. Safe'inizi işlevsel tutmak için Rabby tarafından dağıtılan Safe hizmetine geçin. <1></1><2>Tüm Safe imzalayıcıları, işlemleri yetkilendirmek için Rabby Wallet kullanmalıdır.</2>"
+          "title": "XiaoHua Wallet'nin Safe Hizmetine Geç",
+          "content": "Safe API mevcut değil. Safe'inizi işlevsel tutmak için XiaoHua Wallet tarafından dağıtılan Safe hizmetine geçin. <1></1><2>Tüm Safe imzalayıcıları, işlemleri yetkilendirmek için XiaoHua Wallet kullanmalıdır.</2>"
         }
       },
       "crossChain": {
@@ -223,7 +223,7 @@
         "approveToken": "Token onayla",
         "title": "Token Onayı",
         "deployTimeLessThan": "< {{value}} gün",
-        "flagByRabby": "Rabby tarafından işaretlendi",
+        "flagByRabby": "XiaoHua Wallet tarafından işaretlendi",
         "myBalance": "Bakiyem",
         "approveTo": "Onay verilecek adres",
         "contractTrustValueTip": "Güven değeri, bu sözleşme tarafından harcanan toplam varlık değerini ifade eder. Düşük bir güven değeri, ya risk ya da 180 gün boyunca faaliyetsizlik anlamına gelir."
@@ -365,7 +365,7 @@
       "safeAddressNotSupportChain": "Mevcut Safe adresi {{0}} zincirinde desteklenmiyor.",
       "canOnlyUseImportedAddress": "Sadece görüntüleme adresi ile işlemleri imzalayamazsınız.",
       "recommendGasLimitTip": "Tahm. {{est}}. Mevcut {{current}}x, önerilen ",
-      "eip1559Desc2": "Rabby'de Öncelik Ücreti (İpucu) = Maksimum Ücret - Temel Ücret. Maksimum Öncelik Ücretini ayarladıktan sonra, Temel Ücret ondan düşülecek ve geriye kalan miktar madencilere ipucu olarak verilecektir.",
+      "eip1559Desc2": "XiaoHua Wallet'de Öncelik Ücreti (İpucu) = Maksimum Ücret - Temel Ücret. Maksimum Öncelik Ücretini ayarladıktan sonra, Temel Ücret ondan düşülecek ve geriye kalan miktar madencilere ipucu olarak verilecektir.",
       "eip1559Desc1": "EIP-1559'u destekleyen zincirlerde, Öncelik Ücreti, madencilerin işleminizi işleme alması için verilen bahşiştir. Öncelik Ücretini düşürerek nihai gaz maliyetinizi azaltabilirsiniz, bu da işlemin işlenmesi için daha fazla zaman alabilir.",
       "safeAdminSigned": "İmzalı",
       "myNativeTokenBalance": "Gas bakiyem:",
@@ -424,7 +424,7 @@
       "maxPriorityFeeDisabledAlert": "Lütfen önce gas fiyatını ayarlayın",
       "protocol": "Protokol",
       "addressSource": "Adres Kaynağı",
-      "sigCantDecode": "Bu imza Rabby Wallet tarafından çözülemez.",
+      "sigCantDecode": "Bu imza XiaoHua Wallet tarafından çözülemez.",
       "errorRetry": {
         "InvalidTx": "Geçersiz işlem.",
         "gasLimitTooLow": "Gas limiti çok düşük",
@@ -571,7 +571,7 @@
       "signedTx": {
         "empty": {
           "title": "İşlem geçmişi yok",
-          "desc": "Tüm Rabby aracılığıyla imzalanan işlemler burada listelenecektir.",
+          "desc": "Tüm XiaoHua Wallet aracılığıyla imzalanan işlemler burada listelenecektir.",
           "titleLastThreeMonths": "Son 90 Günde İşlem Geçmişi Yok",
           "testnetNoHistory": "Özel token işlem geçmişi mevcut değil."
         },
@@ -742,7 +742,7 @@
     },
     "confirmAddress": {
       "risks": {
-        "scamAddress": "Alıcı adresi Rabby tarafından dolandırıcılık adresi olarak işaretlendi.",
+        "scamAddress": "Alıcı adresi XiaoHua Wallet tarafından dolandırıcılık adresi olarak işaretlendi.",
         "contractAddress": "Alıcı adresi bir sözleşme adresidir, bu potansiyel olarak fon kaybına neden olabilir.",
         "cexNoDeposite": "Alıcı adresi bir CEX'ten gelen bir non-deposit adresidir. Lütfen depozit adresinizin doğru olduğundan emin olun.",
         "noSend": "Bu adrese 180 gündür gönderim yapmadınız."
@@ -901,9 +901,9 @@
     "swap": {
       "rabbyFee": {
         "wallet": "Cüzdan",
-        "title": "Rabby ücreti",
-        "bridgeDesc": "Rabby Wallet, önde gelen toplayıcılardan en iyi oranı bulur ve tekliflerin güvenilirliğini doğrular. Rabby, teklife otomatik olarak dahil edilen <1>%0,25</1> ücret alır.",
-        "swapDesc": "Rabby Wallet, en iyi agregatörlerden her zaman en iyi oranı bulacak ve tekliflerinin güvenilirliğini doğrulayacaktır. Rabby, teklifin içinde otomatik olarak dahil edilen <1>0,25%</1> bir ücret alır (sarılması için %0).",
+        "title": "XiaoHua Wallet ücreti",
+        "bridgeDesc": "XiaoHua Wallet, önde gelen toplayıcılardan en iyi oranı bulur ve tekliflerin güvenilirliğini doğrular. XiaoHua Wallet, teklife otomatik olarak dahil edilen <1>%0,25</1> ücret alır.",
+        "swapDesc": "XiaoHua Wallet, en iyi agregatörlerden her zaman en iyi oranı bulacak ve tekliflerinin güvenilirliğini doğrulayacaktır. XiaoHua Wallet, teklifin içinde otomatik olarak dahil edilen <1>0,25%</1> bir ücret alır (sarılması için %0).",
         "button": "Tamamdır",
         "rate": "Ücret oranı"
       },
@@ -947,7 +947,7 @@
       "low-slippage-may-cause-failed-transactions-due-to-high-volatility": "Düşük kayma, yüksek volatilite nedeniyle başarısız işlemlere neden olabilir.",
       "transaction-might-be-frontrun-because-of-high-slippage-tolerance": "İşlem, yüksek kayma toleransı nedeniyle öne alınabilir.",
       "Auto": "Otomatik",
-      "no-fees-for-wrap": "Wrap için Rabby ücreti yok.",
+      "no-fees-for-wrap": "Wrap için XiaoHua Wallet ücreti yok.",
       "security-verification-failed": "Güvenlik doğrulama başarısız oldu",
       "select-token": "Token Seçin",
       "need-to-approve-token-before-swap": "Token'un takas edilmeden önce onaylanması gerekiyor.",
@@ -1038,7 +1038,7 @@
       "quickAddressTitle_other": "{{count}} Adresler",
       "quickAddressTitle_one": "{{count}} Adres",
       "add-address": "Cüzdan Ekle",
-      "delete-checklist-1": "Anladım ki, bu cüzdanı silersem, ilgili özel anahtar ve kurtarma ifadesi silinecek ve Rabby bunları kurtaramayacak.",
+      "delete-checklist-1": "Anladım ki, bu cüzdanı silersem, ilgili özel anahtar ve kurtarma ifadesi silinecek ve XiaoHua Wallet bunları kurtaramayacak.",
       "delete-private-key-title": "Cüzdanı ve Özel Anahtarı Sil",
       "delete-seed-phrase-title": "Cüzdanı ve Kurtarma İfadesini Sil",
       "delete-title": "Cüzdanı Sil"
@@ -1100,7 +1100,7 @@
       "settings": {
         "cancel": "İptal et",
         "enableWhitelist": "Beyaz Listeyi Etkinleştir",
-        "enableWhitelistTip": "Etkinleştirildikten sonra, yalnızca Rabby kullanarak beyaz listedeki adreslere varlık gönderebilirsiniz.",
+        "enableWhitelistTip": "Etkinleştirildikten sonra, yalnızca XiaoHua Wallet kullanarak beyaz listedeki adreslere varlık gönderebilirsiniz.",
         "disableWhitelistTip": "Aktif edildiğinde, varlıkları herhangi bir adrese gönderebilirsiniz.",
         "disableWhitelist": "Beyaz Listeyi Devre Dışı Bırak"
       },
@@ -1112,9 +1112,9 @@
         "blocked": "Engellenmiş",
         "blockedTip": "Engellenen token, token listesindeki görüntülenmeyecek.",
         "notSupported": "Bu zincirdeki token desteklenmiyor.",
-        "selectedCustom": "Token, Rabby tarafından listelenmemiştir. Onu özel olarak token listesine eklediniz.",
+        "selectedCustom": "Token, XiaoHua Wallet tarafından listelenmemiştir. Onu özel olarak token listesine eklediniz.",
         "noTransactions": "Hiç İşlem Yok",
-        "notSelectedCustom": "Token Rabby tarafından listelenmemiştir. Eğer açarsanız, token listesine eklenecektir."
+        "notSelectedCustom": "Token XiaoHua Wallet tarafından listelenmemiştir. Eğer açarsanız, token listesine eklenecektir."
       },
       "assets": {
         "table": {
@@ -1169,13 +1169,13 @@
         "WriteSeedPhrase": "Bu sizin kurtarma ifadenizdir. Not alın ve güvenli bir yerde saklayın. Kaybeder veya paylaşırsanız varlıklarınızı kalıcı olarak kaybedebilirsiniz. Sonraki adımda bu ifadeyi doğru sırayla yeniden girmeniz istenecektir."
       },
       "addAddress": {
-        "syncRabbyExtension": "Rabby Uzantısını Senkronize Et",
+        "syncRabbyExtension": "XiaoHua Wallet Uzantısını Senkronize Et",
         "hardwareWallet": "Donanım Cüzdanı",
         "importAddress": "Cüzdanı İçe Aktar",
         "createAddress": "Cüzdan Oluştur",
         "selectAddMethod": "Ekleme Yöntemini Seçin",
         "seedPhraseOrPrivateKey": "Kurtarma ifadesi veya özel anahtar",
-        "restoreRabbyWallet": "Rabby Cüzdanını Geri Yükle",
+        "restoreRabbyWallet": "XiaoHua Wallet Cüzdanını Geri Yükle",
         "moreOptions": "Daha fazla seçenek"
       },
       "multiAddressHome": {
@@ -1196,9 +1196,9 @@
       "importAddress": {
         "tips": {
           "gotIt": "Tamamdır.",
-          "title": "Rabby'ye aktarmak güvenli mi?",
-          "entry": "Rabby'e aktarmak güvenli mi?",
-          "description": "Verileriniz güvenli bir şekilde şifrelendi ve cihazınızda yerel olarak depolandı. Rabby, özel bilgilerinize erişemez ve bu bilgiler asla üçüncü şahıslarla paylaşılmaz."
+          "title": "XiaoHua Wallet'ye aktarmak güvenli mi?",
+          "entry": "XiaoHua Wallet'e aktarmak güvenli mi?",
+          "description": "Verileriniz güvenli bir şekilde şifrelendi ve cihazınızda yerel olarak depolandı. XiaoHua Wallet, özel bilgilerinize erişemez ve bu bilgiler asla üçüncü şahıslarla paylaşılmaz."
         },
         "seedPhrase": "Kurtarma İfadesini İçe Aktar",
         "privateKey": "Özel Anahtarı İçe Aktar",
@@ -1214,16 +1214,16 @@
         "moreSafeTitle": "Safe Adresini İçe Aktar"
       },
       "rateModalTriggerOnHome": {
-        "description": "Rabby Wallet'ı nasıl değerlendiriyorsunuz?"
+        "description": "XiaoHua Wallet'ı nasıl değerlendiriyorsunuz?"
       },
       "rateModal": {
         "feedbackSubmit": "Gönder",
         "feedbackSuccess": "Geri bildiriminiz için teşekkür ederiz",
         "confirmButtonTitleAndroid": "Google Play'de Puan Ver",
         "confirmButtonTitleIOS": "Uygulama Mağazasında Puan Ver",
-        "descriptionAndroid": "Eğer Rabby'yi beğendiyseniz, Google Play'de vereceğiniz hızlı bir puan çok şey ifade eder.",
+        "descriptionAndroid": "Eğer XiaoHua Wallet'yi beğendiyseniz, Google Play'de vereceğiniz hızlı bir puan çok şey ifade eder.",
         "feedbackTitle": "Geri bildiriminiz mi var? Dinliyoruz.",
-        "descriptionIOS": "Eğer Rabby'i beğeniyorsanız, App Store'da vereceğiniz hızlı bir puan çok şey ifade eder."
+        "descriptionIOS": "Eğer XiaoHua Wallet'i beğeniyorsanız, App Store'da vereceğiniz hızlı bir puan çok şey ifade eder."
       },
       "homeCenterTipScreenshot": {
         "description": "Herhangi bir zamanda bir hatayı hızlı bir şekilde bildirmek için ekran görüntüsü alın.",
@@ -1238,7 +1238,7 @@
         "copied": "Kurtarma ifadesi kopyalandı. Pano 1 dakika içinde temizlenecek.",
         "copyAnyway": "Yine de kopyala",
         "title": "Kurtarma İfadenizi Gizli Tutun",
-        "tip3": "Kurtarma ifadenizi asla paylaşmayın. Rabby sizden bunu hiçbir zaman istemez.",
+        "tip3": "Kurtarma ifadenizi asla paylaşmayın. XiaoHua Wallet sizden bunu hiçbir zaman istemez.",
         "tip1": "Diğer uygulamalar panonuzu okuyabilir, bu yüzden kopyalama işlemi sonrası uygulamalar arasında geçiş yapmaktan kaçının."
       },
       "screenshotSecureTip": {
@@ -1257,7 +1257,7 @@
         "title2": "Asla Paylaşmayın",
         "description3": "Kurtarma ifadenizi asla paylaşmayın; ona erişen herkes varlıklarınızı kontrol edebilir.",
         "description2": "Eğer kurtarma ifadenizi kaybederseniz, cüzdanınızı geri yükleyemezsiniz.",
-        "description4": "Kurtarma ifadeniz cihazınızda yerel olarak saklanır ve şifrenizle şifrelenir. Yalnızca siz erişebilirsiniz. Rabby kurtarma ifadenize erişemez veya onu geri getiremez.",
+        "description4": "Kurtarma ifadeniz cihazınızda yerel olarak saklanır ve şifrenizle şifrelenir. Yalnızca siz erişebilirsiniz. XiaoHua Wallet kurtarma ifadenize erişemez veya onu geri getiremez.",
         "GotIt": "Tamamdır.",
         "description1": "Kurtarma ifadesi, cüzdanınıza erişmek ve onu kontrol etmek için kullanılan bir dizi kelimedir. Cüzdanınızı herhangi bir cihazda geri yüklemek için kullanabilirsiniz."
       },
@@ -1270,7 +1270,7 @@
           "answer": "12, 18 veya 24 kelimelik bir cümle, varlıklarınızı kontrol etmek için kullanılır."
         },
         "isItSafeToImportItInRabby": {
-          "question": "Rabby'de içe aktarmak güvenli mi?",
+          "question": "XiaoHua Wallet'de içe aktarmak güvenli mi?",
           "answer": "Evet, telefonunuzda yerel olarak depolanacak ve sadece sizin erişiminize açık olacak."
         },
         "showSeedPhrase": "Kurtarma İfadesini Göster",
@@ -1281,13 +1281,13 @@
         "googleDriveBackup": "Google Drive Yedekleme",
         "chooseBackupMethodTitle": "Yedekleme yöntemi seçin",
         "pastedAndClear": "Yapıştırıldı ve pano temizlendi",
-        "importQuestion2": "Kurtarma ifadesi yalnızca telefonumda saklanır ve Rabby buna erişemez.",
+        "importQuestion2": "Kurtarma ifadesi yalnızca telefonumda saklanır ve XiaoHua Wallet buna erişemez.",
         "backupTips": "Kurtarma ifadenizi yedeklerken ekranınızı başka kimsenin görmediğinden emin olun.",
         "importQuestion1": "Kurtarma ifademi kaybedersem veya başkalarıyla paylaşırsam varlıklarımı kalıcı olarak kaybederim.",
         "createdSuccess": "Kurtarma ifadeniz oluşturuldu",
         "riskTips": "Başlamadan önce, lütfen aşağıdaki güvenlik ipuçlarını okuyun ve aklınızda bulundurun.",
         "chooseBackupMethodDesc": "Yedekler, uygulamayı silerseniz veya cihazınızı kaybederseniz cüzdanınızı geri yüklemenizi sağlar.",
-        "importQuestion3": "Kurtarma ifadesini yedeklemeden uygulama silinir, cihaz kaybolur veya yeniden kurulum gerekirse Rabby onu benim için geri getiremez.",
+        "importQuestion3": "Kurtarma ifadesini yedeklemeden uygulama silinir, cihaz kaybolur veya yeniden kurulum gerekirse XiaoHua Wallet onu benim için geri getiremez.",
         "backupRestoreButton": "Kurtarma İfadesini İçe Aktar",
         "backupRestoreCreatedAt": "Yedekleme Zamanı:",
         "backupRestoreImported": "İçe Aktarıldı",
@@ -1307,7 +1307,7 @@
         "backupSuccessGDrive": "Google Drive'a Yedeklendi",
         "backupRestoreUnlockDesc": "Yedeklerinizi şifrelemek için ayarladığınız aynı şifreyi kullanın.",
         "passwordMinTip": "En az 8 karakter olmalıdır",
-        "backupUnlockDesc": "Şifrenizi yedekleri geri yüklemek için güvende tutun. Rabby Wallet bunu depolamaz ve geri alamaz.",
+        "backupUnlockDesc": "Şifrenizi yedekleri geri yüklemek için güvende tutun. XiaoHua Wallet bunu depolamaz ve geri alamaz.",
         "addMoreWalletTitle": "Bu cümleden daha fazla cüzdan ekle"
       },
       "privateKey": {
@@ -1316,7 +1316,7 @@
           "answer": "Varlıklarınızı kontrol etmek için kullanılan harfler ve rakamlardan oluşan bir dizi."
         },
         "isItSafeToImportItInRabby": {
-          "question": "Rabby'de bunu içe aktarmak güvenli mi?",
+          "question": "XiaoHua Wallet'de bunu içe aktarmak güvenli mi?",
           "answer": "Evet, telefonunuzda yerel olarak saklanacak ve yalnızca sizin erişiminize açık olacak."
         },
         "repeatImportTips": "Bu cüzdan içe aktarılmıştır"
@@ -1457,7 +1457,7 @@
         "description2": "Özel anahtarınızı kaybederseniz cüzdanınızı geri yükleyemezsiniz.",
         "title2": "Yedekleme",
         "title": "Özel anahtar nedir",
-        "description4": "Özel anahtarınız cihazınızda yerel olarak saklanır ve şifrenizle şifrelenir. Ona yalnızca siz erişebilirsiniz. Rabby özel anahtarınıza erişemez veya onu geri alamaz.",
+        "description4": "Özel anahtarınız cihazınızda yerel olarak saklanır ve şifrenizle şifrelenir. Ona yalnızca siz erişebilirsiniz. XiaoHua Wallet özel anahtarınıza erişemez veya onu geri alamaz.",
         "description3": "Asla özel anahtarınızı paylaşmayın—ona erişimi olan herkes fonlarınızı kontrol edebilir.",
         "description1": "Özel anahtar, cüzdanınıza erişmek ve kontrol etmek için kullanılan harf ve rakamlar dizisidir. Cüzdanınızı herhangi bir cihazda kurtarmak için bunu kullanabilirsiniz.",
         "title3": "Asla Paylaşma"
@@ -1483,7 +1483,7 @@
         "enableBiometricAlert": {
           "yes": "Evet",
           "title": "{{ bioType }}'yi etkinleştir",
-          "content": "{{ bioType }}'yi Rabby Wallet'ı kilidini açmak için etkinleştirmek ister misiniz?",
+          "content": "{{ bioType }}'yi XiaoHua Wallet'ı kilidini açmak için etkinleştirmek ister misiniz?",
           "no": "İptal et"
         },
         "failedAndTipTitle": "Kilid açma başarısız oldu",
@@ -1494,15 +1494,15 @@
     "addToken": {
       "noTokenFound": "Token bulunamadı",
       "tokenNotFound": "Bu sözleşme adresinden token bulunamadı.",
-      "tokenSupported": "Token, Rabby üzerinde desteklenmektedir.",
+      "tokenSupported": "Token, XiaoHua Wallet üzerinde desteklenmektedir.",
       "hasAdded": "Bu token eklendi.",
-      "title": "Rabby'ye özel token ekle",
+      "title": "XiaoHua Wallet'ye özel token ekle",
       "tokenCustomized": "Mevcut token özelleştirilmiş'e zaten eklenmiştir."
     },
     "switchChain": {
       "requestsReceivedPlural": "{{count}} istek alındı",
       "requestsReceived": "1 istek alındı",
-      "requestRabbyToSupport": "Rabby'den Destek İsteği"
+      "requestRabbyToSupport": "XiaoHua Wallet'den Destek İsteği"
     },
     "signText": {
       "createKey": {
@@ -1537,7 +1537,7 @@
       "manageWhiteBlackList": "Beyaz liste/siyah liste yönetimi",
       "markRemovedToast": "İşaret silindi",
       "markAsBlockToast": "\"Engelli\" olarak işaretle",
-      "verifiedByRabby": "Rabby tarafından doğrulandı",
+      "verifiedByRabby": "XiaoHua Wallet tarafından doğrulandı",
       "title": "DApp'e Bağlan",
       "trusted": "Güvenilir",
       "noMark": "İşaret yok",
@@ -1548,7 +1548,7 @@
       "markAsTrustToast": "\" Güvenilir\" Olarak İşaretle",
       "flagByMM": "MetaMask tarafından işaretlendi",
       "onYourWhitelist": "Beyaz listenizde",
-      "flagByRabby": "Rabby tarafından işaretlendi",
+      "flagByRabby": "XiaoHua Wallet tarafından işaretlendi",
       "connectBtn": "Bağlanın",
       "noWebsite": "Hiçbiri",
       "markRuleText": "Benim işaretim",
@@ -1613,7 +1613,7 @@
       "verify-face-id": "Yüz Tanıma Doğrula",
       "verify-face-id-before-backup": "Yedeklemeden önce Face ID'nizi doğrulayın",
       "verify-and-backup": "Doğrula ve yedekle",
-      "verify-password-before-backup": "Rabby şifrenizi yedeklemeden önce doğrulayın"
+      "verify-password-before-backup": "XiaoHua Wallet şifrenizi yedeklemeden önce doğrulayın"
     },
     "customRpc": {
       "EditRPCModal": {
@@ -1630,7 +1630,7 @@
       "add": "RPC URL'sunu Değiştir",
       "empty": "Özel RPC URL yok",
       "closed": "Kapalı",
-      "desc": "Bir kez değiştirildiğinde, özel RPC Rabby'nin düğümünü değiştirecektir. Rabby'nin düğümünü kullanmaya devam etmek için, özel RPC'yi silin.",
+      "desc": "Bir kez değiştirildiğinde, özel RPC XiaoHua Wallet'nin düğümünü değiştirecektir. XiaoHua Wallet'nin düğümünü kullanmaya devam etmek için, özel RPC'yi silin.",
       "opened": "Açıldı"
     },
     "safeQueue": {
@@ -1680,7 +1680,7 @@
       "alert": "Bu Özel Anahtar, varlıklarınıza erişim sağlar. Onu kaybetmeyin veya başkalarına ifşa etmeyin, aksi takdirde varlıklarınızı sonsuza dek kaybedebilirsiniz. Lütfen bunu güvenli bir ortamda görüntüleyin ve dikkatlice saklayın."
     },
     "ethSign": {
-      "alert": "'eth_sign' ile imza atmak varlık kaybına yol açabilir. Güvenliğiniz için, Rabby bu yöntemi desteklememektedir."
+      "alert": "'eth_sign' ile imza atmak varlık kaybına yol açabilir. Güvenliğiniz için, XiaoHua Wallet bu yöntemi desteklememektedir."
     },
     "createPassword": {
       "setUpSuccess": "Şifre Başarıyla Ayarlandı",
@@ -1698,7 +1698,7 @@
       "ConfirmPassword": "Şifreyi doğrula",
       "termOfUse": "Kullanım Şartları",
       "biometricsFail": "Biyometrik kimlik doğrulama etkinleştirme başarısız oldu",
-      "confirmModalDesc": "Lütfen şifrenizi düzgün bir şekilde saklayın. Bir kez kaybolduğunda, Rabby tarafından değiştirilemez veya kurtarılamaz.",
+      "confirmModalDesc": "Lütfen şifrenizi düzgün bir şekilde saklayın. Bir kez kaybolduğunda, XiaoHua Wallet tarafından değiştirilemez veya kurtarılamaz.",
       "setWallet": "Cüzdanı Ayarla",
       "confirmError": "Şifreler uyuşmuyor",
       "confirmTitle": "Şifreyi Onayla",
@@ -1724,16 +1724,16 @@
         "claim": "Talep Et"
       },
       "claimModal": {
-        "rabbyValuedUserBadge": "Rabby Değerli Kullanıcı Rozeti",
+        "rabbyValuedUserBadge": "XiaoHua Wallet Değerli Kullanıcı Rozeti",
         "snapshotTime": "Anlık görüntü zamanı: {{time}}",
-        "rabbyDesktopGenesisNft": "Rabby Desktop Genesis NFT",
+        "rabbyDesktopGenesisNft": "XiaoHua Wallet Desktop Genesis NFT",
         "addressBalance": "Cüzdan bakiyesi",
         "claim": "Talep Et",
         "invalid-code": "geçersiz kod",
         "MetaMaskSwap": "MetaMask Swap",
         "title": "Başlangıç Puanlarını Talep Et",
         "placeholder": "Yardımcı Kodunu girerek ekstra puanları alabilirsiniz (isteğe bağlı)",
-        "rabbyUser": "Rabby Aktif Kullanıcı",
+        "rabbyUser": "XiaoHua Wallet Aktif Kullanıcı",
         "referral-code": "Referans Kodu"
       },
       "referralCode": {
@@ -1755,13 +1755,13 @@
         "once-set-this-referral-code-is-permanent-and-cannot-change": "Bir kez ayarlandığında, bu davet kodu kalıcıdır ve değiştirilemez.",
         "confirm": "Onayla"
       },
-      "title": "Rabby Puanları",
+      "title": "XiaoHua Wallet Puanları",
       "earn-points": "Puan Kazanın",
       "out-of-x-current-total-points": "{{total}} Toplam Dağıtılan Puan İçinden",
       "top-100": "En İyi 100",
       "initialPointsClaimEnded": "Başlangıç Noktaları talebi sona erdi",
       "code-set-successfully": "Referral kodu başarıyla ayarlandı.",
-      "firstRoundEnded": "🎉 Rabby Points'ın ilk turu sona erdi",
+      "firstRoundEnded": "🎉 XiaoHua Wallet Points'ın ilk turu sona erdi",
       "xPoints": "{{point}} Puan",
       "alreadyClaimedXPoints": "Zaten talep edildi: {{point}}"
     },
@@ -1779,7 +1779,7 @@
       },
       "AddFromChainList": {
         "tips": {
-          "supported": "Rabby Wallet tarafından zaten entegre edilmiş zincir",
+          "supported": "XiaoHua Wallet tarafından zaten entegre edilmiş zincir",
           "added": "Bu zinciri zaten eklediniz."
         },
         "empty": "Zincir bulunamadı",
@@ -1790,13 +1790,13 @@
         "title": "İşlem Verisi"
       },
       "ConfirmModifyRpcModal": {
-        "desc": "Zincir zaten Rabby tarafından entegre edilmiştir. RPC URL'sini değiştirmenize gerek var mı?"
+        "desc": "Zincir zaten XiaoHua Wallet tarafından entegre edilmiştir. RPC URL'sini değiştirmenize gerek var mı?"
       },
       "currency": "Para",
       "empty": "Özel Ağ Yok",
       "id": "Tanım",
       "add": "Özel Ağ Ekle",
-      "desc": "Rabby, özel ağların güvenliğini doğrulayamaz. Lütfen sadece güvenilir ağlar ekleyin.",
+      "desc": "XiaoHua Wallet, özel ağların güvenliğini doğrulayamaz. Lütfen sadece güvenilir ağlar ekleyin.",
       "addToken": {
         "title": "Özel Ağ Tokeni Ekle",
         "chain": "Zincir",
@@ -1814,8 +1814,8 @@
       }
     },
     "addChain": {
-      "title": "Rabby'ye Özel Ağı Ekle",
-      "desc": "Rabby, özel ağların güvenliğini doğrulayamaz. Lütfen yalnızca güvenilir ağlar ekleyin."
+      "title": "XiaoHua Wallet'ye Özel Ağı Ekle",
+      "desc": "XiaoHua Wallet, özel ağların güvenliğini doğrulayamaz. Lütfen yalnızca güvenilir ağlar ekleyin."
     },
     "sign": {
       "transactionSpeed": "İşlem Hızı"
@@ -1852,7 +1852,7 @@
         "followingTokenInSufficient": "Aşağıdaki token bakiyesi yetersizdir.",
         "zeroInvalidAmount": "Miktar sıfır olamaz",
         "title": "Hesapla geçme",
-        "desc": "Rabby's DeBank L2 Hesabına ekstra ücret olmadan para yatırın—istediğiniz zaman çekin.",
+        "desc": "XiaoHua Wallet's DeBank L2 Hesabına ekstra ücret olmadan para yatırın—istediğiniz zaman çekin.",
         "googlePayFeeDesc": "Google Pay ücreti içerir. Çekim yok.",
         "googlePayDesc": "${{ amount }} Google Pay ücreti içerir. Para çekme yok.",
         "applePayDesc": "${{amount}} Apple Pay ücreti içerir. Çekim yoktur.",
@@ -1951,7 +1951,7 @@
       "benefitCard": {
         "item2": "Tüm ağları destekler.",
         "desc1": "Gaz ödemek için ek ücret yoktur.",
-        "item1": "Ücret Yok Rabby",
+        "item1": "Ücret Yok XiaoHua Wallet",
         "item3": "Tüm işlemleri destekler",
         "desc2": "80+ ağda otomatik gas ödemeleri",
         "desc3": "Değiştir, Köprü, Gönder, DApp ve daha fazlası",
@@ -2189,7 +2189,7 @@
       "clearPendingToast": "Yerel bekleyen işlem kaldırıldı",
       "clearPendingResetDesc": "Ayrıca yerel nonce verimi ve imza kaydımı sıfırlayın.",
       "clearPendingWarning": "Kaldırılan işlem, yerine geçilmediği sürece hala zincir üzerinde onaylanabilir.",
-      "clearPendingDesc1": "Bu, tüm bekleyen işlemlerinizi temizleyecektir. Bu, bazı durumlarda Rabby'deki işlemin durumunun zincirdeki durumla eşleşmemesi sorununu çözmenize yardımcı olabilir.",
+      "clearPendingDesc1": "Bu, tüm bekleyen işlemlerinizi temizleyecektir. Bu, bazı durumlarda XiaoHua Wallet'deki işlemin durumunun zincirdeki durumla eşleşmemesi sorununu çözmenize yardımcı olabilir.",
       "clearPendingDesc2": "Bu işlem hesap bakiyelerinizi değiştirmez veya kurtarma ifadenizi yeniden girmenizi gerektirmez. Tüm varlıklarınız ve hesap bilgileriniz güvende kalır.",
       "addCustomNetwork": "Özel Ağ Ekle",
       "clearBrowserData": "Tarayıcı Verilerini Temizle",
@@ -2258,17 +2258,17 @@
       "alert": "EIP-7702 henüz desteklenmiyor."
     },
     "syncExtension": {
-      "scanTips1": "Rabby Uzantısı'nda \"Mobile Sync\"a tıklayın",
-      "verifyWithPassword": "Rabby Uzantı Şifrenizle Doğrulayın",
+      "scanTips1": "XiaoHua Wallet Uzantısı'nda \"Mobile Sync\"a tıklayın",
+      "verifyWithPassword": "XiaoHua Wallet Uzantı Şifrenizle Doğrulayın",
       "syncingTips": "Tarayıcı tamamlanana kadar kamerayı sabit tutun.",
       "importedSuccessfully": "Başarıyla İçe Aktarıldı!",
       "noNewAddr": "İçe aktarılacak yeni adres bulunamadı.",
       "syncingProgress": "Tarama ({{ percent }})",
-      "imported": "Rabby Mobile'da zaten bulunan adresler tekrar içe aktarılmayacaktır. Adres notları ve beyaz listeler otomatik olarak senkronize edilecektir.",
-      "newUserVerify": "Ayrıca, bu sizin Rabby Mobile için varsayılan şifre olarak da hizmet edecektir.",
+      "imported": "XiaoHua Wallet'da zaten bulunan adresler tekrar içe aktarılmayacaktır. Adres notları ve beyaz listeler otomatik olarak senkronize edilecektir.",
+      "newUserVerify": "Ayrıca, bu sizin XiaoHua Wallet için varsayılan şifre olarak da hizmet edecektir.",
       "scanTips2": "Kodu tara ve senkronizasyona başla",
       "importedTips": "Eğer UYGULAMA zaten bir kopya adrese sahipse, bu adres içe aktarılmayacaktır. Adres notları ve beyaz listeler de senkronize edilecektir.",
-      "verifyTips": "Veri bilgileriniz çevrimdışı olarak şifrelenmiştir. Şifreyi çözüp doğrulamak için Rabby Extension parolanızı girin."
+      "verifyTips": "Veri bilgileriniz çevrimdışı olarak şifrelenmiştir. Şifreyi çözüp doğrulamak için XiaoHua Wallet Extension parolanızı girin."
     },
     "safeMessageQueue": {
       "loading": "Yükleniyor mesajlar",
@@ -2328,9 +2328,9 @@
       "HyperliquidInvitePopup": {
         "btn": "Şimdi Katıl",
         "title": "Hyperliquid Referans Programı",
-        "desc": "Şimdi Rabby’nin kodunu kullanarak Hyperliquid ücretlerinizde <1>4% indirim</1> kazanın.",
+        "desc": "Şimdi XiaoHua Wallet’nin kodunu kullanarak Hyperliquid ücretlerinizde <1>4% indirim</1> kazanın.",
         "asterTitle": "Aster Referans Programı",
-        "asterDesc": "Şimdi Rabby’nin kodunu kullanarak Aster ücretlerinizde <1> %4 indirim </1> almak için katılın."
+        "asterDesc": "Şimdi XiaoHua Wallet’nin kodunu kullanarak Aster ücretlerinizde <1> %4 indirim </1> almak için katılın."
       },
       "WebviewError": {
         "error": "Hata:",
@@ -2584,7 +2584,7 @@
         "gotItBtn": "Tamamdır",
         "perps": "Perps",
         "sizeTips": "Ticaretinizin toplam değeri veya miktarı, teminat ve kaldıraç tarafından belirlenir.",
-        "feeRabby": "Rabby Cüzdan",
+        "feeRabby": "XiaoHua Wallet Cüzdan",
         "feeRabbyDiscount": "Sınırlı süreli işlem ücreti indirimi",
         "feeHyperliquid": "Hyperliquid",
         "feeTitle": "Ücret",
@@ -2714,7 +2714,7 @@
         "activatedFailed": "Aktivasyon başarısız oldu",
         "hyperliquidFee": "Hyperliquid işlem ücretleri.",
         "activatedSuccess": "%4 Hyperliquid ücret tasarrufu etkinleştirildi",
-        "description": "Etkinleştirmek için Rabby kodunu kullanın",
+        "description": "Etkinleştirmek için XiaoHua Wallet kodunu kullanın",
         "activateNow": "Şimdi Etkinleştir"
       },
       "dappSelect": {
@@ -2825,7 +2825,7 @@
         "pnl": "PNL",
         "positionSize": "Pozisyon Boyutu",
         "providerFeeTips": "Hyperliquid ücreti: {{fee}}",
-        "rabbyFeeTips": "Rabby ücreti: 0.04%",
+        "rabbyFeeTips": "XiaoHua Wallet ücreti: 0.04%",
         "fee": "Ücret",
         "closeBtn": "Kapat {{direction}}",
         "amount": "Miktar",
@@ -2834,7 +2834,7 @@
         "closedPnl": "Kapalı PNL",
         "total": "Toplam",
         "receive": "Alım",
-        "rabbyFeeTipsV2": "Rabby ücreti: 0.02%"
+        "rabbyFeeTipsV2": "XiaoHua Wallet ücreti: 0.02%"
       },
       "PerpsOpenPositionPopup": {
         "title": "{{coin}} Pozisyonu Aç",
@@ -2891,12 +2891,12 @@
         "sizeTips": "Ticaretinizin toplam değeri veya miktarı, marj ve kaldıraçla belirlenir.",
         "price": "Fiyat",
         "margin": "Marj (İzole)",
-        "rabbyFeeTips": "Rabby ücreti: %0",
+        "rabbyFeeTips": "XiaoHua Wallet ücreti: %0",
         "providerFeeTips": "Hyperliquid ücreti: {{fee}}",
         "liquidationPriceTips": "Pozisyonunuzun, marjınız bakım marjı seviyesinin altına düştüğünde daha fazla kaybı önlemek için borsa tarafından otomatik olarak kapatıldığı fiyat.",
         "free": "Ücretsiz",
         "providerFee": "Hyperliquid ücreti",
-        "rabbyFee": "Rabby ücreti",
+        "rabbyFee": "XiaoHua Wallet ücreti",
         "marginCross": "Marj (Çapraz)"
       },
       "action": {
@@ -3310,9 +3310,9 @@
     },
     "newUserOnboarding": {
       "restoreWallet": {
-        "title": "Rabby cüzdanınızı geri yükleyin",
+        "title": "XiaoHua Wallet cüzdanınızı geri yükleyin",
         "subtitle": "Tekrar hoş geldiniz! 🎉\nCüzdanınızı hızla geri yüklemek için bir yöntem seçin.",
-        "subtitleInApp": "Cüzdanlarınızı Rabby uzantısından veya iCloud'dan hızlıca içe aktarmak için aşağıdan bir seçenek belirleyin."
+        "subtitleInApp": "Cüzdanlarınızı XiaoHua Wallet uzantısından veya iCloud'dan hızlıca içe aktarmak için aşağıdan bir seçenek belirleyin."
       },
       "importSecret": {
         "seedPhrasePlaceholder": "Kurtarma ifadenizi girin",
@@ -3385,7 +3385,7 @@
     },
     "walletConnect": {
       "screenTitle": "Cüzdanı Bağla",
-      "connectingToRabby": "Rabby'ye bağlanıyor",
+      "connectingToRabby": "XiaoHua Wallet'ye bağlanıyor",
       "pairingFailed": "WalletConnect eşleştirmesi başarısız.",
       "connected": "Başarıyla bağlandı. Lütfen DApp'e geri dönün.",
       "proposalExpired": "WalletConnect teklifinin süresi doldu.",
@@ -3433,7 +3433,7 @@
         "title": "Yatır",
         "selectToken": "Para Yatırmak İçin Token Seçin",
         "token": "Token",
-        "desc": "Rabby'nin DeBank L2 hesabına ek ücret ödemeden para yatırın; istediğiniz zaman çekin."
+        "desc": "XiaoHua Wallet'nin DeBank L2 hesabına ek ücret ödemeden para yatırın; istediğiniz zaman çekin."
       },
       "withdrawPopup": {
         "amount": "Miktar",
@@ -3462,10 +3462,10 @@
         "title1": "GasAccount nedir",
         "title3": "GasAccount'ın ek ücretleri var mı?",
         "title4": "GasAccount güvenli mi?",
-        "desc3": "Rabby Wallet ek ücret talep etmez. Sadece işleminiz için gaz ücreti ve bu gazı GasAccount’tan adresinize göndermek için küçük bir gaz ücreti ödemeniz gerekir.",
+        "desc3": "XiaoHua Wallet ek ücret talep etmez. Sadece işleminiz için gaz ücreti ve bu gazı GasAccount’tan adresinize göndermek için küçük bir gaz ücreti ödemeniz gerekir.",
         "title2": "Gas Account'ı nasıl kullanırım",
         "desc2": "Fonları GasAccount'unuza ekleyin ve bunu herhangi bir işlem için kullanın. İmza atarken, gaz ücretini yerel token'lar veya GasAccount ile ödemeyi seçin, herhangi bir zaman geçiş yapabilirsiniz.",
-        "desc4": "GasAccount, herhangi bir sözleşme onayı veya iznine ihtiyaç duymadan çalışır. Rabby’nin GasAccount adresine para yatırırsınız ve ihtiyaç duyduğunuzda Rabby gazı adresinize gönderir. Tasarımı gereği tamamen güvenlidir.",
+        "desc4": "GasAccount, herhangi bir sözleşme onayı veya iznine ihtiyaç duymadan çalışır. XiaoHua Wallet’nin GasAccount adresine para yatırırsınız ve ihtiyaç duyduğunuzda XiaoHua Wallet gazı adresinize gönderir. Tasarımı gereği tamamen güvenlidir.",
         "desc1": "GasAccount, gas ücretlerini ödemenin yeni bir yoludur. Her zincirde yerel token kullanmak yerine, tüm zincirlerdeki tüm adreslerinizin gas ücretini tek bir hesapla karşılayabilirsiniz. Basit, isteğe bağlı ve gas bakiyeniz hiç tükenmez."
       }
     },
@@ -3558,10 +3558,10 @@
     },
     "AuthenticationModals": {
       "biometrics": {
-        "enableTip": "{{ bioType }}'yi etkinleştirerek Rabby'yi açın.",
+        "enableTip": "{{ bioType }}'yi etkinleştirerek XiaoHua Wallet'yi açın.",
         "disable": "{{ bioType }} devre dışı bırakılsın mı?",
         "enable": "{{ bioType }} özelliğini etkinleştirmek için\nşifrenizi girin",
-        "disableTip": "{{ bioType }}'yi devre dışı bırakın ve Rabby'yi açın"
+        "disableTip": "{{ bioType }}'yi devre dışı bırakın ve XiaoHua Wallet'yi açın"
       },
       "processBiometrics": {
         "cancel": "İptal Et",
@@ -3624,14 +3624,14 @@
       "switchArea": {
         "skipText": "Bu açılır pencereyi 1 gün için atla"
       },
-      "alertText": "Üçüncü taraf DApp: kullanım sorunları için lütfen DApp desteğiyle iletişime geçin. Rabby yalnızca görüntüleme erişimi sağlar.",
+      "alertText": "Üçüncü taraf DApp: kullanım sorunları için lütfen DApp desteğiyle iletişime geçin. XiaoHua Wallet yalnızca görüntüleme erişimi sağlar.",
       "title": "Hata Bildirmek için Ekran Görüntüsü"
     },
     "feedbackModal": {
-      "repliedTitle": "Rabby Destek yanıtladı:",
-      "pendingTitle": "Rabby Destek henüz yanıt vermedi.",
+      "repliedTitle": "XiaoHua Wallet Destek yanıtladı:",
+      "pendingTitle": "XiaoHua Wallet Destek henüz yanıt vermedi.",
       "issueDescriptionLabel": "Açıklama:",
-      "title": "Rabby Destekten Yanıt",
+      "title": "XiaoHua Wallet Destekten Yanıt",
       "issueDescription": "İşte bildirdiğiniz sorun:"
     },
     "submitFeedbackSuccessModal": {
@@ -3684,7 +3684,7 @@
     "authentication": {
       "auth_prompt_cancel": "İptal Et",
       "auth_prompt_title": "Kimlik doğrulama gerekiyor",
-      "auth_prompt_desc": "Lütfen Rabby'yi kullanmak için kimlik doğrulaması yapın."
+      "auth_prompt_desc": "Lütfen XiaoHua Wallet'yi kullanmak için kimlik doğrulaması yapın."
     }
   },
   "global": {
@@ -3715,7 +3715,7 @@
     "nonce": "nonce",
     "backButton": "Geri",
     "folded": "Daraltıldı",
-    "appName": "Rabby Wallet",
+    "appName": "XiaoHua Wallet",
     "refresh": "Yenile",
     "Deleted": "Silindi",
     "WalletCreated": "Cüzdan oluşturuldu",
@@ -3839,8 +3839,8 @@
     "permissions_alert": {
       "cancel": "İzin Verme",
       "open_settings": "Tamam",
-      "message": "Rabby Wallet, Ledger ile bağlantı kurmak için bluetooth erişimi kullanır.",
-      "title": "\"Rabby Wallet\" Bluetooth Kullanmak İstiyor"
+      "message": "XiaoHua Wallet, Ledger ile bağlantı kurmak için bluetooth erişimi kullanır.",
+      "title": "\"XiaoHua Wallet\" Bluetooth Kullanmak İstiyor"
     },
     "update_firmware_alert": {
       "cancel": "İptal et",

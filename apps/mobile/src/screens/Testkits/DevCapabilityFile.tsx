@@ -932,7 +932,7 @@ function DevCapabilityFile() {
       const jsiAvailable = RNFS.isJSIAvailable();
 
       if (!jsiAvailable) {
-        throw new Error('Rabby native FS JSI binding is unavailable');
+        throw new Error('XiaoHua Wallet native FS JSI binding is unavailable');
       }
 
       RNFS.clearDiagnostics();
@@ -981,7 +981,7 @@ function DevCapabilityFile() {
       const jsiAvailable = RNFS.isJSIAvailable();
 
       if (!jsiAvailable) {
-        throw new Error('Rabby native FS JSI binding is unavailable');
+        throw new Error('XiaoHua Wallet native FS JSI binding is unavailable');
       }
 
       RNFS.clearDiagnostics();
@@ -1029,7 +1029,7 @@ function DevCapabilityFile() {
       const jsiAvailable = RNFS.isJSIAvailable();
 
       if (!jsiAvailable) {
-        throw new Error('Rabby native FS JSI binding is unavailable');
+        throw new Error('XiaoHua Wallet native FS JSI binding is unavailable');
       }
 
       RNFS.clearDiagnostics();
@@ -1136,10 +1136,10 @@ function DevCapabilityFile() {
       const asyncAvailable = RNFS.isNativeAsyncFileIOAvailable();
 
       if (!jsiAvailable) {
-        throw new Error('Rabby native FS JSI binding is unavailable');
+        throw new Error('XiaoHua Wallet native FS JSI binding is unavailable');
       }
       if (!asyncAvailable) {
-        throw new Error('Rabby native FS async stream is unavailable');
+        throw new Error('XiaoHua Wallet native FS async stream is unavailable');
       }
 
       RNFS.clearDiagnostics();
@@ -1263,10 +1263,10 @@ function DevCapabilityFile() {
       const asyncAvailable = RNFS.isNativeAsyncFileIOAvailable();
 
       if (!jsiAvailable) {
-        throw new Error('Rabby native FS JSI binding is unavailable');
+        throw new Error('XiaoHua Wallet native FS JSI binding is unavailable');
       }
       if (!asyncAvailable) {
-        throw new Error('Rabby native FS async stream is unavailable');
+        throw new Error('XiaoHua Wallet native FS async stream is unavailable');
       }
 
       RNFS.clearDiagnostics();
@@ -1413,7 +1413,7 @@ function DevCapabilityFile() {
       const jsiAvailable = RNFS.isJSIAvailable();
 
       if (!jsiAvailable) {
-        throw new Error('Rabby native FS JSI binding is unavailable');
+        throw new Error('XiaoHua Wallet native FS JSI binding is unavailable');
       }
 
       RNFS.clearDiagnostics();
@@ -1913,7 +1913,7 @@ function DevCapabilityFile() {
         <View style={styles.sectionCard}>
           <Text style={styles.sectionTitle}>Large File Byte I/O Test</Text>
           <Text style={styles.noteText}>
-            This sample uses the Rabby-owned `react-native-fs` JSI byte APIs to
+            This sample uses the wallet-owned `react-native-fs` JSI byte APIs to
             write and read a {formatBytes(BYTE_IO_TEST_BYTES)} sandbox file. It
             avoids the old base64 string bridge path so large file content does
             not have to be encoded through JS strings.

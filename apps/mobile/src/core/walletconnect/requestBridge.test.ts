@@ -561,7 +561,7 @@ describe('walletconnect request bridge', () => {
         jsonrpc: '2.0',
         error: expect.objectContaining({
           message:
-            'No Rabby account is available for this WalletConnect session.',
+            'No XiaoHua Wallet account is available for this WalletConnect session.',
         }),
       },
     });

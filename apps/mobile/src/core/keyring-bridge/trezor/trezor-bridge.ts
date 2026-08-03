@@ -14,7 +14,7 @@ export default class TrezorBridge implements TrezorBridgeInterface {
         debug: appIsDev,
         manifest: {
           email: 'support@rabby.io',
-          appName: 'Rabby Wallet',
+          appName: 'XiaoHua Wallet',
           appUrl: 'https://rabby.io/',
         },
         // for local development purposes. for production, leave it undefined to use the default value.

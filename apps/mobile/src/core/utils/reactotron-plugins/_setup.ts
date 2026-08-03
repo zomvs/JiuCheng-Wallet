@@ -7,7 +7,7 @@ export function setupCustomCommands(client: ReactotronReactNative) {
   Reactotron.onCustomCommand({
     command: 'executeSql',
     title: 'Execute SQL Command',
-    description: `Executes a raw SQL command on the database, e.g. "SELECT COUNT(_db_id) FROM rabby_cache_tokenitem;"`,
+    description: `Executes a raw SQL command on the database, e.g. "SELECT COUNT(*) FROM sqlite_master;"`,
     args: [
       {
         name: 'sql',

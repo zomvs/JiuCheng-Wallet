@@ -294,7 +294,7 @@ export const TokenMarketInfoScreen = () => {
 
       if (marketAction) {
         matomoRequestEvent({
-          category: 'Rabby Market',
+          category: 'XiaoHua Wallet Market',
           action: marketAction,
         });
       }

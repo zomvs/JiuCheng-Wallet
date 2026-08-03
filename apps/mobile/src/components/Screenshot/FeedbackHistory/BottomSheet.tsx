@@ -86,7 +86,7 @@ const DEFAULT_FEEDBACK_MESSAGE: ClientFeedbackMessage = {
   sender: 'ops',
   ops_user_id: null,
   content:
-    'Need help? Share your feedback directly with the Rabby team in this chat.',
+    'Need help? Share your feedback directly with the XiaoHua Wallet team in this chat.',
   image_url_list: [],
   video_url_list: [],
   source: '',

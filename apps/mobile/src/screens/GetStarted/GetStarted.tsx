@@ -7,7 +7,6 @@ import Animated, {
   Easing,
   interpolate,
 } from 'react-native-reanimated';
-import Lottie from 'lottie-react-native';
 
 import {
   BOTTOM_BUTTON_GAP,
@@ -41,33 +40,45 @@ import ChevronRightSmallCC from '@/assets/icons/common/chevron-right-small-cc.sv
 import { E2E_ID } from '@/constant/e2e';
 import { makeTestIDProps } from '@/utils/makeTestIDProps';
 import { ensureWalletUnlockedForAction } from '@/utils/walletUnlock';
-
-import StartScreenAnimation from '@/assets2024/animations/start-screen-animation.min.json';
-import StartScreenAnimationDark from '@/assets2024/animations/start-screen-animation-dark.min.json';
+import XiaoHuaMark from '@/assets/icons/brand/xiaohua-mark.svg';
+import { BrandWordmark } from '@/components2024/Brand/BrandWordmark';
 
 const { width: SCREEN_WIDTH } = Dimensions.get('window');
 
-// Logo images
-import logoLight from '@/assets/images/get-started/logo-light.png';
-import logoDark from '@/assets/images/get-started/logo-dark.png';
+const HERO_ASPECT_RATIO = 0.88;
 
-// Lottie animation dimensions
-const HERO_ASPECT_RATIO = 452 / 393;
-
-// Hero illustration component using Lottie animation
-const HeroIllustration = ({ isLight }: { isLight: boolean }) => {
+const HeroIllustration = () => {
   const { styles } = useTheme2024({ getStyle });
-
   const heroHeight = Math.ceil(SCREEN_WIDTH * HERO_ASPECT_RATIO);
 
   return (
     <View style={[styles.heroContainer, { height: heroHeight }]}>
-      <Lottie
-        source={isLight ? StartScreenAnimation : StartScreenAnimationDark}
-        style={[styles.heroBackground, { height: heroHeight }]}
-        loop={false}
-        autoPlay
-      />
+      <View style={styles.heroGlowPrimary} />
+      <View style={styles.heroGlowSecondary} />
+      <View style={styles.heroCardBack} />
+      <View style={styles.heroCard}>
+        <View style={styles.heroMarkHalo}>
+          <XiaoHuaMark width={88} height={88} />
+        </View>
+        <View style={styles.heroChainRow}>
+          {['ETH', 'BTC', 'SOL'].map((chain, index) => (
+            <View
+              key={chain}
+              style={[
+                styles.heroChainPill,
+                index === 1 && styles.heroChainPillActive,
+              ]}>
+              <Text
+                style={[
+                  styles.heroChainText,
+                  index === 1 && styles.heroChainTextActive,
+                ]}>
+                {chain}
+              </Text>
+            </View>
+          ))}
+        </View>
+      </View>
     </View>
   );
 };
@@ -198,16 +209,18 @@ function NewUserGetStartedScreen() {
     <View style={styles.screen}>
       {/* Header with logo - positioned right next to status bar, horizontally centered */}
       <View style={[styles.logoWrapper, { top: top + 6 }]}>
-        <Animated.Image
-          source={isLight ? logoLight : logoDark}
-          style={[styles.logoImage, logoAnimatedStyle]}
-          resizeMode="contain"
-        />
+        <Animated.View style={logoAnimatedStyle}>
+          <BrandWordmark
+            color={colors2024['neutral-title-1']}
+            iconSize={30}
+            textStyle={styles.logoText}
+          />
+        </Animated.View>
       </View>
 
       <View style={styles.contentContainer}>
         {/* Hero Illustration - crops from top on short screens */}
-        <HeroIllustration isLight={isLight} />
+        <HeroIllustration />
 
         <Animated.View
           style={[contentAnimatedStyle, { flexShrink: 0, flexGrow: 1 }]}>
@@ -321,9 +334,9 @@ const getStyle = createGetStyles2024(ctx => ({
     zIndex: 10,
     alignItems: 'center',
   },
-  logoImage: {
-    width: 178,
-    height: 37,
+  logoText: {
+    fontSize: 19,
+    lineHeight: 24,
   },
   contentContainer: {
     flex: 1,
@@ -331,13 +344,81 @@ const getStyle = createGetStyles2024(ctx => ({
   heroContainer: {
     width: SCREEN_WIDTH,
     flexShrink: 1,
-    justifyContent: 'flex-end',
+    alignItems: 'center',
+    justifyContent: 'center',
     overflow: 'hidden',
-    marginTop: -20,
+    marginTop: 36,
   },
-  heroBackground: {
-    marginLeft: -12,
-    width: SCREEN_WIDTH + 24,
+  heroGlowPrimary: {
+    position: 'absolute',
+    width: SCREEN_WIDTH * 0.72,
+    height: SCREEN_WIDTH * 0.72,
+    borderRadius: SCREEN_WIDTH,
+    backgroundColor: ctx.isLight ? '#E8EAFF' : '#242A56',
+    top: 24,
+    left: -42,
+  },
+  heroGlowSecondary: {
+    position: 'absolute',
+    width: SCREEN_WIDTH * 0.58,
+    height: SCREEN_WIDTH * 0.58,
+    borderRadius: SCREEN_WIDTH,
+    backgroundColor: ctx.isLight ? '#DDF8F1' : '#123D39',
+    right: -58,
+    bottom: 4,
+  },
+  heroCardBack: {
+    position: 'absolute',
+    width: 220,
+    height: 184,
+    borderRadius: 40,
+    backgroundColor: ctx.isLight ? '#B9C1FF' : '#3A4382',
+    transform: [{ rotate: '11deg' }, { translateX: 28 }],
+  },
+  heroCard: {
+    width: 234,
+    height: 194,
+    borderRadius: 40,
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 20,
+    backgroundColor: ctx.isLight ? '#FFFFFF' : '#1E2030',
+    borderWidth: 1,
+    borderColor: ctx.isLight ? '#E1E4FF' : '#434966',
+    shadowColor: '#5367FF',
+    shadowOffset: { width: 0, height: 18 },
+    shadowOpacity: ctx.isLight ? 0.18 : 0.3,
+    shadowRadius: 28,
+    elevation: 10,
+  },
+  heroMarkHalo: {
+    width: 108,
+    height: 108,
+    borderRadius: 34,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: ctx.isLight ? '#F0F2FF' : '#2A2E48',
+  },
+  heroChainRow: {
+    flexDirection: 'row',
+    gap: 8,
+  },
+  heroChainPill: {
+    paddingHorizontal: 10,
+    paddingVertical: 5,
+    borderRadius: 12,
+    backgroundColor: ctx.isLight ? '#F1F2F8' : '#2B2E3C',
+  },
+  heroChainPillActive: {
+    backgroundColor: '#5367FF',
+  },
+  heroChainText: {
+    color: ctx.colors2024['neutral-secondary'],
+    fontSize: 11,
+    fontWeight: '700',
+  },
+  heroChainTextActive: {
+    color: '#FFFFFF',
   },
   textContent: {
     alignItems: 'center',

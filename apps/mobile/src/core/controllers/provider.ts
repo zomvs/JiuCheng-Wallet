@@ -1539,13 +1539,13 @@ class ProviderController extends BaseController {
 
   @Reflect.metadata('SAFE', true)
   web3ClientVersion = () => {
-    return `Rabby/${process.env.release}`;
+    return `XiaoHuaWallet/${process.env.release}`;
   };
 
   @Reflect.metadata('APPROVAL', ['ETHSign', () => null, { height: 390 }])
   ethSign = () => {
     throw new Error(
-      "Signing with 'eth_sign' can lead to asset loss. For your safety, Rabby does not support this method.",
+      "Signing with 'eth_sign' can lead to asset loss. For your safety, XiaoHua Wallet does not support this method.",
     );
   };
 
@@ -1900,7 +1900,7 @@ class ProviderController extends BaseController {
     });
 
     if (!chain) {
-      throw new Error('This chain is not supported by Rabby yet.');
+      throw new Error('This chain is not supported by XiaoHua Wallet yet.');
     }
 
     if (approvalRes) {

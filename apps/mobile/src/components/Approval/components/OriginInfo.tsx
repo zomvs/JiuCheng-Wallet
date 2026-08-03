@@ -109,7 +109,7 @@ export const OriginInfo: React.FC<Props> = ({
 
   const displayOrigin = useMemo(() => {
     if (origin === INTERNAL_REQUEST_ORIGIN) {
-      return 'Rabby Wallet';
+      return 'XiaoHua Wallet';
     }
     return origin;
   }, [origin]);

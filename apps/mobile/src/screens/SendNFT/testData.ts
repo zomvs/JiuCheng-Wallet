@@ -6,9 +6,9 @@ export const RABBY_GENESIS_NFT_DATA = {
     contract_id: '0x1645787ddcb380932130f0d8c22e6bf53a38e725',
     inner_id: '14',
     chain: 'eth',
-    name: 'Rabby Desktop Genesis 14',
+    name: 'XiaoHua Wallet Genesis 14',
     description:
-      'Rabby Desktop is a dedicated client designed for enhanced Dapp security. \n\nRabby Desktop Genesis is the first NFT collection for Rabby Desktop, in celebration of the beta launch. Mint Rabby Desktop Genesis and get your badge to join the community of early adopters and be among the first to witness the evolution.',
+      'XiaoHua Wallet is a dedicated client designed for enhanced Dapp security. \n\nXiaoHua Wallet Genesis is the first NFT collection for XiaoHua Wallet, in celebration of the beta launch. Mint XiaoHua Wallet Genesis and get your badge to join the community of early adopters and be among the first to witness the evolution.',
     content_type: 'image_url',
     content:
       'https://static.debank.com/image/eth_nft/local_url/3aeea1d379b9d210d5e827ab68c89b66/2c260762ea8c4532d689661472bf83e2.png',
@@ -24,11 +24,11 @@ export const RABBY_GENESIS_NFT_DATA = {
       },
       {
         trait_type: 'name',
-        value: 'Rabby Desktop Genesis',
+        value: 'XiaoHua Wallet Genesis',
       },
     ],
     collection_id: 'eth:0x1645787ddcb380932130f0d8c22e6bf53a38e725',
-    contract_name: 'Rabby Desktop Genesis',
+    contract_name: 'XiaoHua Wallet Genesis',
     is_erc721: true,
     amount: 1,
   } as Omit<NFTItem, 'token_id' | 'usd_price' | 'pay_token'>,

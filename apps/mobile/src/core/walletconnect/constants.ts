@@ -1,6 +1,6 @@
 export const WALLETCONNECT_METADATA = {
-  name: 'Rabby Mobile',
-  description: 'Rabby Mobile WalletConnect wallet.',
+  name: 'XiaoHua Wallet',
+  description: 'XiaoHua Wallet for WalletConnect.',
   url: 'https://rabby.io',
   icons: ['https://rabby.io/assets/images/logo-128.png'],
   redirect: {

@@ -183,7 +183,7 @@ export async function ensureWalletUnlocked() {
       require('@/components/AuthenticationModal/AuthenticationModal2024') as AuthenticationModal2024Module;
     const { AuthenticationModal2024 } = authModalModule;
     const { hideModal } = await AuthenticationModal2024.show({
-      title: 'Unlock Rabby Wallet',
+      title: 'Unlock XiaoHua Wallet',
       authType: ['password'],
       onFinished: resolveUnlock,
       onCancel: rejectUnlock,

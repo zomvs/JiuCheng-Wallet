@@ -12,7 +12,7 @@ export const INITIAL_OPENAPI_URL = 'https://app-api.rabby.io';
 export const INITIAL_TESTNET_OPENAPI_URL = 'https://api.testnet.rabby.io';
 
 export const INTERNAL_REQUEST_SESSION = {
-  name: 'Rabby',
+  name: 'XiaoHua Wallet',
   origin: INTERNAL_REQUEST_ORIGIN,
   icon: Image.resolveAssetSource(
     require('@/assets/images/rabby-chain-logo.png'),

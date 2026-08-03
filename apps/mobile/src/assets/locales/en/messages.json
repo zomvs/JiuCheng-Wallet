@@ -41,15 +41,15 @@
       "createNewAddress": "Create a new wallet",
       "alreadyHaveAddress": "I already have a wallet",
       "goToHome": "Go to Home",
-      "sync": "Scan to Sync Rabby Extension Wallet",
-      "welcomeTitle": "Welcome to\nRabby Wallet",
-      "alreadyUseRabby": "I already use Rabby"
+      "sync": "Scan to Sync XiaoHua Wallet Extension Wallet",
+      "welcomeTitle": "Welcome to\nXiaoHua Wallet",
+      "alreadyUseRabby": "I already use XiaoHua Wallet"
     },
     "newUserOnboarding": {
       "restoreWallet": {
-        "title": "Restore your Rabby wallet",
+        "title": "Restore your XiaoHua Wallet",
         "subtitle": "Welcome back! 🎉\nChoose a method to quickly restore your wallet.",
-        "subtitleInApp": "Choose an option below to quickly import your wallets from the Rabby extension or iCloud."
+        "subtitleInApp": "Choose an option below to quickly import your wallets from the XiaoHua Wallet Extension or iCloud."
       },
       "common": {
         "orYouCanCreateNewWallet": "Or you can <clickable>create a new wallet</clickable>"
@@ -185,7 +185,7 @@
       "gasPriceTitle": "Gas Price (Gwei)",
       "maxPriorityFee": "Max Priority Fee (Gwei)",
       "eip1559Desc1": "On chains that support EIP-1559, the Priority Fee is the tip for miners to process your transaction. You can save your final gas cost by lowering the Priority Fee, which may cost more time for the transaction to be processed.",
-      "eip1559Desc2": "Here in Rabby, Priority Fee (Tip) = Max Fee - Base Fee. After you set up the Max Priority Fee, the Base Fee will be deducted from it and the rest will be tipped to miners.",
+      "eip1559Desc2": "Here in XiaoHua Wallet, Priority Fee (Tip) = Max Fee - Base Fee. After you set up the Max Priority Fee, the Base Fee will be deducted from it and the rest will be tipped to miners.",
       "hardwareSupport1559Alert": "Make sure your hardware wallet firmware has been upgraded to the version that supports EIP 1559",
       "gasLimitTitle": "Gas limit",
       "recommendGasLimitTip": "Est. {{est}}. Current {{current}}x, recommend ",
@@ -214,7 +214,7 @@
       "safeAdminSigned": "Signed",
       "customRPCErrorModal": {
         "title": "Custom RPC Error",
-        "content": "Your custom RPC is unavailable now. You can disable it and continue signing using Rabby's official RPC",
+        "content": "Your custom RPC is unavailable now. You can disable it and continue signing using XiaoHua Wallet's official RPC",
         "button": "Disable Custom RPC"
       },
       "swap": {
@@ -234,8 +234,8 @@
       },
       "safeTx": {
         "selfHostConfirm": {
-          "title": "Switch to Rabby's Safe Service",
-          "content": "Safe API is unavailable. Switch to the Safe service deployed by Rabby to keep your Safe functional. <1></1><2>All Safe signers must use Rabby Wallet to authorize transactions.</2>",
+          "title": "Switch to XiaoHua Wallet's Safe Service",
+          "content": "Safe API is unavailable. Switch to the Safe service deployed by XiaoHua Wallet to keep your Safe functional. <1></1><2>All Safe signers must use XiaoHua Wallet to authorize transactions.</2>",
           "button": "OK"
         }
       },
@@ -290,7 +290,7 @@
         "eoaAddress": "EOA",
         "deployTimeLessThan": "< {{value}} days",
         "amountPopupTitle": "Approve amount",
-        "flagByRabby": "Flagged by Rabby",
+        "flagByRabby": "Flagged by XiaoHua Wallet",
         "contractTrustValueTip": "Trust value refers to the total asset value spent by this contract. A low trust value indicates either risk or inactivity for 180 days."
       },
       "revokeTokenApprove": {
@@ -370,7 +370,7 @@
       "viewRaw": "View Raw",
       "chain": "Chain",
       "unknownActionType": "Unknown Action Type",
-      "sigCantDecode": "This signature can't be decoded by Rabby Wallet",
+      "sigCantDecode": "This signature can't be decoded by XiaoHua Wallet",
       "nftCollection": "NFT Collection",
       "floorPrice": "Floor price",
       "contractAddress": "Contract address",
@@ -595,7 +595,7 @@
           "title": "No Transaction history",
           "titleLastThreeMonths": "No Transaction history in 90 Days",
           "testnetNoHistory": "Custom token transaction history not available.",
-          "desc": "All transactions signed via Rabby will be listed here."
+          "desc": "All transactions signed via XiaoHua Wallet will be listed here."
         },
         "common": {
           "unlimited": "unlimited",
@@ -960,7 +960,7 @@
       "estimate": "Estimate:",
       "actual": "Actual:",
       "usd-after-fees": "≈ {{usd}} ",
-      "no-fees-for-wrap": "No Rabby fee for Wrap",
+      "no-fees-for-wrap": "No XiaoHua Wallet fee for Wrap",
       "Auto": "Auto",
       "no-quote-found": "No quote found",
       "market-closed": "Market not open: Order placement is not supported.",
@@ -969,9 +969,9 @@
       "results": "Results",
       "insufficient": "Insufficient Balance:",
       "rabbyFee": {
-        "title": "Rabby fee",
-        "swapDesc": "Rabby Wallet will always find the best possible rate from top aggregators and verify the reliability of their offers. Rabby charges a <1>0.25%</1> fee (0% for wrapping), which is automatically included in the quote.",
-        "bridgeDesc": "Rabby Wallet will always find the best possible rate from top aggregators and verify the reliability of their offers. Rabby charges a <1>0.25%</1> fee, which is automatically included in the quote.",
+        "title": "XiaoHua Wallet fee",
+        "swapDesc": "XiaoHua Wallet will always find the best possible rate from top aggregators and verify the reliability of their offers. XiaoHua Wallet charges a <1>0.25%</1> fee (0% for wrapping), which is automatically included in the quote.",
+        "bridgeDesc": "XiaoHua Wallet will always find the best possible rate from top aggregators and verify the reliability of their offers. XiaoHua Wallet charges a <1>0.25%</1> fee, which is automatically included in the quote.",
         "wallet": "Wallet",
         "rate": "Fee rate",
         "button": "Got it"
@@ -1048,7 +1048,7 @@
       }
     },
     "manageAddress": {
-      "delete-checklist-1": "I understand that if I delete this wallet, the corresponding private key and seed phrase will be deleted, and Rabby will NOT be able to recover them.",
+      "delete-checklist-1": "I understand that if I delete this wallet, the corresponding private key and seed phrase will be deleted, and XiaoHua Wallet will NOT be able to recover them.",
       "delete-checklist-2": "I confirm that I have backed up the private key or seed phrase and am ready to delete it now.",
       "delete-private-key-title": "Delete Wallet and Private Key",
       "delete-seed-phrase-title": "Delete Wallet and Seed Phrase",
@@ -1177,14 +1177,14 @@
         "cancel": "Cancel",
         "enableWhitelist": "Enable Whitelist",
         "disableWhitelist": "Disable Whitelist",
-        "enableWhitelistTip": "Once enabled, you can only send assets to the addresses in the whitelist using Rabby.",
+        "enableWhitelistTip": "Once enabled, you can only send assets to the addresses in the whitelist using XiaoHua Wallet.",
         "disableWhitelistTip": "You can send assets to any address once disabled"
       },
       "tokenDetail": {
         "blockedTip": "Blocked token will not be shown in token list",
         "blocked": "Blocked",
-        "selectedCustom": "Token is not listed by Rabby. You've added it to the token list by custom.",
-        "notSelectedCustom": "Token is not listed by Rabby. It will be added to the token list if you switch on.",
+        "selectedCustom": "Token is not listed by XiaoHua Wallet. You've added it to the token list by custom.",
+        "notSelectedCustom": "Token is not listed by XiaoHua Wallet. It will be added to the token list if you switch on.",
         "customized": "Customized",
         "notSupported": "The token on this chain is not supported",
         "swap": "Swap",
@@ -1265,8 +1265,8 @@
         "importAddress": "Import Wallet",
         "hardwareWallet": "Hardware Wallet",
         "selectAddMethod": "Select Add Method",
-        "syncRabbyExtension": "Sync Rabby Extension",
-        "restoreRabbyWallet": "Restore Rabby Wallet",
+        "syncRabbyExtension": "Sync XiaoHua Wallet Extension",
+        "restoreRabbyWallet": "Restore XiaoHua Wallet",
         "seedPhraseOrPrivateKey": "Seed phrase or private key",
         "moreOptions": "More options"
       },
@@ -1301,18 +1301,18 @@
         "moreSafeTitle": "Import Safe Address",
         "hardWare": "Connect Hardware Wallets",
         "tips": {
-          "title": "Is it safe to import into Rabby?",
-          "description": "Your data is securely encrypted and stored locally on your device. Rabby does not have access to your private information, and it is never shared with third parties.",
+          "title": "Is it safe to import into XiaoHua Wallet?",
+          "description": "Your data is securely encrypted and stored locally on your device. XiaoHua Wallet does not have access to your private information, and it is never shared with third parties.",
           "gotIt": "I Got It.",
-          "entry": "Is it safe to import into Rabby"
+          "entry": "Is it safe to import into XiaoHua Wallet"
         }
       },
       "rateModalTriggerOnHome": {
-        "description": "How do you rate Rabby Wallet"
+        "description": "How do you rate XiaoHua Wallet"
       },
       "rateModal": {
-        "descriptionIOS": "If you like Rabby, a quick rating on the App Store would mean a lot.",
-        "descriptionAndroid": "If you like Rabby, a quick rating on the Google Play would mean a lot.",
+        "descriptionIOS": "If you like XiaoHua Wallet, a quick rating on the App Store would mean a lot.",
+        "descriptionAndroid": "If you like XiaoHua Wallet, a quick rating on the Google Play would mean a lot.",
         "confirmButtonTitleIOS": "Rate on App Store",
         "confirmButtonTitleAndroid": "Rate on Google Play",
         "feedbackTitle": "Have feedback? We’re listening.",
@@ -1338,7 +1338,7 @@
         "title2": "Never Share It",
         "description3": "Never share your seed phrase—anyone with access to it can control your funds.",
         "title3": "Safety",
-        "description4": "Your seed phrase is stored locally on your device and encrypted with your password. Only you can access it. Rabby cannot retrieve or access your seed phrase.",
+        "description4": "Your seed phrase is stored locally on your device and encrypted with your password. Only you can access it. XiaoHua Wallet cannot retrieve or access your seed phrase.",
         "GotIt": "I Got It."
       },
       "whatIsPrivateKey": {
@@ -1349,7 +1349,7 @@
         "title3": "Never Share It",
         "description3": "Never share your private key—anyone with access to it can control your funds.",
         "title4": "Safety",
-        "description4": "Your private key is stored locally on your device and encrypted with your password. Only you can access it. Rabby cannot retrieve or access your private key.",
+        "description4": "Your private key is stored locally on your device and encrypted with your password. Only you can access it. XiaoHua Wallet cannot retrieve or access your private key.",
         "ButtonGotIt": "I Got It."
       },
       "addContacts": {
@@ -1365,12 +1365,12 @@
           "answer": "A 12, 18, or 24-word phrase used to control your assets."
         },
         "isItSafeToImportItInRabby": {
-          "question": "Is it safe to import it in Rabby?",
+          "question": "Is it safe to import it in XiaoHua Wallet?",
           "answer": "Yes, it will be stored locally on your phone and only accessible to you."
         },
         "importQuestion1": "If I lose my seed phrase or share it with others, my assets will be lost forever.",
-        "importQuestion2": "The seed phrase is only stored on my phone, and Rabby has no access to it.",
-        "importQuestion3": "If I do not back up the seed phrase, and the app is unintentionally deleted, the device is lost, or reinstallation is required, Rabby cannot retrieve it for me.",
+        "importQuestion2": "The seed phrase is only stored on my phone, and XiaoHua Wallet has no access to it.",
+        "importQuestion3": "If I do not back up the seed phrase, and the app is unintentionally deleted, the device is lost, or reinstallation is required, XiaoHua Wallet cannot retrieve it for me.",
         "riskTips": "Before you start, please read and keep the following security tips in mind.",
         "showSeedPhrase": "Show Seed Phrase",
         "backupTips": "Make sure no one else is watching your screen when you back up the seed phrase",
@@ -1384,7 +1384,7 @@
         "googleDriveBackup": "Google Drive Backup",
         "manuallyBackup": "Manual Backup",
         "backupUnlockTitle": "Encrypt with App Password",
-        "backupUnlockDesc": "Keep your password safe to restore backups. Rabby Wallet doesn't store it and can't recover it.",
+        "backupUnlockDesc": "Keep your password safe to restore backups. XiaoHua Wallet doesn't store it and can't recover it.",
         "backupUnlockPlaceholder": "Enter the Password to Confirm",
         "passwordMinTip": "Must be at least 8 characters",
         "backupUnlockButton": "Continue",
@@ -1412,7 +1412,7 @@
         },
         "repeatImportTips": "This wallet has been imported",
         "isItSafeToImportItInRabby": {
-          "question": "Is it safe to import it in Rabby?",
+          "question": "Is it safe to import it in XiaoHua Wallet?",
           "answer": "Yes, it will be stored locally on your phone and only accessible to you."
         }
       },
@@ -1562,7 +1562,7 @@
         "usePassword": "Switched to use password to unlock.",
         "enableBiometricAlert": {
           "title": "Enable {{ bioType }}",
-          "content": "Do you want to enable {{ bioType }} to Unlock Rabby Wallet？",
+          "content": "Do you want to enable {{ bioType }} to Unlock XiaoHua Wallet？",
           "no": "Cancel",
           "yes": "Yes"
         }
@@ -1571,16 +1571,16 @@
     },
     "addToken": {
       "noTokenFound": "No token found",
-      "tokenSupported": "Token has been supported on Rabby",
+      "tokenSupported": "Token has been supported on XiaoHua Wallet",
       "tokenCustomized": "Current token has already been added to customized",
       "tokenNotFound": "Token not found from this contract address",
-      "title": "Add custom token to Rabby",
+      "title": "Add custom token to XiaoHua Wallet",
       "hasAdded": "You have been added this token."
     },
     "switchChain": {
       "requestsReceived": "1 request received",
       "requestsReceivedPlural": "{{count}} requests received",
-      "requestRabbyToSupport": "Request Rabby to Support"
+      "requestRabbyToSupport": "Request XiaoHua Wallet to Support"
     },
     "signText": {
       "title": "Sign Text",
@@ -1605,10 +1605,10 @@
       "listedBy": "Listed by",
       "sitePopularity": "Site popularity",
       "myMark": "My Mark",
-      "flagByRabby": "Flagged by Rabby",
+      "flagByRabby": "Flagged by XiaoHua Wallet",
       "flagByMM": "Flagged by MetaMask",
       "flagByScamSniffer": "Flagged by ScamSniffer",
-      "verifiedByRabby": "Verified by Rabby",
+      "verifiedByRabby": "Verified by XiaoHua Wallet",
       "foundForbiddenRisk": "Found forbidden risks. Connection is blocked.",
       "markAsTrustToast": "Mark as \"Trusted\"",
       "markAsBlockToast": "Mark as \"Blocked\"",
@@ -1634,7 +1634,7 @@
     },
     "walletConnect": {
       "screenTitle": "Connect Wallet",
-      "connectingToRabby": "Connecting to Rabby",
+      "connectingToRabby": "Connecting to XiaoHua Wallet",
       "pairingFailed": "WalletConnect pairing failed.",
       "connected": "Connected successfully. Please return to the Dapp.",
       "proposalExpired": "WalletConnect proposal expired.",
@@ -1663,7 +1663,7 @@
       "backup-seed-phrase": "Backup Seed Phrase",
       "backupFailed": "Backup failed, please try again",
       "verify-password": "Verify password",
-      "verify-password-before-backup": "Verify your Rabby password before the backup",
+      "verify-password-before-backup": "Verify your XiaoHua Wallet password before the backup",
       "verify-face-id": "Verify Face ID",
       "verify-face-id-before-backup": "Verify your Face ID before the backup",
       "verify-fingerprint": "Verify fingerprint",
@@ -1720,7 +1720,7 @@
       "opened": "Opened",
       "closed": "Closed",
       "empty": "No custom RPC URL",
-      "desc": "Once modified, the custom RPC will replace Rabby's node. To continue using Rabby's node, delete the custom RPC.",
+      "desc": "Once modified, the custom RPC will replace XiaoHua Wallet's node. To continue using XiaoHua Wallet's node, delete the custom RPC.",
       "add": "Modify RPC URL",
       "EditRPCModal": {
         "invalidRPCUrl": "Invalid RPC URL",
@@ -1781,7 +1781,7 @@
       "clickToShowQr": "Click to show private key QR Code"
     },
     "ethSign": {
-      "alert": "Signing with 'eth_sign' can lead to asset loss. For your safety, Rabby does not support this method."
+      "alert": "Signing with 'eth_sign' can lead to asset loss. For your safety, XiaoHua Wallet does not support this method."
     },
     "createPassword": {
       "settingUp": "Setting up password",
@@ -1806,7 +1806,7 @@
       "confirmError": "Passwords do not match",
       "agree": "I have read and agree to the<1/> <2>Terms of Use</2>",
       "confirmTitle": "Confirm password",
-      "confirmModalDesc": "Please store your password properly. Once lost, it cannot be changed or recovered by Rabby.",
+      "confirmModalDesc": "Please store your password properly. Once lost, it cannot be changed or recovered by XiaoHua Wallet.",
       "setWallet": "Set Wallet"
     },
     "importSafe": {
@@ -1822,8 +1822,8 @@
     },
     "rabbyPoints": {
       "__skip_translation": ["titleWithStar", "ClaimComing"],
-      "title": "Rabby Points",
-      "titleWithStar": "Rabby Points ✨",
+      "title": "XiaoHua Wallet Points",
+      "titleWithStar": "XiaoHua Wallet Points ✨",
       "out-of-x-current-total-points": "Out of {{total}} Total Distributed Points",
       "earn-points": "Earn Points",
       "top-100": "Top 100",
@@ -1839,9 +1839,9 @@
         "claim": "Claim",
         "addressBalance": "Wallet balance",
         "MetaMaskSwap": "MetaMask Swap",
-        "rabbyUser": "Rabby Active User",
-        "rabbyValuedUserBadge": "Rabby Valued User Badge",
-        "rabbyDesktopGenesisNft": "Rabby Desktop Genesis NFT",
+        "rabbyUser": "XiaoHua Wallet Active User",
+        "rabbyValuedUserBadge": "XiaoHua Wallet Valued User Badge",
+        "rabbyDesktopGenesisNft": "XiaoHua Wallet Desktop Genesis NFT",
         "referral-code": "Referral Code",
         "invalid-code": "invalid code"
       },
@@ -1866,11 +1866,11 @@
       },
       "code-set-successfully": "Referral code set successfully",
       "initialPointsClaimEnded": "Initial Points claim ended",
-      "firstRoundEnded": "🎉 The first round of Rabby Points has ended",
+      "firstRoundEnded": "🎉 The first round of XiaoHua Wallet Points has ended",
       "ClaimComing": "Claim coming!"
     },
     "customTestnet": {
-      "desc": "Rabby cannot verify the security of custom networks. Please add trusted networks only.",
+      "desc": "XiaoHua Wallet cannot verify the security of custom networks. Please add trusted networks only.",
       "add": "Add Custom Network",
       "empty": "No Custom Network",
       "currency": "Currency",
@@ -1892,7 +1892,7 @@
         "empty": "No chains found",
         "tips": {
           "added": "You've already added this chain",
-          "supported": "Chain already integrated by Rabby Wallet"
+          "supported": "Chain already integrated by XiaoHua Wallet"
         }
       },
       "signTx": {
@@ -1914,12 +1914,12 @@
         "removeFailed": "Failed to delete token"
       },
       "ConfirmModifyRpcModal": {
-        "desc": "The chain is already integrated by Rabby. Do you need to modify its RPC URL?"
+        "desc": "The chain is already integrated by XiaoHua Wallet. Do you need to modify its RPC URL?"
       }
     },
     "addChain": {
-      "title": "Add Custom Network to Rabby",
-      "desc": "Rabby cannot verify the security of custom networks. Please add trusted networks only."
+      "title": "Add Custom Network to XiaoHua Wallet",
+      "desc": "XiaoHua Wallet cannot verify the security of custom networks. Please add trusted networks only."
     },
     "sign": {
       "transactionSpeed": "Transaction Speed"
@@ -1958,7 +1958,7 @@
       },
       "depositPopup": {
         "title": "Deposit",
-        "desc": "Make a deposit to Rabby's DeBank L2 Account with no extra fees—withdraw anytime.",
+        "desc": "Make a deposit to XiaoHua Wallet's DeBank L2 Account with no extra fees—withdraw anytime.",
         "zeroInvalidAmount": "The amount cannot be zero",
         "invalidAmount": "Must be under 500",
         "suggestedToken": "Suggested Tokens",
@@ -2057,7 +2057,7 @@
       "benefitCard": {
         "title": "Pay Gas Fees on All chains",
         "subtitle": "when you're out of gas",
-        "item1": "No Rabby Fee",
+        "item1": "No XiaoHua Wallet Fee",
         "desc1": "No extra fees to pay gas",
         "item2": "Supports all networks",
         "desc2": "Automatic gas payments on 80+ networks",
@@ -2309,7 +2309,7 @@
       "followUs": "Follow Us",
       "tou": "Term Of Use",
       "policy": "Privacy Policy",
-      "clearPendingDesc1": "This will clear all your pending transactions. This can help you solve the problem that in some cases the state of the transaction in Rabby does not match the state on-chain.",
+      "clearPendingDesc1": "This will clear all your pending transactions. This can help you solve the problem that in some cases the state of the transaction in XiaoHua Wallet does not match the state on-chain.",
       "clearPendingDesc2": "This will not change the balances in your accounts or require you to re-enter your seed phrase. All your assets and accounts information will remain secure.",
       "appCache": "Clear App Cache",
       "currentLanguage": "Current Language",
@@ -2385,13 +2385,13 @@
       "alert": "EIP-7702 is not supported yet"
     },
     "syncExtension": {
-      "newUserVerify": "It will also serve as the default password for your Rabby Mobile",
-      "verifyWithPassword": "Verify with your \nRabby Extension Password",
-      "verifyTips": "Your data is encrypted offline. Enter your Rabby Extension password to decrypt and verify.",
-      "imported": "Addresses already in Rabby Mobile won’t be imported again. Address notes and whitelists will sync automatically.",
+      "newUserVerify": "It will also serve as the default password for your XiaoHua Wallet",
+      "verifyWithPassword": "Verify with your \nXiaoHua Wallet Extension Password",
+      "verifyTips": "Your data is encrypted offline. Enter your XiaoHua Wallet Extension password to decrypt and verify.",
+      "imported": "Addresses already in XiaoHua Wallet won’t be imported again. Address notes and whitelists will sync automatically.",
       "importedTips": "If the APP already has a duplicate address, it will not be imported.Address notes and whitelists will sync as well.",
       "importedSuccessfully": "Imported Successfully!",
-      "scanTips1": "Click “Mobile Sync” on Rabby Extension",
+      "scanTips1": "Click “Mobile Sync” on XiaoHua Wallet Extension",
       "scanTips2": "Scan the code and start syncing",
       "syncingProgress": "Scanning ({{ percent }})",
       "syncingTips": "Keep the camera steady until the scan is complete",
@@ -2455,8 +2455,8 @@
       "HyperliquidInvitePopup": {
         "title": "Hyperliquid Referral Program",
         "asterTitle": "Aster Referral Program",
-        "desc": "Join now using Rabby’s code to get a <1>4% discount</1> on your Hyperliquid fees.",
-        "asterDesc": "Join now using Rabby’s code to get a <1>4% discount</1> on your Aster fees.",
+        "desc": "Join now using XiaoHua Wallet’s code to get a <1>4% discount</1> on your Hyperliquid fees.",
+        "asterDesc": "Join now using XiaoHua Wallet’s code to get a <1>4% discount</1> on your Aster fees.",
         "btn": "Join Now"
       },
       "WebviewError": {
@@ -2689,7 +2689,7 @@
         "feeTitle": "Fee",
         "feeDesc": "When users place trades, both\n<1>trading fees</1> and <2>builder fees</2> apply.",
         "feeHyperliquid": "Hyperliquid",
-        "feeRabby": "Rabby Wallet",
+        "feeRabby": "XiaoHua Wallet",
         "feeRabbyDiscount": "Limited-time trading fee discount"
       },
       "PerpsAutoCloseModal": {
@@ -2842,7 +2842,7 @@
         "title": "Save on Hyperliquid Fees",
         "activatedSuccess": "4% Hyperliquid fee savings activated",
         "activateFailed": "Failed",
-        "description": "Use Rabby’s code to enable",
+        "description": "Use XiaoHua Wallet’s code to enable",
         "hyperliquidFee": "Hyperliquid trading fees.",
         "activateNow": "Activate Now",
         "activatedFailed": "Activate failed"
@@ -2914,8 +2914,8 @@
         "closedPnl": "Closed PNL",
         "confirm": "Confirm",
         "fee": "Fee",
-        "rabbyFeeTips": "Rabby fee: 0.04%",
-        "rabbyFeeTipsV2": "Rabby fee: 0.02%",
+        "rabbyFeeTips": "XiaoHua Wallet fee: 0.04%",
+        "rabbyFeeTipsV2": "XiaoHua Wallet fee: 0.02%",
         "providerFeeTips": "Hyperliquid fee: {{fee}}"
       },
       "PerpsEditMarginPopup": {
@@ -2989,9 +2989,9 @@
         "fee": "Fee",
         "btn": "Open {{direction}} Position",
         "free": "Free",
-        "rabbyFee": "Rabby fee",
+        "rabbyFee": "XiaoHua Wallet fee",
         "providerFee": "Hyperliquid fee",
-        "rabbyFeeTips": "Rabby fee: 0%",
+        "rabbyFeeTips": "XiaoHua Wallet fee: 0%",
         "providerFeeTips": "Hyperliquid fee: {{fee}}",
         "liquidationPriceTips": "The price at which your position is automatically closed by the exchange to prevent further losses when your margin falls below the maintenance margin level.",
         "sizeTips": "The total value or quantity of your trade, set by margin and leverage.",
@@ -3489,9 +3489,9 @@
         "title2": "How to use Gas Account",
         "desc2": "Add funds to your GasAccount and use it for any transaction. When signing, choose to pay gas with native tokens or GasAccount, switch anytime.",
         "title3": "Does GasAccount have extra fees",
-        "desc3": "Rabby Wallet charges no extra fees. You only pay the gas for your transaction and a small amount of gas for sending that gas from GasAccount to your address.",
+        "desc3": "XiaoHua Wallet charges no extra fees. You only pay the gas for your transaction and a small amount of gas for sending that gas from GasAccount to your address.",
         "title4": "Is GasAccount safe",
-        "desc4": "GasAccount requires no contract approvals or permissions. You deposit to Rabby’s GasAccount address, and Rabby sends gas to your address when needed. Fully secure by design."
+        "desc4": "GasAccount requires no contract approvals or permissions. You deposit to XiaoHua Wallet’s GasAccount address, and XiaoHua Wallet sends gas to your address when needed. Fully secure by design."
       },
       "loginConfirmModal": {
         "desc": "Once login, you can only deposit it at this address",
@@ -3499,7 +3499,7 @@
       },
       "depositPopup": {
         "title": "Deposit",
-        "desc": "Make a deposit to Rabby's DeBank L2 Account with no extra fees—withdraw anytime.",
+        "desc": "Make a deposit to XiaoHua Wallet's DeBank L2 Account with no extra fees—withdraw anytime.",
         "amount": "Amount",
         "token": "Token",
         "selectToken": "Select Token to Deposit"
@@ -3613,8 +3613,8 @@
       "biometrics": {
         "enable": "Enter the Password\nto Enable {{ bioType }}",
         "disable": "Confirm to disable {{ bioType }}?",
-        "enableTip": "Enable {{ bioType }} to unlock Rabby",
-        "disableTip": "Disable {{ bioType }} to unlock Rabby"
+        "enableTip": "Enable {{ bioType }} to unlock XiaoHua Wallet",
+        "disableTip": "Disable {{ bioType }} to unlock XiaoHua Wallet"
       },
       "processBiometrics": {
         "title": "Biometrics Authentication",
@@ -3666,13 +3666,13 @@
       "switchArea": {
         "skipText": "Skip this popup for 1 day"
       },
-      "alertText": "Third-party DApp: for usage issues please contact DApp support. Rabby provides viewing access only"
+      "alertText": "Third-party DApp: for usage issues please contact DApp support. XiaoHua Wallet provides viewing access only"
     },
     "feedbackModal": {
-      "title": "Response from Rabby Support",
+      "title": "Response from XiaoHua Wallet Support",
       "issueDescription": "Here’s the issue you reported:",
-      "repliedTitle": "Rabby Support has replied:",
-      "pendingTitle": "Rabby Support hasn't reply.",
+      "repliedTitle": "XiaoHua Wallet Support has replied:",
+      "pendingTitle": "XiaoHua Wallet Support hasn't reply.",
       "issueDescriptionLabel": "Description: "
     },
     "submitFeedbackSuccessModal": {
@@ -3736,12 +3736,12 @@
     },
     "authentication": {
       "auth_prompt_title": "Authentication required",
-      "auth_prompt_desc": "Please authenticate in order to use Rabby",
+      "auth_prompt_desc": "Please authenticate in order to use XiaoHua Wallet",
       "auth_prompt_cancel": "Cancel"
     }
   },
   "global": {
-    "appName": "Rabby Wallet",
+    "appName": "XiaoHua Wallet",
     "appDescription": "Your go-to wallet for Ethereum and EVM",
     "copy": "Copy",
     "copiedSuccessfully": "Copied successfully",
@@ -3890,8 +3890,8 @@
       "cancel": "Don't Allow"
     },
     "permissions_alert": {
-      "title": "\"Rabby Wallet\" Would Like to Use Bluetooth",
-      "message": "Rabby Wallet uses bluetooth access to connect Ledger",
+      "title": "\"XiaoHua Wallet\" Would Like to Use Bluetooth",
+      "message": "XiaoHua Wallet uses bluetooth access to connect Ledger",
       "open_settings": "OK",
       "cancel": "Don't Allow"
     },

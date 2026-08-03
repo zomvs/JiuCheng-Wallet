@@ -115,7 +115,7 @@ export default function MarketScreen() {
 
     const timer = setTimeout(() => {
       matomoRequestEvent({
-        category: 'Rabby Market',
+        category: 'XiaoHua Wallet Market',
         action,
       });
     }, 150);

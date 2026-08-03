@@ -157,7 +157,7 @@ export function WatchlistContent({
 
       if (clickAction) {
         matomoRequestEvent({
-          category: 'Rabby Market',
+          category: 'XiaoHua Wallet Market',
           action: clickAction,
         });
       }

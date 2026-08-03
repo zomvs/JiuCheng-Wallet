@@ -291,7 +291,7 @@ export const dexSwap = async (
               app_version: APP_VERSIONS.fromNative || '0',
             });
             matomoRequestEvent({
-              category: 'Rabby Market',
+              category: 'XiaoHua Wallet Market',
               action: createSwapTxAction,
             });
           }
@@ -429,7 +429,7 @@ export const dexSwap = async (
               app_version: APP_VERSIONS.fromNative || '0',
             });
             matomoRequestEvent({
-              category: 'Rabby Market',
+              category: 'XiaoHua Wallet Market',
               action: createSwapTxAction,
             });
           }

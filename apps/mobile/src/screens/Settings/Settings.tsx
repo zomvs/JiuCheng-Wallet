@@ -38,7 +38,7 @@ import {
   RcBugReport,
   RcManageWallet,
 } from '@/assets/icons/settings';
-import RcFooterLogo from '@/assets/icons/settings/footer-logo.svg';
+import { BrandWordmark } from '@/components2024/Brand/BrandWordmark';
 
 import {
   APP_RUNTIME_ENV,
@@ -1229,7 +1229,7 @@ function DevSettingsBlocks({
               },
             },
             {
-              label: 'View Rabby Genesis NFT Detail',
+              label: 'View XiaoHua Wallet Genesis NFT Detail',
               icon: RcInfo,
               onPress: () => {
                 navigation.push(RootNames.StackTransaction, {
@@ -1337,7 +1337,7 @@ function DevSettingsBlocks({
 }
 
 export default function SettingsScreen(): JSX.Element {
-  const { styles } = useTheme2024({ getStyle: getStyles });
+  const { styles, colors2024 } = useTheme2024({ getStyle: getStyles });
   const { rabbitCode } = useAppSecurityChain();
   const rabbitCodeLen = rabbitCode?.length ?? null;
   const handleShowBuildInfo = useCallback(() => {
@@ -1381,7 +1381,11 @@ export default function SettingsScreen(): JSX.Element {
         )}
         <TouchableOpacity onPress={handlePress} activeOpacity={1}>
           <View style={[styles.bottomFooter]}>
-            <RcFooterLogo />
+            <BrandWordmark
+              color={colors2024['neutral-secondary']}
+              iconSize={24}
+              textStyle={styles.footerBrandText}
+            />
           </View>
         </TouchableOpacity>
       </ScrollView>
@@ -1431,6 +1435,10 @@ const getStyles = createGetStyles2024(ctx => {
       alignItems: 'center',
       justifyContent: 'center',
       // ...makeDebugBorder(),
+    },
+    footerBrandText: {
+      fontSize: 18,
+      lineHeight: 22,
     },
     rightText: {
       color: ctx.colors2024['neutral-secondary'],

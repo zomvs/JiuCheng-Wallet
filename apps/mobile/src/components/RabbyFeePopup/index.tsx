@@ -29,7 +29,7 @@ const swapFee = [
     rate: '0.85%',
   },
   {
-    name: 'Rabby Wallet',
+    name: 'XiaoHua Wallet',
     logo: ImgRabbyWallet,
     rate: '0.25%',
   },
@@ -42,7 +42,7 @@ const bridgeList = [
     rate: '0.875%',
   },
   {
-    name: 'Rabby Wallet',
+    name: 'XiaoHua Wallet',
     logo: ImgRabbyWallet,
     rate: '0.25%',
   },
@@ -144,7 +144,7 @@ export const RabbyFeePopup = ({
                   <Text
                     style={[
                       styles.itemText,
-                      item.name === 'Rabby Wallet' ? styles.highItem : {},
+                      item.name === 'XiaoHua Wallet' ? styles.highItem : {},
                     ]}>
                     {item.name}
                   </Text>
@@ -152,7 +152,7 @@ export const RabbyFeePopup = ({
                 <Text
                   style={[
                     styles.itemText,
-                    item.name === 'Rabby Wallet' ? styles.highItem : {},
+                    item.name === 'XiaoHua Wallet' ? styles.highItem : {},
                   ]}>
                   {item.rate}
                 </Text>

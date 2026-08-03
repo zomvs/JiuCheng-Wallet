@@ -83,13 +83,14 @@ const KEYCHAIN_VERSION_OPTIONS = [
     key: '9.0.0',
     label: '9.2.3',
     sourceLabel: apisKeychainV9_0_0.KEYCHAIN_SOURCE_LABEL,
-    description: 'Rabby-local 9.2.3 wrapper with the Android prompt patch.',
+    description:
+      'XiaoHua Wallet-local 9.2.3 wrapper with the Android prompt patch.',
   },
   {
     key: '10.0.0',
     label: '10.0.0',
     sourceLabel: apisKeychainV10_0_0.KEYCHAIN_SOURCE_LABEL,
-    description: 'Official 10.x package wrapped with Rabby business logic.',
+    description: 'Official 10.x package wrapped with wallet business logic.',
   },
 ] as const;
 
@@ -173,7 +174,7 @@ const KEYCHAIN_STORAGE_OPTIONS = [
     key: apisKeychain.KEYCHAIN_STORAGE_TYPES.AES_GCM_NO_AUTH,
     label: 'AES / GCM NoAuth',
     description:
-      'Rabby business path: no-auth keychain secret plus ReactNativeBiometrics system prompt.',
+      'Wallet business path: no-auth keychain secret plus ReactNativeBiometrics system prompt.',
   },
   {
     key: apisKeychain.KEYCHAIN_STORAGE_TYPES.KC,
@@ -580,7 +581,7 @@ function getKeychainDebugShareDir() {
     RNFS.TemporaryDirectoryPath ||
     RNFS.CachesDirectoryPath ||
     RNFS.DocumentDirectoryPath
-  }/rabby-keychain-debug`;
+  }/xiaohua-keychain-debug`;
 }
 
 async function ensureKeychainDebugShareDir() {
@@ -2846,7 +2847,7 @@ export default function DevDataKeychain(): JSX.Element {
       setIsLoading(true);
 
       const shareDir = await ensureKeychainDebugShareDir();
-      const fileName = `rabby-keychain-debug-${dayjs().format(
+      const fileName = `xiaohua-keychain-debug-${dayjs().format(
         'YYYYMMDD-HHmmss',
       )}.json`;
       const filePath = `${shareDir}/${fileName}`;
@@ -2858,7 +2859,7 @@ export default function DevDataKeychain(): JSX.Element {
         mimeType: 'application/json',
         title: 'Share keychain debug info',
         subject: fileName,
-        message: 'Rabby keychain debug info',
+        message: 'XiaoHua Wallet keychain debug info',
       });
 
       if (result.dismissed) {
@@ -3370,7 +3371,7 @@ export default function DevDataKeychain(): JSX.Element {
               <Text style={styles.sheetListLine}>
                 Android entry storage is primarily recorded inside the system
                 keychain marker (`storedCipherStorageName` /
-                `storedCipherStorageMarkerValue`), not in Rabby business
+                `storedCipherStorageMarkerValue`), not in wallet business
                 storage.
               </Text>
               <Text style={styles.sheetListLine}>
@@ -3402,7 +3403,7 @@ export default function DevDataKeychain(): JSX.Element {
                   : versionMeta.description
               }>
               <Text style={styles.sheetListLine}>
-                This section follows the Rabby business wrapper, not raw
+                This section follows the wallet business wrapper, not raw
                 `react-native-keychain` APIs.
               </Text>
               <Text style={styles.sheetListLine}>
@@ -3447,7 +3448,7 @@ export default function DevDataKeychain(): JSX.Element {
 
           <ActionSheetSection
             title="Raw Official Package"
-            desc="This section talks directly to the official `react-native-keychain@10.0.0` package and stays outside the Rabby business wrapper.">
+            desc="This section talks directly to the official `react-native-keychain@10.0.0` package and stays outside the wallet business wrapper.">
             <Text style={styles.sheetListLine}>
               Current Service: reads the real `com.debank` entry already used by
               the app.
@@ -3561,7 +3562,7 @@ export default function DevDataKeychain(): JSX.Element {
         />
         <View style={styles.statusRow}>
           <View style={styles.sectionHeaderRow}>
-            <Text style={styles.statusLabel}>RABBY_MOBILE_CODE</Text>
+            <Text style={styles.statusLabel}>WALLET_MOBILE_CODE</Text>
             {rabbitCode ? (
               <EyeToggleButton
                 visible={isRabbitCodeVisible}
@@ -4124,7 +4125,7 @@ export default function DevDataKeychain(): JSX.Element {
           ) : !isPlaygroundPage && actionsBusinessVersion === '10.0.0' ? (
             <ActionSheetSection
               title="Official v10 Raw Actions"
-              desc="Open the Raw v10 tab when you need raw official current/probe operations. Business only exposes the Rabby business wrapper."
+              desc="Open the Raw v10 tab when you need raw official current/probe operations. Business only exposes the wallet business wrapper."
             />
           ) : null}
         </AutoLockView>

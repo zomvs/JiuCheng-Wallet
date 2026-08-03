@@ -251,7 +251,7 @@ function SelectAddMethod(): JSX.Element {
           </Card>
         </View>
 
-        {/* Restore Rabby Wallet section */}
+        {/* Restore XiaoHua Wallet section */}
         <View style={styles.restoreSection}>
           <Text style={styles.restoreSubtitle}>
             {t('page.nextComponent.importAddress.ImportFromExtensionOrCloud', {

@@ -36,9 +36,9 @@
       "goToHome": "Pergi ke Beranda",
       "createNewAddress": "Buat Dompet Baru",
       "alreadyHaveAddress": "Saya sudah memiliki dompet",
-      "sync": "Pindai untuk Menyinkronkan Dompet Ekstensi Rabby",
-      "welcomeTitle": "Selamat datang di\nRabby Wallet",
-      "alreadyUseRabby": "Saya sudah menggunakan Rabby"
+      "sync": "Pindai untuk Menyinkronkan Dompet Ekstensi XiaoHua Wallet",
+      "welcomeTitle": "Selamat datang di\nXiaoHua Wallet",
+      "alreadyUseRabby": "Saya sudah menggunakan XiaoHua Wallet"
     },
     "transactions": {
       "itemTitle": {
@@ -160,7 +160,7 @@
       },
       "customRPCErrorModal": {
         "title": "Kesalahan RPC Kustom",
-        "content": "RPC kustom Anda saat ini tidak tersedia. Anda dapat menonaktifkannya dan melanjutkan penandatanganan menggunakan RPC resmi Rabby.",
+        "content": "RPC kustom Anda saat ini tidak tersedia. Anda dapat menonaktifkannya dan melanjutkan penandatanganan menggunakan RPC resmi XiaoHua Wallet.",
         "button": "Nonaktifkan RPC Kustom"
       },
       "swap": {
@@ -180,9 +180,9 @@
       },
       "safeTx": {
         "selfHostConfirm": {
-          "title": "Beralih ke Layanan Safe Rabby",
+          "title": "Beralih ke Layanan Safe XiaoHua Wallet",
           "button": "OK",
-          "content": "API Safe tidak tersedia. Beralih ke layanan Safe yang diterapkan oleh Rabby untuk menjaga Safe Anda tetap berfungsi. <1></1><2>Semua penandatangan Safe harus menggunakan Rabby Wallet untuk mengotorisasi transaksi.</2>"
+          "content": "API Safe tidak tersedia. Beralih ke layanan Safe yang diterapkan oleh XiaoHua Wallet untuk menjaga Safe Anda tetap berfungsi. <1></1><2>Semua penandatangan Safe harus menggunakan XiaoHua Wallet untuk mengotorisasi transaksi.</2>"
         }
       },
       "crossChain": {
@@ -225,7 +225,7 @@
         "approveToken": "Setujui token",
         "deployTimeLessThan": "< {{value}} hari",
         "myBalance": "Saldo saya",
-        "flagByRabby": "Diberi tanda oleh Rabby",
+        "flagByRabby": "Diberi tanda oleh XiaoHua Wallet",
         "contractTrustValueTip": "Nilai kepercayaan mengacu pada total nilai aset yang dibelanjakan oleh kontrak ini. Nilai kepercayaan yang rendah menunjukkan adanya risiko atau tidak ada aktivitas selama 180 hari."
       },
       "revokeTokenApprove": {
@@ -373,7 +373,7 @@
       "safeAdminSigned": "Ditandatangani",
       "myNativeTokenBalance": "Saldo Gas saya:",
       "enoughSafeSigCollected": "Cukup tanda tangan yang dikumpulkan",
-      "eip1559Desc2": "Di sini di Rabby, Biaya Prioritas (Tip) = Biaya Maksimal - Biaya Dasar. Setelah Anda mengatur Biaya Prioritas Maksimal, Biaya Dasar akan dipotong dari jumlah tersebut dan sisanya akan diberikan sebagai tip kepada penambang.",
+      "eip1559Desc2": "Di sini di XiaoHua Wallet, Biaya Prioritas (Tip) = Biaya Maksimal - Biaya Dasar. Setelah Anda mengatur Biaya Prioritas Maksimal, Biaya Dasar akan dipotong dari jumlah tersebut dan sisanya akan diberikan sebagai tip kepada penambang.",
       "gasLimitMinValueAlert": "Batas gas harus lebih dari 21000",
       "gasLimitEmptyAlert": "Silakan masukkan batas gas",
       "wrapToken": "Konversi ke Wrapped Token",
@@ -399,7 +399,7 @@
       "addressNote": "Catatan alamat",
       "trustValue": "Nilai kepercayaan",
       "floorPrice": "Harga dasar",
-      "sigCantDecode": "Tanda tangan ini tidak dapat didekode oleh Rabby Wallet",
+      "sigCantDecode": "Tanda tangan ini tidak dapat didekode oleh XiaoHua Wallet",
       "popularity": "Popularitas",
       "protocolTitle": "Protokol",
       "myMark": "Tanda saya",
@@ -571,7 +571,7 @@
       "signedTx": {
         "empty": {
           "title": "Tidak ada riwayat Transaksi",
-          "desc": "Semua transaksi yang ditandatangani melalui Rabby akan terdaftar di sini.",
+          "desc": "Semua transaksi yang ditandatangani melalui XiaoHua Wallet akan terdaftar di sini.",
           "titleLastThreeMonths": "Tidak ada riwayat Transaksi dalam 90 Hari",
           "testnetNoHistory": "Riwayat transaksi token kustom tidak tersedia."
         },
@@ -742,7 +742,7 @@
     },
     "confirmAddress": {
       "risks": {
-        "scamAddress": "Alamat penerima adalah alamat penipuan yang ditandai oleh Rabby.",
+        "scamAddress": "Alamat penerima adalah alamat penipuan yang ditandai oleh XiaoHua Wallet.",
         "cexNoDeposite": "Alamat penerima adalah alamat non-setoran dari CEX. Harap pastikan alamat setoran Anda benar.",
         "contractAddress": "Alamat penerima adalah alamat kontrak, yang berpotensi menyebabkan kehilangan dana.",
         "noSend": "Anda belum mengirim ke alamat ini dalam 180 hari"
@@ -900,10 +900,10 @@
     },
     "swap": {
       "rabbyFee": {
-        "title": "Biaya Rabby",
+        "title": "Biaya XiaoHua Wallet",
         "wallet": "Dompet",
-        "bridgeDesc": "Rabby Wallet selalu menemukan kurs terbaik dari agregator terkemuka dan memverifikasi keandalan penawarannya. Rabby mengenakan biaya <1>0,25%</1> yang otomatis disertakan dalam penawaran.",
-        "swapDesc": "Rabby Wallet selalu menemukan kurs terbaik dari agregator terkemuka dan memverifikasi keandalan penawarannya. Rabby mengenakan biaya <1>0,25%</1> (0% untuk wrapping) yang otomatis disertakan dalam penawaran.",
+        "bridgeDesc": "XiaoHua Wallet selalu menemukan kurs terbaik dari agregator terkemuka dan memverifikasi keandalan penawarannya. XiaoHua Wallet mengenakan biaya <1>0,25%</1> yang otomatis disertakan dalam penawaran.",
+        "swapDesc": "XiaoHua Wallet selalu menemukan kurs terbaik dari agregator terkemuka dan memverifikasi keandalan penawarannya. XiaoHua Wallet mengenakan biaya <1>0,25%</1> (0% untuk wrapping) yang otomatis disertakan dalam penawaran.",
         "rate": "Tarif biaya",
         "button": "Mengerti"
       },
@@ -950,7 +950,7 @@
       "recommend-slippage": "Untuk mencegah front-running, kami rekomendasikan slippage kurang dari <2>{{ slippage }}</2>%",
       "no-quote-found": "Penawaran tidak ditemukan",
       "directlySwap": "Membungkus token {{symbol}} secara langsung dengan kontrak pintar",
-      "no-fees-for-wrap": "Tidak ada biaya Rabby untuk Wrap",
+      "no-fees-for-wrap": "Tidak ada biaya XiaoHua Wallet untuk Wrap",
       "security-verification-failed": "Verifikasi keamanan gagal",
       "sort-with-gas": "Urutkan dengan gas",
       "gas-fee": "Biaya gas: {{gasUsed}}",
@@ -1038,7 +1038,7 @@
       "quickAddressTitle_other": "{{count}} Alamat",
       "quickAddressTitle_one": "{{count}} Alamat",
       "add-address": "Tambah dompet",
-      "delete-checklist-1": "Saya mengerti bahwa jika saya menghapus dompet ini, kunci privat dan frasa benih yang sesuai akan dihapus, dan Rabby TIDAK akan dapat memulihkannya.",
+      "delete-checklist-1": "Saya mengerti bahwa jika saya menghapus dompet ini, kunci privat dan frasa benih yang sesuai akan dihapus, dan XiaoHua Wallet TIDAK akan dapat memulihkannya.",
       "delete-private-key-title": "Hapus Dompet dan Kunci Privat",
       "delete-seed-phrase-title": "Hapus Dompet dan Frasa Benih",
       "delete-title": "Hapus Dompet"
@@ -1101,7 +1101,7 @@
         "disableWhitelist": "Nonaktifkan Daftar Putih",
         "enableWhitelist": "Aktifkan Daftar Putih",
         "disableWhitelistTip": "Anda dapat mengirim aset ke alamat mana pun setelah dinonaktifkan.",
-        "enableWhitelistTip": "Setelah diaktifkan, Anda hanya dapat mengirim aset ke alamat yang ada di daftar putih menggunakan Rabby.",
+        "enableWhitelistTip": "Setelah diaktifkan, Anda hanya dapat mengirim aset ke alamat yang ada di daftar putih menggunakan XiaoHua Wallet.",
         "cancel": "Batalkan"
       },
       "tokenDetail": {
@@ -1109,10 +1109,10 @@
         "blocked": "Terblokir",
         "noTransactions": "Tidak Ada Transaksi",
         "swap": "Tukar",
-        "selectedCustom": "Token tidak terdaftar di Rabby. Anda telah menambahkannya ke dalam daftar token secara kustom.",
+        "selectedCustom": "Token tidak terdaftar di XiaoHua Wallet. Anda telah menambahkannya ke dalam daftar token secara kustom.",
         "notSupported": "Token di rantai ini tidak didukung",
         "receive": "Terima",
-        "notSelectedCustom": "Token tidak terdaftar oleh Rabby. Ini akan ditambahkan ke daftar token jika Anda mengaktifkannya.",
+        "notSelectedCustom": "Token tidak terdaftar oleh XiaoHua Wallet. Ini akan ditambahkan ke daftar token jika Anda mengaktifkannya.",
         "customized": "Kustomisasi",
         "blockedTip": "Token yang diblokir tidak akan ditampilkan dalam daftar token."
       },
@@ -1170,12 +1170,12 @@
       },
       "addAddress": {
         "hardwareWallet": "Dompet Perangkat Keras",
-        "syncRabbyExtension": "Sinkronkan Ekstensi Rabby",
+        "syncRabbyExtension": "Sinkronkan Ekstensi XiaoHua Wallet",
         "importAddress": "Impor Dompet",
         "createAddress": "Buat Dompet",
         "selectAddMethod": "Pilih Metode Penambahan",
         "seedPhraseOrPrivateKey": "Frasa pemulihan atau kunci privat",
-        "restoreRabbyWallet": "Pulihkan Dompet Rabby",
+        "restoreRabbyWallet": "Pulihkan Dompet XiaoHua Wallet",
         "moreOptions": "Opsi lainnya"
       },
       "multiAddressHome": {
@@ -1195,10 +1195,10 @@
       },
       "importAddress": {
         "tips": {
-          "entry": "Apakah aman untuk mengimpor ke Rabby",
+          "entry": "Apakah aman untuk mengimpor ke XiaoHua Wallet",
           "gotIt": "Saya Mengerti.",
-          "title": "Apakah aman untuk mengimpor ke Rabby?",
-          "description": "Data Anda dienkripsi dengan aman dan disimpan secara lokal di perangkat Anda. Rabby tidak memiliki akses ke informasi pribadi Anda, dan informasi tersebut tidak pernah dibagikan dengan pihak ketiga."
+          "title": "Apakah aman untuk mengimpor ke XiaoHua Wallet?",
+          "description": "Data Anda dienkripsi dengan aman dan disimpan secara lokal di perangkat Anda. XiaoHua Wallet tidak memiliki akses ke informasi pribadi Anda, dan informasi tersebut tidak pernah dibagikan dengan pihak ketiga."
         },
         "seedPhrase": "Impor Frasa Benih",
         "hardWare": "Sambungkan Dompet Perangkat Keras",
@@ -1214,7 +1214,7 @@
         "moreSafeTitle": "Impor Alamat Safe"
       },
       "rateModalTriggerOnHome": {
-        "description": "Bagaimana Anda menilai Rabby Wallet"
+        "description": "Bagaimana Anda menilai XiaoHua Wallet"
       },
       "rateModal": {
         "feedbackSubmit": "Kirim",
@@ -1222,8 +1222,8 @@
         "confirmButtonTitleAndroid": "Beri Rating di Google Play",
         "confirmButtonTitleIOS": "Beri Rating di App Store",
         "feedbackTitle": "Ada umpan balik? Kami mendengarkan.",
-        "descriptionIOS": "Jika Anda menyukai Rabby, memberikan rating cepat di App Store akan sangat berarti.",
-        "descriptionAndroid": "Jika Anda suka Rabby, penilaian cepat di Google Play akan sangat berarti."
+        "descriptionIOS": "Jika Anda menyukai XiaoHua Wallet, memberikan rating cepat di App Store akan sangat berarti.",
+        "descriptionAndroid": "Jika Anda suka XiaoHua Wallet, penilaian cepat di Google Play akan sangat berarti."
       },
       "homeCenterTipScreenshot": {
         "description": "Ambil tangkapan layar kapan saja untuk cepat melaporkan bug",
@@ -1257,7 +1257,7 @@
         "GotIt": "Saya Mengerti.",
         "description2": "Jika Anda kehilangan frasa benih Anda, Anda tidak akan dapat memulihkan dompet Anda.",
         "title3": "Keamanan",
-        "description4": "Frasa benih disimpan secara lokal di perangkat Anda dan dienkripsi dengan kata sandi. Hanya Anda yang dapat mengaksesnya. Rabby tidak dapat mengambil atau mengakses frasa benih Anda.",
+        "description4": "Frasa benih disimpan secara lokal di perangkat Anda dan dienkripsi dengan kata sandi. Hanya Anda yang dapat mengaksesnya. XiaoHua Wallet tidak dapat mengambil atau mengakses frasa benih Anda.",
         "description3": "Jangan pernah membagikan frasa benih—siapa pun yang memiliki akses dapat mengontrol dana Anda.",
         "description1": "Frasa benih adalah rangkaian kata untuk mengakses dan mengontrol dompet. Anda dapat menggunakannya untuk memulihkan dompet di perangkat apa pun."
       },
@@ -1270,7 +1270,7 @@
           "answer": "Sebuah frasa 12, 18, atau 24 kata yang digunakan untuk mengontrol aset Anda."
         },
         "isItSafeToImportItInRabby": {
-          "question": "Apakah aman untuk mengimpornya di Rabby?",
+          "question": "Apakah aman untuk mengimpornya di XiaoHua Wallet?",
           "answer": "Ya, itu akan disimpan secara lokal di ponsel Anda dan hanya dapat diakses oleh Anda."
         },
         "googleDriveBackup": "Cadangan Google Drive",
@@ -1286,7 +1286,7 @@
         "backupTips": "Pastikan tidak ada orang lain yang melihat layar saat Anda mencadangkan frasa benih",
         "chooseBackupMethodDesc": "Cadangan memungkinkan Anda mengembalikan dompet Anda jika Anda menghapus aplikasi atau kehilangan perangkat Anda.",
         "icloudBackup": "Cadangan iCloud",
-        "importQuestion2": "Frasa benih hanya disimpan di ponsel saya, dan Rabby tidak memiliki akses ke sana.",
+        "importQuestion2": "Frasa benih hanya disimpan di ponsel saya, dan XiaoHua Wallet tidak memiliki akses ke sana.",
         "backupUploadToICloud": "Mencadangkan ke iCloud...",
         "backupRestoreCreatedAt": "Waktu Cadangan:",
         "backupRestoreImported": "Diimpor",
@@ -1299,13 +1299,13 @@
         "backupRestoreDownloadTitle": "Mengimpor Frasa Benih...",
         "backupUploadToGDrive": "Mencadangkan ke Google Drive...",
         "backupRestoreUnlockTitle": "Masukkan Kata Sandi Cadangan",
-        "importQuestion3": "Jika saya tidak mencadangkan frasa benih lalu aplikasi terhapus, perangkat hilang, atau perlu dipasang ulang, Rabby tidak dapat memulihkannya untuk saya.",
+        "importQuestion3": "Jika saya tidak mencadangkan frasa benih lalu aplikasi terhapus, perangkat hilang, atau perlu dipasang ulang, XiaoHua Wallet tidak dapat memulihkannya untuk saya.",
         "backupSuccessGDrive": "Cadangan ke Google Drive",
         "backupUnlockPlaceholder": "Masukkan Kata Sandi untuk Mengonfirmasi",
         "backupSuccessICloud": "Dicadangkan ke iCloud",
         "backupRestoreUnlockDesc": "Gunakan kata sandi yang sama yang Anda atur untuk mengenkripsi cadangan Anda.",
         "backupRestoreButton": "Impor Kode Pemulihan",
-        "backupUnlockDesc": "Jaga kata sandi Anda tetap aman untuk memulihkan cadangan. Rabby Wallet tidak menyimpannya dan tidak bisa memulihkannya.",
+        "backupUnlockDesc": "Jaga kata sandi Anda tetap aman untuk memulihkan cadangan. XiaoHua Wallet tidak menyimpannya dan tidak bisa memulihkannya.",
         "passwordMinTip": "Harus memiliki setidaknya 8 karakter",
         "backupUnlockButton": "Lanjutkan",
         "addMoreWalletTitle": "Tambahkan lebih banyak dompet\ndari frasa ini"
@@ -1316,7 +1316,7 @@
           "answer": "Sekumpulan huruf dan angka yang digunakan untuk mengendalikan aset Anda."
         },
         "isItSafeToImportItInRabby": {
-          "question": "Apakah aman untuk mengimpornya di Rabby?",
+          "question": "Apakah aman untuk mengimpornya di XiaoHua Wallet?",
           "answer": "Ya, itu akan disimpan secara lokal di ponsel Anda dan hanya dapat diakses oleh Anda."
         },
         "repeatImportTips": "Dompet ini telah diimpor"
@@ -1456,7 +1456,7 @@
         "title3": "Jangan Pernah Membagikannya",
         "description2": "Jika kehilangan kunci privat, Anda tidak akan dapat memulihkan dompet.",
         "title2": "Cadangan",
-        "description4": "Kunci pribadi Anda disimpan secara lokal di perangkat Anda dan dienkripsi dengan kata sandi Anda. Hanya Anda yang dapat mengaksesnya. Rabby tidak dapat mengambil atau mengakses kunci pribadi Anda.",
+        "description4": "Kunci pribadi Anda disimpan secara lokal di perangkat Anda dan dienkripsi dengan kata sandi Anda. Hanya Anda yang dapat mengaksesnya. XiaoHua Wallet tidak dapat mengambil atau mengakses kunci pribadi Anda.",
         "title4": "Keamanan",
         "ButtonGotIt": "Saya sudah mengerti.",
         "description3": "Jangan pernah membagikan kunci pribadi Anda—siapa pun yang memiliki akses ke sana dapat mengendalikan dana Anda.",
@@ -1482,7 +1482,7 @@
       "biometrics": {
         "enableBiometricAlert": {
           "yes": "Ya",
-          "content": "Apakah Anda ingin mengaktifkan {{ bioType }} untuk Membuka Kunci Dompet Rabby?",
+          "content": "Apakah Anda ingin mengaktifkan {{ bioType }} untuk Membuka Kunci Dompet XiaoHua Wallet?",
           "title": "Aktifkan {{ bioType }}",
           "no": "Batalkan"
         },
@@ -1494,15 +1494,15 @@
     "addToken": {
       "noTokenFound": "Tidak ada token yang ditemukan",
       "hasAdded": "Anda telah ditambahkan token ini.",
-      "tokenSupported": "Token telah didukung di Rabby",
+      "tokenSupported": "Token telah didukung di XiaoHua Wallet",
       "tokenNotFound": "Token tidak ditemukan dari alamat kontrak ini",
-      "title": "Tambahkan token kustom ke Rabby",
+      "title": "Tambahkan token kustom ke XiaoHua Wallet",
       "tokenCustomized": "Token saat ini sudah ditambahkan ke kustomisasi."
     },
     "switchChain": {
       "requestsReceived": "1 permintaan diterima",
       "requestsReceivedPlural": "{{count}} permintaan diterima",
-      "requestRabbyToSupport": "Minta Rabby untuk Mendukung"
+      "requestRabbyToSupport": "Minta XiaoHua Wallet untuk Mendukung"
     },
     "signText": {
       "createKey": {
@@ -1532,7 +1532,7 @@
       "noWebsite": "Tidak ada",
       "popularLevelVeryLow": "Sangat Rendah",
       "markRuleText": "Tanda saya",
-      "flagByRabby": "Ditandai oleh Rabby",
+      "flagByRabby": "Ditandai oleh XiaoHua Wallet",
       "noMark": "Tidak ada tanda",
       "connectBtn": "Sambungkan",
       "markRemovedToast": "Tanda telah dihapus",
@@ -1541,7 +1541,7 @@
       "flagByMM": "Diberi tanda oleh MetaMask",
       "onYourWhitelist": "Di daftar putih Anda",
       "markAsTrustToast": "Tandai sebagai \"Trusted\"",
-      "verifiedByRabby": "Diverifikasi oleh Rabby",
+      "verifiedByRabby": "Diverifikasi oleh XiaoHua Wallet",
       "markAsBlockToast": "Tandai sebagai \"Blocked\"",
       "foundForbiddenRisk": "Ditemukan risiko terlarang. Koneksi diblokir.",
       "manageWhiteBlackList": "Kelola daftar putih/daftar hitam",
@@ -1613,7 +1613,7 @@
       "verify-fingerprint": "Verifikasi sidik jari",
       "verify-fingerprint-before-backup": "Verifikasi sidik jari Anda sebelum cadangan",
       "verify-face-id-before-backup": "Verifikasi Face ID Anda sebelum cadangan",
-      "verify-password-before-backup": "Verifikasi kata sandi Rabby Anda sebelum cadangan"
+      "verify-password-before-backup": "Verifikasi kata sandi XiaoHua Wallet Anda sebelum cadangan"
     },
     "customRpc": {
       "EditRPCModal": {
@@ -1631,7 +1631,7 @@
       "closed": "Tutup",
       "empty": "Tidak ada URL RPC kustom",
       "opened": "Dibuka",
-      "desc": "Setelah dimodifikasi, RPC kustom akan menggantikan node Rabby. Untuk terus menggunakan node Rabby, hapus RPC kustom."
+      "desc": "Setelah dimodifikasi, RPC kustom akan menggantikan node XiaoHua Wallet. Untuk terus menggunakan node XiaoHua Wallet, hapus RPC kustom."
     },
     "safeQueue": {
       "action": {
@@ -1680,7 +1680,7 @@
       "alert": "Kunci Privat ini adalah kredensial untuk aset Anda. JANGAN kehilangan atau mengungkapkannya kepada orang lain, jika tidak Anda mungkin akan kehilangan aset Anda selamanya. Harap lihat di lingkungan yang aman dan simpan dengan hati-hati."
     },
     "ethSign": {
-      "alert": "Menandatangani dengan 'eth_sign' dapat menyebabkan kehilangan aset. Demi keselamatan Anda, Rabby tidak mendukung metode ini."
+      "alert": "Menandatangani dengan 'eth_sign' dapat menyebabkan kehilangan aset. Demi keselamatan Anda, XiaoHua Wallet tidak mendukung metode ini."
     },
     "createPassword": {
       "subTitle": "Kata sandi ini membuka kunci dompet Anda dan mengenkripsi data di perangkat ini. Kata sandi tidak dapat dipulihkan. Jika hilang, Anda harus mengatur ulang lalu mengimpor ulang dompet.",
@@ -1701,7 +1701,7 @@
       "Newpassword": "Kata sandi baru",
       "agree": "Saya telah membaca dan setuju dengan<1/> <2>Ketentuan Penggunaan</2>",
       "agreeToTerms": "Saya telah membaca dan setuju dengan",
-      "confirmModalDesc": "Silakan simpan kata sandi Anda dengan baik. Setelah hilang, kata sandi tidak dapat diubah atau dipulihkan oleh Rabby.",
+      "confirmModalDesc": "Silakan simpan kata sandi Anda dengan baik. Setelah hilang, kata sandi tidak dapat diubah atau dipulihkan oleh XiaoHua Wallet.",
       "setWallet": "Atur Dompet",
       "ConfirmPassword": "Konfirmasi kata sandi",
       "title": "Atur Kata Sandi",
@@ -1727,10 +1727,10 @@
         "invalid-code": "kode tidak valid",
         "referral-code": "Kode Referensi",
         "MetaMaskSwap": "MetaMask Swap",
-        "rabbyDesktopGenesisNft": "Rabby Desktop Genesis NFT",
-        "rabbyUser": "Pengguna Aktif Rabby",
+        "rabbyDesktopGenesisNft": "XiaoHua Wallet Desktop Genesis NFT",
+        "rabbyUser": "Pengguna Aktif XiaoHua Wallet",
         "addressBalance": "Saldo dompet",
-        "rabbyValuedUserBadge": "Lencana Pengguna Terhormat Rabby",
+        "rabbyValuedUserBadge": "Lencana Pengguna Terhormat XiaoHua Wallet",
         "snapshotTime": "Waktu snapshot: {{time}}",
         "title": "Klaim Poin Awal",
         "claim": "Klaim",
@@ -1756,12 +1756,12 @@
         "confirm": "Konfirmasi"
       },
       "earn-points": "Dapatkan Poin",
-      "title": "Rabby Points",
+      "title": "XiaoHua Wallet Points",
       "top-100": "100 Teratas",
       "out-of-x-current-total-points": "Dari {{total}} Total Poin yang Didistribusikan",
       "initialPointsClaimEnded": "Klaim Poin Awal telah berakhir",
       "code-set-successfully": "Kode rujukan berhasil diatur",
-      "firstRoundEnded": "🎉 Putaran pertama Rabby Points telah berakhir",
+      "firstRoundEnded": "🎉 Putaran pertama XiaoHua Wallet Points telah berakhir",
       "xPoints": "{{point}} Poin",
       "alreadyClaimedXPoints": "Sudah diklaim: {{point}}"
     },
@@ -1780,7 +1780,7 @@
       "AddFromChainList": {
         "tips": {
           "added": "Anda sudah menambahkan rantai ini",
-          "supported": "Jaringan yang sudah terintegrasi oleh Rabby Wallet"
+          "supported": "Jaringan yang sudah terintegrasi oleh XiaoHua Wallet"
         },
         "search": "Cari nama atau ID jaringan kustom",
         "empty": "Tidak ada rantai yang ditemukan",
@@ -1790,12 +1790,12 @@
         "title": "Data Transaksi"
       },
       "ConfirmModifyRpcModal": {
-        "desc": "Rantai sudah terintegrasi oleh Rabby. Apakah Anda perlu mengubah URL RPC-nya?"
+        "desc": "Rantai sudah terintegrasi oleh XiaoHua Wallet. Apakah Anda perlu mengubah URL RPC-nya?"
       },
       "currency": "Mata Uang",
       "empty": "Tidak Ada Jaringan Kustom",
       "id": "ID",
-      "desc": "Rabby tidak dapat memverifikasi keamanan jaringan kustom. Harap tambahkan jaringan yang tepercaya saja.",
+      "desc": "XiaoHua Wallet tidak dapat memverifikasi keamanan jaringan kustom. Harap tambahkan jaringan yang tepercaya saja.",
       "add": "Tambahkan Jaringan Kustom",
       "addToken": {
         "title": "Tambahkan Token Jaringan Kustom",
@@ -1814,8 +1814,8 @@
       }
     },
     "addChain": {
-      "title": "Tambahkan Jaringan Kustom ke Rabby",
-      "desc": "Rabby tidak dapat memverifikasi keamanan jaringan kustom. Silakan tambahkan hanya jaringan yang tepercaya."
+      "title": "Tambahkan Jaringan Kustom ke XiaoHua Wallet",
+      "desc": "XiaoHua Wallet tidak dapat memverifikasi keamanan jaringan kustom. Silakan tambahkan hanya jaringan yang tepercaya."
     },
     "sign": {
       "transactionSpeed": "Kecepatan Transaksi"
@@ -1851,7 +1851,7 @@
         "title": "Setoran",
         "amount": "Jumlah",
         "followingTokenInSufficient": "Saldo token berikut tidak cukup",
-        "desc": "Setor ke Akun DeBank L2 Rabby tanpa biaya tambahan—tarik kapan saja.",
+        "desc": "Setor ke Akun DeBank L2 XiaoHua Wallet tanpa biaya tambahan—tarik kapan saja.",
         "zeroInvalidAmount": "Jumlah tidak dapat nol",
         "googlePayDesc": "Termasuk biaya Google Pay sebesar ${{ amount }}. Tidak ada penarikan.",
         "applePayDesc": "Termasuk biaya Apple Pay sebesar ${{amount}}. Tidak ada penarikan.",
@@ -1950,7 +1950,7 @@
       "withdrawDisabledIAP": "Penarikan dinonaktifkan karena saldo Anda mencakup dana fiat, yang tidak dapat ditarik. Hubungi dukungan untuk menarik saldo token Anda.",
       "benefitCard": {
         "item2": "Mendukung semua jaringan",
-        "item1": "Tidak Ada Biaya Rabby",
+        "item1": "Tidak Ada Biaya XiaoHua Wallet",
         "desc3": "Tukar, Jembatan, Kirim, DApp, & lainnya",
         "item3": "Mendukung semua transaksi",
         "desc2": "Pembayaran gas otomatis di 80+ jaringan",
@@ -2191,7 +2191,7 @@
       "clearPendingWarning": "Transaksi yang dihapus mungkin masih dikonfirmasi di on-chain kecuali jika diganti.",
       "clearPendingDesc2": "Ini tidak akan mengubah saldo di akun Anda atau mengharuskan Anda untuk memasukkan kembali frase benih Anda. Semua aset dan informasi akun Anda akan tetap aman.",
       "modifyRPCURL": "Ubah URL RPC",
-      "clearPendingDesc1": "Ini akan menghapus semua transaksi yang tertunda. Ini bisa membantu Anda menyelesaikan masalah bahwa dalam beberapa kasus status transaksi di Rabby tidak sesuai dengan status on-chain.",
+      "clearPendingDesc1": "Ini akan menghapus semua transaksi yang tertunda. Ini bisa membantu Anda menyelesaikan masalah bahwa dalam beberapa kasus status transaksi di XiaoHua Wallet tidak sesuai dengan status on-chain.",
       "clearBrowserData": "Hapus Data Peramban",
       "searchCurrency": "Cari Mata Uang",
       "screenshotReportSwitch": "Ambil tangkapan layar untuk melaporkan bug",
@@ -2258,15 +2258,15 @@
       "alert": "EIP-7702 belum didukung."
     },
     "syncExtension": {
-      "verifyWithPassword": "Verifikasi dengan Kata Sandi Ekstensi Rabby Anda",
+      "verifyWithPassword": "Verifikasi dengan Kata Sandi Ekstensi XiaoHua Wallet Anda",
       "importedSuccessfully": "Diimpor dengan Sukses!",
-      "scanTips1": "Klik “Mobile Sync” di Ekstensi Rabby",
+      "scanTips1": "Klik “Mobile Sync” di Ekstensi XiaoHua Wallet",
       "scanTips2": "Pindai kode dan mulai menyinkronkan",
-      "newUserVerify": "Ia juga akan berfungsi sebagai kata sandi default untuk Rabby Mobile",
+      "newUserVerify": "Ia juga akan berfungsi sebagai kata sandi default untuk XiaoHua Wallet",
       "syncingProgress": "Pindai ({{ percent }})",
-      "verifyTips": "Data Anda dienkripsi secara offline. Masukkan kata sandi Ekstensi Rabby Anda untuk mendekripsi dan memverifikasi.",
+      "verifyTips": "Data Anda dienkripsi secara offline. Masukkan kata sandi Ekstensi XiaoHua Wallet Anda untuk mendekripsi dan memverifikasi.",
       "syncingTips": "Jaga kamera tetap hingga pemindaian selesai",
-      "imported": "Alamat yang sudah ada di Rabby Mobile tidak akan diimpor lagi. Catatan alamat dan daftar putih akan disinkronkan secara otomatis.",
+      "imported": "Alamat yang sudah ada di XiaoHua Wallet tidak akan diimpor lagi. Catatan alamat dan daftar putih akan disinkronkan secara otomatis.",
       "importedTips": "Jika APLIKASI sudah memiliki alamat duplikat, alamat tersebut tidak akan diimpor. Catatan alamat dan daftar putih juga akan disinkronkan.",
       "noNewAddr": "Tidak ada alamat baru yang ditemukan untuk diimpor"
     },
@@ -2328,9 +2328,9 @@
       "HyperliquidInvitePopup": {
         "btn": "Bergabung Sekarang",
         "title": "Program Referal Hyperliquid",
-        "desc": "Bergabung sekarang menggunakan kode Rabby untuk mendapatkan <1>diskon 4%</1> pada biaya Hyperliquid Anda.",
+        "desc": "Bergabung sekarang menggunakan kode XiaoHua Wallet untuk mendapatkan <1>diskon 4%</1> pada biaya Hyperliquid Anda.",
         "asterTitle": "Program Referral Aster",
-        "asterDesc": "Bergabunglah sekarang dengan menggunakan kode Rabby untuk mendapatkan diskon <1>4%</1> pada biaya Aster Anda."
+        "asterDesc": "Bergabunglah sekarang dengan menggunakan kode XiaoHua Wallet untuk mendapatkan diskon <1>4%</1> pada biaya Aster Anda."
       },
       "WebviewError": {
         "error": "Kesalahan:",
@@ -2584,7 +2584,7 @@
         "perps": "Perps",
         "sizeTips": "Nilai total atau jumlah perdagangan Anda, ditentukan oleh margin dan leverage.",
         "gotItBtn": "Saya mengerti",
-        "feeRabby": "Rabby Wallet",
+        "feeRabby": "XiaoHua Wallet",
         "feeRabbyDiscount": "Diskon biaya trading untuk waktu terbatas",
         "feeTitle": "Biaya",
         "feeHyperliquid": "Hyperliquid",
@@ -2715,7 +2715,7 @@
         "activateNow": "Aktifkan Sekarang",
         "hyperliquidFee": "Biaya trading Hyperliquid.",
         "activatedSuccess": "4% penghematan biaya Hyperliquid diaktifkan",
-        "description": "Gunakan kode Rabby untuk mengaktifkan"
+        "description": "Gunakan kode XiaoHua Wallet untuk mengaktifkan"
       },
       "dappSelect": {
         "title": "Pilih Penyedia Perps"
@@ -2824,7 +2824,7 @@
         "fee": "Biaya",
         "providerFeeTips": "Biaya Hyperliquid: {{fee}}",
         "positionSize": "Ukuran Posisi",
-        "rabbyFeeTips": "Biaya Rabby: 0,04%",
+        "rabbyFeeTips": "Biaya XiaoHua Wallet: 0,04%",
         "pnl": "PNL",
         "title": "Tutup Posisi",
         "closeBtn": "Tutup {{direction}}",
@@ -2834,7 +2834,7 @@
         "receive": "Terima",
         "confirm": "Konfirmasi",
         "minimumWarning": "Jumlah minimum adalah {{percent}}%",
-        "rabbyFeeTipsV2": "Biaya Rabby: 0,02%"
+        "rabbyFeeTipsV2": "Biaya XiaoHua Wallet: 0,02%"
       },
       "PerpsOpenPositionPopup": {
         "title": "Buka Posisi {{coin}}",
@@ -2891,10 +2891,10 @@
         "title": "Periksa Pesanan",
         "margin": "Margin (Terisolasi)",
         "providerFeeTips": "Biaya Hyperliquid: {{fee}}",
-        "rabbyFeeTips": "Biaya Rabby: 0%",
+        "rabbyFeeTips": "Biaya XiaoHua Wallet: 0%",
         "sizeTips": "Nilai total atau jumlah perdagangan Anda, ditentukan oleh margin dan leverage.",
         "liquidationPriceTips": "Harga di mana posisi Anda secara otomatis ditutup oleh bursa untuk mencegah kerugian lebih lanjut ketika margin Anda jatuh di bawah tingkat margin pemeliharaan.",
-        "rabbyFee": "Biaya Rabby",
+        "rabbyFee": "Biaya XiaoHua Wallet",
         "providerFee": "Biaya Hyperliquid",
         "free": "Gratis",
         "marginCross": "Margin (Silang)"
@@ -3310,9 +3310,9 @@
     },
     "newUserOnboarding": {
       "restoreWallet": {
-        "title": "Pulihkan dompet Rabby Anda",
+        "title": "Pulihkan dompet XiaoHua Wallet Anda",
         "subtitle": "Selamat datang kembali! 🎉\nPilih metode untuk memulihkan dompet Anda dengan cepat.",
-        "subtitleInApp": "Pilih salah satu opsi di bawah untuk mengimpor dompet Anda dengan cepat dari ekstensi Rabby atau iCloud."
+        "subtitleInApp": "Pilih salah satu opsi di bawah untuk mengimpor dompet Anda dengan cepat dari ekstensi XiaoHua Wallet atau iCloud."
       },
       "common": {
         "orYouCanCreateNewWallet": "Atau Anda bisa <clickable>membuat dompet baru</clickable>"
@@ -3385,7 +3385,7 @@
     },
     "walletConnect": {
       "screenTitle": "Hubungkan Dompet",
-      "connectingToRabby": "Menghubungkan ke Rabby",
+      "connectingToRabby": "Menghubungkan ke XiaoHua Wallet",
       "pairingFailed": "Penyandingan WalletConnect gagal.",
       "connected": "Berhasil terhubung. Silakan kembali ke DApp.",
       "proposalExpired": "Proposal WalletConnect kedaluwarsa.",
@@ -3432,7 +3432,7 @@
         "title": "Setor",
         "token": "Token",
         "selectToken": "Pilih Token untuk Setoran",
-        "desc": "Setor ke Akun DeBank L2 Rabby tanpa biaya tambahan—tarik kapan saja.",
+        "desc": "Setor ke Akun DeBank L2 XiaoHua Wallet tanpa biaya tambahan—tarik kapan saja.",
         "amount": "Jumlah"
       },
       "withdrawPopup": {
@@ -3463,9 +3463,9 @@
         "title3": "Apakah GasAccount memiliki biaya tambahan",
         "title2": "Cara menggunakan Gas Account",
         "title4": "Apakah GasAccount aman",
-        "desc4": "GasAccount tidak memerlukan persetujuan atau izin kontrak. Anda menyetor ke alamat GasAccount Rabby, dan Rabby mengirimkan gas ke alamat Anda saat diperlukan. Sepenuhnya aman berdasarkan desain.",
+        "desc4": "GasAccount tidak memerlukan persetujuan atau izin kontrak. Anda menyetor ke alamat GasAccount XiaoHua Wallet, dan XiaoHua Wallet mengirimkan gas ke alamat Anda saat diperlukan. Sepenuhnya aman berdasarkan desain.",
         "desc2": "Tambahkan dana ke GasAccount Anda dan gunakan untuk transaksi apa pun. Saat menandatangani, pilih untuk membayar gas dengan token asli atau GasAccount, beralih kapan saja.",
-        "desc3": "Rabby Wallet tidak mengenakan biaya tambahan. Anda hanya membayar gas untuk transaksi Anda dan sejumlah kecil gas untuk mengirim gas tersebut dari GasAccount ke alamat Anda.",
+        "desc3": "XiaoHua Wallet tidak mengenakan biaya tambahan. Anda hanya membayar gas untuk transaksi Anda dan sejumlah kecil gas untuk mengirim gas tersebut dari GasAccount ke alamat Anda.",
         "desc1": "GasAccount adalah cara baru untuk membayar biaya gas. Alih-alih menggunakan token asli di setiap rantai, Anda dapat menggunakan satu akun untuk menutupi biaya gas untuk semua alamat Anda di semua rantai. Sederhana, opsional, dan tidak pernah kehabisan gas."
       }
     },
@@ -3559,9 +3559,9 @@
     "AuthenticationModals": {
       "biometrics": {
         "enable": "Masukkan kata sandi\nuntuk mengaktifkan {{ bioType }}",
-        "enableTip": "Aktifkan {{ bioType }} untuk membuka Rabby",
+        "enableTip": "Aktifkan {{ bioType }} untuk membuka XiaoHua Wallet",
         "disable": "Konfirmasi untuk menonaktifkan {{ bioType }}?",
-        "disableTip": "Nonaktifkan {{ bioType }} untuk membuka kunci Rabby"
+        "disableTip": "Nonaktifkan {{ bioType }} untuk membuka kunci XiaoHua Wallet"
       },
       "processBiometrics": {
         "title": "Autentikasi Biometrik",
@@ -3624,15 +3624,15 @@
       "switchArea": {
         "skipText": "Lewati popup ini selama 1 hari"
       },
-      "alertText": "DApp pihak ketiga: untuk masalah penggunaan, silakan hubungi dukungan DApp. Rabby hanya menyediakan akses melihat.",
+      "alertText": "DApp pihak ketiga: untuk masalah penggunaan, silakan hubungi dukungan DApp. XiaoHua Wallet hanya menyediakan akses melihat.",
       "title": "Tangkapan Layar untuk Melaporkan Bug"
     },
     "feedbackModal": {
       "issueDescription": "Ini adalah masalah yang Anda laporkan:",
-      "title": "Tanggapan dari Dukungan Rabby",
+      "title": "Tanggapan dari Dukungan XiaoHua Wallet",
       "issueDescriptionLabel": "Deskripsi:",
-      "pendingTitle": "Dukungan Rabby belum membalas.",
-      "repliedTitle": "Dukungan Rabby telah membalas:"
+      "pendingTitle": "Dukungan XiaoHua Wallet belum membalas.",
+      "repliedTitle": "Dukungan XiaoHua Wallet telah membalas:"
     },
     "submitFeedbackSuccessModal": {
       "desc": "Dikirim Berhasil!"
@@ -3684,7 +3684,7 @@
     "authentication": {
       "auth_prompt_title": "Autentikasi diperlukan",
       "auth_prompt_cancel": "Batalkan",
-      "auth_prompt_desc": "Silakan autentikasi untuk menggunakan Rabby"
+      "auth_prompt_desc": "Silakan autentikasi untuk menggunakan XiaoHua Wallet"
     }
   },
   "global": {
@@ -3722,7 +3722,7 @@
     "WalletImported": "Dompet diimpor",
     "unknownNFT": "NFT Tidak Dikenal",
     "confirm": "Konfirmasi",
-    "appName": "Rabby Wallet",
+    "appName": "XiaoHua Wallet",
     "Addresses": "Alamat",
     "unlimited": "tidak terbatas",
     "Price": "Harga",
@@ -3839,8 +3839,8 @@
     "permissions_alert": {
       "cancel": "Jangan Izinkan",
       "open_settings": "OK",
-      "message": "Rabby Wallet menggunakan akses bluetooth untuk menghubungkan Ledger",
-      "title": "\"Rabby Wallet\" Ingin Menggunakan Bluetooth"
+      "message": "XiaoHua Wallet menggunakan akses bluetooth untuk menghubungkan Ledger",
+      "title": "\"XiaoHua Wallet\" Ingin Menggunakan Bluetooth"
     },
     "update_firmware_alert": {
       "cancel": "Batalkan",

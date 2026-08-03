@@ -306,7 +306,8 @@ async function executeSessionRequest(input: {
   const account = await resolveWalletConnectAccount(session);
   if (!account) {
     throw ethErrors.provider.unauthorized({
-      message: 'No Rabby account is available for this WalletConnect session.',
+      message:
+        'No XiaoHua Wallet account is available for this WalletConnect session.',
     });
   }
 
@@ -368,7 +369,7 @@ async function executeSessionRequest(input: {
     if (!nextAccount) {
       throw ethErrors.provider.unauthorized({
         message:
-          'No Rabby account is available for this WalletConnect session.',
+          'No XiaoHua Wallet account is available for this WalletConnect session.',
       });
     }
     activeAccount = nextAccount;

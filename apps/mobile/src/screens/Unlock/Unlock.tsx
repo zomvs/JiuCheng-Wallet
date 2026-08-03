@@ -11,8 +11,7 @@ import {
 } from 'react-native';
 import * as Yup from 'yup';
 
-import { default as RcRabbyLogoLight } from './icons/icon-with-logo-light.svg';
-import { default as RcRabbyLogoDark } from './icons/icon-with-logo-dark.svg';
+import { BrandWordmark } from '@/components2024/Brand/BrandWordmark';
 import { useSafeAndroidBottomSizes } from '@/hooks/useAppLayout';
 import { useTranslation } from 'react-i18next';
 import { useInputBlurOnTouchaway } from '@/components/Form/hooks';
@@ -442,7 +441,6 @@ export default function UnlockScreen({
   const { styles, colors2024, isLight } = useTheme2024({ getStyle: getStyles });
   const { t } = useTranslation();
 
-  const RcRabbyLogo = isLight ? RcRabbyLogoLight : RcRabbyLogoDark;
   const navigation = useRabbyAppNavigation();
   const { params } = useRoute<GetRootScreenRouteProp<'Unlock'>>();
   const {
@@ -977,7 +975,12 @@ export default function UnlockScreen({
         style={styles.innerContainer}
         keyboardVerticalOffset={-80}>
         <View style={styles.topContainer}>
-          <RcRabbyLogo style={styles.logo} width={125} height={134} />
+          <BrandWordmark
+            color={colors2024['neutral-title-1']}
+            direction="column"
+            iconSize={78}
+            style={styles.logo}
+          />
         </View>
         <View style={styles.bodyContainer}>
           {usingPassword ? (
