@@ -1,7 +1,7 @@
 import cloneDeep from 'lodash/cloneDeep';
 import { addressUtils } from '@rabby-wallet/base-utils';
 
-import i18n, { SupportedLang } from '@/utils/i18n';
+import i18n, { DEFAULT_LANG } from '@/utils/i18n';
 import dayjs from 'dayjs';
 import type { TokenItem } from '@rabby-wallet/rabby-api/dist/types';
 import { CHAINS_ENUM } from '@/constant/chains';
@@ -255,7 +255,7 @@ export class PreferenceService extends StoreServiceBase<
   private getAllVisibleAccountsArray: () => Promise<Account[]>;
 
   constructor(options: PreferenceServiceOptions) {
-    const defaultLang = 'en';
+    const defaultLang = DEFAULT_LANG;
     const storedPreference = options.storageAdapter?.getItem(
       APP_STORE_NAMES.preference,
     ) as Partial<PreferenceStore> | null | undefined;

@@ -253,7 +253,7 @@ describe('walletconnect request bridge', () => {
       nativeRedirect: undefined,
       iosNoRedirectToast: {
         variant: 'success',
-        message: 'Transaction sent! Please return to the Dapp.',
+        message: '交易已發送！請返回 DApp。',
       },
     });
   });
@@ -270,7 +270,7 @@ describe('walletconnect request bridge', () => {
       nativeRedirect: undefined,
       iosNoRedirectToast: {
         variant: 'success',
-        message: 'Transaction sent! Please return to the Dapp.',
+        message: '交易已發送！請返回 DApp。',
       },
     });
   });
@@ -291,7 +291,7 @@ describe('walletconnect request bridge', () => {
       nativeRedirect: undefined,
       iosNoRedirectToast: {
         variant: 'error',
-        message: 'Transaction canceled! Please return to the Dapp.',
+        message: '交易已取消！請返回 DApp。',
       },
     });
   });

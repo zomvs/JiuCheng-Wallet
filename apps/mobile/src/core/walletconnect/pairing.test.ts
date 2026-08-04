@@ -119,7 +119,7 @@ describe('walletconnect pairing', () => {
         source: 'qr',
       }),
     ).rejects.toThrow(
-      'WalletConnect pairing expired. Refresh the dapp QR code and try again.',
+      'WalletConnect 配對已過期。請重新整理 DApp QR Code 後重試。',
     );
 
     expect(mockState.pairing).toMatchObject({

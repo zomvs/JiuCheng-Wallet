@@ -38,7 +38,7 @@ export enum SupportedLang {
   'tr-TR' = 'tr-TR',
 }
 
-export const DEFAULT_LANG = SupportedLang['en-US'];
+export const DEFAULT_LANG = SupportedLang['zh-Hant'];
 
 const locales = {
   [SupportedLang['en-US']]: enLocale,
@@ -85,7 +85,7 @@ export function filterSupportedLang(lang: string): SupportedLang {
 export const i18nInitPromise = i18n
   .use(initReactI18next) // passes i18n down to react-i18next
   .init({
-    fallbackLng: 'en-US',
+    fallbackLng: DEFAULT_LANG,
     defaultNS: 'translations',
     interpolation: {
       escapeValue: false, // react already safes from xss
@@ -108,7 +108,7 @@ export function addResourceBundle(locale: SupportedLang) {
   i18n.addResourceBundle(locale, I18N_NS, bundle);
 }
 
-addResourceBundle('en-US' as SupportedLang);
+addResourceBundle(DEFAULT_LANG);
 
 const shouldExposeI18nGlobal =
   APP_RUNTIME_ENV === 'development' || APP_RUNTIME_ENV === 'regression';

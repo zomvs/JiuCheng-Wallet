@@ -46,13 +46,13 @@ describe('walletconnect uri', () => {
 
   it('rejects empty and malformed input', () => {
     expect(() => parseWalletConnectUri('')).toThrow(
-      'WalletConnect URI cannot be empty.',
+      'WalletConnect URI 不能為空。',
     );
     expect(() => parseWalletConnectUri('https://rabby.io')).toThrow(
-      'WalletConnect URI must start with wc:<topic>@2.',
+      'WalletConnect URI 必須以 wc:<topic>@2 開頭。',
     );
     expect(() =>
       parseWalletConnectUri('wc:abc123@2?relay-protocol=irn'),
-    ).toThrow('WalletConnect URI is missing symKey or relay-protocol.');
+    ).toThrow('WalletConnect URI 缺少 symKey 或 relay-protocol。');
   });
 });

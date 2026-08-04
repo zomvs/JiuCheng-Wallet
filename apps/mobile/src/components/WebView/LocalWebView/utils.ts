@@ -1,4 +1,4 @@
-import { SupportedLang } from '@/utils/i18n';
+import { DEFAULT_LANG, SupportedLang } from '@/utils/i18n';
 import { atom, useAtom } from 'jotai';
 import { useCallback } from 'react';
 import { Platform } from 'react-native';
@@ -113,7 +113,7 @@ export function makeRuntimeInfo({
   baseUrl,
   useDevResource = __DEV__,
   isDark = false,
-  language = SupportedLang['en-US'],
+  language = DEFAULT_LANG,
   i18nTexts = {},
   backGroundColor,
 }: {
