@@ -113,7 +113,7 @@ export async function getUpgradeInfo(options?: { forceLocalVersion?: string }) {
       }),
       // {
       //   provider: 'appStore',
-      //   packageName: 'com.debank.rabby-mobile',
+      //   packageName: 'com.cubex.wallet',
       // },
       country: 'us',
     }).catch(() => null),

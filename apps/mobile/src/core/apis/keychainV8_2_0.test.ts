@@ -28,7 +28,7 @@ describe('core/apis/keychainV8_2_0', () => {
 
           return {
             service: 'com.debank.trusted-vault-key',
-            username: 'rabbymobile-vault-key',
+            username: 'cubexwallet-vault-key',
             password: trustedVaultKeyString,
             storage,
           };
@@ -36,7 +36,7 @@ describe('core/apis/keychainV8_2_0', () => {
 
         return {
           service: 'com.debank',
-          username: 'rabbymobile-user',
+          username: 'cubexwallet-user',
           password: 'enc:plain-password',
           storage,
         };
@@ -271,7 +271,7 @@ describe('core/apis/keychainV8_2_0', () => {
       'plain-password',
     );
     expect(mockSetGenericPassword).toHaveBeenCalledWith(
-      'rabbymobile-user',
+      'cubexwallet-user',
       'enc:plain-password',
       expect.objectContaining({
         service: 'com.debank',
@@ -292,7 +292,7 @@ describe('core/apis/keychainV8_2_0', () => {
     );
 
     expect(mockSetGenericPassword).toHaveBeenCalledWith(
-      'rabbymobile-user',
+      'cubexwallet-user',
       'enc:plain-password',
       expect.objectContaining({
         service: 'com.debank',
@@ -315,7 +315,7 @@ describe('core/apis/keychainV8_2_0', () => {
     );
 
     expect(mockSetGenericPassword).toHaveBeenCalledWith(
-      'rabbymobile-user',
+      'cubexwallet-user',
       'enc:plain-password',
       expect.objectContaining({
         service: 'com.debank',
@@ -335,7 +335,7 @@ describe('core/apis/keychainV8_2_0', () => {
     });
 
     expect(mockSetGenericPassword).toHaveBeenCalledWith(
-      'rabbymobile-user',
+      'cubexwallet-user',
       'enc:plain-password',
       expect.objectContaining({
         service: 'com.debank',
@@ -368,7 +368,7 @@ describe('core/apis/keychainV8_2_0', () => {
     });
 
     expect(mockSetGenericPassword).toHaveBeenCalledWith(
-      'rabbymobile-user',
+      'cubexwallet-user',
       'enc:plain-password',
       expect.objectContaining({
         service: 'com.debank',
@@ -495,7 +495,7 @@ describe('core/apis/keychainV8_2_0', () => {
     await module.debugWriteMockLegacyBiometricsEntry('legacy-password');
 
     expect(mockSetGenericPassword).toHaveBeenCalledWith(
-      'rabbymobile-user',
+      'cubexwallet-user',
       'enc:legacy-password',
       expect.objectContaining({
         service: 'com.debank',
@@ -554,7 +554,7 @@ describe('core/apis/keychainV8_2_0', () => {
       hasEntry: true,
       hasUsername: true,
       hasPassword: true,
-      account: 'rabbymobile-user',
+      account: 'cubexwallet-user',
       accessGroup: null,
       accessible: 'AccessibleWhenUnlockedThisDeviceOnly',
       synchronizable: false,
@@ -675,7 +675,7 @@ describe('core/apis/keychainV8_2_0', () => {
         platform: 'ios',
         service: 'com.debank',
         storageName: 'keychain',
-        account: 'rabbymobile-user',
+        account: 'cubexwallet-user',
         hasAccessControl: true,
         itemClass: 'genericPassword',
         debugSupported: true,

@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:809331497367:android:63dc21c447a4f454570cd2",
         "android_client_info": {
-          "package_name": "com.debank.rabbymobile.regression"
+          "package_name": "com.cubex.wallet.regression"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "809331497367-hhietrsi4ani813o7evsqb7l30m6cs3n.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.debank.rabbymobile.regression",
+            "package_name": "com.cubex.wallet.regression",
             "certificate_hash": "97012de2489807df048af2db9793230dd7397f2a"
           }
         },
@@ -42,7 +42,7 @@
               "client_id": "809331497367-85vtc15egvte1r5nc30dnno4l1ofbeqg.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.debank.rabby-mobile"
+                "bundle_id": "com.cubex.wallet"
               }
             }
           ]

@@ -104,7 +104,7 @@ platform :ios do
     #   sdk: "iphoneos*",
     #   path: './ios/RabbyMobile.xcodeproj',
     #   profile_name: opts[:type] == 'adhoc' ? 'RabbyMobileAdHocRegressionOpcode' : 'RabbyMobileAppStoreOpcode',
-    #   bundle_identifier: opts[:type] == 'adhoc' ? 'com.debank.rabby-mobile-regression' : 'com.debank.rabby-mobile',
+    #   bundle_identifier: opts[:type] == 'adhoc' ? 'com.cubex.wallet.regression' : 'com.cubex.wallet',
     # )
 
     ENV['CONFIGURATION'] = opts[:type] == 'adhoc' ? 'Regression' : 'Release'
@@ -115,7 +115,7 @@ platform :ios do
       # Main App: RabbyMobile
       match(
         type: opts[:type],
-        app_identifier: opts[:type] == 'adhoc' ? 'com.debank.rabby-mobile-regression' : 'com.debank.rabby-mobile',
+        app_identifier: opts[:type] == 'adhoc' ? 'com.cubex.wallet.regression' : 'com.cubex.wallet',
         profile_name: opts[:type] == 'adhoc' ? 'RabbyMobileAdHocRegressionOpcode' : 'RabbyMobileAppStoreOpcode',
         readonly: true,
         shallow_clone: true,
@@ -127,7 +127,7 @@ platform :ios do
     # # App Extension: RabbyMobileNotification
     # match(
     #   type: opts[:type],
-    #   app_identifier: opts[:type] == 'adhoc' ? 'com.debank.rabby-mobile*' : 'com.debank.rabby-mobile.RabbyMobileNotification',
+    #   app_identifier: opts[:type] == 'adhoc' ? 'com.cubex.wallet*' : 'com.cubex.wallet.RabbyMobileNotification',
     #   profile_name: opts[:type] == 'adhoc' ? 'RabbyMobileWildcardAdHocRegression' : 'RabbyMobileNotificationAppStore',
     #   readonly: true,
     #   shallow_clone: true,
@@ -161,8 +161,8 @@ platform :ios do
         method: 'ad-hoc',
         signingStyle: 'manual',
         provisioningProfiles: {
-          "com.debank.rabby-mobile-regression": "RabbyMobileAdHocRegressionOpcode",
-          # "com.debank.rabby-mobile-regression.RabbyMobileNotification": "RabbyMobileWildcardAdHocRegression"
+          "com.cubex.wallet.regression": "RabbyMobileAdHocRegressionOpcode",
+          # "com.cubex.wallet.regression.RabbyMobileNotification": "RabbyMobileWildcardAdHocRegression"
         },
         manifest: {
           appURL: "https://download.rabby.io/downloads/wallet-mobile/ios/rabbymobile.ipa",
@@ -172,7 +172,7 @@ platform :ios do
       })
 
     # # shell executeb on ./fastlane directory, add `sh "pwd"` below to check it
-    # sh "/usr/libexec/PlistBuddy -c \"Set:items:0:metadata:title JiuCheng Wallet\" ../ios/Package/adhoc/manifest.plist"
+    # sh "/usr/libexec/PlistBuddy -c \"Set:items:0:metadata:title CubeX Wallet\" ../ios/Package/adhoc/manifest.plist"
   end
 
   desc "Valid ios adhoc"
@@ -211,7 +211,7 @@ platform :ios do
       )
       baseline_build_number = latest_testflight_build_number_for_version(
         api_key: asc_api_key,
-        app_identifier: 'com.debank.rabby-mobile',
+        app_identifier: 'com.cubex.wallet',
         version: current_version
       )
       UI.message("Latest TestFlight build before upload for #{current_version}: #{baseline_build_number}")
@@ -239,8 +239,8 @@ platform :ios do
           method: "app-store",
           signingStyle: 'manual',
           provisioningProfiles: {
-            "com.debank.rabby-mobile": "RabbyMobileAppStoreOpcode",
-            "com.debank.rabby-mobile.RabbyMobileNotification": "RabbyMobileNotificationAppStore"
+            "com.cubex.wallet": "RabbyMobileAppStoreOpcode",
+            "com.cubex.wallet.RabbyMobileNotification": "RabbyMobileNotificationAppStore"
           }
         })
       pilot(
@@ -253,7 +253,7 @@ platform :ios do
       unless ENV["RABBY_MOBILE_PILOT_DISTRIBUTE_ONLY"] == 'true'
         wait_for_uploaded_testflight_build(
           api_key: asc_api_key,
-          app_identifier: 'com.debank.rabby-mobile',
+          app_identifier: 'com.cubex.wallet',
           version: current_version,
           baseline_build_number: baseline_build_number,
           expected_build_number: next_build_number

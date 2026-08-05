@@ -200,7 +200,7 @@ export function MarketCategoryContent({
 
       if (clickAction) {
         matomoRequestEvent({
-          category: 'JiuCheng Wallet Market',
+          category: 'CubeX Wallet Market',
           action: clickAction,
         });
       }

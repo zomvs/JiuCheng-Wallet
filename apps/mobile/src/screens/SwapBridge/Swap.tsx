@@ -1254,7 +1254,7 @@ const Swap = ({
               app_version: APP_VERSIONS.fromNative || '0',
             });
             matomoRequestEvent({
-              category: 'JiuCheng Wallet Market',
+              category: 'CubeX Wallet Market',
               action: createSwapTxAction,
             });
           }

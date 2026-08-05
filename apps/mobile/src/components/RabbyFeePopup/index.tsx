@@ -5,7 +5,7 @@ import RCIconRabbyWhite from '@/assets2024/icons/bridge/FeeRabbyWallet.svg';
 // import RCIconRabbyWhite from '@/assets/icons/swap/rabby.svg'; // Ensure this is a compatible React Native SVG component
 import ImgMetaMask from '@/assets/icons/swap/metamask.png';
 import ImgPhantom from '@/assets/icons/swap/phantom.png';
-import ImgJiuChengWallet from '@/assets/icons/swap/jiucheng-wallet.png';
+import ImgCubeXWallet from '@/assets/icons/swap/cubex-wallet.png';
 import { useTheme2024, useThemeColors } from '@/hooks/theme';
 import { createGetStyles, createGetStyles2024 } from '@/utils/styles';
 // import { Button } from '@components2024/swap';
@@ -29,8 +29,8 @@ const swapFee = [
     rate: '0.85%',
   },
   {
-    name: 'JiuCheng Wallet',
-    logo: ImgJiuChengWallet,
+    name: 'CubeX Wallet',
+    logo: ImgCubeXWallet,
     rate: '0.25%',
   },
 ];
@@ -42,8 +42,8 @@ const bridgeList = [
     rate: '0.875%',
   },
   {
-    name: 'JiuCheng Wallet',
-    logo: ImgJiuChengWallet,
+    name: 'CubeX Wallet',
+    logo: ImgCubeXWallet,
     rate: '0.25%',
   },
 ];
@@ -144,7 +144,7 @@ export const RabbyFeePopup = ({
                   <Text
                     style={[
                       styles.itemText,
-                      item.name === 'JiuCheng Wallet' ? styles.highItem : {},
+                      item.name === 'CubeX Wallet' ? styles.highItem : {},
                     ]}>
                     {item.name}
                   </Text>
@@ -152,7 +152,7 @@ export const RabbyFeePopup = ({
                 <Text
                   style={[
                     styles.itemText,
-                    item.name === 'JiuCheng Wallet' ? styles.highItem : {},
+                    item.name === 'CubeX Wallet' ? styles.highItem : {},
                   ]}>
                   {item.rate}
                 </Text>

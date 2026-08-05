@@ -14,8 +14,8 @@ import BootSplash, {
 } from '@rabby-wallet/react-native-bootsplash';
 import { releaseAppAppearanceHandoff } from '@/core/utils/appAppearanceHandoff';
 
-const LIGHT_JIUCHENG_LOGO = require('@/assets/images/bootsplash/jiucheng-light.gif');
-const DARK_JIUCHENG_LOGO = require('@/assets/images/bootsplash/jiucheng-dark.gif');
+const LIGHT_CUBEX_LOGO = require('@/assets/images/bootsplash/cubex-light.gif');
+const DARK_CUBEX_LOGO = require('@/assets/images/bootsplash/cubex-dark.gif');
 
 const NATIVE_HANDOFF_FALLBACK_MS = 2000;
 const SPLASH_EXIT_FALLBACK_MS = 8000;
@@ -92,8 +92,8 @@ function AnimatedBootSplashImpl() {
 
   const { container, logo } = useHideAnimation({
     manifest,
-    logo: LIGHT_JIUCHENG_LOGO,
-    darkLogo: DARK_JIUCHENG_LOGO,
+    logo: LIGHT_CUBEX_LOGO,
+    darkLogo: DARK_CUBEX_LOGO,
     statusBarTranslucent: true,
     navigationBarTranslucent: true,
     animate: markNativeHandoffComplete,

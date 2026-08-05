@@ -1539,13 +1539,13 @@ class ProviderController extends BaseController {
 
   @Reflect.metadata('SAFE', true)
   web3ClientVersion = () => {
-    return `JiuChengWallet/${process.env.release}`;
+    return `CubeXWallet/${process.env.release}`;
   };
 
   @Reflect.metadata('APPROVAL', ['ETHSign', () => null, { height: 390 }])
   ethSign = () => {
     throw new Error(
-      "Signing with 'eth_sign' can lead to asset loss. For your safety, JiuCheng Wallet does not support this method.",
+      "Signing with 'eth_sign' can lead to asset loss. For your safety, CubeX Wallet does not support this method.",
     );
   };
 
@@ -1900,7 +1900,7 @@ class ProviderController extends BaseController {
     });
 
     if (!chain) {
-      throw new Error('This chain is not supported by JiuCheng Wallet yet.');
+      throw new Error('This chain is not supported by CubeX Wallet yet.');
     }
 
     if (approvalRes) {

@@ -183,7 +183,7 @@ export async function ensureWalletUnlocked() {
       require('@/components/AuthenticationModal/AuthenticationModal2024') as AuthenticationModal2024Module;
     const { AuthenticationModal2024 } = authModalModule;
     const { hideModal } = await AuthenticationModal2024.show({
-      title: 'Unlock JiuCheng Wallet',
+      title: 'Unlock CubeX Wallet',
       authType: ['password'],
       onFinished: resolveUnlock,
       onCancel: rejectUnlock,

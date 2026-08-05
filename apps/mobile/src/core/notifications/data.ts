@@ -10,7 +10,7 @@ type RemoteBizCommonBase = {
   imageUrl?: string;
   title?: string;
   body?: string;
-  // "_jsonPushAbout": "{\"iosPushType\":\"alert\",\"iosPushTarget\":\"all\",\"iosTopic\":\"com.debank.rabby-mobile-debug\"}",
+  // "_jsonPushAbout": "{\"iosPushType\":\"alert\",\"iosPushTarget\":\"all\",\"iosTopic\":\"com.cubex.wallet.debug\"}",
   _jsonPushAbout: string;
 
   /** ios only properties */

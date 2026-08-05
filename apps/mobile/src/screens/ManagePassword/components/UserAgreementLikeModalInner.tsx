@@ -75,10 +75,10 @@ const makeLegalDocument = (title: string, content: string) => `
 </html>`;
 
 const PRIVACY_POLICY_HTML = makeLegalDocument(
-  'JiuCheng Wallet Privacy Policy',
+  'CubeX Wallet Privacy Policy',
   `
     <h2>Your keys stay with you</h2>
-    <p>JiuCheng Wallet stores wallet credentials and preferences locally on your device. We cannot recover your seed phrase, private keys, or password.</p>
+    <p>CubeX Wallet stores wallet credentials and preferences locally on your device. We cannot recover your seed phrase, private keys, or password.</p>
     <h2>Network requests</h2>
     <p>The app connects to blockchain networks and service providers to display balances, submit transactions, and provide wallet features. Those providers may process technical request data under their own policies.</p>
     <h2>Your choices</h2>
@@ -87,10 +87,10 @@ const PRIVACY_POLICY_HTML = makeLegalDocument(
 );
 
 const TERMS_OF_USE_HTML = makeLegalDocument(
-  'JiuCheng Wallet Terms of Use',
+  'CubeX Wallet Terms of Use',
   `
     <h2>Self-custody responsibility</h2>
-    <p>You are solely responsible for protecting your seed phrase, private keys, password, and devices. JiuCheng Wallet cannot reverse transactions or recover lost credentials.</p>
+    <p>You are solely responsible for protecting your seed phrase, private keys, password, and devices. CubeX Wallet cannot reverse transactions or recover lost credentials.</p>
     <h2>Blockchain risks</h2>
     <p>Blockchain transactions are irreversible and may involve smart-contract, market, network, and third-party risks. Review every transaction carefully before signing.</p>
     <h2>Use at your own risk</h2>

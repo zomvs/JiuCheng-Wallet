@@ -28,11 +28,11 @@ import {
 } from './utils';
 
 const REGRESSION_DAPP_INFO = {
-  description: 'JiuCheng Wallet regression Dapp approval tester',
+  description: 'CubeX Wallet regression Dapp approval tester',
   id: 'https://tester.rabby.io',
   logo_url:
     'https://static.debank.com/image/project/logo_url/galxe/90baa6ae2cb97b4791f02fe66abec4b2.png',
-  name: 'JiuCheng Wallet Regression Dapp',
+  name: 'CubeX Wallet Regression Dapp',
   tags: [],
   user_range: 'Regression',
   chain_ids: [CHAINS_ENUM.ETH, CHAINS_ENUM.POLYGON],
@@ -243,12 +243,12 @@ function buildDappApprovalRequest({
             },
             primaryType: 'RegressionMessage',
             domain: {
-              name: 'JiuCheng Wallet Regression',
+              name: 'CubeX Wallet Regression',
               version: '1',
               chainId: 1,
             },
             message: {
-              message: 'JiuCheng Wallet regression typed data smoke test',
+              message: 'CubeX Wallet regression typed data smoke test',
               count: 1,
             },
           }),
@@ -485,7 +485,7 @@ async function connectDappBrowser(
     chainId: CHAINS_ENUM.ETH,
     session: {
       origin,
-      name: context.command.params.name || 'JiuCheng Wallet Regression Dapp',
+      name: context.command.params.name || 'CubeX Wallet Regression Dapp',
       icon: '',
     },
     currentAccount: account,

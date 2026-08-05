@@ -86,7 +86,7 @@ const DEFAULT_FEEDBACK_MESSAGE: ClientFeedbackMessage = {
   sender: 'ops',
   ops_user_id: null,
   content:
-    'Need help? Share your feedback directly with the JiuCheng Wallet team in this chat.',
+    'Need help? Share your feedback directly with the CubeX Wallet team in this chat.',
   image_url_list: [],
   video_url_list: [],
   source: '',

@@ -113,7 +113,7 @@ export default function StartupPerformanceLogViewer(): JSX.Element {
         mimeType: artifact.mimeType,
         title: 'Share startup performance logs',
         subject: artifact.name,
-        message: `JiuCheng Wallet startup performance logs (${artifact.fileCount} files)`,
+        message: `CubeX Wallet startup performance logs (${artifact.fileCount} files)`,
         cleanupPaths: artifact.cleanupPaths,
       });
       if (!result.dismissed) {

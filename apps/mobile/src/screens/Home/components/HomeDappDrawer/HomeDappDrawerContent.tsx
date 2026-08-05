@@ -136,7 +136,7 @@ const useDappTab = ({
       [
         {
           id: 'favorite',
-          label: t('page.home.DappDrawer.tabs.favorite'),
+          label: t('page.home.DappDrawer.favorite'),
         },
         {
           id: 'all',
@@ -144,11 +144,11 @@ const useDappTab = ({
         },
         {
           id: 'DeFi',
-          label: t('page.home.DappDrawer.tabs.defi'),
+          label: 'DeFi',
         },
         {
           id: 'RWA',
-          label: t('page.home.DappDrawer.tabs.rwa'),
+          label: 'RWA',
         },
         {
           id: 'Perps',
@@ -160,11 +160,11 @@ const useDappTab = ({
         },
         {
           id: 'DEX',
-          label: t('page.home.DappDrawer.tabs.dex'),
+          label: 'DEX',
         },
         {
           id: 'NFT',
-          label: t('page.home.DappDrawer.tabs.nft'),
+          label: 'NFT',
         },
       ] as const,
     [t],

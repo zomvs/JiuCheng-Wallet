@@ -96,15 +96,15 @@ export default function InMemoryLogViewerScreen(): JSX.Element {
     );
     const content = lines.join('\n');
     const tmpDir = RNFS.TemporaryDirectoryPath || RNFS.CachesDirectoryPath;
-    const tmpPath = `${tmpDir}/jiucheng-keychain-perf-${Date.now()}.log`;
+    const tmpPath = `${tmpDir}/cubex-keychain-perf-${Date.now()}.log`;
 
     await RNFS.writeFile(tmpPath, content, 'utf8');
     await shareLocalFile({
       path: tmpPath,
       mimeType: 'text/plain',
       title: 'Share Keychain Perf Logs',
-      subject: 'JiuCheng Wallet keychain perf logs',
-      message: `JiuCheng Wallet keychain perf logs (${logs.length} entries)`,
+      subject: 'CubeX Wallet keychain perf logs',
+      message: `CubeX Wallet keychain perf logs (${logs.length} entries)`,
       cleanupPaths: [tmpPath],
     });
   }, [logs]);

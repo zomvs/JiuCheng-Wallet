@@ -16,7 +16,6 @@ import {
   RcLockWallet,
   RcAutoLockTime,
   RcScreenshot,
-  RcFollowUs,
   RcInfo,
   RcTermsOfUse,
   RcPrivacyPolicy,
@@ -32,11 +31,9 @@ import {
   RcScreenshotReport,
   RcIconCurrency,
   RcNotification,
-  RcWalletConnect,
   RcAutolock,
   RcDataAnalysis,
   RcBugReport,
-  RcManageWallet,
 } from '@/assets/icons/settings';
 import { BrandWordmark } from '@/components2024/Brand/BrandWordmark';
 
@@ -67,11 +64,9 @@ import { SwitchBiometricsAuthentication } from './components/SwitchBiometricsAut
 import { toast, toastLoading } from '@/components2024/Toast';
 import {
   APP_FEATURE_SWITCH,
-  APP_URLS,
   APP_VERSIONS,
   INTERNAL_REQUEST_SESSION,
 } from '@/constant';
-import { openExternalUrl } from '@/core/utils/linking';
 import {
   requestLockWalletAndBackToUnlockScreen,
   useRabbyAppNavigation,
@@ -187,12 +182,6 @@ import {
 import { sleep } from '@/utils/async';
 import { CustomSkeleton } from '@/components2024/CustomSkeleton';
 import { getUserBehaviorTrackingOptOut } from '@/utils/trackingOptOut';
-import {
-  createGlobalBottomSheetModal2024,
-  removeGlobalBottomSheetModal2024,
-} from '@/components2024/GlobalBottomSheetModal';
-import { MODAL_NAMES } from '@/components2024/GlobalBottomSheetModal/types';
-import { apiGlobalModal } from '@/components2024/GlobalBottomSheetModal/apiGlobalModal';
 
 const LAYOUTS = {
   fiexedFooterHeight: 50,
@@ -420,7 +409,7 @@ function ClearAppCacheSettingItem() {
 }
 
 function SettingsBlocks() {
-  const { colors, styles, isLight, colors2024 } = useTheme2024({
+  const { colors, styles } = useTheme2024({
     getStyle: getStyles,
   });
 
@@ -565,63 +554,8 @@ function SettingsBlocks() {
   const toggleDataAnalysisRef = useRef<SwitchToggleType>(null);
   const switchAppLaunchLockRef = useRef<SwitchToggleType>(null);
 
-  const modalRef =
-    useRef<ReturnType<typeof createGlobalBottomSheetModal2024>>(undefined);
-
-  const handleWalletsListPress = useCallback(() => {
-    if (modalRef.current) {
-      removeGlobalBottomSheetModal2024(modalRef.current);
-    }
-
-    modalRef.current = createGlobalBottomSheetModal2024({
-      name: MODAL_NAMES.ADDRESS_LiST,
-      variant: 'manage',
-      subTitle: t('page.settings.chooseWallet'),
-      onAddAddressPress: () => {
-        if (modalRef.current) {
-          removeGlobalBottomSheetModal2024(modalRef.current);
-        }
-        apiGlobalModal.showAddSelectMethodModal();
-      },
-      bottomSheetModalProps: {
-        handleStyle: {
-          backgroundColor: isLight
-            ? colors2024['neutral-bg-0']
-            : colors2024['neutral-bg-1'],
-        },
-      },
-      onDone: () => {
-        removeGlobalBottomSheetModal2024(modalRef.current);
-        modalRef.current = undefined;
-      },
-    });
-  }, [colors2024, isLight, t]);
-
   const settingsBlocks: Record<string, SettingBlock> = (() => {
     return {
-      features: {
-        label: t('page.setting.features'),
-        items: [
-          {
-            label: t('page.setting.manageWallets'),
-            icon: RcManageWallet,
-            onPress: () => {
-              handleWalletsListPress();
-            },
-          },
-          {
-            label: 'WalletConnect',
-            icon: RcWalletConnect,
-            onPress: () => {
-              navigation.dispatch(
-                StackActions.push(RootNames.StackSettings, {
-                  screen: RootNames.WalletConnect,
-                }),
-              );
-            },
-          },
-        ],
-      },
       settings: {
         label: t('page.setting.screenTitle'),
         items: [
@@ -823,13 +757,6 @@ function SettingsBlocks() {
           //   icon: RcSupportChains,
           //   onPress: () => {},
           // },
-          {
-            label: t('page.setting.followUs'),
-            icon: RcFollowUs,
-            onPress: () => {
-              openExternalUrl(APP_URLS.TWITTER);
-            },
-          },
           {
             label: t('page.setting.tou'),
             icon: RcTermsOfUse,
@@ -1229,7 +1156,7 @@ function DevSettingsBlocks({
               },
             },
             {
-              label: 'View JiuCheng Wallet Genesis NFT Detail',
+              label: 'View CubeX Wallet Genesis NFT Detail',
               icon: RcInfo,
               onPress: () => {
                 navigation.push(RootNames.StackTransaction, {

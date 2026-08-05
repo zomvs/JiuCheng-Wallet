@@ -19,7 +19,7 @@ method=${1:-ad-hoc}
 
  [[ $method = app-store ]] && mobileprovision_name="RabbyMobileAppStoreOpcode" || mobileprovision_name="RabbyMobileAdHocRegressionOpcode"
 
-bundle_identifier="com.debank.rabby-mobile"
+bundle_identifier="com.cubex.wallet"
 
 echo "-------------------- Check params --------------------"
 echo "workspace_name=${workspace_name}"
@@ -138,8 +138,7 @@ if [ -z $build_export_path ]; then
   build_export_path="$project_dir/outputs"
 fi
 mkdir -p $build_export_path;
-cp $export_ipa_path/$ipa_name.ipa $build_export_path/rabbymobile.ipa
+cp $export_ipa_path/$ipa_name.ipa $build_export_path/cubex-wallet.ipa
 
 # output build time
 echo "\033[36;1m IOS build time: ${SECONDS}s \033[0m"
-

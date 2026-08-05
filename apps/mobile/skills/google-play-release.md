@@ -67,13 +67,13 @@ The public upload flow is opinionated. Preserve these defaults unless there is a
 If no explicit `--release-name` is provided, the script formats the release name as:
 
 ```plain
-JiuCheng Wallet(<versionName>.<versionCode>)
+CubeX Wallet(<versionName>.<versionCode>)
 ```
 
 Example:
 
 ```plain
-JiuCheng Wallet(0.6.67.100205)
+CubeX Wallet(0.6.67.100205)
 ```
 
 ## Default Release Notes

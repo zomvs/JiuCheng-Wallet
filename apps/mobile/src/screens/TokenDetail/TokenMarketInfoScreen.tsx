@@ -294,7 +294,7 @@ export const TokenMarketInfoScreen = () => {
 
       if (marketAction) {
         matomoRequestEvent({
-          category: 'JiuCheng Wallet Market',
+          category: 'CubeX Wallet Market',
           action: marketAction,
         });
       }

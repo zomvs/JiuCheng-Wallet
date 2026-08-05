@@ -3,7 +3,7 @@
     "apps": [],
     "details": [
       {
-        "appIDs": [ "ZPNP2SF27Q.com.debank.rabby-mobile-debug" ],
+        "appIDs": [ "ZPNP2SF27Q.com.cubex.wallet.debug" ],
         "components": [
           {
             "/": "/mobile-debug/*",
@@ -12,7 +12,7 @@
         ]
       },
       {
-        "appIDs": [ "ZPNP2SF27Q.com.debank.rabby-mobile-regression" ],
+        "appIDs": [ "ZPNP2SF27Q.com.cubex.wallet.regression" ],
         "components": [
           {
             "/": "/mobile-regression/*",
@@ -21,7 +21,7 @@
         ]
       },
       {
-        "appIDs": [ "ZPNP2SF27Q.com.debank.rabby-mobile" ],
+        "appIDs": [ "ZPNP2SF27Q.com.cubex.wallet" ],
         "components": [
           {
             "/": "/mobile/*",

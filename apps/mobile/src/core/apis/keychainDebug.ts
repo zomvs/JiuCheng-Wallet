@@ -30,7 +30,7 @@ export {
 } from './keychainCommon';
 
 const isAndroid = Platform.OS === 'android';
-const GENERIC_USER = 'rabbymobile-user';
+const GENERIC_USER = 'cubexwallet-user';
 export const KEYCHAIN_PROBE_SERVICE = `${KEYCHAIN_DEFAULT_SERVICE}.rn-keychain-v10`;
 export const KEYCHAIN_PROBE_PASSWORD = 'rn-keychain-v10-probe-password';
 export const KEYCHAIN_SOURCE_LABEL = 'react-native-keychain@10.0.0 raw';

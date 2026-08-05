@@ -1,5 +1,5 @@
 import {
-  isRabbyWalletConnectDeeplink,
+  isCubeXWalletConnectDeeplink,
   parseWalletConnectUri,
   parseWalletConnectUriFromLink,
 } from './uri';
@@ -13,32 +13,32 @@ describe('walletconnect uri', () => {
   });
 
   it('extracts encoded uri params from deep links', () => {
-    const link = `rabby://walletconnect?uri=${encodeURIComponent(WC_URI)}`;
+    const link = `cubex://walletconnect?uri=${encodeURIComponent(WC_URI)}`;
     expect(parseWalletConnectUri(link).uri).toBe(WC_URI);
     expect(parseWalletConnectUriFromLink(link)).toBe(WC_URI);
   });
 
-  it('identifies Rabby WalletConnect deeplink targets', () => {
-    const link = `rabby://walletconnect?uri=${encodeURIComponent(WC_URI)}`;
-    expect(isRabbyWalletConnectDeeplink(link)).toBe(true);
+  it('identifies CubeX WalletConnect deeplink targets', () => {
+    const link = `cubex://walletconnect?uri=${encodeURIComponent(WC_URI)}`;
+    expect(isCubeXWalletConnectDeeplink(link)).toBe(true);
     expect(
-      isRabbyWalletConnectDeeplink(
-        `rabby://wc?uri=${encodeURIComponent(WC_URI)}`,
+      isCubeXWalletConnectDeeplink(
+        `cubex://wc?uri=${encodeURIComponent(WC_URI)}`,
       ),
     ).toBe(true);
-    expect(isRabbyWalletConnectDeeplink(`rabby://walletconnect`)).toBe(true);
+    expect(isCubeXWalletConnectDeeplink(`cubex://walletconnect`)).toBe(true);
     expect(
-      isRabbyWalletConnectDeeplink(
-        'rabby://walletconnect?uri=wc%3Aabc123%402%3Frelay-protocol%3Dirn',
+      isCubeXWalletConnectDeeplink(
+        'cubex://walletconnect?uri=wc%3Aabc123%402%3Frelay-protocol%3Dirn',
       ),
     ).toBe(true);
     expect(
-      isRabbyWalletConnectDeeplink(
-        `rabby://clear-app-cache?uri=${encodeURIComponent(WC_URI)}`,
+      isCubeXWalletConnectDeeplink(
+        `cubex://clear-app-cache?uri=${encodeURIComponent(WC_URI)}`,
       ),
     ).toBe(false);
     expect(
-      isRabbyWalletConnectDeeplink(
+      isCubeXWalletConnectDeeplink(
         `https://walletconnect?uri=${encodeURIComponent(WC_URI)}`,
       ),
     ).toBe(false);
@@ -48,7 +48,7 @@ describe('walletconnect uri', () => {
     expect(() => parseWalletConnectUri('')).toThrow(
       'WalletConnect URI 不能為空。',
     );
-    expect(() => parseWalletConnectUri('https://rabby.io')).toThrow(
+    expect(() => parseWalletConnectUri('https://cubex.invalid')).toThrow(
       'WalletConnect URI 必須以 wc:<topic>@2 開頭。',
     );
     expect(() =>

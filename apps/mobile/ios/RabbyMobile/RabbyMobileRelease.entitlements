@@ -9,17 +9,13 @@
 		<string>applinks:go.rabby.io</string>
 	</array>
 	<key>com.apple.developer.icloud-container-identifiers</key>
-	<array>
-		<string>iCloud.com.debank.rabby-mobile</string>
-	</array>
+	<array/>
 	<key>com.apple.developer.icloud-services</key>
 	<array>
 		<string>CloudDocuments</string>
 	</array>
 	<key>com.apple.developer.ubiquity-container-identifiers</key>
-	<array>
-		<string>iCloud.com.debank.rabby-mobile</string>
-	</array>
+	<array/>
 	<key>com.apple.developer.usernotifications.communication</key>
 	<true/>
 </dict>

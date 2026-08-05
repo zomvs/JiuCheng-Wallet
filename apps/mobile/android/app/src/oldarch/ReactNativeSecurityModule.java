@@ -1,4 +1,4 @@
-package com.debank.rabbymobile;
+package com.cubex.wallet;
 
 import android.app.Activity;
 import androidx.annotation.NonNull;

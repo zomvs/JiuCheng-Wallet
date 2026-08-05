@@ -1,7 +1,7 @@
 package com.reactlibrary;
 
-import com.debank.rabbymobile.BuildConfig;
-import com.debank.rabbymobile.RabbyUtils;
+import com.cubex.wallet.BuildConfig;
+import com.cubex.wallet.RabbyUtils;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;

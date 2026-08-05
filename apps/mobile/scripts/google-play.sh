@@ -54,7 +54,7 @@ Commands:
 
 Flags:
   --package-name <name>                  Google Play package name
-                                         Default: com.debank.rabbymobile
+                                         Default: com.cubex.wallet
   --bundle-path <path>                   Path to Android App Bundle (.aab)
                                          Default:
                                          android/app/build/outputs/bundle/release/app-release.aab

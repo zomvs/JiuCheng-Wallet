@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" fill="#111719"/>
+
+  <!-- Three flat planes form a cube; the dark crossing carves out the X. -->
+  <path d="M512 154L820 332L512 510L204 332Z" fill="#F4F7F5"/>
+  <path d="M204 332L512 510V866L204 688Z" fill="#42D6C1"/>
+  <path d="M820 332L512 510V866L820 688Z" fill="#22B982"/>
+
+  <path
+    d="M286 248L738 776M738 248L286 776"
+    fill="none"
+    stroke="#111719"
+    stroke-width="112"
+    stroke-linecap="butt"
+    stroke-linejoin="miter"
+  />
+
+  <!-- The small center facet keeps the mark crisp when reduced to launcher size. -->
+  <path d="M512 438L584 510L512 582L440 510Z" fill="#F4F7F5"/>
+</svg>

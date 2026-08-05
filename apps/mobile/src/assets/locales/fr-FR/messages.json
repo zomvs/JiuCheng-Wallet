@@ -43,11 +43,11 @@
   "page": {
     "getStart": {
       "goToHome": "Accéder à l'accueil",
-      "sync": "Scannez pour synchroniser le portefeuille d'extension JiuCheng Wallet",
+      "sync": "Scannez pour synchroniser le portefeuille d'extension CubeX Wallet",
       "alreadyHaveAddress": "J’ai déjà un portefeuille",
       "createNewAddress": "Créer un nouveau portefeuille",
-      "alreadyUseRabby": "J'utilise déjà JiuCheng Wallet",
-      "welcomeTitle": "Bienvenue sur\nJiuCheng Wallet"
+      "alreadyUseRabby": "J'utilise déjà CubeX Wallet",
+      "welcomeTitle": "Bienvenue sur\nCubeX Wallet"
     },
     "transactions": {
       "explain": {
@@ -245,7 +245,7 @@
       "nativeTokenNotEngouthForGas": "Le solde de Gas n'est pas suffisant",
       "customRPCErrorModal": {
         "button": "Désactiver le RPC personnalisé",
-        "content": "Votre RPC personnalisé est actuellement indisponible. Vous pouvez le désactiver et continuer à signer en utilisant le RPC officiel de JiuCheng Wallet.",
+        "content": "Votre RPC personnalisé est actuellement indisponible. Vous pouvez le désactiver et continuer à signer en utilisant le RPC officiel de CubeX Wallet.",
         "title": "Erreur RPC personnalisée"
       },
       "balanceChange": {
@@ -285,7 +285,7 @@
         "minReceive": "Réception minimale",
         "notPaymentAddress": "Pas le portefeuille de paiement"
       },
-      "sigCantDecode": "Cette signature ne peut pas être décodée par JiuCheng Wallet.",
+      "sigCantDecode": "Cette signature ne peut pas être décodée par CubeX Wallet.",
       "contractCall": {
         "title": "Appel de contrat",
         "operation": "Opération",
@@ -359,7 +359,7 @@
         "title": "Approbation de la collection NFT"
       },
       "addressTypeTitle": "Type d’adresse",
-      "eip1559Desc2": "Dans JiuCheng Wallet, Priority Fee (Pourboire) = Max Fee - Base Fee. Une fois que vous avez configuré le Max Priority Fee, le Base Fee sera déduit de celui-ci et le reste sera donné en pourboire aux mineurs.",
+      "eip1559Desc2": "Dans CubeX Wallet, Priority Fee (Pourboire) = Max Fee - Base Fee. Une fois que vous avez configuré le Max Priority Fee, le Base Fee sera déduit de celui-ci et le reste sera donné en pourboire aux mineurs.",
       "tokenApprove": {
         "title": "Approbation de Token",
         "amountPopupTitle": "Approuver le montant",
@@ -367,7 +367,7 @@
         "eoaAddress": "EOA",
         "approveTo": "Approuver pour",
         "myBalance": "Mon solde",
-        "flagByRabby": "Signalé par JiuCheng Wallet",
+        "flagByRabby": "Signalé par CubeX Wallet",
         "deployTimeLessThan": "< {{value}} jours",
         "contractTrustValueTip": "La valeur de confiance fait référence à la valeur totale des actifs dépensés par ce contrat. Une faible valeur de confiance indique soit un risque, soit une inactivité de 180 jours."
       },
@@ -444,8 +444,8 @@
       "safeTx": {
         "selfHostConfirm": {
           "button": "OK",
-          "title": "Passer au service Safe de JiuCheng Wallet",
-          "content": "L'API Safe est indisponible. Passez au service Safe déployé par JiuCheng Wallet pour garder votre Safe fonctionnel. <1></1><2>Tous les signataires Safe doivent utiliser JiuCheng Wallet pour autoriser les transactions.</2>"
+          "title": "Passer au service Safe de CubeX Wallet",
+          "content": "L'API Safe est indisponible. Passez au service Safe déployé par CubeX Wallet pour garder votre Safe fonctionnel. <1></1><2>Tous les signataires Safe doivent utiliser CubeX Wallet pour autoriser les transactions.</2>"
         }
       },
       "errorRetry": {
@@ -510,7 +510,7 @@
           }
         },
         "empty": {
-          "desc": "Toutes les transactions signées via JiuCheng Wallet seront listées ici.",
+          "desc": "Toutes les transactions signées via CubeX Wallet seront listées ici.",
           "title": "Aucune transaction signée pour le moment",
           "titleLastThreeMonths": "Aucun historique de transactions depuis 90 jours",
           "testnetNoHistory": "L'historique des transactions du token personnalisé n'est pas disponible."
@@ -872,7 +872,7 @@
       "token": "Token",
       "gas-fee-too-high": "Frais de gas trop élevés",
       "actual": "Réel :",
-      "no-fees-for-wrap": "Pas de frais JiuCheng Wallet pour Wrap",
+      "no-fees-for-wrap": "Pas de frais CubeX Wallet pour Wrap",
       "security-verification-failed": "Échec de la vérification de sécurité",
       "slippage-tolerance": "Tolérance de glissement",
       "need-to-approve-token-before-swap": "Le token doit être approuvé avant le swap",
@@ -892,11 +892,11 @@
       },
       "rabbyFee": {
         "wallet": "Portefeuille",
-        "title": "Frais JiuCheng Wallet",
+        "title": "Frais CubeX Wallet",
         "button": "Compris",
         "rate": "Taux de frais",
-        "bridgeDesc": "Le JiuCheng Wallet trouvera toujours le meilleur taux possible auprès des principaux agrégateurs et vérifiera la fiabilité de leurs offres. JiuCheng Wallet prélève des frais de <1>0,25%</1>, qui sont automatiquement inclus dans le devis.",
-        "swapDesc": "JiuCheng Wallet trouvera toujours le meilleur taux possible auprès des principaux agrégateurs et vérifiera la fiabilité de leurs offres. JiuCheng Wallet prélève des frais de <1>0,25%</1> (0 % pour le wrap), automatiquement inclus dans le devis."
+        "bridgeDesc": "Le CubeX Wallet trouvera toujours le meilleur taux possible auprès des principaux agrégateurs et vérifiera la fiabilité de leurs offres. CubeX Wallet prélève des frais de <1>0,25%</1>, qui sont automatiquement inclus dans le devis.",
+        "swapDesc": "CubeX Wallet trouvera toujours le meilleur taux possible auprès des principaux agrégateurs et vérifiera la fiabilité de leurs offres. CubeX Wallet prélève des frais de <1>0,25%</1> (0 % pour le wrap), automatiquement inclus dans le devis."
       },
       "historyTitle": "Historique des swaps",
       "swapped": "Échangé",
@@ -918,7 +918,7 @@
       "quickAddressTitle_one": "{{count}} Adresse",
       "quickAddressTitle_other": "{{count}} Adresses",
       "add-address": "Ajouter un portefeuille",
-      "delete-checklist-1": "Je comprends que si je supprime ce portefeuille, la clé privée et la phrase de récupération correspondantes seront supprimées et que JiuCheng Wallet ne pourra PAS les récupérer.",
+      "delete-checklist-1": "Je comprends que si je supprime ce portefeuille, la clé privée et la phrase de récupération correspondantes seront supprimées et que CubeX Wallet ne pourra PAS les récupérer.",
       "delete-private-key-title": "Supprimer le portefeuille et la clé privée",
       "delete-seed-phrase-title": "Supprimer le portefeuille et la phrase de récupération",
       "delete-title": "Supprimer le portefeuille"
@@ -1041,7 +1041,7 @@
         "disableWhitelist": "Désactiver la liste d’autorisation",
         "enableWhitelist": "Activer la liste d’autorisation",
         "disableWhitelistTip": "Vous pouvez envoyer des actifs à n'importe quelle adresse une fois désactivé.",
-        "enableWhitelistTip": "Une fois activé, vous ne pouvez envoyer des actifs qu'aux adresses figurant sur la liste d’autorisation en utilisant JiuCheng Wallet.",
+        "enableWhitelistTip": "Une fois activé, vous ne pouvez envoyer des actifs qu'aux adresses figurant sur la liste d’autorisation en utilisant CubeX Wallet.",
         "cancel": "Annuler"
       },
       "tokenDetail": {
@@ -1051,9 +1051,9 @@
         "swap": "Échanger",
         "receive": "Recevoir",
         "blockedTip": "Les tokens bloqués ne seront pas affichés dans la liste des tokens.",
-        "notSelectedCustom": "Le token n'est pas répertorié par JiuCheng Wallet. Il sera ajouté à la liste des tokens si vous activez.",
+        "notSelectedCustom": "Le token n'est pas répertorié par CubeX Wallet. Il sera ajouté à la liste des tokens si vous activez.",
         "notSupported": "Le token sur cette chaîne n'est pas pris en charge",
-        "selectedCustom": "Le token n'est pas répertorié par JiuCheng Wallet. Vous l'avez ajouté à la liste des tokens manuellement.",
+        "selectedCustom": "Le token n'est pas répertorié par CubeX Wallet. Vous l'avez ajouté à la liste des tokens manuellement.",
         "send": "Envoyer"
       },
       "home": {
@@ -1102,12 +1102,12 @@
       },
       "addAddress": {
         "hardwareWallet": "Portefeuille matériel",
-        "syncRabbyExtension": "Synchroniser l'extension JiuCheng Wallet",
+        "syncRabbyExtension": "Synchroniser l'extension CubeX Wallet",
         "importAddress": "Importer le portefeuille",
         "createAddress": "Créer un portefeuille",
         "selectAddMethod": "Sélectionner une méthode d’ajout",
         "seedPhraseOrPrivateKey": "Phrase de secours ou clé privée",
-        "restoreRabbyWallet": "Restaurer le portefeuille JiuCheng Wallet",
+        "restoreRabbyWallet": "Restaurer le portefeuille CubeX Wallet",
         "moreOptions": "Plus d'options"
       },
       "createNewAddress": {
@@ -1142,9 +1142,9 @@
         "hardWare": "Connecter des portefeuilles matériels",
         "tips": {
           "gotIt": "J'ai compris.",
-          "entry": "L’importation dans JiuCheng Wallet est-elle sûre ?",
-          "title": "Est-il sûr d'importer dans JiuCheng Wallet ?",
-          "description": "Vos données sont sécurisées par un chiffrement et stockées localement sur votre appareil. JiuCheng Wallet n'a pas accès à vos informations privées et celles-ci ne sont jamais partagées avec des tiers."
+          "entry": "L’importation dans CubeX Wallet est-elle sûre ?",
+          "title": "Est-il sûr d'importer dans CubeX Wallet ?",
+          "description": "Vos données sont sécurisées par un chiffrement et stockées localement sur votre appareil. CubeX Wallet n'a pas accès à vos informations privées et celles-ci ne sont jamais partagées avec des tiers."
         },
         "watch": "Portefeuille en mode lecture seule",
         "safeTitle": "Importer le portefeuille Safe",
@@ -1157,16 +1157,16 @@
         "moreSafeTitle": "Importer une adresse Safe"
       },
       "rateModalTriggerOnHome": {
-        "description": "Comment évaluez-vous JiuCheng Wallet ?"
+        "description": "Comment évaluez-vous CubeX Wallet ?"
       },
       "rateModal": {
         "feedbackSubmit": "Soumettre",
         "confirmButtonTitleAndroid": "Évaluez sur Google Play",
         "feedbackSuccess": "Merci pour vos commentaires",
         "confirmButtonTitleIOS": "Évaluation sur l'App Store",
-        "descriptionAndroid": "Si vous aimez JiuCheng Wallet, une évaluation rapide sur Google Play signifierait beaucoup.",
+        "descriptionAndroid": "Si vous aimez CubeX Wallet, une évaluation rapide sur Google Play signifierait beaucoup.",
         "feedbackTitle": "Vous avez des commentaires ? Nous vous écoutons.",
-        "descriptionIOS": "Si vous aimez JiuCheng Wallet, une évaluation rapide sur l'App Store signifierait beaucoup."
+        "descriptionIOS": "Si vous aimez CubeX Wallet, une évaluation rapide sur l'App Store signifierait beaucoup."
       },
       "homeCenterTipScreenshot": {
         "description": "Prenez une capture d'écran à tout moment pour signaler rapidement un bug.",
@@ -1203,15 +1203,15 @@
     "switchChain": {
       "requestsReceivedPlural": "{{count}} demandes reçues",
       "requestsReceived": "1 demande reçue",
-      "requestRabbyToSupport": "Demander la prise en charge par JiuCheng Wallet"
+      "requestRabbyToSupport": "Demander la prise en charge par CubeX Wallet"
     },
     "addToken": {
       "noTokenFound": "Aucun token trouvé",
       "tokenCustomized": "Ce token a déjà été ajouté aux tokens personnalisés",
-      "tokenSupported": "Le Token est pris en charge sur JiuCheng Wallet",
+      "tokenSupported": "Le Token est pris en charge sur CubeX Wallet",
       "hasAdded": "Vous avez ajouté ce token.",
       "tokenNotFound": "Jeton introuvable à partir de cette adresse de contrat.",
-      "title": "Ajouter un token personnalisé à JiuCheng Wallet"
+      "title": "Ajouter un token personnalisé à CubeX Wallet"
     },
     "addressDetail": {
       "source": "Source",
@@ -1270,7 +1270,7 @@
       "verify-and-backup": "Vérifiez et sauvegardez",
       "verify-face-id-before-backup": "Vérifiez votre Face ID avant la sauvegarde",
       "verify-fingerprint": "Vérifier l'empreinte digitale",
-      "verify-password-before-backup": "Vérifiez votre mot de passe JiuCheng Wallet avant la sauvegarde",
+      "verify-password-before-backup": "Vérifiez votre mot de passe CubeX Wallet avant la sauvegarde",
       "verify-fingerprint-before-backup": "Vérifiez votre empreinte digitale avant la sauvegarde",
       "verify-password": "Vérifier le mot de passe"
     },
@@ -1279,11 +1279,11 @@
       "ignoreAll": "Ignorer tout",
       "popularLevelVeryLow": "Très faible",
       "markRuleText": "Ma marque",
-      "verifiedByRabby": "Vérifié par JiuCheng Wallet",
+      "verifiedByRabby": "Vérifié par CubeX Wallet",
       "listedBy": "Listé par",
       "flagByScamSniffer": "Signalé par ScamSniffer",
       "myMark": "Mon marquage",
-      "flagByRabby": "Signalé par JiuCheng Wallet",
+      "flagByRabby": "Signalé par CubeX Wallet",
       "popularLevelMedium": "Moyen",
       "title": "Se connecter à la DApp",
       "popularLevelLow": "Faible",
@@ -1324,13 +1324,13 @@
           "yes": "Oui",
           "no": "Annuler",
           "title": "Activer {{ bioType }}",
-          "content": "Voulez-vous activer {{ bioType }} pour déverrouiller le portefeuille JiuCheng Wallet ?"
+          "content": "Voulez-vous activer {{ bioType }} pour déverrouiller le portefeuille CubeX Wallet ?"
         }
       },
       "unlocking": "Déverrouillage"
     },
     "ethSign": {
-      "alert": "La signature avec 'eth_sign' peut entraîner une perte d'actifs. Pour votre sécurité, JiuCheng Wallet ne prend pas en charge cette méthode."
+      "alert": "La signature avec 'eth_sign' peut entraîner une perte d'actifs. Pour votre sécurité, CubeX Wallet ne prend pas en charge cette méthode."
     },
     "backupSeedPhrase": {
       "copySeedPhrase": "Copier la phrase de récupération",
@@ -1399,7 +1399,7 @@
         "title1": "Sauvegarde",
         "description3": "Ne partagez jamais votre phrase de récupération — toute personne y ayant accès peut contrôler vos fonds.",
         "title": "Qu’est-ce qu’une « phrase de récupération » ?",
-        "description4": "Votre phrase de récupération est stockée localement sur votre appareil et est chiffrée avec votre mot de passe. Vous seul pouvez y accéder. JiuCheng Wallet ne peut ni récupérer ni accéder à votre phrase de récupération.",
+        "description4": "Votre phrase de récupération est stockée localement sur votre appareil et est chiffrée avec votre mot de passe. Vous seul pouvez y accéder. CubeX Wallet ne peut ni récupérer ni accéder à votre phrase de récupération.",
         "description2": "Si vous perdez votre phrase de récupération, vous ne pourrez pas restaurer votre portefeuille.",
         "description1": "Une phrase de récupération est une série de mots utilisée pour accéder et contrôler votre portefeuille. Vous pouvez l'utiliser pour récupérer votre portefeuille sur n'importe quel appareil."
       },
@@ -1413,7 +1413,7 @@
         },
         "isItSafeToImportItInRabby": {
           "answer": "Oui, il sera stocké localement sur votre téléphone et accessible uniquement par vous.",
-          "question": "Est-il sûr de l'importer dans JiuCheng Wallet ?"
+          "question": "Est-il sûr de l'importer dans CubeX Wallet ?"
         },
         "repeatImportTips": "Ce portefeuille a été importé"
       },
@@ -1548,16 +1548,16 @@
         "showSeedPhrase": "Afficher la phrase de récupération",
         "riskTips": "Avant de commencer, veuillez lire et garder à l'esprit les conseils de sécurité suivants.",
         "importQuestion1": "Si je perds ma phrase de récupération ou la partage avec quelqu’un, mes actifs seront perdus à jamais.",
-        "importQuestion3": "Si je ne sauvegarde pas la phrase de récupération, et que l'application est supprimée par inadvertance, que l'appareil est perdu ou qu'une réinstallation est nécessaire, JiuCheng Wallet ne peut pas la récupérer pour moi.",
+        "importQuestion3": "Si je ne sauvegarde pas la phrase de récupération, et que l'application est supprimée par inadvertance, que l'appareil est perdu ou qu'une réinstallation est nécessaire, CubeX Wallet ne peut pas la récupérer pour moi.",
         "whatIsASeedPhrase": {
           "question": "Qu’est-ce qu’une phrase de récupération ?",
           "answer": "Une phrase de 12, 18 ou 24 mots utilisée pour contrôler vos actifs."
         },
         "isItSafeToImportItInRabby": {
-          "question": "Est-il sûr de l'importer dans JiuCheng Wallet ?",
+          "question": "Est-il sûr de l'importer dans CubeX Wallet ?",
           "answer": "Oui, il sera stocké localement sur votre téléphone et accessible uniquement par vous."
         },
-        "importQuestion2": "La phrase de récupération est uniquement stockée sur mon téléphone, et JiuCheng Wallet n'y a pas accès.",
+        "importQuestion2": "La phrase de récupération est uniquement stockée sur mon téléphone, et CubeX Wallet n'y a pas accès.",
         "backupFailedButton": "Réessayer",
         "backupRestoreButton": "Importer une phrase mnémonique",
         "backupFailedTitle": "Échec de la sauvegarde",
@@ -1582,7 +1582,7 @@
         "backupRestoreDownloadTitle": "Importation de la phrase de récupération...",
         "backupRestoreEmpty": "Aucune phrase de récupération sauvegardée trouvée",
         "passwordMinTip": "Doit contenir au moins 8 caractères",
-        "backupUnlockDesc": "Gardez votre mot de passe en sécurité pour restaurer les sauvegardes. JiuCheng Wallet ne le stocke pas et ne peut pas le récupérer.",
+        "backupUnlockDesc": "Gardez votre mot de passe en sécurité pour restaurer les sauvegardes. CubeX Wallet ne le stocke pas et ne peut pas le récupérer.",
         "backupUploadToICloud": "Sauvegarde vers iCloud...",
         "backupRestoreUnlockDesc": "Utilisez le même mot de passe que vous avez défini pour chiffrer vos sauvegardes.",
         "chooseBackupMethodDesc": "Les sauvegardes vous permettent de restaurer votre portefeuille si vous supprimez l'application ou perdez votre appareil.",
@@ -1599,7 +1599,7 @@
         "description3": "Ne partagez jamais votre clé privée : quiconque y a accès peut contrôler vos fonds.",
         "description2": "Si vous perdez votre clé privée, vous ne pourrez pas restaurer votre portefeuille.",
         "description1": "Une clé privée est une chaîne de lettres et de chiffres qui permet d’accéder à votre portefeuille et de le contrôler. Elle permet de restaurer votre portefeuille sur n’importe quel appareil.",
-        "description4": "Votre clé privée est stockée localement sur votre appareil et chiffrée avec votre mot de passe. Vous seul pouvez y accéder. JiuCheng Wallet ne peut ni récupérer ni consulter votre clé privée.",
+        "description4": "Votre clé privée est stockée localement sur votre appareil et chiffrée avec votre mot de passe. Vous seul pouvez y accéder. CubeX Wallet ne peut ni récupérer ni consulter votre clé privée.",
         "title": "Qu'est-ce qu'une clé privée"
       },
       "importing": "Importation...",
@@ -1622,7 +1622,7 @@
       "opened": "Ouvert",
       "closed": "Fermé",
       "empty": "Pas d'URL RPC personnalisée",
-      "desc": "Une fois modifié, le RPC personnalisé remplacera le nœud de JiuCheng Wallet. Pour continuer à utiliser le nœud de JiuCheng Wallet, supprimez le RPC personnalisé.",
+      "desc": "Une fois modifié, le RPC personnalisé remplacera le nœud de CubeX Wallet. Pour continuer à utiliser le nœud de CubeX Wallet, supprimez le RPC personnalisé.",
       "EditRPCModal": {
         "rpcUrl": "URL RPC",
         "invalidChainId": "ID de chaîne invalide",
@@ -1659,7 +1659,7 @@
       "termOfUse": "Conditions d'utilisation",
       "confirmTitle": "Confirmer le mot de passe",
       "agree": "J'ai lu et j'accepte les<1/> <2>Conditions d'utilisation</2>",
-      "confirmModalDesc": "Veuillez conserver votre mot de passe correctement. Une fois perdu, il ne peut pas être modifié ni récupéré par JiuCheng Wallet.",
+      "confirmModalDesc": "Veuillez conserver votre mot de passe correctement. Une fois perdu, il ne peut pas être modifié ni récupéré par CubeX Wallet.",
       "setWallet": "Configurer le portefeuille"
     },
     "miniSignFooterBar": {
@@ -1677,8 +1677,8 @@
       "transactionSpeed": "Vitesse de Transaction"
     },
     "addChain": {
-      "title": "Ajouter un réseau personnalisé à JiuCheng Wallet",
-      "desc": "JiuCheng Wallet ne peut pas vérifier la sécurité des réseaux personnalisés. Veuillez ajouter uniquement des réseaux de confiance."
+      "title": "Ajouter un réseau personnalisé à CubeX Wallet",
+      "desc": "CubeX Wallet ne peut pas vérifier la sécurité des réseaux personnalisés. Veuillez ajouter uniquement des réseaux de confiance."
     },
     "approvalsAddressList": {
       "title": "Approbations"
@@ -1779,7 +1779,7 @@
         "followingTokenInSufficient": "Le solde du jeton suivant est insuffisant",
         "zeroInvalidAmount": "Le montant ne peut pas être zéro",
         "title": "Dépôt",
-        "desc": "Effectuez un dépôt sur le compte DeBank L2 de JiuCheng Wallet sans frais supplémentaires - retirez à tout moment.",
+        "desc": "Effectuez un dépôt sur le compte DeBank L2 de CubeX Wallet sans frais supplémentaires - retirez à tout moment.",
         "amount": "Montant",
         "invalidAmount": "Doit être inférieur à 500",
         "googlePayDesc": "Inclut des frais Google Pay de ${{ amount }}. Aucun retrait",
@@ -1868,7 +1868,7 @@
       "loginSuccess": "Connexion réussie",
       "withdrawDisabledIAP": "Les retraits sont désactivés car votre solde inclut des fonds en fiat, qui ne peuvent pas être retirés. Contactez le support pour retirer le solde de vos tokens.",
       "benefitCard": {
-        "item1": "Pas de frais JiuCheng Wallet",
+        "item1": "Pas de frais CubeX Wallet",
         "desc1": "Pas de frais supplémentaires pour payer le gaz",
         "item2": "Prend en charge tous les réseaux",
         "desc3": "Swap, Bridge, envoi, DApp et plus encore",
@@ -2020,23 +2020,23 @@
       "claimItem": {
         "claim": "Réclamer"
       },
-      "title": "JiuCheng Wallet Points",
+      "title": "CubeX Wallet Points",
       "out-of-x-current-total-points": "Sur {{total}} Points Distribués au Total",
       "initialPointsClaimEnded": "La période de réclamation des Points initiaux est terminée",
       "claimModal": {
         "referral-code": "Code de parrainage",
         "claim": "Réclamer",
-        "rabbyUser": "Utilisateur Actif JiuCheng Wallet",
+        "rabbyUser": "Utilisateur Actif CubeX Wallet",
         "addressBalance": "Solde du portefeuille",
         "title": "Réclamer des Points Initiaux",
-        "rabbyDesktopGenesisNft": "JiuCheng Wallet Desktop Genesis NFT",
+        "rabbyDesktopGenesisNft": "CubeX Wallet Desktop Genesis NFT",
         "MetaMaskSwap": "MetaMask Swap",
         "snapshotTime": "Heure de l'instantané : {{time}}",
         "placeholder": "Entrez le Code de Parrainage pour des points supplémentaires (facultatif)",
         "invalid-code": "code invalide",
-        "rabbyValuedUserBadge": "Badge d'utilisateur valorisé JiuCheng Wallet"
+        "rabbyValuedUserBadge": "Badge d'utilisateur valorisé CubeX Wallet"
       },
-      "firstRoundEnded": "🎉 La première manche de JiuCheng Wallet Points est terminée",
+      "firstRoundEnded": "🎉 La première manche de CubeX Wallet Points est terminée",
       "referralCode": {
         "referral-code-cannot-be-empty": "Le code de parrainage ne peut pas être vide.",
         "referral-code-already-exists": "Le code de parrainage existe déjà.",
@@ -2067,7 +2067,7 @@
         "title": "Données de transaction"
       },
       "ConfirmModifyRpcModal": {
-        "desc": "La chaîne est déjà intégrée par JiuCheng Wallet. Avez-vous besoin de modifier son URL RPC ?"
+        "desc": "La chaîne est déjà intégrée par CubeX Wallet. Avez-vous besoin de modifier son URL RPC ?"
       },
       "empty": "Aucun réseau personnalisé",
       "id": "ID",
@@ -2082,12 +2082,12 @@
         "nameRequired": "Veuillez entrer le nom du réseau",
         "nativeTokenSymbolRequired": "Veuillez saisir le symbole de la devise"
       },
-      "desc": "JiuCheng Wallet ne peut pas vérifier la sécurité des réseaux personnalisés. Veuillez n'ajouter que des réseaux de confiance.",
+      "desc": "CubeX Wallet ne peut pas vérifier la sécurité des réseaux personnalisés. Veuillez n'ajouter que des réseaux de confiance.",
       "AddFromChainList": {
         "search": "Recherche par nom ou ID de réseau personnalisé",
         "title": "Ajout rapide depuis Chainlist",
         "tips": {
-          "supported": "Chaîne déjà intégrée par JiuCheng Wallet",
+          "supported": "Chaîne déjà intégrée par CubeX Wallet",
           "added": "Vous avez déjà ajouté cette chaîne"
         },
         "empty": "Aucune chaîne trouvée"
@@ -2127,7 +2127,7 @@
       "clearPending": "Effacer les transactions en attente localement",
       "aboutUs": "À propos de nous",
       "feedback": "Retour d'expérience",
-      "clearPendingDesc1": "Cela supprimera toutes vos transactions en attente. Cela peut vous aider à résoudre le problème lorsque, dans certains cas, l'état de la transaction dans JiuCheng Wallet ne correspond pas à l'état sur la blockchain.",
+      "clearPendingDesc1": "Cela supprimera toutes vos transactions en attente. Cela peut vous aider à résoudre le problème lorsque, dans certains cas, l'état de la transaction dans CubeX Wallet ne correspond pas à l'état sur la blockchain.",
       "clearPendingDesc2": "Cela ne changera pas les soldes de vos comptes ni ne vous obligera à ressaisir votre phrase de récupération. Toutes vos informations sur les actifs et les comptes resteront sécurisées.",
       "screenTitle": "Paramètres",
       "themeMode": "Mode Thème",
@@ -2273,11 +2273,11 @@
       "scanTips2": "Scannez le code et commencez à synchroniser",
       "syncingTips": "Maintenez l'appareil photo stable jusqu'à la fin de la numérisation",
       "importedSuccessfully": "Importé avec succès !",
-      "verifyWithPassword": "Vérifiez avec votre \nmot de passe JiuCheng Wallet Extension",
-      "newUserVerify": "Il servira également de mot de passe par défaut pour votre JiuCheng Wallet",
-      "scanTips1": "Cliquez sur \"Mobile Sync\" sur l'extension JiuCheng Wallet",
-      "verifyTips": "Vos données sont chiffrées hors ligne. Entrez votre mot de passe de l'extension JiuCheng Wallet pour déchiffrer et vérifier.",
-      "imported": "Les adresses déjà présentes dans JiuCheng Wallet ne seront pas réimportées. Les notes d’adresse et les listes d’autorisation seront synchronisées automatiquement.",
+      "verifyWithPassword": "Vérifiez avec votre \nmot de passe CubeX Wallet Extension",
+      "newUserVerify": "Il servira également de mot de passe par défaut pour votre CubeX Wallet",
+      "scanTips1": "Cliquez sur \"Mobile Sync\" sur l'extension CubeX Wallet",
+      "verifyTips": "Vos données sont chiffrées hors ligne. Entrez votre mot de passe de l'extension CubeX Wallet pour déchiffrer et vérifier.",
+      "imported": "Les adresses déjà présentes dans CubeX Wallet ne seront pas réimportées. Les notes d’adresse et les listes d’autorisation seront synchronisées automatiquement.",
       "importedTips": "Si l’application contient déjà la même adresse, celle-ci ne sera pas importée. Les notes d’adresse et les listes d’autorisation seront également synchronisées."
     },
     "safeMessageQueue": {
@@ -2338,9 +2338,9 @@
       "HyperliquidInvitePopup": {
         "title": "Programme de parrainage Hyperliquid",
         "btn": "Rejoignez maintenant",
-        "desc": "Rejoignez maintenant en utilisant le code de JiuCheng Wallet pour obtenir une <1>remise de 4%</1> sur vos frais Hyperliquid.",
+        "desc": "Rejoignez maintenant en utilisant le code de CubeX Wallet pour obtenir une <1>remise de 4%</1> sur vos frais Hyperliquid.",
         "asterTitle": "Programme de parrainage Aster",
-        "asterDesc": "Rejoignez maintenant en utilisant le code de JiuCheng Wallet pour obtenir une <1>remise de 4%</1> sur vos frais Aster."
+        "asterDesc": "Rejoignez maintenant en utilisant le code de CubeX Wallet pour obtenir une <1>remise de 4%</1> sur vos frais Aster."
       },
       "WebviewError": {
         "error": "Erreur :",
@@ -2596,7 +2596,7 @@
         "sizeTips": "La valeur totale ou la quantité de votre trade, déterminée par la marge et l'effet de levier.",
         "feeTitle": "Frais",
         "feeHyperliquid": "Hyperliquid",
-        "feeRabby": "JiuCheng Wallet",
+        "feeRabby": "CubeX Wallet",
         "feeRabbyDiscount": "Réduction des frais de trading pour une durée limitée",
         "feeDesc": "Lorsque les utilisateurs passent des ordres, des <1>frais de trading</1> et des <2>frais de builder</2> s’appliquent.",
         "amount": "Montant",
@@ -2725,7 +2725,7 @@
         "activatedFailed": "Activation échouée",
         "hyperliquidFee": "Frais de trading Hyperliquid.",
         "activatedSuccess": "4 % d'économies sur les frais Hyperliquid activées",
-        "description": "Utilisez le code de JiuCheng Wallet pour activer"
+        "description": "Utilisez le code de CubeX Wallet pour activer"
       },
       "dappSelect": {
         "title": "Sélectionner le fournisseur de Perps"
@@ -2836,7 +2836,7 @@
         "providerFeeTips": "Frais Hyperliquid : {{fee}}",
         "positionSize": "Taille de position",
         "fee": "Frais :",
-        "rabbyFeeTips": "Frais JiuCheng Wallet : 0,04 %",
+        "rabbyFeeTips": "Frais CubeX Wallet : 0,04 %",
         "closeBtn": "Fermer {{direction}}",
         "amount": "Montant",
         "confirm": "Confirmer",
@@ -2844,7 +2844,7 @@
         "closedPnl": "PNL clôturé ",
         "minimumWarning": "Le montant minimum est de {{percent}}%",
         "total": "Total",
-        "rabbyFeeTipsV2": "Frais JiuCheng Wallet : 0,02 %"
+        "rabbyFeeTipsV2": "Frais CubeX Wallet : 0,02 %"
       },
       "PerpsOpenPositionPopup": {
         "title": "Ouvrir une position {{coin}}",
@@ -2900,13 +2900,13 @@
         "estLqPrice": "Prix de liquidation estimé",
         "size": "Taille",
         "providerFeeTips": "Frais Hyperliquid : {{fee}}",
-        "rabbyFeeTips": "Frais JiuCheng Wallet : 0%",
+        "rabbyFeeTips": "Frais CubeX Wallet : 0%",
         "sizeTips": "La valeur totale ou la quantité de votre trade, définie par la marge et l'effet de levier.",
         "margin": "Marge (Isolée)",
         "liquidationPriceTips": "Le prix auquel votre position est automatiquement clôturée par l'échange pour éviter d'autres pertes lorsque votre marge tombe en dessous du niveau de marge d'entretien.",
         "free": "Gratuit",
         "providerFee": "Frais Hyperliquid",
-        "rabbyFee": "Frais JiuCheng Wallet",
+        "rabbyFee": "Frais CubeX Wallet",
         "marginCross": "Marge (Croisée)"
       },
       "action": {
@@ -3321,8 +3321,8 @@
     "newUserOnboarding": {
       "restoreWallet": {
         "subtitle": "Bon retour parmi nous ! 🎉\nChoisissez une méthode pour restaurer rapidement votre portefeuille.",
-        "title": "Restaurer votre portefeuille JiuCheng Wallet",
-        "subtitleInApp": "Choisissez une option ci-dessous pour importer rapidement vos portefeuilles depuis l’extension JiuCheng Wallet ou iCloud."
+        "title": "Restaurer votre portefeuille CubeX Wallet",
+        "subtitleInApp": "Choisissez une option ci-dessous pour importer rapidement vos portefeuilles depuis l’extension CubeX Wallet ou iCloud."
       },
       "common": {
         "orYouCanCreateNewWallet": "Ou vous pouvez <clickable>créer un nouveau portefeuille</clickable>"
@@ -3395,7 +3395,7 @@
     },
     "walletConnect": {
       "screenTitle": "Connecter le portefeuille",
-      "connectingToRabby": "Connexion à JiuCheng Wallet",
+      "connectingToRabby": "Connexion à CubeX Wallet",
       "pairingFailed": "L'appairage WalletConnect a échoué.",
       "connected": "Connexion réussie. Veuillez retourner à la DApp.",
       "proposalExpired": "La proposition WalletConnect a expiré.",
@@ -3421,7 +3421,7 @@
     "authentication": {
       "auth_prompt_title": "Authentification requise",
       "auth_prompt_cancel": "Annuler",
-      "auth_prompt_desc": "Veuillez vous authentifier pour utiliser JiuCheng Wallet"
+      "auth_prompt_desc": "Veuillez vous authentifier pour utiliser CubeX Wallet"
     },
     "biometrics": {
       "enable_device_passcode_android": "Déverrouiller avec le code PIN de l'appareil ?",
@@ -3447,8 +3447,8 @@
     },
     "permissions_alert": {
       "cancel": "Ne pas autoriser",
-      "message": "JiuCheng Wallet utilise l'accès bluetooth pour connecter Ledger",
-      "title": "« JiuCheng Wallet » souhaite utiliser le Bluetooth",
+      "message": "CubeX Wallet utilise l'accès bluetooth pour connecter Ledger",
+      "title": "« CubeX Wallet » souhaite utiliser le Bluetooth",
       "open_settings": "OK"
     }
   },
@@ -3553,7 +3553,7 @@
         "token": "Jeton",
         "selectToken": "Sélectionner le token à déposer",
         "title": "Dépôt",
-        "desc": "Faites un dépôt sur le compte DeBank L2 de JiuCheng Wallet sans frais supplémentaires - retirez à tout moment."
+        "desc": "Faites un dépôt sur le compte DeBank L2 de CubeX Wallet sans frais supplémentaires - retirez à tout moment."
       },
       "gasExceed": "Le solde de GasAccount ne peut pas dépasser 1000 $.",
       "withdrawConfirmModal": {
@@ -3581,9 +3581,9 @@
         "title3": "GasAccount a-t-il des frais supplémentaires ?",
         "title4": "Est-ce que GasAccount est sûr ?",
         "title2": "Comment utiliser GasAccount",
-        "desc3": "JiuCheng Wallet ne facture aucun frais supplémentaire. Vous ne payez que le gas pour votre transaction et une petite quantité de gas pour envoyer ce gas de GasAccount à votre adresse.",
+        "desc3": "CubeX Wallet ne facture aucun frais supplémentaire. Vous ne payez que le gas pour votre transaction et une petite quantité de gas pour envoyer ce gas de GasAccount à votre adresse.",
         "desc2": "Ajoutez des fonds à votre GasAccount et utilisez-le pour toute transaction. Lors de la signature, choisissez de payer le gas avec des tokens natifs ou GasAccount, changez à tout moment.",
-        "desc4": "GasAccount ne nécessite aucune approbation de contrat ni aucune autorisation. Vous déposez des fonds à l’adresse GasAccount de JiuCheng Wallet, puis JiuCheng Wallet envoie du gas à votre adresse lorsque cela est nécessaire. Une conception entièrement sécurisée.",
+        "desc4": "GasAccount ne nécessite aucune approbation de contrat ni aucune autorisation. Vous déposez des fonds à l’adresse GasAccount de CubeX Wallet, puis CubeX Wallet envoie du gas à votre adresse lorsque cela est nécessaire. Une conception entièrement sécurisée.",
         "desc1": "GasAccount est une nouvelle façon de payer les frais de gas. Au lieu d'utiliser des tokens natifs sur chaque chaîne, vous pouvez utiliser un compte pour couvrir les frais de gas pour toutes vos adresses sur toutes les chaînes. Simple, optionnel et jamais à court de gas."
       }
     },
@@ -3623,8 +3623,8 @@
       },
       "biometrics": {
         "disable": "Désactiver {{ bioType }} ?",
-        "disableTip": "Désactiver {{ bioType }} pour déverrouiller JiuCheng Wallet",
-        "enableTip": "Activez {{ bioType }} pour déverrouiller JiuCheng Wallet",
+        "disableTip": "Désactiver {{ bioType }} pour déverrouiller CubeX Wallet",
+        "enableTip": "Activez {{ bioType }} pour déverrouiller CubeX Wallet",
         "enable": "Saisissez le mot de passe\npour activer {{ bioType }}"
       }
     },
@@ -3669,14 +3669,14 @@
       "switchArea": {
         "skipText": "Ignorer cette fenêtre contextuelle pendant 1 jour"
       },
-      "alertText": "DApp tierce : pour les problèmes d’utilisation, contactez le support de la DApp. JiuCheng Wallet fournit uniquement un accès en lecture.",
+      "alertText": "DApp tierce : pour les problèmes d’utilisation, contactez le support de la DApp. CubeX Wallet fournit uniquement un accès en lecture.",
       "title": "Capture d'écran pour signaler un bug"
     },
     "feedbackModal": {
-      "title": "Réponse du support JiuCheng Wallet",
+      "title": "Réponse du support CubeX Wallet",
       "issueDescriptionLabel": "Description :",
-      "repliedTitle": "Le support de JiuCheng Wallet a répondu :",
-      "pendingTitle": "Le support de JiuCheng Wallet n'a pas répondu.",
+      "repliedTitle": "Le support de CubeX Wallet a répondu :",
+      "pendingTitle": "Le support de CubeX Wallet n'a pas répondu.",
       "issueDescription": "Voici le problème que vous avez signalé :"
     },
     "submitFeedbackSuccessModal": {
@@ -3732,7 +3732,7 @@
     "WalletImported": "Portefeuille importé",
     "addButton": "Ajouter",
     "Balance": "Solde",
-    "appName": "JiuCheng Wallet",
+    "appName": "CubeX Wallet",
     "Paste": "Coller",
     "closeButton": "Fermer",
     "cancel": "Annuler",

@@ -1,16 +1,12 @@
 import { apisPerps } from '@/core/apis';
 import RcIconDoubleArrowCC from '@/assets2024/icons/common/double-arrow-cc.svg';
-import RcIconApprovalsCC from '@/assets2024/icons/home/IconApprovalsCC.svg';
 import RcIconBridgeCC from '@/assets2024/icons/home/IconBridgeCC.svg';
 import RcIconGasAccountCC from '@/assets2024/icons/home/IconGasAccountCC.svg';
 import IconGift from '@/assets2024/icons/home/IconGift.svg';
 import RcIconHistoryCC from '@/assets2024/icons/home/IconHistoryCC.svg';
-import RcIconPointsCC from '@/assets2024/icons/home/IconPointsCC.svg';
 import RcIconReceiveCC from '@/assets2024/icons/home/IconReceiveCC.svg';
 import RcIconSendCC from '@/assets2024/icons/home/IconSendCC.svg';
 import RcIconSwapCC from '@/assets2024/icons/home/IconSwapCC.svg';
-import RcIconMarketCC from '@/assets2024/icons/home/IconMarketCC.svg';
-import RcIconConvertDustCC from '@/assets2024/icons/home/IconDustCC.svg';
 
 import { RootNames } from '@/constant/layout';
 import { useTheme2024 } from '@/hooks/theme';
@@ -72,8 +68,6 @@ import {
   useApprovalAlertTotal,
 } from '../hooks/approvals';
 
-import RcIconLending from '@/assets2024/icons/home/IconLending.svg';
-import RcIconPerps from '@/assets2024/icons/home/IconPerps.svg';
 import { FastTouchable } from '@/components/Perf/FastTouchable';
 import { useRendererDetect } from '@/components/Perf/PerfDetector';
 import {
@@ -940,16 +934,6 @@ export const HomeOverview = React.memo(() => {
           icon: RcIconBridgeCC,
         },
         {
-          key: MultiHomeFeatTitle.Perps,
-          title: t('page.home.services.perps'),
-          icon: RcIconPerps,
-        },
-        {
-          key: MultiHomeFeatTitle.Lending,
-          title: t('page.home.services.lending'),
-          icon: RcIconLending,
-        },
-        {
           key: MultiHomeFeatTitle.GasAccount,
           title: t('page.home.services.gasDeposit'),
           icon: RcIconGasAccountCC,
@@ -959,16 +943,6 @@ export const HomeOverview = React.memo(() => {
           title: t('page.home.services.history'),
           icon: RcIconHistoryCC,
         },
-        {
-          key: MultiHomeFeatTitle.Market,
-          title: t('page.home.services.market'),
-          icon: RcIconMarketCC,
-        },
-        {
-          key: MultiHomeFeatTitle.Approvals,
-          title: t('page.home.services.approvals'),
-          icon: RcIconApprovalsCC,
-        },
         // __DEV__ && {
         //   title: MultiHomeFeatTitle.TEST_DAPP,
         //   icon: RcIconDapps,
@@ -977,16 +951,6 @@ export const HomeOverview = React.memo(() => {
         //   title: MultiHomeFeatTitle.Ecosystem,
         //   icon: RcIconEcosystem,
         // },
-        {
-          key: MultiHomeFeatTitle.Points,
-          title: t('page.rabbyPoints.title'),
-          icon: RcIconPointsCC,
-        },
-        {
-          key: MultiHomeFeatTitle.ConvertDust,
-          title: t('page.home.services.convertDust'),
-          icon: RcIconConvertDustCC,
-        },
       ].filter(Boolean) as {
         key: MultiHomeFeatTitle;
         title: string;

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" fill="#F6F0E7"/>
+
+  <path
+    d="M190 290H405V570C405 680 345 730 275 730C205 730 160 690 160 630"
+    fill="none"
+    stroke="#67C8AD"
+    stroke-width="80"
+    stroke-linecap="butt"
+    stroke-linejoin="round"
+  />
+
+  <path
+    d="M840 365C790 315 735 290 670 290C565 290 500 390 500 530C500 670 565 730 670 730C742 730 800 690 845 630"
+    fill="none"
+    stroke="#17233F"
+    stroke-width="80"
+    stroke-linecap="butt"
+    stroke-linejoin="round"
+  />
+</svg>

@@ -558,7 +558,7 @@ export default function AppNavigation() {
                   name={RootNames.NotFound}
                   component={NotFoundScreen}
                   options={mergeScreenOptions({
-                    title: 'JiuCheng Wallet',
+                    title: 'CubeX Wallet',
                     headerShadowVisible: false,
                     headerShown: true,
                     headerTransparent: false,

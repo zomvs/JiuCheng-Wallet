@@ -20,9 +20,9 @@ import {
 import { isNonProductionDiagnosticsEnabled } from '../utils/diagnosticEnv';
 
 export const KEYCHAIN_DEFAULT_SERVICE = 'com.debank';
-export const KEYCHAIN_GENERIC_USER = 'rabbymobile-user';
+export const KEYCHAIN_GENERIC_USER = 'cubexwallet-user';
 const KEYCHAIN_TRUSTED_VAULT_KEY_SERVICE = `${KEYCHAIN_DEFAULT_SERVICE}.trusted-vault-key`;
-const KEYCHAIN_TRUSTED_VAULT_KEY_USER = 'rabbymobile-vault-key';
+const KEYCHAIN_TRUSTED_VAULT_KEY_USER = 'cubexwallet-vault-key';
 const LEGACY_RSA_STORAGE_TYPE = 'KeystoreRSAECB';
 const AES_STORAGE_TYPE = 'KeystoreAESCBC';
 const AES_GCM_STORAGE_TYPE = 'KeystoreAESGCM';

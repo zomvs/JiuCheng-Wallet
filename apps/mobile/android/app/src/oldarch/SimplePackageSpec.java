@@ -1,4 +1,4 @@
-package com.debank.rabbymobile;
+package com.cubex.wallet;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;

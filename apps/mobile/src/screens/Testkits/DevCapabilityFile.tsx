@@ -932,7 +932,7 @@ function DevCapabilityFile() {
       const jsiAvailable = RNFS.isJSIAvailable();
 
       if (!jsiAvailable) {
-        throw new Error('JiuCheng Wallet native FS JSI binding is unavailable');
+        throw new Error('CubeX Wallet native FS JSI binding is unavailable');
       }
 
       RNFS.clearDiagnostics();
@@ -981,7 +981,7 @@ function DevCapabilityFile() {
       const jsiAvailable = RNFS.isJSIAvailable();
 
       if (!jsiAvailable) {
-        throw new Error('JiuCheng Wallet native FS JSI binding is unavailable');
+        throw new Error('CubeX Wallet native FS JSI binding is unavailable');
       }
 
       RNFS.clearDiagnostics();
@@ -1029,7 +1029,7 @@ function DevCapabilityFile() {
       const jsiAvailable = RNFS.isJSIAvailable();
 
       if (!jsiAvailable) {
-        throw new Error('JiuCheng Wallet native FS JSI binding is unavailable');
+        throw new Error('CubeX Wallet native FS JSI binding is unavailable');
       }
 
       RNFS.clearDiagnostics();
@@ -1136,12 +1136,10 @@ function DevCapabilityFile() {
       const asyncAvailable = RNFS.isNativeAsyncFileIOAvailable();
 
       if (!jsiAvailable) {
-        throw new Error('JiuCheng Wallet native FS JSI binding is unavailable');
+        throw new Error('CubeX Wallet native FS JSI binding is unavailable');
       }
       if (!asyncAvailable) {
-        throw new Error(
-          'JiuCheng Wallet native FS async stream is unavailable',
-        );
+        throw new Error('CubeX Wallet native FS async stream is unavailable');
       }
 
       RNFS.clearDiagnostics();
@@ -1265,12 +1263,10 @@ function DevCapabilityFile() {
       const asyncAvailable = RNFS.isNativeAsyncFileIOAvailable();
 
       if (!jsiAvailable) {
-        throw new Error('JiuCheng Wallet native FS JSI binding is unavailable');
+        throw new Error('CubeX Wallet native FS JSI binding is unavailable');
       }
       if (!asyncAvailable) {
-        throw new Error(
-          'JiuCheng Wallet native FS async stream is unavailable',
-        );
+        throw new Error('CubeX Wallet native FS async stream is unavailable');
       }
 
       RNFS.clearDiagnostics();
@@ -1417,7 +1413,7 @@ function DevCapabilityFile() {
       const jsiAvailable = RNFS.isJSIAvailable();
 
       if (!jsiAvailable) {
-        throw new Error('JiuCheng Wallet native FS JSI binding is unavailable');
+        throw new Error('CubeX Wallet native FS JSI binding is unavailable');
       }
 
       RNFS.clearDiagnostics();

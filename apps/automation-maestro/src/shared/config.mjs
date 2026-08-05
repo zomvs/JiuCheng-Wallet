@@ -13,7 +13,7 @@ const DEFAULT_CONFIG = Object.freeze({
   android: {
     sharedFixtureFile: 'flows.fixture.local.json',
     onboardingImportPrivateKey: {
-      packageName: 'com.debank.rabbymobile.debug',
+      packageName: 'com.cubex.wallet.debug',
       appPassword: '11111111',
       privateKeysEnvName: 'RABBY_MAESTRO_TEST_PRIVATE_KEYS',
       privateKeyEnvName: 'RABBY_MAESTRO_TEST_PRIVATE_KEY',
@@ -52,7 +52,7 @@ const DEFAULT_CONFIG = Object.freeze({
   },
   ios: {
     onboardingImportPrivateKey: {
-      bundleId: 'com.debank.rabby-mobile-debug',
+      bundleId: 'com.cubex.wallet.debug',
       appPassword: '11111111',
       privateKeysEnvName: 'RABBY_MAESTRO_TEST_PRIVATE_KEYS',
       privateKeyEnvName: 'RABBY_MAESTRO_TEST_PRIVATE_KEY',

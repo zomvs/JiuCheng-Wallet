@@ -8,7 +8,7 @@ import {
   trustedProtocolToDeeplink,
 } from '@/constant/dappView';
 import {
-  isRabbyWalletConnectDeeplink,
+  isCubeXWalletConnectDeeplink,
   parseWalletConnectUriFromLink,
 } from '@/core/walletconnect/uri';
 import { Alert } from 'react-native';
@@ -34,7 +34,7 @@ export function checkShouldStartLoadingWithRequestForDappWebView(
     return false;
   }
 
-  if (isRabbyWalletConnectDeeplink(url)) {
+  if (isCubeXWalletConnectDeeplink(url)) {
     const uri = parseWalletConnectUriFromLink(url);
     if (!uri) {
       return false;

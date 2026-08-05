@@ -12,10 +12,10 @@ export const INITIAL_OPENAPI_URL = 'https://app-api.rabby.io';
 export const INITIAL_TESTNET_OPENAPI_URL = 'https://api.testnet.rabby.io';
 
 export const INTERNAL_REQUEST_SESSION = {
-  name: 'JiuCheng Wallet',
+  name: 'CubeX Wallet',
   origin: INTERNAL_REQUEST_ORIGIN,
   icon: Image.resolveAssetSource(
-    require('@/assets/images/jiucheng-chain-logo.png'),
+    require('@/assets/images/cubex-chain-logo.png'),
   ).uri,
 };
 
@@ -59,17 +59,15 @@ export const APP_URLS = {
   DOWNLOAD_PAGE: 'https://rabby.io/?platform=mobile',
 
   STORE_URL: Platform.select({
-    android:
-      'https://play.google.com/store/apps/details?id=com.debank.rabbymobile',
-    ios: 'https://apps.apple.com/us/app/rabby-wallet-crypto-evm/id6474381673',
+    android: 'https://play.google.com/store/apps/details?id=com.cubex.wallet',
+    ios: 'https://apps.apple.com/',
   })!,
 
   RATE_URL:
     Platform.select({
-      // android: 'market://details?id=com.debank.rabbymobile',
-      android:
-        'https://play.google.com/store/apps/details?id=com.debank.rabbymobile',
-      ios: 'itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=6474381673',
+      // android: 'market://details?id=com.cubex.wallet',
+      android: 'https://play.google.com/store/apps/details?id=com.cubex.wallet',
+      ios: 'https://apps.apple.com/',
     }) || '',
 };
 
@@ -78,51 +76,58 @@ export const APPLICATION_ID = NativeModules.RNVersionCheck.packageName;
 const realAndroidPackageName = NativeModules.RNVersionCheck.packageName;
 const androidPackageName = (
   !realAndroidPackageName
-    ? 'com.debank.rabbymobile'
+    ? 'com.cubex.wallet'
     : stringUtils.unSuffix(
         stringUtils.unSuffix(realAndroidPackageName, '.debug'),
         '.regression',
       )
-) as `com.debank.rabbymobile${AndroidIdSuffx}`;
+) as `com.cubex.wallet${AndroidIdSuffx}`;
 export const APP_IDS = {
   forScreenshot: APPLICATION_ID.replace(/[\.\-]/g, '_'),
 };
 
-type IosIdSuffix = '' | '-debug' | '-regression';
+type IosIdSuffix = '' | '.debug' | '.regression';
 
 export const PROD_APPLICATION_ID:
   | typeof androidPackageName
-  | `com.debank.rabby-mobile${IosIdSuffix}` =
+  | `com.cubex.wallet${IosIdSuffix}` =
   Platform.OS == 'android'
     ? androidPackageName
     : __DEV__
-    ? ('com.debank.rabby-mobile-debug' as const)
-    : ('com.debank.rabby-mobile' as const);
+    ? ('com.cubex.wallet.debug' as const)
+    : ('com.cubex.wallet' as const);
 
 const isSelfhostRegPkg =
   BUILD_CHANNEL === 'selfhost-reg' && APPLICATION_ID !== PROD_APPLICATION_ID;
 export const isNonPublicProductionEnv = isSelfhostRegPkg || __DEV__;
 export const NEED_DEVSETTINGBLOCKS = isSelfhostRegPkg || __DEV__;
 
-const FirebaseWebClientIds = {
-  'com.debank.rabbymobile.debug':
+const AndroidFirebaseWebClientIds = {
+  'com.cubex.wallet.debug':
     '809331497367-vv5g8gs5v7187a349pon5ggnsrgr7uuj.apps.googleusercontent.com',
-  'com.debank.rabbymobile.regression':
+  'com.cubex.wallet.regression':
     '809331497367-vv5g8gs5v7187a349pon5ggnsrgr7uuj.apps.googleusercontent.com',
-  'com.debank.rabbymobile':
+  'com.cubex.wallet':
     '809331497367-vv5g8gs5v7187a349pon5ggnsrgr7uuj.apps.googleusercontent.com',
+} as const;
 
-  'com.debank.rabby-mobile':
+const IosFirebaseWebClientIds = {
+  'com.cubex.wallet':
     '809331497367-85vtc15egvte1r5nc30dnno4l1ofbeqg.apps.googleusercontent.com',
-  'com.debank.rabby-mobile-debug':
+  'com.cubex.wallet.debug':
+    '809331497367-vip7ti5jnh1umlp99d5r42mqqt9f0vuv.apps.googleusercontent.com',
+  'com.cubex.wallet.regression':
     '809331497367-vip7ti5jnh1umlp99d5r42mqqt9f0vuv.apps.googleusercontent.com',
 } as const;
 
 export const FIREBASE_WEBCLIENT_ID =
-  Platform.select({
-    android: FirebaseWebClientIds[realAndroidPackageName],
-    ios: FirebaseWebClientIds[APPLICATION_ID],
-  }) || FirebaseWebClientIds[realAndroidPackageName];
+  Platform.OS === 'android'
+    ? AndroidFirebaseWebClientIds[
+        realAndroidPackageName as keyof typeof AndroidFirebaseWebClientIds
+      ]
+    : IosFirebaseWebClientIds[
+        APPLICATION_ID as keyof typeof IosFirebaseWebClientIds
+      ];
 
 export const APP_TEST_PASSWORD = '11111111';
 export const APP_TEST_PWD = __DEV__ ? APP_TEST_PASSWORD : '';

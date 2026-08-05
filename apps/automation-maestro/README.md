@@ -262,10 +262,10 @@ export default {
   android: {
     sharedFixtureFile: "flows.fixture.local.json",
     onboardingImportPrivateKey: {
-      packageName: "com.debank.rabbymobile.debug",
+      packageName: "com.cubex.wallet.debug",
       appPassword: "11111111",
       launchActivity:
-        "com.debank.rabbymobile.debug/com.debank.rabbymobile.MainActivity"
+        "com.cubex.wallet.debug/com.cubex.wallet.MainActivity"
     },
     sendSmoke: {
       fixtureFile: "flows.fixture.local.json"
@@ -276,7 +276,7 @@ export default {
   },
   ios: {
     onboardingImportPrivateKey: {
-      bundleId: "com.debank.rabby-mobile-debug",
+      bundleId: "com.cubex.wallet.debug",
       appPassword: "11111111",
       flowFile: "flows/ios-onboarding-import-private-key.yaml",
       resetKeychain: true,

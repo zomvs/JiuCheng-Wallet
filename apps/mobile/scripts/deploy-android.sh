@@ -287,7 +287,7 @@ print_manual_upload_sentry_sourcemap() {
       ./node_modules/@sentry/cli/bin/sentry-cli react-native gradle \
       --bundle "app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle" \
       --sourcemap "app/build/generated/sourcemaps/react/release/index.android.bundle.map" \
-      --release com.debank.rabbymobile@${android_version_name}+${android_version_code} --dist ${android_version_code} --org <org_name> --project <proj_name>
+      --release com.cubex.wallet@${android_version_name}+${android_version_code} --dist ${android_version_code} --org <org_name> --project <proj_name>
     "
   else
     echo "[deploy-android] will auto upload sourcemap to sentry."

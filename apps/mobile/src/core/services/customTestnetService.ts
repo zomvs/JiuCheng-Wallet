@@ -138,7 +138,7 @@ export class CustomTestnetService {
         return {
           error: {
             key: 'id',
-            message: 'Chain already integrated by JiuCheng Wallet',
+            message: 'Chain already integrated by CubeX Wallet',
             status: 'alreadySupported',
           },
         };

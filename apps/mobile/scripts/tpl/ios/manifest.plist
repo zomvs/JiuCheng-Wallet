@@ -29,7 +29,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.debank.rabby-mobile</string>
+				<string>com.cubex.wallet</string>
 				<key>bundle-version</key>
 				<string>{{ APP_VERSION }}</string>
 				<key>kind</key>

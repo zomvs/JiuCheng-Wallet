@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" fill="#1D2D50"/>
+
+  <!-- A bold, woven JC monogram designed to remain legible at app-icon sizes. -->
+  <path
+    d="M356 270V592C356 686 250 717 202 633"
+    fill="none"
+    stroke="#F7F4EC"
+    stroke-width="126"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <path
+    d="M814 356C749 263 621 246 526 309C426 375 407 521 469 627C531 733 683 765 789 683C816 662 837 637 852 609"
+    fill="none"
+    stroke="#86CFBC"
+    stroke-width="126"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Warm accents turn the open C terminals into a color-blocked ribbon. -->
+  <path
+    d="M814 356C801 337 786 322 769 309"
+    fill="none"
+    stroke="#FF7A68"
+    stroke-width="126"
+    stroke-linecap="round"
+  />
+  <path
+    d="M817 658C832 643 844 627 852 609"
+    fill="none"
+    stroke="#FF7A68"
+    stroke-width="126"
+    stroke-linecap="round"
+  />
+
+  <!-- Bring the J curl back to the foreground at the crossing. -->
+  <path
+    d="M356 545V592C356 638 330 674 293 692"
+    fill="none"
+    stroke="#F7F4EC"
+    stroke-width="126"
+    stroke-linecap="round"
+  />
+</svg>

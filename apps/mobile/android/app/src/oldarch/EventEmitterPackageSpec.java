@@ -1,4 +1,4 @@
-package com.debank.rabbymobile;
+package com.cubex.wallet;
 
 import com.facebook.react.modules.core.DeviceEventManagerModule;
 import com.facebook.react.bridge.ReactContext;

@@ -1,12 +1,12 @@
 export const WALLETCONNECT_METADATA = {
-  name: 'JiuCheng Wallet',
-  description: 'JiuCheng Wallet for WalletConnect.',
-  url: 'https://github.com/zomvs/JiuCheng-Wallet',
+  name: 'CubeX Wallet',
+  description: 'CubeX Wallet for WalletConnect.',
+  url: 'https://github.com/zomvs/CubeX-Wallet',
   icons: [
-    'https://raw.githubusercontent.com/zomvs/JiuCheng-Wallet/main/apps/mobile/src/assets/brand/jiucheng-app-icon.svg',
+    'https://raw.githubusercontent.com/zomvs/CubeX-Wallet/main/apps/mobile/src/assets/brand/cubex-app-icon.svg',
   ],
   redirect: {
-    native: 'rabby://walletconnect',
+    native: 'cubex://walletconnect',
   },
 };
 

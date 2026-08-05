@@ -115,7 +115,7 @@ export default function MarketScreen() {
 
     const timer = setTimeout(() => {
       matomoRequestEvent({
-        category: 'JiuCheng Wallet Market',
+        category: 'CubeX Wallet Market',
         action,
       });
     }, 150);

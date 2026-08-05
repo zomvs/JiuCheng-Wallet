@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>CubeX Wallet abstract Rubik's cube app icon</title>
+  <defs>
+    <filter id="cube-shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="30" stdDeviation="30" flood-color="#000000" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+
+  <rect width="1024" height="1024" fill="#0c1214"/>
+
+  <g filter="url(#cube-shadow)" stroke="#0c1214" stroke-width="14" stroke-linejoin="round">
+    <!-- Top face -->
+    <path d="M512 184 610 241 512 297 414 241Z" fill="#f4f7f3"/>
+    <path d="M610 241 708 297 610 354 512 297Z" fill="#43d4c5"/>
+    <path d="M708 297 806 354 708 411 610 354Z" fill="#ffd35a"/>
+    <path d="M414 241 512 297 414 354 316 297Z" fill="#4e68ff"/>
+    <path d="M512 297 610 354 512 411 414 354Z" fill="#f4f7f3"/>
+    <path d="M610 354 708 411 610 467 512 411Z" fill="#ff6b63"/>
+    <path d="M316 297 414 354 316 411 218 354Z" fill="#f4f7f3"/>
+    <path d="M414 354 512 411 414 467 316 411Z" fill="#24b987"/>
+    <path d="M512 411 610 467 512 524 414 467Z" fill="#43d4c5"/>
+
+    <!-- Left face -->
+    <path d="M218 354 316 411 316 517 218 461Z" fill="#43d4c5"/>
+    <path d="M316 411 414 467 414 574 316 517Z" fill="#4e68ff"/>
+    <path d="M414 467 512 524 512 631 414 574Z" fill="#f4f7f3"/>
+    <path d="M218 461 316 517 316 624 218 567Z" fill="#4e68ff"/>
+    <path d="M316 517 414 574 414 681 316 624Z" fill="#43d4c5"/>
+    <path d="M414 574 512 631 512 737 414 681Z" fill="#ff6b63"/>
+    <path d="M218 567 316 624 316 731 218 674Z" fill="#24b987"/>
+    <path d="M316 624 414 681 414 787 316 731Z" fill="#ffd35a"/>
+    <path d="M414 681 512 737 512 844 414 787Z" fill="#4e68ff"/>
+
+    <!-- Right face -->
+    <path d="M512 524 610 467 610 574 512 631Z" fill="#f4f7f3"/>
+    <path d="M610 467 708 411 708 517 610 574Z" fill="#ffd35a"/>
+    <path d="M708 411 806 354 806 461 708 517Z" fill="#ff6b63"/>
+    <path d="M512 631 610 574 610 681 512 737Z" fill="#24b987"/>
+    <path d="M610 574 708 517 708 624 610 681Z" fill="#43d4c5"/>
+    <path d="M708 517 806 461 806 567 708 624Z" fill="#4e68ff"/>
+    <path d="M512 737 610 681 610 787 512 844Z" fill="#ff6b63"/>
+    <path d="M610 681 708 624 708 731 610 787Z" fill="#4e68ff"/>
+    <path d="M708 624 806 567 806 674 708 731Z" fill="#24b987"/>
+  </g>
+
+  <!-- The crossing negative space turns the cube into the CubeX mark. -->
+  <g fill="none" stroke="#0c1214" stroke-width="26" stroke-linecap="round">
+    <path d="M460 466 564 582"/>
+    <path d="M564 466 460 582"/>
+  </g>
+</svg>

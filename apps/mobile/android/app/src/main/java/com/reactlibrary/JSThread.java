@@ -1,6 +1,6 @@
 package com.reactlibrary;
 
-import com.debank.rabbymobile.RabbyUtils;
+import com.cubex.wallet.RabbyUtils;
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.WritableMap;

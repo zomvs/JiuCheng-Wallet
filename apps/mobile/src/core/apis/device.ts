@@ -22,10 +22,10 @@ type MobileClientInfo = {
 };
 
 export function ensureDeviceUUID(): string {
-  let devUUID = appJsonStore.getItem('rabbymobile_uuid', null);
+  let devUUID = appJsonStore.getItem('cubexwallet_uuid', null);
   if (!devUUID) {
     devUUID = uuidv4();
-    appJsonStore.setItem('rabbymobile_uuid', devUUID);
+    appJsonStore.setItem('cubexwallet_uuid', devUUID);
   }
   return devUUID;
 }

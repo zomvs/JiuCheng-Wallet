@@ -51,7 +51,7 @@ function App({
               <a href="https://apps.apple.com/us/app/rabby-wallet-crypto-evm/id6474381673" target="_blank">
                 <img src={AppleStoreLogo} className="logo linking" alt="App Store logo" />
               </a>
-              <a href="https://play.google.com/store/apps/details?id=com.debank.rabbymobile" target="_blank">
+              <a href="https://play.google.com/store/apps/details?id=com.cubex.wallet" target="_blank">
                 <img src={GooglePlayLogo} className="logo linking" alt="Google Play logo" />
               </a>
             </div>

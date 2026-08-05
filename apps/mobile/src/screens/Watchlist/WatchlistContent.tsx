@@ -157,7 +157,7 @@ export function WatchlistContent({
 
       if (clickAction) {
         matomoRequestEvent({
-          category: 'JiuCheng Wallet Market',
+          category: 'CubeX Wallet Market',
           action: clickAction,
         });
       }

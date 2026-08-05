@@ -14,7 +14,7 @@ export default class TrezorBridge implements TrezorBridgeInterface {
         debug: appIsDev,
         manifest: {
           email: 'zomvs@users.noreply.github.com',
-          appName: 'JiuCheng Wallet',
+          appName: 'CubeX Wallet',
           appUrl: 'https://github.com/zomvs',
         },
         // for local development purposes. for production, leave it undefined to use the default value.
@@ -27,7 +27,7 @@ export default class TrezorBridge implements TrezorBridgeInterface {
           console.debug('deeplinkOpen', url);
           Linking.openURL(url);
         },
-        deeplinkCallbackUrl: `https://${UL_HOSTNAME}${UL_PATH_PREFIX}connect-trezor`, //'rabby://connect-trezor',
+        deeplinkCallbackUrl: `https://${UL_HOSTNAME}${UL_PATH_PREFIX}connect-trezor`,
         ...config,
       });
       this.isDeviceConnected = true;

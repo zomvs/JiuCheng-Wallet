@@ -1,6 +1,6 @@
 {
-  "downloadUrl": "https://apps.apple.com/us/app/rabby-wallet-crypto-evm/id6474381673",
-  "downloadPageUrl": "https://apps.apple.com/us/app/rabby-wallet-crypto-evm/id6474381673",
+  "downloadUrl": "https://apps.apple.com/",
+  "downloadPageUrl": "https://apps.apple.com/",
   "version": "{{ APP_VER }}",
   "versionCode": "{{ APP_VER_CODE }}",
   "versionDesc": ""

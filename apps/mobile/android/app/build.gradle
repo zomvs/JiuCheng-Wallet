@@ -153,9 +153,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.debank.rabbymobile"
+    namespace "com.cubex.wallet"
     defaultConfig {
-        applicationId "com.debank.rabbymobile"
+        applicationId "com.cubex.wallet"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 100234
@@ -202,7 +202,7 @@ android {
     //     dimension "buildchannel"
     //     applicationIdSuffix ".regression"
     //     versionNameSuffix "-regression"
-    //     // resValue "string", "app_name", "Reg JiuCheng Wallet"
+    //     // resValue "string", "app_name", "Reg CubeX Wallet"
     //   }
     // }
     buildTypes {

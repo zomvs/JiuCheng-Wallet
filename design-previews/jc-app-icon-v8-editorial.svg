@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" fill="#F2EFE8"/>
+
+  <text
+    x="280"
+    y="735"
+    text-anchor="middle"
+    font-family="Didot"
+    font-size="610"
+    font-weight="700"
+    fill="#183B3A"
+    transform="translate(280 0) scale(1.25 1) translate(-280 0)"
+  >J</text>
+
+  <text
+    x="700"
+    y="735"
+    text-anchor="middle"
+    font-family="Didot"
+    font-size="610"
+    font-weight="700"
+    fill="#17233F"
+  >C</text>
+</svg>

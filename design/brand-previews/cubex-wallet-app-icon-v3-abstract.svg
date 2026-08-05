@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>CubeX Wallet abstract folded cube app icon</title>
+
+  <rect width="1024" height="1024" fill="#F2F3EF"/>
+
+  <!-- Three broad planes imply a cube without drawing a literal puzzle. -->
+  <path d="M512 174 806 344 512 514 218 344Z" fill="#4E63F6"/>
+  <path d="M218 368 492 526 492 842 218 684Z" fill="#FF655C"/>
+  <path d="M532 526 806 368 806 684 532 842Z" fill="#20BD8D"/>
+
+  <!-- Offset color fields give the mark a cut-paper, gallery-poster quality. -->
+  <path d="M512 174 659 259 512 344 365 259Z" fill="#FFD25A"/>
+  <path d="M218 368 355 447 355 605 218 526Z" fill="#171C20"/>
+  <path d="M669 447 806 368 806 526 669 605Z" fill="#46D2C7"/>
+
+  <!-- A single negative-space gesture hides the X at the fold. -->
+  <path d="M420 456 512 509 604 456 643 479 551 532 643 585 604 608 512 555 420 608 381 585 473 532 381 479Z" fill="#F2F3EF"/>
+</svg>

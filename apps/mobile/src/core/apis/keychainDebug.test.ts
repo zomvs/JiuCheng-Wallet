@@ -4,7 +4,7 @@ describe('core/apis/keychainDebug', () => {
 
     const mockGetGenericPassword = jest.fn(async () => ({
       service: 'com.debank',
-      username: 'rabbymobile-user',
+      username: 'cubexwallet-user',
       password: 'encrypted-password',
       storage: 'KeystoreRSAECB',
     }));
@@ -152,7 +152,7 @@ describe('core/apis/keychainDebug', () => {
     );
     expect(result).toEqual({
       service: 'com.debank',
-      username: 'rabbymobile-user',
+      username: 'cubexwallet-user',
       password: 'encrypted-password',
       storage: 'KeystoreRSAECB',
     });
@@ -183,7 +183,7 @@ describe('core/apis/keychainDebug', () => {
     );
 
     expect(mockSetGenericPassword).toHaveBeenCalledWith(
-      'rabbymobile-user',
+      'cubexwallet-user',
       'plain-password',
       expect.objectContaining({
         service: 'com.debank',
@@ -205,7 +205,7 @@ describe('core/apis/keychainDebug', () => {
     });
 
     expect(mockSetGenericPassword).toHaveBeenCalledWith(
-      'rabbymobile-user',
+      'cubexwallet-user',
       'plain-password',
       expect.objectContaining({
         service: 'com.debank',
@@ -234,7 +234,7 @@ describe('core/apis/keychainDebug', () => {
       hasEntry: true,
       hasUsername: true,
       hasPassword: true,
-      account: 'rabbymobile-user',
+      account: 'cubexwallet-user',
       accessGroup: null,
       accessible: 'AccessibleWhenUnlockedThisDeviceOnly',
       synchronizable: false,
@@ -323,7 +323,7 @@ describe('core/apis/keychainDebug', () => {
         platform: 'ios',
         service: 'com.debank',
         storageName: 'keychain',
-        account: 'rabbymobile-user',
+        account: 'cubexwallet-user',
         accessible: 'AccessibleWhenUnlockedThisDeviceOnly',
         hasAccessControl: true,
         itemClass: 'genericPassword',

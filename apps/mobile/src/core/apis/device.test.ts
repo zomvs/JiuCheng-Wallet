@@ -78,7 +78,7 @@ describe('core/apis/device', () => {
     });
 
     expect(ensureDeviceUUID()).toBe('persisted-uuid');
-    expect(mocks.mockGetItem).toHaveBeenCalledWith('rabbymobile_uuid', null);
+    expect(mocks.mockGetItem).toHaveBeenCalledWith('cubexwallet_uuid', null);
     expect(mocks.mockUuidV4).not.toHaveBeenCalled();
     expect(mocks.mockSetItem).not.toHaveBeenCalled();
   });
@@ -88,7 +88,7 @@ describe('core/apis/device', () => {
 
     expect(ensureDeviceUUID()).toBe('generated-uuid');
     expect(mocks.mockSetItem).toHaveBeenCalledWith(
-      'rabbymobile_uuid',
+      'cubexwallet_uuid',
       'generated-uuid',
     );
   });

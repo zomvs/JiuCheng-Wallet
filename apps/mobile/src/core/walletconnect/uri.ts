@@ -102,12 +102,12 @@ export function parseWalletConnectUriFromLink(appLink: string) {
   }
 }
 
-export function isRabbyWalletConnectDeeplink(appLink: string) {
+export function isCubeXWalletConnectDeeplink(appLink: string) {
   try {
     const url = new URL(appLink);
     const isWalletConnectTarget =
       url.hostname === 'walletconnect' || url.hostname === 'wc';
-    return url.protocol === 'rabby:' && isWalletConnectTarget;
+    return url.protocol === 'cubex:' && isWalletConnectTarget;
   } catch {
     return false;
   }
